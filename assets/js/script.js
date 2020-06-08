@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(document).ready(function(){
 	var header = $('.section-header').height(); 
     $(".main-content").css("margin-top",header);
     $(".section-top").css("margin-top",header);
