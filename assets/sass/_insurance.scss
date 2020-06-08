@@ -1,17 +1,67 @@
-.gallery {
+.insurance {
 	.section-top {
-		background-image: url('../images/gallery_top_bg.jpg');
+		background-image: url('../images/insurance/insurance_top_bg.png');
 		margin-bottom: 60px;
 	}
-	.smile-gallery {
-		display: grid;
-		grid-gap: 20px;
+	.montserrat {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		height: auto;
+		.montserrat-img {
+			img {
+				width: 522px;
+				height: 466px;
+			}
+		}
+		.montserrat-content {
+			margin-left: 20px;
+			.text-content {
+				padding-right: 5px;
+				h1 {
+					font-size: 36px;
+				}
+				p {
+					font-size: 16px
+				}
+			}
+			.text-small {
+				display: flex;
+				p {
+					line-height: 40px;
+					margin-left: 10px;
+					width: 497px;
+					height: 204px;
+					font-size: 18px
+				}
+				img {
+					width: 5px;
+					height: 195px;
+				}
+			}
+		}
+	}
+	.img-responsive_insurance { display: block; max-width: 200%; }
+	.text-medium-insurance {
+		font-size: 20px;
+		letter-spacing: 0.02em;
+		line-height: 26px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-style: inherit;
+    	text-align: center;
+	}
+	.smile-insurance {
+		margin-left: 15px;
+		margin-top: 35px;
 		justify-content: center;
-    	grid-template-columns: 256px 256px 256px 256px;
+    	grid-template-columns: 400px 400px;
     	margin-bottom: 70px;
 		.smile-item {
 			position: relative;
-			width: 256px;
+			width: 100%;
 		}
 		.smile-item-desc {
 			position: absolute;
@@ -30,16 +80,7 @@
 			padding: 0 40px;
 		}
 	}
-	.gallery-heading {
-		font-size: 38px;
-		line-height: 53px;
-		opacity: 0.9;
-		color: $color-limeade;
-		text-align: center;
-		font-family: $font-dancing;
-		margin-bottom: 20px;
-	}
-	.before-after-gallery {
+	.before-after-insurance {
 		display: grid;
 		grid-column-gap: 20px;
 		justify-content: center;
@@ -75,55 +116,16 @@
 				}
 			}
 		}
-		.before-after-desc {
-			font-size: 15px;
-			line-height: 24px;
-			@include lt-spacing(20);
-			color: $color-emperor;
-			text-align: center;
-			margin: 0;
-		}
-	}
-	.slide-paging {
-		text-align: center;
-		margin: 0 0 30px;
-		padding: 0;
-		li {
-			display: inline-block;
-			background: $color-silver;
-			opacity: 0.7;
-			transition: ease 500ms;
-			width: 10px;
-			height: 10px;
-			border-radius: 50%;
-			cursor: pointer;
-			margin-left: 20px;
-			&:hover {
-				background: $color-atlantis;
-				opacity: 1;
-			}
-		}
-		.active {
-			background: $color-atlantis;
-			opacity: 1;
-		}
-	}
-	.line {
-		max-width: 942px;
-		margin: 0 auto 30px;
-	}
-	.before-after-slide-container:last-child {
-		margin-bottom: 90px;
 	}
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
-	.gallery {
-		.smile-gallery {
+	.insurance {
+		.smile-insurance {
 			grid-gap: 30px;
 	    	grid-template-columns: 256px 256px;
 	    }
-	    .before-after-gallery {
+	    .before-after-insurance {
 	    	grid-template-columns: 300px 300px;
 	    	grid-column-gap: 30px;
 	    	grid-row-gap: 30px;
@@ -132,15 +134,15 @@
 }
 
 @media (max-width: 767px) {
-	.gallery {
+	.insurance {
 		.section-top {
 			margin-bottom: 40px;
 		}
-		.smile-gallery {
+		.smile-insurance {
 			grid-gap: 30px;
 	    	grid-template-columns: 256px;
 	    }
-	    .before-after-gallery {
+	    .before-after-insurance {
 	    	grid-template-columns: 300px;
 	    	grid-column-gap: 30px;
 	    	grid-row-gap: 30px;
