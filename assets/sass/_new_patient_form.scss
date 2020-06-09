@@ -1,7 +1,10 @@
 .new_patient_form {
 	.section-top {
-		background-image: url('../images/insurance/insurance_top_bg.png');
+		background-image: url('../images/new_patient_froms.png');
 		margin-bottom: 60px;
+	}
+	button{
+		    border: #86C127;
 	}
 	.text-line{
 		font-weight: bold;
@@ -29,44 +32,9 @@
 		color: white;
 	}
 	.montserrat {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		height: auto;
-		.montserrat-img {
-			img {
-				width: 522px;
-				height: 466px;
-			}
-		}
-		.montserrat-content {
-			margin-left: 20px;
-			.text-content {
-				padding-right: 5px;
-				h1 {
-					font-size: 36px;
-				}
-				p {
-					font-size: 16px
-				}
-			}
-			.text-small {
-				display: flex;
-				p {
-					line-height: 40px;
-					margin-left: 10px;
-					width: 497px;
-					height: 204px;
-					font-size: 18px
-				}
-				img {
-					width: 5px;
-					height: 195px;
-				}
-			}
-		}
+		
+		font-family: $font-normal;
+		
 	}
 	.img-responsive_insurance { display: block; max-width: 200%; }
 	.text-medium-insurance {
@@ -155,11 +123,60 @@
 			grid-column-gap: 30px;
 			grid-row-gap: 30px;
 		}
+
 	}
 }
-
+@media (max-width: 1199px) and (min-width: 1024px) {
+	.new_patient_form {
+		.smile-insurance {
+			grid-gap: 30px;
+			grid-template-columns: 256px 256px;
+		}
+		.before-after-insurance {
+			grid-template-columns: 300px 300px;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+		.text-line
+		{
+		font-weight: bold;
+		font-size: 42px;
+		background: white;
+		text-align: center;
+		margin-top: -30px;
+		position: absolute;
+		/* top: -19px; */
+		margin-left: 100px;
+		}
+	}
+}
+@media (max-width: 1439px)and (min-width: 1360px) {
+	.new_patient_form {
+		.smile-insurance {
+			grid-gap: 30px;
+			grid-template-columns: 256px 256px;
+		}
+		.before-after-insurance {
+			grid-template-columns: 300px 300px;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+		.text-line
+		{
+		font-weight: bold;
+		font-size: 42px;
+		background: white;
+		text-align: center;
+		margin-top: -30px;
+		position: absolute;
+		/* top: -19px; */
+		margin-left: 192px;
+		}
+	}
+}
 @media (max-width: 767px) {
 	.new_patient_form {
+		
 		.section-top {
 			margin-bottom: 40px;
 		}
@@ -171,6 +188,17 @@
 			grid-template-columns: 300px;
 			grid-column-gap: 30px;
 			grid-row-gap: 30px;
+		}
+		.text-line
+		{
+		font-weight: bold;
+		font-size: 42px;
+		background: white;
+		text-align: center;
+		margin-top: -30px;
+		position: absolute;
+		/* top: -19px; */
+		margin-left: 0px;
 		}
 	}
 }
