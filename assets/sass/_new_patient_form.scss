@@ -7,20 +7,32 @@
 		    border: #86C127;
 	}
 	.text-line{
-		font-weight: bold;
+		font-family: $font-dancingbold;
 		font-size: 42px;
-		background: white;
+		line-height: 45px;
+		background: $color-white;
+		color: $color-tundora;
+		display: inline-block;
+	    margin: 0 auto;
+	    padding: 0px 28px;
+	}
+	.line {
+		margin-top: -25px;
+	}
+	.mb-5 {
 		text-align: center;
-		margin-top: -30px;
-		position: absolute;
-		/* top: -19px; */
-		margin-left: 192px;
 	}
 	.body-title{
 		font-size: 22px;
+		font-family: $font-medium;
+		line-height: 28px;
+		color: $color-tundora;
 	}
 	.body-title2{
 		font-size: 15px;
+		line-height: 24px;
+		color: $color-scorpion;
+		margin-bottom: 24px;
 	}
 	.mb-100{
 		margin-bottom: 100px;
@@ -32,9 +44,7 @@
 		color: white;
 	}
 	.montserrat {
-		
 		font-family: $font-normal;
-		
 	}
 	.img-responsive_insurance { display: block; max-width: 200%; }
 	.text-medium-insurance {
