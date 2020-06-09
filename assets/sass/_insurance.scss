@@ -3,6 +3,87 @@
 		background-image: url('../images/insurance/insurance_top_bg.png');
 		margin-bottom: 60px;
 	}
+	.view-last {
+		background-image: url('../images/insurance/insurance3.png');
+		width: 1048px;
+		height: 418px;
+		margin-bottom: 90px;
+		margin-top: 100px;
+		position: relative;
+		img {
+			width: 440px;
+			height: 418px;
+			position: relative;
+			float: right;
+		}
+		.view-last-content {
+			margin-top: 50px;
+			position: absolute;
+			right: 30px;
+			top:0;
+			width: 380px;
+			height: 127px;
+			p {
+				color: white;
+				text-align: center;
+				font-size: 22px;
+			}
+		}
+
+		.view-last-content-2 {
+			margin-top: 217px;
+			position: absolute;
+			right: 80px;
+			top:0;
+			width: 280px;
+			height: 50px;
+			background-image: url('../images/insurance/insurance5.png');
+			p {
+				color: white;
+				height: 50px;
+				margin-top: 14px;
+				text-align: center;
+				font-size: 16px;
+				position: relative;
+				text-transform: uppercase;
+			}
+			img {
+				width: 18px;
+				height: 12px;
+				right: 19px;
+				top: 5px;
+			}
+		}
+		.view-last-content-3 {
+			margin-top: 280px;
+			position: absolute;
+			right: 199px;
+			top:0;
+			width: 42px;
+			height: 18px;
+			p {
+				text-transform: uppercase;
+				color: white;
+				height: 50px;
+				margin-top: 14px;
+				text-align: center;
+				font-size: 14px;
+				position: relative;
+			}
+		}
+		.view-last-content-4 {
+			margin-top: 318px;
+			position: absolute;
+			right: 125px;
+			width: 190px;
+			height: 50px;
+			text-align: center;
+			img {
+				width: 200px;
+				height: 80px;
+			}
+		}
+	}
 	.montserrat {
 		margin-top: 40px;
 		margin-bottom: 40px;
