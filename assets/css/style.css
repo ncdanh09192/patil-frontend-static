@@ -15,7 +15,7 @@ h1 { font-size: 2em; margin: 0.67em 0; }
 
 /* Grouping content ========================================================================== */
 /** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
-hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
+hr { -webkit-box-sizing: content-box; box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 
 /** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
 pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
@@ -25,7 +25,7 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 a { background-color: transparent; }
 
 /** 1. Remove the bottom border in Chrome 57- 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
-abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ -webkit-text-decoration: underline dotted; text-decoration: underline dotted; /* 2 */ }
 
 /** Add the correct font weight in Chrome, Edge, and Safari. */
 b, strong { font-weight: bolder; }
@@ -70,7 +70,7 @@ button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focus
 fieldset { padding: 0.35em 0.75em 0.625em; }
 
 /** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
-legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
+legend { -webkit-box-sizing: border-box; box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
 
 /** Add the correct vertical alignment in Chrome, Firefox, and Opera. */
 progress { vertical-align: baseline; }
@@ -79,7 +79,7 @@ progress { vertical-align: baseline; }
 textarea { overflow: auto; }
 
 /** 1. Add the correct box sizing in IE 10. 2. Remove the padding in IE 10. */
-[type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+[type="checkbox"], [type="radio"] { -webkit-box-sizing: border-box; box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
 
 /** Correct the cursor style of increment and decrement buttons in Chrome. */
 [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
@@ -107,7 +107,7 @@ template { display: none; }
 /** Add the correct display in IE 10. */
 [hidden] { display: none; }
 
-* { box-sizing: border-box; }
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em; line-height: 26px; color: #606060; }
 
@@ -136,19 +136,19 @@ body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em
 @media (max-width: 767px) { .top-title { font-size: 38px; }
   .breadcum-container { left: 70px; } }
 .gallery .section-top { background-image: url("../images/gallery_top_bg.jpg"); margin-bottom: 60px; }
-.gallery .smile-gallery { display: grid; grid-gap: 20px; justify-content: center; grid-template-columns: 256px 256px 256px 256px; margin-bottom: 70px; }
+.gallery .smile-gallery { display: grid; grid-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 256px 256px 256px 256px; margin-bottom: 70px; }
 .gallery .smile-gallery .smile-item { position: relative; width: 256px; }
 .gallery .smile-gallery .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: "MontserratMedium"; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
 .gallery .smile-gallery .ct-lh { line-height: 24px; padding: 0 40px; }
 .gallery .gallery-heading { font-size: 38px; line-height: 53px; opacity: 0.9; color: #6CAC04; text-align: center; font-family: "DancingScriptRegular"; margin-bottom: 20px; }
-.gallery .before-after-gallery { display: grid; grid-column-gap: 20px; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
+.gallery .before-after-gallery { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
 .gallery .before-after-gallery .before-after-item { width: 300px; position: relative; }
-.gallery .before-after-gallery .before-after-item .img-responsive { transition: ease 500ms; margin-bottom: 26px; }
-.gallery .before-after-gallery .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: flex; justify-content: center; align-items: center; font-family: "MontserratLight"; }
+.gallery .before-after-gallery .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
+.gallery .before-after-gallery .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "MontserratLight"; }
 .gallery .before-after-gallery .before-after-item:hover .img-responsive { opacity: 0.7; }
 .gallery .before-after-gallery .before-after-desc { font-size: 15px; line-height: 24px; letter-spacing: 0.02em; color: #555555; text-align: center; margin: 0; }
 .gallery .slide-paging { text-align: center; margin: 0 0 30px; padding: 0; }
-.gallery .slide-paging li { display: inline-block; background: #CBCBCB; opacity: 0.7; transition: ease 500ms; width: 10px; height: 10px; border-radius: 50%; cursor: pointer; margin-left: 20px; }
+.gallery .slide-paging li { display: inline-block; background: #CBCBCB; opacity: 0.7; -webkit-transition: ease 500ms; transition: ease 500ms; width: 10px; height: 10px; border-radius: 50%; cursor: pointer; margin-left: 20px; }
 .gallery .slide-paging li:hover { background: #86C127; opacity: 1; }
 .gallery .slide-paging .active { background: #86C127; opacity: 1; }
 .gallery .line { max-width: 942px; margin: 0 auto 30px; }
@@ -160,25 +160,25 @@ body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em
   .gallery .smile-gallery { grid-gap: 30px; grid-template-columns: 256px; }
   .gallery .before-after-gallery { grid-template-columns: 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
 .insurance .section-top { background-image: url("../images/insurance/insurance_top_bg.png"); margin-bottom: 60px; }
-.insurance .montserrat { margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: flex-start; align-items: center; height: auto; }
+.insurance .montserrat { margin-top: 40px; margin-bottom: 40px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: auto; }
 .insurance .montserrat .montserrat-img img { width: 522px; height: 466px; }
 .insurance .montserrat .montserrat-content { margin-left: 20px; }
 .insurance .montserrat .montserrat-content .text-content { padding-right: 5px; }
 .insurance .montserrat .montserrat-content .text-content h1 { font-size: 36px; }
 .insurance .montserrat .montserrat-content .text-content p { font-size: 16px; }
-.insurance .montserrat .montserrat-content .text-small { display: flex; }
+.insurance .montserrat .montserrat-content .text-small { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .insurance .montserrat .montserrat-content .text-small p { line-height: 40px; margin-left: 10px; width: 497px; height: 204px; font-size: 18px; }
 .insurance .montserrat .montserrat-content .text-small img { width: 5px; height: 195px; }
 .insurance .img-responsive_insurance { display: block; max-width: 200%; }
 .insurance .text-medium-insurance { font-size: 20px; letter-spacing: 0.02em; line-height: 26px; margin-top: 20px; margin-bottom: 20px; font-style: inherit; text-align: center; }
-.insurance .smile-insurance { margin-left: 15px; margin-top: 35px; justify-content: center; grid-template-columns: 400px 400px; margin-bottom: 70px; }
+.insurance .smile-insurance { margin-left: 15px; margin-top: 35px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 400px 400px; margin-bottom: 70px; }
 .insurance .smile-insurance .smile-item { position: relative; width: 100%; }
 .insurance .smile-insurance .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: "MontserratMedium"; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
 .insurance .smile-insurance .ct-lh { line-height: 24px; padding: 0 40px; }
-.insurance .before-after-insurance { display: grid; grid-column-gap: 20px; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
+.insurance .before-after-insurance { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
 .insurance .before-after-insurance .before-after-item { width: 300px; position: relative; }
-.insurance .before-after-insurance .before-after-item .img-responsive { transition: ease 500ms; margin-bottom: 26px; }
-.insurance .before-after-insurance .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: flex; justify-content: center; align-items: center; font-family: "MontserratLight"; }
+.insurance .before-after-insurance .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
+.insurance .before-after-insurance .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "MontserratLight"; }
 .insurance .before-after-insurance .before-after-item:hover .img-responsive { opacity: 0.7; }
 
 @media (max-width: 1023px) and (min-width: 768px) { .insurance .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
