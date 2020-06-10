@@ -1,0 +1,214 @@
+.new_patient_form {
+	.section-top {
+		background-image: url('../images/new_patient_froms.png');
+		margin-bottom: 60px;
+	}
+	button{
+		    border: #86C127;
+	}
+	.text-line{
+		font-family: $font-dancingbold;
+		font-size: 42px;
+		line-height: 45px;
+		background: $color-white;
+		color: $color-tundora;
+		display: inline-block;
+	    margin: 0 auto;
+	    padding: 0px 28px;
+	}
+	.line {
+		margin-top: -25px;
+	}
+	.mb-5 {
+		text-align: center;
+	}
+	.body-title{
+		font-size: 22px;
+		font-family: $font-medium;
+		line-height: 28px;
+		color: $color-tundora;
+	}
+	.body-title2{
+		font-size: 15px;
+		line-height: 24px;
+		color: $color-scorpion;
+		margin-bottom: 24px;
+	}
+	.mb-100{
+		margin-bottom: 100px;
+	}
+	.btn-download{
+		padding: 10px 20px;
+		border-radius: 25px;
+		background: #86C127;
+		color: white;
+	}
+	.montserrat {
+		font-family: $font-normal;
+	}
+	.img-responsive_insurance { display: block; max-width: 200%; }
+	.text-medium-insurance {
+		font-size: 20px;
+		letter-spacing: 0.02em;
+		line-height: 26px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-style: inherit;
+		text-align: center;
+	}
+	.smile-insurance {
+		margin-left: 15px;
+		margin-top: 35px;
+		justify-content: center;
+		grid-template-columns: 400px 400px;
+		margin-bottom: 70px;
+		.smile-item {
+			position: relative;
+			width: 100%;
+		}
+		.smile-item-desc {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			font-size: 20px;
+			line-height: 53px;
+			font-family: $font-medium;
+			@include lt-spacing(0);
+			color: $color-white;
+			text-align: center;
+		}
+		.ct-lh {
+			line-height: 24px;
+			padding: 0 40px;
+		}
+	}
+	.before-after-insurance {
+		display: grid;
+		grid-column-gap: 20px;
+		justify-content: center;
+		grid-template-columns: 300px 300px 300px;
+		margin-bottom: 20px;
+		.before-after-item {
+			width: 300px;
+			position: relative;
+			.img-responsive {
+				transition: ease 500ms;
+				margin-bottom: 26px;
+			}
+			&:hover {
+				&:after{
+					content: "+";
+					width: 40px;
+					height: 40px;
+					position: absolute;
+					top: 39%;
+					left: 50%;
+					transform: translate(-50%,-50%);
+					background: $color-lochmara;
+					border-radius: 50%;
+					font-size: 42px;
+					color: $color-white;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-family: $font-light;
+				}
+				.img-responsive {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.new_patient_form {
+		.smile-insurance {
+			grid-gap: 30px;
+			grid-template-columns: 256px 256px;
+		}
+		.before-after-insurance {
+			grid-template-columns: 300px 300px;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+
+	}
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+	.new_patient_form {
+		.smile-insurance {
+			grid-gap: 30px;
+			grid-template-columns: 256px 256px;
+		}
+		.before-after-insurance {
+			grid-template-columns: 300px 300px;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+		.text-line
+		{
+		font-weight: bold;
+		font-size: 42px;
+		background: white;
+		text-align: center;
+		margin-top: -30px;
+		position: absolute;
+		/* top: -19px; */
+		margin-left: 100px;
+		}
+	}
+}
+@media (max-width: 1439px)and (min-width: 1360px) {
+	.new_patient_form {
+		.smile-insurance {
+			grid-gap: 30px;
+			grid-template-columns: 256px 256px;
+		}
+		.before-after-insurance {
+			grid-template-columns: 300px 300px;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+		.text-line
+		{
+		font-weight: bold;
+		font-size: 42px;
+		background: white;
+		text-align: center;
+		margin-top: -30px;
+		position: absolute;
+		/* top: -19px; */
+		margin-left: 192px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.new_patient_form {
+		
+		.section-top {
+			margin-bottom: 40px;
+		}
+		.smile-insurance {
+			grid-gap: 30px;
+			grid-template-columns: 256px;
+		}
+		.before-after-insurance {
+			grid-template-columns: 300px;
+			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+		.text-line
+		{
+		font-weight: bold;
+		font-size: 42px;
+		background: white;
+		text-align: center;
+		margin-top: -30px;
+		position: absolute;
+		/* top: -19px; */
+		margin-left: 0px;
+		}
+	}
+}
