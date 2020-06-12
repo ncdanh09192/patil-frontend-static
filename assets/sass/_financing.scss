@@ -24,7 +24,8 @@
 			width: 380px;
 			height: 127px;
 			p {
-				color: white;
+				font-family: $font-normal;
+				color: $color-white;
 				text-align: center;
 				font-size: 22px;
 			}
@@ -39,7 +40,8 @@
 			height: 50px;
 			background-image: url('../images/insurance/insurance5.png');
 			p {
-				color: white;
+				font-style: normal;
+				color: $color-white;
 				height: 50px;
 				margin-top: 14px;
 				text-align: center;
@@ -63,7 +65,7 @@
 			height: 18px;
 			p {
 				text-transform: uppercase;
-				color: white;
+				color: $color-white;
 				height: 50px;
 				margin-top: 14px;
 				text-align: center;
@@ -113,6 +115,7 @@
 				height: 301px;
 				width: 522px;
 				p {
+					line-height: 28px;
 					font-size: 16px
 				}
 			}
@@ -123,9 +126,9 @@
 					font-family: $font-medium;
 					height: 46px;
 					text-align: center;
-					color: white;
+					color: $color-white;
 					font-size: 16px;
-					padding-top: 13px;
+					padding-top: 11px;
 				}
 			}
 
