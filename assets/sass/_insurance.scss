@@ -3,149 +3,102 @@
 		background-image: url('../images/insurance/insurance_top_bg.png');
 		margin-bottom: 60px;
 	}
-	.montserrat {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		height: auto;
-		.montserrat-img {
-			img {
-				width: 522px;
-				height: 466px;
-			}
-		}
-		.montserrat-content {
-			margin-left: 20px;
-			.text-content {
-				padding-right: 5px;
-				h1 {
-					font-size: 36px;
-				}
-				p {
-					font-size: 16px
-				}
-			}
-			.text-small {
-				display: flex;
-				p {
-					line-height: 40px;
-					margin-left: 10px;
-					width: 497px;
-					height: 204px;
-					font-size: 18px
-				}
-				img {
-					width: 5px;
-					height: 195px;
-				}
-			}
-		}
-	}
-	.img-responsive_insurance { display: block; max-width: 200%; }
 	.text-medium-insurance {
-		font-size: 20px;
-		letter-spacing: 0.02em;
-		line-height: 26px;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		font-style: inherit;
-    	text-align: center;
-	}
-	.smile-insurance {
-		margin-left: 15px;
-		margin-top: 35px;
-		justify-content: center;
-    	grid-template-columns: 400px 400px;
-    	margin-bottom: 70px;
-		.smile-item {
-			position: relative;
-			width: 100%;
-		}
-		.smile-item-desc {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-    		right: 0;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		p {
 			font-size: 20px;
-			line-height: 53px;
-			font-family: $font-medium;
 			@include lt-spacing(0);
-			color: $color-white;
-			text-align: center;
-		}
-		.ct-lh {
-			line-height: 24px;
-			padding: 0 40px;
+			line-height: 30px;
+	    	text-align: center;
+	    	font-family: $font-medium;
+	    	margin: 0;
+	    	color: $color-tundora;
 		}
 	}
-	.before-after-insurance {
-		display: grid;
-		grid-column-gap: 20px;
-		justify-content: center;
-    	grid-template-columns: 300px 300px 300px;
-    	margin-bottom: 20px;
-		.before-after-item {
-			width: 300px;
-			position: relative;
-			.img-responsive {
-				transition: ease 500ms;
-				margin-bottom: 26px;
+	.insurance-about {
+		padding-top: 80px;
+		display: flex;
+		flex-wrap: nowrap;
+		margin-bottom: 100px;
+		.about-img {
+			width: 49%;
+			margin-right: 20px;
+		}
+		.about-content {
+			width: 51%;
+			margin-left: 20px;
+		}
+		.text-content {
+			margin-bottom: 30px;
+			h1 {
+				font-family: $font-semibold;
+				font-size: 36px;
+				line-height: 44px;
+				@include lt-spacing(0);
+				color : $color-tundora;
+				margin-bottom: 20px;
 			}
-			&:hover {
-				&:after{
-					content: "+";
-					width: 40px;
-					height: 40px;
-					position: absolute;
-					top: 39%;
-					left: 50%;
-					transform: translate(-50%,-50%);
-					background: $color-lochmara;
-					border-radius: 50%;
-					font-size: 42px;
-				    color: $color-white;
-				    display: flex;
-				    justify-content: center;
-				    align-items: center;
-				    font-family: $font-light;
-				}
-				.img-responsive {
-					opacity: 0.7;
-				}
+			p {
+				font-family: $font-normal;
+				font-size: 16px;
+				line-height: 28px;
+				@include lt-spacing(20);
+				color: $color-scorpion;
+				margin: 0;
+			}
+		}
+		.text-small {
+			padding-left: 25px;
+			background-image: url('../images/insurance/insurance2.png');
+			background-position: left;
+			background-repeat:no-repeat;
+			p {
+				font-size: 18px;
+				font-family: $font-medium;
+				line-height: 26px;
+				color: $color-tundora;
+				margin: 0;
+				margin-bottom: 5px;
 			}
 		}
 	}
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
-	.insurance {
-		.smile-insurance {
-			grid-gap: 30px;
-	    	grid-template-columns: 256px 256px;
-	    }
-	    .before-after-insurance {
-	    	grid-template-columns: 300px 300px;
-	    	grid-column-gap: 30px;
-	    	grid-row-gap: 30px;
-	    }
-	}
-}
+@media (max-width: 1023px) and (min-width: 768px) {}
 
 @media (max-width: 767px) {
 	.insurance {
 		.section-top {
 			margin-bottom: 40px;
 		}
-		.smile-insurance {
-			grid-gap: 30px;
-	    	grid-template-columns: 256px;
-	    }
-	    .before-after-insurance {
-	    	grid-template-columns: 300px;
-	    	grid-column-gap: 30px;
-	    	grid-row-gap: 30px;
-	    }
+		.text-medium-insurance {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.insurance-about {
+			padding-top: 30px;
+			flex-wrap: wrap;
+			margin-bottom: 40px;
+			.about-img {
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			.about-content {
+				width: 100%;
+				margin-left: 0;
+			}
+			.text-content {
+				h1 {
+					font-size: 32px;
+				}
+			}
+			.text-small {
+				background-size: 5px 260px;
+			}
+		}
 	}
+	
 }
