@@ -49,31 +49,9 @@
 
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
-	.new_patient_form {
-		.smile-insurance {
-			grid-gap: 30px;
-			grid-template-columns: 256px 256px;
-		}
-		.before-after-insurance {
-			grid-template-columns: 300px 300px;
-			grid-column-gap: 30px;
-			grid-row-gap: 30px;
-		}
-
-	}
-}
 @media (max-width: 1199px) and (min-width: 1024px) {
 	.new_patient_form {
-		.smile-insurance {
-			grid-gap: 30px;
-			grid-template-columns: 256px 256px;
-		}
-		.before-after-insurance {
-			grid-template-columns: 300px 300px;
-			grid-column-gap: 30px;
-			grid-row-gap: 30px;
-		}
+
 		.text-line
 		{
 		font-weight: bold;
@@ -90,15 +68,7 @@
 }
 @media (max-width: 1439px)and (min-width: 1360px) {
 	.new_patient_form {
-		.smile-insurance {
-			grid-gap: 30px;
-			grid-template-columns: 256px 256px;
-		}
-		.before-after-insurance {
-			grid-template-columns: 300px 300px;
-			grid-column-gap: 30px;
-			grid-row-gap: 30px;
-		}
+
 		.text-line
 		{
 		font-weight: bold;
