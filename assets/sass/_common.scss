@@ -130,44 +130,6 @@ body {
 
 .cta-wrapper {
 	text-align: center;
-	.cta-btn-request {
-		font-size: 16px;
-		font-family: $font-semibold;
-		line-height: 19px;
-		@include lt-spacing(30);
-		color: $color-white;
-		background: $color-atlantis;
-		border: 1.3px solid $color-white;
-		border-radius: 54px;
-		max-width: 280px;
-		padding: 15px 40px 15px 20px;
-		text-transform: uppercase;
-		cursor: pointer;
-		margin-bottom: 13px;
-		background-image: url('../images/ico_arrow.svg');
-		background-repeat: no-repeat;
-		background-position: 95% 17px;
-		&:hover {
-			background-position: 97% 17px;
-		}
-	}
-	.cta-btn-contact {
-		font-size: 16px;
-		line-height: 19px;
-		@include lt-spacing(30);
-		color: $color-white;
-		border: 1.3px solid $color-white;
-		border-radius: 54px;
-		padding: 15px 58px 15px 28px;
-		background: transparent;
-		cursor: pointer;
-		background-image: url('../images/ico_arrow.svg');
-		background-repeat: no-repeat;
-		background-position: 82% 18px;
-		&:hover {
-			background-position: 85% 18px;
-		}
-	}
 	p {
 		font-size: 14px;
 		line-height: 24px;
@@ -176,12 +138,66 @@ body {
 		margin-bottom: 10px;
 	}
 }
+.cta-btn-request {
+	font-size: 16px;
+	font-family: $font-semibold;
+	line-height: 19px;
+	@include lt-spacing(30);
+	color: $color-white;
+	background: $color-atlantis;
+	border: 1.3px solid $color-white;
+	border-radius: 54px;
+	max-width: 280px;
+	padding: 15px 40px 15px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-bottom: 13px;
+	background-image: url('../images/ico_arrow.svg');
+	background-repeat: no-repeat;
+	background-position: 95% 17px;
+	&:hover {
+		background-position: 97% 17px;
+	}
+}
+.cta-btn-contact {
+	font-size: 16px;
+	line-height: 19px;
+	@include lt-spacing(30);
+	color: $color-white;
+	border: 1.3px solid $color-white;
+	border-radius: 54px;
+	padding: 15px 58px 15px 28px;
+	background: transparent;
+	cursor: pointer;
+	background-image: url('../images/ico_arrow.svg');
+	background-repeat: no-repeat;
+	background-position: 82% 18px;
+	&:hover {
+		background-position: 85% 18px;
+	}
+}
+
+.cta-btn-apply {
+	border-radius: 54px;
+	background: $color-lochmara;
+	color: $color-white;
+	font-family: $font-medium;
+	line-height: 19px;
+	font-size: 16px;
+	@include lt-spacing(16);
+	padding: 14px 59px;
+	border: none;
+}
 
 a,button {
 	transition: ease 300ms;
 	&:hover {
 		opacity: 0.8;
 	}
+}
+
+button {
+	cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {

@@ -140,14 +140,20 @@ body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em
 .our-team-content .our-team-desc p { font-size: 22px; line-height: 33px; letter-spacing: 0em; color: #FFFFFF; }
 
 .cta-wrapper { text-align: center; }
-.cta-wrapper .cta-btn-request { font-size: 16px; font-family: "MontserratSemiBold"; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; background: #86C127; border: 1.3px solid #FFFFFF; border-radius: 54px; max-width: 280px; padding: 15px 40px 15px 20px; text-transform: uppercase; cursor: pointer; margin-bottom: 13px; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 95% 17px; }
-.cta-wrapper .cta-btn-request:hover { background-position: 97% 17px; }
-.cta-wrapper .cta-btn-contact { font-size: 16px; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; border: 1.3px solid #FFFFFF; border-radius: 54px; padding: 15px 58px 15px 28px; background: transparent; cursor: pointer; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 82% 18px; }
-.cta-wrapper .cta-btn-contact:hover { background-position: 85% 18px; }
 .cta-wrapper p { font-size: 14px; line-height: 24px; letter-spacing: 0.03em; color: #FFFFFF; margin-bottom: 10px; }
+
+.cta-btn-request { font-size: 16px; font-family: "MontserratSemiBold"; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; background: #86C127; border: 1.3px solid #FFFFFF; border-radius: 54px; max-width: 280px; padding: 15px 40px 15px 20px; text-transform: uppercase; cursor: pointer; margin-bottom: 13px; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 95% 17px; }
+.cta-btn-request:hover { background-position: 97% 17px; }
+
+.cta-btn-contact { font-size: 16px; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; border: 1.3px solid #FFFFFF; border-radius: 54px; padding: 15px 58px 15px 28px; background: transparent; cursor: pointer; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 82% 18px; }
+.cta-btn-contact:hover { background-position: 85% 18px; }
+
+.cta-btn-apply { border-radius: 54px; background: #008CD4; color: #FFFFFF; font-family: "MontserratMedium"; line-height: 19px; font-size: 16px; letter-spacing: 0.016em; padding: 14px 59px; border: none; }
 
 a, button { -webkit-transition: ease 300ms; transition: ease 300ms; }
 a:hover, button:hover { opacity: 0.8; }
+
+button { cursor: pointer; }
 
 @media (max-width: 767px) { .top-desc { margin-bottom: 40px; }
   .top-title { font-size: 38px; }
@@ -199,42 +205,23 @@ a:hover, button:hover { opacity: 0.8; }
   .insurance .insurance-about .text-content h1 { font-size: 32px; }
   .insurance .insurance-about .text-small { background-size: 5px 260px; } }
 .financing .section-top { background-image: url("../images/financing/financing-bg.png"); margin-bottom: 60px; }
-.financing .view-last { background-image: url("../images/insurance/insurance3.png"); width: 1048px; height: 418px; margin-bottom: 90px; margin-top: 100px; position: relative; }
-.financing .view-last img { width: 440px; height: 418px; position: relative; float: right; }
-.financing .view-last .view-last-content { margin-top: 50px; position: absolute; right: 30px; top: 0; width: 380px; height: 127px; }
-.financing .view-last .view-last-content p { font-family: "MontserratRegular"; color: #FFFFFF; text-align: center; font-size: 22px; }
-.financing .view-last .view-last-content-2 { margin-top: 217px; position: absolute; right: 80px; top: 0; width: 280px; height: 50px; background-image: url("../images/insurance/insurance5.png"); }
-.financing .view-last .view-last-content-2 p { font-style: normal; color: #FFFFFF; height: 50px; margin-top: 14px; text-align: center; font-size: 16px; position: relative; text-transform: uppercase; }
-.financing .view-last .view-last-content-2 img { width: 18px; height: 12px; right: 19px; top: 5px; }
-.financing .view-last .view-last-content-3 { margin-top: 280px; position: absolute; right: 199px; top: 0; width: 42px; height: 18px; }
-.financing .view-last .view-last-content-3 p { text-transform: uppercase; color: #FFFFFF; height: 50px; margin-top: 14px; text-align: center; font-size: 14px; position: relative; }
-.financing .view-last .view-last-content-4 { margin-top: 318px; position: absolute; right: 125px; width: 190px; height: 50px; text-align: center; }
-.financing .view-last .view-last-content-4 img { width: 200px; height: 80px; }
-.financing .montserrat { margin-top: 40px; margin-bottom: 40px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: auto; }
-.financing .montserrat .montserrat-img img { width: 522px; height: 466px; }
-.financing .montserrat .montserrat-content { margin-left: 20px; }
-.financing .montserrat .montserrat-content .text-content { width: 522px; padding-right: 5px; }
-.financing .montserrat .montserrat-content .text-content h1 { font-size: 36px; }
-.financing .montserrat .montserrat-content .text-content p { font-size: 16px; }
-.financing .montserrat .montserrat-content .text-small { height: 301px; width: 522px; }
-.financing .montserrat .montserrat-content .text-small p { line-height: 28px; font-size: 16px; }
-.financing .montserrat .montserrat-content .text-apply { background-image: url("../images/financing/financing3.png"); width: 220px; }
-.financing .montserrat .montserrat-content .text-apply p { font-family: "MontserratMedium"; height: 46px; text-align: center; color: #FFFFFF; font-size: 16px; padding-top: 11px; }
-.financing .img-responsive_financing { display: block; max-width: 200%; }
-.financing .text-medium-financing { font-size: 20px; letter-spacing: 0.02em; line-height: 26px; margin-top: 20px; margin-bottom: 20px; font-style: inherit; text-align: center; }
-.financing .text-medium-financing img { margin-top: 20px; width: 300px; height: 65.5px; }
-.financing .smile-financing { margin-left: 15px; margin-top: 35px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 400px 400px; margin-bottom: 70px; }
-.financing .smile-financing .smile-item { position: relative; width: 100%; }
-.financing .smile-financing .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: "MontserratMedium"; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
-.financing .smile-financing .ct-lh { line-height: 24px; padding: 0 40px; }
-.financing .before-after-financing { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
-.financing .before-after-financing .before-after-item { width: 300px; position: relative; }
-.financing .before-after-financing .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
-.financing .before-after-financing .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "MontserratLight"; }
-.financing .before-after-financing .before-after-item:hover .img-responsive { opacity: 0.7; }
+.financing .top-title { margin-bottom: 30px; }
+.financing .text-medium-financing { margin-top: 20px; margin-bottom: 30px; text-align: center; padding: 0 90px; }
+.financing .text-medium-financing p { font-size: 32px; letter-spacing: 0.02em; line-height: 38px; text-align: center; font-family: "DancingScriptRegular"; margin: 0; color: #606060; margin-bottom: 20px; }
+.financing .text-medium-financing img { margin: 0 auto; }
+.financing .financing-about { padding-top: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin-bottom: 100px; }
+.financing .financing-about .about-img { width: 49%; margin-right: 20px; }
+.financing .financing-about .about-content { width: 51%; margin-left: 20px; }
+.financing .financing-about .text-content { margin-bottom: 30px; }
+.financing .financing-about .text-content h1 { font-family: "MontserratSemiBold"; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
+.financing .financing-about .text-content p { font-family: "MontserratRegular"; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0 0 20px; }
+.financing .cta-btn-apply { margin-top: 10px; }
 
-@media (max-width: 1023px) and (min-width: 768px) { .financing .smile-financing { grid-gap: 30px; grid-template-columns: 256px 256px; }
-  .financing .before-after-financing { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
 @media (max-width: 767px) { .financing .section-top { margin-bottom: 40px; }
-  .financing .smile-financing { grid-gap: 30px; grid-template-columns: 256px; }
-  .financing .before-after-financing { grid-template-columns: 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
+  .financing .text-medium-financing { margin-top: 20px; margin-bottom: 20px; padding: 0; }
+  .financing .financing-about { padding-top: 30px; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 40px; }
+  .financing .financing-about .about-img { width: 100%; margin-right: 0; margin-bottom: 30px; text-align: center; }
+  .financing .financing-about .about-content { width: 100%; margin-left: 0; }
+  .financing .financing-about .text-content { margin-bottom: 0; }
+  .financing .financing-about .text-content h1 { font-size: 32px; }
+  .financing .financing-about .text-small { background-size: 5px 260px; } }

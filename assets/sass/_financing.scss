@@ -3,246 +3,101 @@
 		background-image: url('../images/financing/financing-bg.png');
 		margin-bottom: 60px;
 	}
-	.view-last {
-		background-image: url('../images/insurance/insurance3.png');
-		width: 1048px;
-		height: 418px;
-		margin-bottom: 90px;
-		margin-top: 100px;
-		position: relative;
-		img {
-			width: 440px;
-			height: 418px;
-			position: relative;
-			float: right;
+	.top-title {
+		margin-bottom: 30px;
+	}
+	.text-medium-financing {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		text-align: center;
+		padding: 0 90px;
+		p {
+			font-size: 32px;
+			@include lt-spacing(20);
+			line-height: 38px;
+	    	text-align: center;
+	    	font-family: $font-dancing;
+	    	margin: 0;
+	    	color: $color-scorpion;
+	    	margin-bottom: 20px;
 		}
-		.view-last-content {
-			margin-top: 50px;
-			position: absolute;
-			right: 30px;
-			top:0;
-			width: 380px;
-			height: 127px;
+		img {
+			margin: 0 auto;
+		}
+	}
+	.financing-about {
+		padding-top: 80px;
+		display: flex;
+		flex-wrap: nowrap;
+		margin-bottom: 100px;
+		.about-img {
+			width: 49%;
+			margin-right: 20px;
+		}
+		.about-content {
+			width: 51%;
+			margin-left: 20px;
+		}
+		.text-content {
+			margin-bottom: 30px;
+			h1 {
+				font-family: $font-semibold;
+				font-size: 36px;
+				line-height: 44px;
+				@include lt-spacing(0);
+				color : $color-tundora;
+				margin-bottom: 20px;
+			}
 			p {
 				font-family: $font-normal;
-				color: $color-white;
-				text-align: center;
-				font-size: 22px;
-			}
-		}
-
-		.view-last-content-2 {
-			margin-top: 217px;
-			position: absolute;
-			right: 80px;
-			top:0;
-			width: 280px;
-			height: 50px;
-			background-image: url('../images/insurance/insurance5.png');
-			p {
-				font-style: normal;
-				color: $color-white;
-				height: 50px;
-				margin-top: 14px;
-				text-align: center;
 				font-size: 16px;
-				position: relative;
-				text-transform: uppercase;
-			}
-			img {
-				width: 18px;
-				height: 12px;
-				right: 19px;
-				top: 5px;
-			}
-		}
-		.view-last-content-3 {
-			margin-top: 280px;
-			position: absolute;
-			right: 199px;
-			top:0;
-			width: 42px;
-			height: 18px;
-			p {
-				text-transform: uppercase;
-				color: $color-white;
-				height: 50px;
-				margin-top: 14px;
-				text-align: center;
-				font-size: 14px;
-				position: relative;
-			}
-		}
-		.view-last-content-4 {
-			margin-top: 318px;
-			position: absolute;
-			right: 125px;
-			width: 190px;
-			height: 50px;
-			text-align: center;
-			img {
-				width: 200px;
-				height: 80px;
+				line-height: 28px;
+				@include lt-spacing(20);
+				color: $color-scorpion;
+				margin: 0 0 20px;
 			}
 		}
 	}
-	.montserrat {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		height: auto;
-		.montserrat-img {
-			img {
-				width: 522px;
-				height: 466px;
-			}
-		}
-		.montserrat-content {
-			margin-left: 20px;
-			.text-content {
-				width: 522px;
-				padding-right: 5px;
-				h1 {
-					font-size: 36px;
-				}
-				p {
-					font-size: 16px
-				}
-			}
-			.text-small {
-				height: 301px;
-				width: 522px;
-				p {
-					line-height: 28px;
-					font-size: 16px
-				}
-			}
-			.text-apply {
-				background-image: url('../images/financing/financing3.png');
-				width: 220px;
-				p {
-					font-family: $font-medium;
-					height: 46px;
-					text-align: center;
-					color: $color-white;
-					font-size: 16px;
-					padding-top: 11px;
-				}
-			}
-
-		}
-	}
-
-	.img-responsive_financing { display: block; max-width: 200%; }
-	.text-medium-financing {
-		font-size: 20px;
-		letter-spacing: 0.02em;
-		line-height: 26px;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		font-style: inherit;
-    	text-align: center;
-    	img {
-    		margin-top: 20px;
-    		width: 300px;
-    		height: 65.5px;
-    	}
-	}
-	.smile-financing {
-		margin-left: 15px;
-		margin-top: 35px;
-		justify-content: center;
-    	grid-template-columns: 400px 400px;
-    	margin-bottom: 70px;
-		.smile-item {
-			position: relative;
-			width: 100%;
-		}
-		.smile-item-desc {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-    		right: 0;
-			font-size: 20px;
-			line-height: 53px;
-			font-family: $font-medium;
-			@include lt-spacing(0);
-			color: $color-white;
-			text-align: center;
-		}
-		.ct-lh {
-			line-height: 24px;
-			padding: 0 40px;
-		}
-	}
-	.before-after-financing {
-		display: grid;
-		grid-column-gap: 20px;
-		justify-content: center;
-    	grid-template-columns: 300px 300px 300px;
-    	margin-bottom: 20px;
-		.before-after-item {
-			width: 300px;
-			position: relative;
-			.img-responsive {
-				transition: ease 500ms;
-				margin-bottom: 26px;
-			}
-			&:hover {
-				&:after{
-					content: "+";
-					width: 40px;
-					height: 40px;
-					position: absolute;
-					top: 39%;
-					left: 50%;
-					transform: translate(-50%,-50%);
-					background: $color-lochmara;
-					border-radius: 50%;
-					font-size: 42px;
-				    color: $color-white;
-				    display: flex;
-				    justify-content: center;
-				    align-items: center;
-				    font-family: $font-light;
-				}
-				.img-responsive {
-					opacity: 0.7;
-				}
-			}
-		}
+	.cta-btn-apply {
+		margin-top: 10px;
 	}
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
-	.financing {
-		.smile-financing {
-			grid-gap: 30px;
-	    	grid-template-columns: 256px 256px;
-	    }
-	    .before-after-financing {
-	    	grid-template-columns: 300px 300px;
-	    	grid-column-gap: 30px;
-	    	grid-row-gap: 30px;
-	    }
-	}
-}
+@media (max-width: 1023px) and (min-width: 768px) {}
 
 @media (max-width: 767px) {
 	.financing {
 		.section-top {
 			margin-bottom: 40px;
 		}
-		.smile-financing {
-			grid-gap: 30px;
-	    	grid-template-columns: 256px;
-	    }
-	    .before-after-financing {
-	    	grid-template-columns: 300px;
-	    	grid-column-gap: 30px;
-	    	grid-row-gap: 30px;
-	    }
+		.text-medium-financing {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding: 0;
+		}
+		.financing-about {
+			padding-top: 30px;
+			flex-wrap: wrap;
+			margin-bottom: 40px;
+			.about-img {
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			.about-content {
+				width: 100%;
+				margin-left: 0;
+			}
+			.text-content {
+				margin-bottom: 0;
+				h1 {
+					font-size: 32px;
+				}
+			}
+			.text-small {
+				background-size: 5px 260px;
+			}
+		}
 	}
 }
