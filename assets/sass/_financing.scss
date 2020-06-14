@@ -1,22 +1,31 @@
-.insurance {
+.financing {
 	.section-top {
-		background-image: url('../images/insurance/insurance_top_bg.png');
+		background-image: url('../images/financing/financing-bg.png');
 		margin-bottom: 60px;
 	}
-	.text-medium-insurance {
-		margin-top: 30px;
+	.top-title {
 		margin-bottom: 30px;
+	}
+	.text-medium-financing {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		text-align: center;
+		padding: 0 90px;
 		p {
-			font-size: 20px;
-			@include lt-spacing(0);
-			line-height: 30px;
+			font-size: 32px;
+			@include lt-spacing(20);
+			line-height: 38px;
 	    	text-align: center;
-	    	font-family: $font-medium;
+	    	font-family: $font-dancing;
 	    	margin: 0;
-	    	color: $color-tundora;
+	    	color: $color-scorpion;
+	    	margin-bottom: 20px;
+		}
+		img {
+			margin: 0 auto;
 		}
 	}
-	.insurance-about {
+	.financing-about {
 		padding-top: 80px;
 		display: flex;
 		flex-wrap: nowrap;
@@ -45,38 +54,28 @@
 				line-height: 28px;
 				@include lt-spacing(20);
 				color: $color-scorpion;
-				margin: 0;
+				margin: 0 0 20px;
 			}
 		}
-		.text-small {
-			padding-left: 25px;
-			background-image: url('../images/insurance/insurance2.png');
-			background-position: left;
-			background-repeat:no-repeat;
-			p {
-				font-size: 18px;
-				font-family: $font-medium;
-				line-height: 26px;
-				color: $color-tundora;
-				margin: 0;
-				margin-bottom: 5px;
-			}
-		}
+	}
+	.cta-btn-apply {
+		margin-top: 10px;
 	}
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {}
 
 @media (max-width: 767px) {
-	.insurance {
+	.financing {
 		.section-top {
 			margin-bottom: 40px;
 		}
-		.text-medium-insurance {
+		.text-medium-financing {
 			margin-top: 20px;
 			margin-bottom: 20px;
+			padding: 0;
 		}
-		.insurance-about {
+		.financing-about {
 			padding-top: 30px;
 			flex-wrap: wrap;
 			margin-bottom: 40px;
@@ -91,6 +90,7 @@
 				margin-left: 0;
 			}
 			.text-content {
+				margin-bottom: 0;
 				h1 {
 					font-size: 32px;
 				}
