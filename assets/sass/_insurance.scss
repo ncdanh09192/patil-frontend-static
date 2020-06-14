@@ -1,0 +1,103 @@
+.insurance {
+	.section-top {
+		background-image: url('../images/insurance/insurance_top_bg.png');
+		margin-bottom: 60px;
+	}
+	.text-medium-insurance {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		p {
+			font-size: 20px;
+			@include lt-spacing(0);
+			line-height: 30px;
+	    	text-align: center;
+	    	font-family: $font-medium;
+	    	margin: 0;
+	    	color: $color-tundora;
+		}
+	}
+	.insurance-about {
+		padding-top: 80px;
+		display: flex;
+		flex-wrap: nowrap;
+		margin-bottom: 100px;
+		.about-img {
+			width: 49%;
+			margin-right: 20px;
+		}
+		.about-content {
+			width: 51%;
+			margin-left: 20px;
+		}
+		.text-content {
+			margin-bottom: 30px;
+			h1 {
+				font-family: $font-semibold;
+				font-size: 36px;
+				line-height: 44px;
+				@include lt-spacing(0);
+				color : $color-tundora;
+				margin-bottom: 20px;
+			}
+			p {
+				font-family: $font-normal;
+				font-size: 16px;
+				line-height: 28px;
+				@include lt-spacing(20);
+				color: $color-scorpion;
+				margin: 0;
+			}
+		}
+		.text-small {
+			padding-left: 25px;
+			background-image: url('../images/insurance/insurance2.png');
+			background-position: left;
+			background-repeat:no-repeat;
+			p {
+				font-size: 18px;
+				font-family: $font-medium;
+				line-height: 26px;
+				color: $color-tundora;
+				margin: 0;
+				margin-bottom: 5px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+	.insurance {
+		.section-top {
+			margin-bottom: 40px;
+		}
+		.text-medium-insurance {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.insurance-about {
+			padding-top: 30px;
+			flex-wrap: wrap;
+			margin-bottom: 40px;
+			.about-img {
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			.about-content {
+				width: 100%;
+				margin-left: 0;
+			}
+			.text-content {
+				h1 {
+					font-size: 32px;
+				}
+			}
+			.text-small {
+				background-size: 5px 260px;
+			}
+		}
+	}
+}
