@@ -1,0 +1,124 @@
+@import "vars";
+@mixin line-clamp($line) {
+	display: -webkit-box;
+	-webkit-line-clamp: $line;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.top-0 {
+	top: 0;
+}
+.right-0 {
+	right: 0;
+}
+.bottom-0 {
+	bottom: 0;
+}
+.left-0 {
+	left: 0;
+}
+.ourblog {
+	.section-top {
+		background-image: url("../images/blog/blog-banner.jpg");
+		.ourblog-breadcrumb {
+			&-container,
+			&-title {
+				font-family: $font-normal;
+			}
+			&-title{
+				text-transform: uppercase;
+			}
+		}
+	}
+	.section-body {
+		.section-container {
+			&-left {
+				&-item {
+					&-poster {
+						&-img {
+						}
+						&-title {
+							padding: 12px;
+							color: white;
+							font-family: $font-normal;
+							background-color: #6cac04;
+							border-top-right-radius: 25px;
+							opacity: 0.7;
+						}
+					}
+					&-name {
+						font-family: $font-semibold;
+						color: #444444;
+					}
+					&-des {
+						color: #606060;
+						font-family: $font-normal;
+					}
+				}
+			}
+			&-right {
+			}
+		}
+	}
+}
+// Super small devices (landscape phones, 576px and up)
+@media (max-width: 575.98px) {
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.ourblog {
+		.section-top {
+			margin-bottom: 45px;
+			.ourblog-breadcrumb {
+				margin-left: 141px;
+				&-container {
+					font-size: 16px;
+				}
+				&-title {
+					font-size: 46px;
+				}
+			}
+		}
+		.section-body {
+			.section-container {
+				&-left {
+					&-item {
+						&-poster {
+							&-img {
+							}
+							&-title {
+								font-size: 14px;
+							}
+						}
+						&-name {
+							padding: 24px 0 18px;
+							max-width: 65%;
+							font-size: 22px;
+							@include line-clamp(2);
+						}
+						&-des {
+							font-size: 15px;
+							margin-bottom: 80px;
+							@include line-clamp(4);
+						}
+					}
+				}
+				&-right {
+				}
+			}
+		}
+	}
+}
