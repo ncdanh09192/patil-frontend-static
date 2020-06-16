@@ -1,6 +1,6 @@
 .gallery {
 	.section-top {
-		background-image: url('../images/gallery_top_bg.jpg');
+		background-image: url('../images/gallery/gallery_top_bg.jpg');
 		margin-bottom: 60px;
 	}
 	.smile-gallery {
@@ -20,7 +20,8 @@
     		right: 0;
 			font-size: 20px;
 			line-height: 53px;
-			font-family: $font-medium;
+			font-family: $font-monserrat;
+			font-weight: $font-medium;
 			@include lt-spacing(0);
 			color: $color-white;
 			text-align: center;
@@ -37,6 +38,7 @@
 		color: $color-limeade;
 		text-align: center;
 		font-family: $font-dancing;
+		font-weight: $font-normal;
 		margin-bottom: 20px;
 	}
 	.before-after-gallery {
@@ -68,7 +70,8 @@
 				    display: flex;
 				    justify-content: center;
 				    align-items: center;
-				    font-family: $font-light;
+				    font-family: $font-monserrat;
+				    font-weight: $font-light;
 				}
 				.img-responsive {
 					opacity: 0.7;

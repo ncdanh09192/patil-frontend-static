@@ -109,9 +109,9 @@ template { display: none; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em; line-height: 28px; color: #606060; }
+body { font-family: "Montserrat"; font-weight: 400; font-size: 16px; letter-spacing: 0.02em; line-height: 28px; color: #606060; }
 
-.breadcum { font-family: "MontserratRegular"; font-size: 16px; line-height: 24px; letter-spacing: 0em; color: #FFFFFF; padding: 0; margin-bottom: 16px; }
+.breadcum { font-family: "Montserrat"; font-weight: 400; font-size: 16px; line-height: 24px; letter-spacing: 0em; color: #FFFFFF; padding: 0; margin-bottom: 16px; }
 .breadcum a { color: #FFFFFF; }
 .breadcum li { display: inline-block; padding-right: 14px; }
 .breadcum li::after { content: "/"; padding-left: 20px; }
@@ -121,10 +121,10 @@ body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em
 
 .breadcum-container { position: absolute; bottom: 79px; left: 141px; }
 
-.page-title { font-family: "MontserratRegular"; font-size: 46px; line-height: 24px; color: #FFFFFF; letter-spacing: 0em; margin: 0; }
+.page-title { font-family: "Montserrat"; font-weight: 400; font-size: 46px; line-height: 24px; color: #FFFFFF; letter-spacing: 0em; margin: 0; }
 .page-title:before { content: ""; display: block; width: 100%; height: 1px; background: #FFFFFF; margin-bottom: 26px; }
 
-.top-title { font-family: "MontserratBold"; font-size: 46px; letter-spacing: 0.02em; line-height: 45px; color: #444444; text-align: center; margin-bottom: 20px; }
+.top-title { font-family: "Montserrat"; font-weight: 700; font-size: 46px; letter-spacing: 0.02em; line-height: 45px; color: #444444; text-align: center; margin-bottom: 20px; }
 
 .top-desc { max-width: 800px; margin: 0 auto 60px; text-align: center; }
 .top-desc p { font-size: 16px; letter-spacing: 0.02em; line-height: 26px; color: #606060; }
@@ -142,13 +142,13 @@ body { font-family: "MontserratRegular"; font-size: 16px; letter-spacing: 0.02em
 .cta-wrapper { text-align: center; }
 .cta-wrapper p { font-size: 14px; line-height: 24px; letter-spacing: 0.03em; color: #FFFFFF; margin-bottom: 10px; }
 
-.cta-btn-request { font-size: 16px; font-family: "MontserratSemiBold"; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; background: #86C127; border: 1.3px solid #FFFFFF; border-radius: 54px; max-width: 280px; padding: 15px 40px 15px 20px; text-transform: uppercase; cursor: pointer; margin-bottom: 13px; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 95% 17px; }
+.cta-btn-request { font-size: 16px; font-family: "Montserrat"; font-weight: 600; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; background: #86C127; border: 1.3px solid #FFFFFF; border-radius: 54px; max-width: 280px; padding: 15px 40px 15px 20px; text-transform: uppercase; cursor: pointer; margin-bottom: 13px; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 95% 17px; }
 .cta-btn-request:hover { background-position: 97% 17px; }
 
 .cta-btn-contact { font-size: 16px; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; border: 1.3px solid #FFFFFF; border-radius: 54px; padding: 15px 58px 15px 28px; background: transparent; cursor: pointer; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 82% 18px; }
 .cta-btn-contact:hover { background-position: 85% 18px; }
 
-.cta-btn-apply { border-radius: 54px; background: #008CD4; color: #FFFFFF; font-family: "MontserratMedium"; line-height: 19px; font-size: 16px; letter-spacing: 0.016em; padding: 14px 59px; border: none; }
+.cta-btn-apply { border-radius: 54px; background: #008CD4; color: #FFFFFF; font-family: "Montserrat"; font-weight: 500; line-height: 19px; font-size: 16px; letter-spacing: 0.016em; padding: 14px 59px; border: none; }
 
 a, button { -webkit-transition: ease 300ms; transition: ease 300ms; }
 a:hover, button:hover { opacity: 0.8; }
@@ -161,16 +161,16 @@ button { cursor: pointer; }
   .page-title { padding-right: 15px; }
   .our-team { margin-bottom: 60px; }
   .our-team-content { border-radius: 10px; } }
-.gallery .section-top { background-image: url("../images/gallery_top_bg.jpg"); margin-bottom: 60px; }
+.gallery .section-top { background-image: url("../images/gallery/gallery_top_bg.jpg"); margin-bottom: 60px; }
 .gallery .smile-gallery { display: grid; grid-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 256px 256px 256px 256px; margin-bottom: 70px; }
 .gallery .smile-gallery .smile-item { position: relative; width: 256px; }
-.gallery .smile-gallery .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: "MontserratMedium"; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
+.gallery .smile-gallery .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: "Montserrat"; font-weight: 500; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
 .gallery .smile-gallery .ct-lh { line-height: 24px; padding: 0 40px; }
-.gallery .gallery-heading { font-size: 38px; line-height: 53px; opacity: 0.9; color: #6CAC04; text-align: center; font-family: "DancingScriptRegular"; margin-bottom: 20px; }
+.gallery .gallery-heading { font-size: 38px; line-height: 53px; opacity: 0.9; color: #6CAC04; text-align: center; font-family: "Dancing Script"; font-weight: 400; margin-bottom: 20px; }
 .gallery .before-after-gallery { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
 .gallery .before-after-gallery .before-after-item { width: 300px; position: relative; }
 .gallery .before-after-gallery .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
-.gallery .before-after-gallery .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "MontserratLight"; }
+.gallery .before-after-gallery .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "Montserrat"; font-weight: 300; }
 .gallery .before-after-gallery .before-after-item:hover .img-responsive { opacity: 0.7; }
 .gallery .before-after-gallery .before-after-desc { font-size: 15px; line-height: 24px; letter-spacing: 0.02em; color: #555555; text-align: center; margin: 0; }
 .gallery .slide-paging { text-align: center; margin: 0 0 30px; padding: 0; }
@@ -187,15 +187,15 @@ button { cursor: pointer; }
   .gallery .before-after-gallery { grid-template-columns: 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
 .insurance .section-top { background-image: url("../images/insurance/insurance_top_bg.png"); margin-bottom: 60px; }
 .insurance .text-medium-insurance { margin-top: 30px; margin-bottom: 30px; }
-.insurance .text-medium-insurance p { font-size: 20px; letter-spacing: 0em; line-height: 30px; text-align: center; font-family: "MontserratMedium"; margin: 0; color: #444444; }
+.insurance .text-medium-insurance p { font-size: 20px; letter-spacing: 0em; line-height: 30px; text-align: center; font-family: "Montserrat"; font-weight: 500; margin: 0; color: #444444; }
 .insurance .insurance-about { padding-top: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin-bottom: 100px; }
 .insurance .insurance-about .about-img { width: 49%; margin-right: 20px; }
 .insurance .insurance-about .about-content { width: 51%; margin-left: 20px; }
 .insurance .insurance-about .text-content { margin-bottom: 30px; }
-.insurance .insurance-about .text-content h1 { font-family: "MontserratSemiBold"; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
-.insurance .insurance-about .text-content p { font-family: "MontserratRegular"; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0; }
+.insurance .insurance-about .text-content h1 { font-family: "Montserrat"; font-weight: 600; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
+.insurance .insurance-about .text-content p { font-family: "Montserrat"; font-weight: 400; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0; }
 .insurance .insurance-about .text-small { padding-left: 25px; background-image: url("../images/insurance/insurance2.png"); background-position: left; background-repeat: no-repeat; }
-.insurance .insurance-about .text-small p { font-size: 18px; font-family: "MontserratMedium"; line-height: 26px; color: #444444; margin: 0; margin-bottom: 5px; }
+.insurance .insurance-about .text-small p { font-size: 18px; font-family: "Montserrat"; font-weight: 500; line-height: 26px; color: #444444; margin: 0; margin-bottom: 5px; }
 
 @media (max-width: 767px) { .insurance .section-top { margin-bottom: 40px; }
   .insurance .text-medium-insurance { margin-top: 20px; margin-bottom: 20px; }
@@ -207,14 +207,14 @@ button { cursor: pointer; }
 .financing .section-top { background-image: url("../images/financing/financing-bg.png"); margin-bottom: 60px; }
 .financing .top-title { margin-bottom: 30px; }
 .financing .text-medium-financing { margin-top: 20px; margin-bottom: 30px; text-align: center; padding: 0 90px; }
-.financing .text-medium-financing p { font-size: 32px; letter-spacing: 0.02em; line-height: 38px; text-align: center; font-family: "DancingScriptRegular"; margin: 0; color: #606060; margin-bottom: 20px; }
+.financing .text-medium-financing p { font-size: 32px; letter-spacing: 0.02em; line-height: 38px; text-align: center; font-family: "Dancing Script"; font-weight: 400; margin: 0; color: #606060; margin-bottom: 20px; }
 .financing .text-medium-financing img { margin: 0 auto; }
 .financing .financing-about { padding-top: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin-bottom: 100px; }
 .financing .financing-about .about-img { width: 49%; margin-right: 20px; }
 .financing .financing-about .about-content { width: 51%; margin-left: 20px; }
 .financing .financing-about .text-content { margin-bottom: 30px; }
-.financing .financing-about .text-content h1 { font-family: "MontserratSemiBold"; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
-.financing .financing-about .text-content p { font-family: "MontserratRegular"; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0 0 20px; }
+.financing .financing-about .text-content h1 { font-family: "Montserrat"; font-weight: 600; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
+.financing .financing-about .text-content p { font-family: "Montserrat"; font-weight: 400; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0 0 20px; }
 .financing .cta-btn-apply { margin-top: 10px; }
 
 @media (max-width: 767px) { .financing .section-top { margin-bottom: 40px; }
@@ -225,3 +225,37 @@ button { cursor: pointer; }
   .financing .financing-about .text-content { margin-bottom: 0; }
   .financing .financing-about .text-content h1 { font-size: 32px; }
   .financing .financing-about .text-small { background-size: 5px 260px; } }
+.new_patient_form .section-top { background-image: url("../images/new_patient_froms.png"); margin-bottom: 60px; }
+.new_patient_form button { border: #86C127; }
+.new_patient_form .text-line { font-family: "Dancing Script"; font-weight: 700; font-size: 42px; line-height: 45px; background: #FFFFFF; color: #444444; display: inline-block; margin: 0 auto; padding: 0px 28px; }
+.new_patient_form .line { margin-top: -25px; }
+.new_patient_form .mb-5 { text-align: center; }
+.new_patient_form .body-title { font-size: 22px; font-family: "Montserrat"; font-weight: 500; line-height: 28px; color: #444444; }
+.new_patient_form .body-title2 { font-size: 15px; line-height: 24px; color: #606060; margin-bottom: 24px; }
+.new_patient_form .mb-100 { margin-bottom: 100px; }
+.new_patient_form .btn-download { padding: 10px 20px; border-radius: 25px; background: #86C127; color: white; }
+.new_patient_form .montserrat { font-family: "Montserrat"; font-weight: 400; }
+.new_patient_form .img-responsive_insurance { display: block; max-width: 200%; }
+.new_patient_form .text-medium-insurance { font-size: 20px; letter-spacing: 0.02em; line-height: 26px; margin-top: 20px; margin-bottom: 20px; font-style: inherit; text-align: center; }
+.new_patient_form .smile-insurance { margin-left: 15px; margin-top: 35px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 400px 400px; margin-bottom: 70px; }
+.new_patient_form .smile-insurance .smile-item { position: relative; width: 100%; }
+.new_patient_form .smile-insurance .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: "Montserrat"; font-weight: 500; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
+.new_patient_form .smile-insurance .ct-lh { line-height: 24px; padding: 0 40px; }
+.new_patient_form .before-after-insurance { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
+.new_patient_form .before-after-insurance .before-after-item { width: 300px; position: relative; }
+.new_patient_form .before-after-insurance .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
+.new_patient_form .before-after-insurance .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: "Montserrat"; font-weight: 300; }
+.new_patient_form .before-after-insurance .before-after-item:hover .img-responsive { opacity: 0.7; }
+
+@media (max-width: 1023px) and (min-width: 768px) { .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
+  .new_patient_form .before-after-insurance { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
+@media (max-width: 1199px) and (min-width: 1024px) { .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
+  .new_patient_form .before-after-insurance { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; }
+  .new_patient_form .text-line { font-weight: bold; font-size: 42px; background: white; text-align: center; margin-top: -30px; position: absolute; /* top: -19px; */ margin-left: 100px; } }
+@media (max-width: 1439px) and (min-width: 1360px) { .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
+  .new_patient_form .before-after-insurance { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; }
+  .new_patient_form .text-line { font-weight: bold; font-size: 42px; background: white; text-align: center; margin-top: -30px; position: absolute; /* top: -19px; */ margin-left: 192px; } }
+@media (max-width: 767px) { .new_patient_form .section-top { margin-bottom: 40px; }
+  .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px; }
+  .new_patient_form .before-after-insurance { grid-template-columns: 300px; grid-column-gap: 30px; grid-row-gap: 30px; }
+  .new_patient_form .text-line { font-weight: bold; font-size: 42px; background: white; text-align: center; margin-top: -30px; position: absolute; /* top: -19px; */ margin-left: 0px; } }
