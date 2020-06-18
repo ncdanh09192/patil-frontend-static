@@ -29,9 +29,12 @@
             z-index: 1;
             &-container,
             &-title {
-                font-family: $font-normal;
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
             }
             &-title {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
                 text-transform: uppercase;
             }
         }
@@ -56,7 +59,7 @@
         &-item2 {
             &-img {
                 background-color: #0072ad;
-                margin-bottom: 5%;
+                margin-bottom: 220px;
                 border-top-right-radius: 50px;
                 border-bottom-left-radius: 50px;
             }
@@ -90,19 +93,39 @@
             &-border {
             }
             &-title {
+                font-family: $font-dancing;
+                color: #86c127;
             }
             &-des {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                color: #606060;
             }
         }
         &-item4 {
             &-content {
+                &-gradient {
+                    z-index: -1;
+                    &-bg {
+                        background-color: #f7f7f7;
+                    }
+                }
                 &-banner {
+                    &-gradient {
+                        background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                    }
                     &-img {
                     }
                     &-title {
+                        font-family: $font-monserrat;
+                        font-weight: $font-bold;
+                        color: white;
                     }
                 }
                 &-des {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    color: #606060;
                 }
                 &-list {
                     &-item {
@@ -110,8 +133,14 @@
                         }
                         &-content {
                             &-name {
+                                font-family: $font-monserrat;
+                                font-weight: $font-medium;
+                                color: #444444;
                             }
                             &-des {
+                                font-family: $font-monserrat;
+                                font-weight: $font-regular;
+                                color: #606060;
                             }
                         }
                     }
@@ -120,17 +149,32 @@
         }
         &-item5 {
             &-title {
+                font-family: $font-monserrat;
+                font-weight: $font-bold;
             }
             &-list {
                 &-item {
                     &-img {
+                        &-gradient {
+                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                            border-radius: 5px;
+                        }
                     }
                     &-content {
+                        color: white;
                         &-name {
+                            font-family: $font-monserrat;
+                            font-weight: $font-semibold;
                         }
                         &-des {
+                            font-family: $font-monserrat;
+                            font-weight: $font-regular;
                         }
                         &-more {
+                            text-transform: uppercase;
+                            font-family: $font-monserrat;
+                            font-weight: $font-regular;
+                            color: #86c127 !important;
                         }
                     }
                 }
@@ -177,6 +221,7 @@
             height: 500px;
             .dentistry-periodontal-care-breadcrumb {
                 margin-left: 141px;
+                bottom: 90px;
                 &-container {
                     font-size: 16px;
                 }
@@ -201,7 +246,7 @@
                 }
             }
             &-item2 {
-                margin: 0 83px;
+                margin: 85px 83px 70px;
                 &-img {
                 }
                 &-title {
@@ -211,7 +256,7 @@
                 &-list {
                     &-content {
                         &-item {
-                            padding: 30px 40px;
+                            padding: 30px 20px;
                             min-height: 400px;
                             &-img {
                             }
@@ -227,48 +272,82 @@
                 }
             }
             &-item3 {
+                margin: auto 141px;
                 &-border {
                 }
                 &-title {
+                    font-size: 32px;
+                    margin: 30px auto 60px;
                 }
                 &-des {
+                    font-size: 16px;
+                    margin-bottom: 65px;
                 }
             }
             &-item4 {
-                &-banner {
-                    &-img {
+                margin: 80px auto 0;
+                padding-bottom: 70px;
+                &-content {
+                    padding: 0 141px;
+                    &-gradient {
+                        padding-top: 160px;
+                        &-bg {
+                        }
                     }
-                    &-title {
-                    }
-                }
-                &-des {
-                }
-                &-list {
-                    &-item {
+                    &-banner {
+                        &-gradient {
+                        }
                         &-img {
                         }
-                        &-content {
-                            &-name {
+                        &-title {
+                            bottom: 40px;
+                            left: 90px;
+                            font-size: 36px;
+                        }
+                    }
+                    &-des {
+                        font-size: 16px;
+                        margin: 45px 90px 0;
+                    }
+                    &-list {
+                        margin: 30px 90px 0;
+                        &-item {
+                            margin-bottom: 27px;
+                            &-img {
                             }
-                            &-des {
+                            &-content {
+                                &-name {
+                                    font-size: 20px;
+                                }
+                                &-des {
+                                    font-size: 15px;
+                                }
                             }
                         }
                     }
                 }
             }
             &-item5 {
+                margin: 80px 141px auto;
                 &-title {
+                    font-size: 40px;
                 }
                 &-list {
+                    margin-top: 60px;
                     &-item {
+                        margin-top: 40px;
                         &-img {
                         }
                         &-content {
+                            padding: 22px;
                             &-name {
+                                font-size: 28px;
                             }
                             &-des {
+                                font-size: 15px;
                             }
                             &-more {
+                                font-size: 15px;
                             }
                         }
                     }

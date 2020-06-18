@@ -274,7 +274,7 @@ button { cursor: pointer; }
 .ourblog .section-top .ourblog-breadcrumb-title { text-transform: uppercase; }
 .ourblog .section-body-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
 .ourblog .section-body .section-container-left-item-poster-title { color: white; font-family: "Montserrat"; font-weight: 400; background-color: #6cac04; border-top-right-radius: 25px; opacity: 0.7; }
-.ourblog .section-body .section-container-left-item-name { font-family: 600; }
+.ourblog .section-body .section-container-left-item-name { font-family: "Montserrat"; font-weight: 600; }
 .ourblog .section-body .section-container-left-item-name a { color: #444444; }
 .ourblog .section-body .section-container-left-item-name a:hover { text-decoration: none; }
 .ourblog .section-body .section-container-left-item-des { color: #606060; font-family: "Montserrat"; font-weight: 400; }
@@ -296,7 +296,7 @@ button { cursor: pointer; }
 .ourblog .section-body .section-container-right-video-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
 .ourblog .section-body .section-container-right-video-item-modal-gradient { background-color: black; opacity: 0.3; }
 .ourblog .section-body .section-container-right-video-item-modal-icon-play-video { cursor: pointer; }
-.ourblog .section-body .section-container-right-video-item-title { font-family: 600; color: #444444; }
+.ourblog .section-body .section-container-right-video-item-title { font-family: "Montserrat"; font-weight: 600; color: #444444; }
 
 @media (max-width: 575.98px) { .ourblog .section-top .ourblog-breadcrumb { margin-left: 20px; }
   .ourblog .section-top .ourblog-breadcrumb-container { font-size: 16px; }
@@ -367,20 +367,35 @@ button { cursor: pointer; }
 .dentistry-periodontal-care .section-top { background-image: url("../images/dentisty_periodontal_care/dentistry-banner1.jpg"); }
 .dentistry-periodontal-care .section-top-gradient { background-color: black; opacity: 0.4; }
 .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb { z-index: 1; }
-.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container, .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: 400; }
-.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { text-transform: uppercase; }
+.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container, .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; }
+.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; text-transform: uppercase; }
 .dentistry-periodontal-care .section-body-item1-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
 .dentistry-periodontal-care .section-body-item1-name { font-family: "DancingScriptBold"; color: #86c127; }
 .dentistry-periodontal-care .section-body-item1-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care .section-body-item2-img { background-color: #0072ad; margin-bottom: 5%; border-top-right-radius: 50px; border-bottom-left-radius: 50px; }
+.dentistry-periodontal-care .section-body-item2-img { background-color: #0072ad; margin-bottom: 220px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; }
 .dentistry-periodontal-care .section-body-item2-title { font-family: "DancingScriptBold"; color: white; }
 .dentistry-periodontal-care .section-body-item2-list-content { margin: auto 90px; }
 .dentistry-periodontal-care .section-body-item2-list-content-item { background-color: #f7f7f7; border-radius: 15px; }
 .dentistry-periodontal-care .section-body-item2-list-content-item-name { font-family: "Montserrat"; font-weight: 600; color: #444444; }
 .dentistry-periodontal-care .section-body-item2-list-content-item-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
+.dentistry-periodontal-care .section-body-item3-title { font-family: "Dancing Script"; color: #86c127; }
+.dentistry-periodontal-care .section-body-item3-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
+.dentistry-periodontal-care .section-body-item4-content-gradient { z-index: -1; }
+.dentistry-periodontal-care .section-body-item4-content-gradient-bg { background-color: #f7f7f7; }
+.dentistry-periodontal-care .section-body-item4-content-banner-gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
+.dentistry-periodontal-care .section-body-item4-content-banner-title { font-family: "Montserrat"; font-weight: 700; color: white; }
+.dentistry-periodontal-care .section-body-item4-content-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
+.dentistry-periodontal-care .section-body-item4-content-list-item-content-name { font-family: "Montserrat"; font-weight: 500; color: #444444; }
+.dentistry-periodontal-care .section-body-item4-content-list-item-content-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
+.dentistry-periodontal-care .section-body-item5-title { font-family: "Montserrat"; font-weight: 700; }
+.dentistry-periodontal-care .section-body-item5-list-item-img-gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); border-radius: 5px; }
+.dentistry-periodontal-care .section-body-item5-list-item-content { color: white; }
+.dentistry-periodontal-care .section-body-item5-list-item-content-name { font-family: "Montserrat"; font-weight: 600; }
+.dentistry-periodontal-care .section-body-item5-list-item-content-des { font-family: "Montserrat"; font-weight: 400; }
+.dentistry-periodontal-care .section-body-item5-list-item-content-more { text-transform: uppercase; font-family: "Montserrat"; font-weight: 400; color: #86c127 !important; }
 
 @media (min-width: 1200px) { .dentistry-periodontal-care .section-top { height: 500px; }
-  .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 141px; }
+  .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 141px; bottom: 90px; }
   .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container { font-size: 16px; }
   .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-size: 46px; }
   .dentistry-periodontal-care .section-body { margin: 70px auto 90px; }
@@ -388,8 +403,28 @@ button { cursor: pointer; }
   .dentistry-periodontal-care .section-body-item1-title { font-size: 46px; }
   .dentistry-periodontal-care .section-body-item1-name { font-size: 48px; margin-bottom: 10px; }
   .dentistry-periodontal-care .section-body-item1-des { font-size: 16px; }
-  .dentistry-periodontal-care .section-body-item2 { margin: 0 83px; }
+  .dentistry-periodontal-care .section-body-item2 { margin: 85px 83px 70px; }
   .dentistry-periodontal-care .section-body-item2-title { font-size: 38px; margin: 40px 220px 25px; }
-  .dentistry-periodontal-care .section-body-item2-list-content-item { padding: 30px 40px; min-height: 400px; }
+  .dentistry-periodontal-care .section-body-item2-list-content-item { padding: 30px 20px; min-height: 400px; }
   .dentistry-periodontal-care .section-body-item2-list-content-item-name { margin: 30px auto 20px; font-size: 22px; }
-  .dentistry-periodontal-care .section-body-item2-list-content-item-des { font-size: 15px; } }
+  .dentistry-periodontal-care .section-body-item2-list-content-item-des { font-size: 15px; }
+  .dentistry-periodontal-care .section-body-item3 { margin: auto 141px; }
+  .dentistry-periodontal-care .section-body-item3-title { font-size: 32px; margin: 30px auto 60px; }
+  .dentistry-periodontal-care .section-body-item3-des { font-size: 16px; margin-bottom: 65px; }
+  .dentistry-periodontal-care .section-body-item4 { margin: 80px auto 0; padding-bottom: 70px; }
+  .dentistry-periodontal-care .section-body-item4-content { padding: 0 141px; }
+  .dentistry-periodontal-care .section-body-item4-content-gradient { padding-top: 160px; }
+  .dentistry-periodontal-care .section-body-item4-content-banner-title { bottom: 40px; left: 90px; font-size: 36px; }
+  .dentistry-periodontal-care .section-body-item4-content-des { font-size: 16px; margin: 45px 90px 0; }
+  .dentistry-periodontal-care .section-body-item4-content-list { margin: 30px 90px 0; }
+  .dentistry-periodontal-care .section-body-item4-content-list-item { margin-bottom: 27px; }
+  .dentistry-periodontal-care .section-body-item4-content-list-item-content-name { font-size: 20px; }
+  .dentistry-periodontal-care .section-body-item4-content-list-item-content-des { font-size: 15px; }
+  .dentistry-periodontal-care .section-body-item5 { margin: 80px 141px auto; }
+  .dentistry-periodontal-care .section-body-item5-title { font-size: 40px; }
+  .dentistry-periodontal-care .section-body-item5-list { margin-top: 60px; }
+  .dentistry-periodontal-care .section-body-item5-list-item { margin-top: 40px; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content { padding: 22px; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content-name { font-size: 28px; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content-des { font-size: 15px; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content-more { font-size: 15px; } }

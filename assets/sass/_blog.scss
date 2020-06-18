@@ -59,7 +59,8 @@
 						}
 					}
 					&-name {
-						font-family: $font-semibold;
+						font-family: $font-monserrat;
+						font-weight: $font-semibold;
 						a {
 							color: #444444;
 							&:hover {
@@ -174,7 +175,8 @@
 						}
 					}
 					&-title {
-						font-family: $font-semibold;
+						font-family: $font-monserrat;
+						font-weight: $font-semibold;
 						color: #444444;
 					}
 				}
