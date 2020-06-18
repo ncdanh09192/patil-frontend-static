@@ -25,7 +25,7 @@
             background-color: black;
             opacity: 0.4;
         }
-        .ourblog-breadcrumb {
+        .dentistry-periodontal-care-breadcrumb {
             z-index: 1;
             &-container,
             &-title {
@@ -39,24 +39,49 @@
     .section-body {
         &-item1 {
             &-title {
+                font-family: $font-monserrat;
+                font-weight: $font-bold;
+                color: #444444;
             }
             &-name {
+                font-family: $font-dancingbold;
+                color: #86c127;
             }
             &-des {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                color: #606060;
             }
         }
         &-item2 {
             &-img {
+                background-color: #0072ad;
+                margin-bottom: 5%;
+                border-top-right-radius: 50px;
+                border-bottom-left-radius: 50px;
             }
             &-title {
+                font-family: $font-dancingbold;
+                color: white;
             }
             &-list {
-                &-item {
-                    &-img {
-                    }
-                    &-name {
-                    }
-                    &-des {
+                &-content {
+                    margin: auto 90px;
+                    &-item {
+                        background-color: #f7f7f7;
+                        border-radius: 15px;
+                        &-img {
+                        }
+                        &-name {
+                            font-family: $font-monserrat;
+                            font-weight: $font-semibold;
+                            color: #444444;
+                        }
+                        &-des {
+                            font-family: $font-monserrat;
+                            font-weight: $font-regular;
+                            color: #606060;
+                        }
                     }
                 }
             }
@@ -70,22 +95,24 @@
             }
         }
         &-item4 {
-            &-banner {
-                &-img {
-                }
-                &-title {
-                }
-            }
-            &-des {
-            }
-            &-list {
-                &-item {
+            &-content {
+                &-banner {
                     &-img {
                     }
-                    &-content {
-                        &-name {
+                    &-title {
+                    }
+                }
+                &-des {
+                }
+                &-list {
+                    &-item {
+                        &-img {
                         }
-                        &-des {
+                        &-content {
+                            &-name {
+                            }
+                            &-des {
+                            }
                         }
                     }
                 }
@@ -145,4 +172,128 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    .dentistry-periodontal-care {
+        .section-top {
+            height: 500px;
+            .dentistry-periodontal-care-breadcrumb {
+                margin-left: 141px;
+                &-container {
+                    font-size: 16px;
+                }
+                &-title {
+                    font-size: 46px;
+                }
+            }
+        }
+        .section-body {
+            margin: 70px auto 90px;
+            &-item1 {
+                margin: 0 240px;
+                &-title {
+                    font-size: 46px;
+                }
+                &-name {
+                    font-size: 48px;
+                    margin-bottom: 10px;
+                }
+                &-des {
+                    font-size: 16px;
+                }
+            }
+            &-item2 {
+                margin: 0 83px;
+                &-img {
+                }
+                &-title {
+                    font-size: 38px;
+                    margin: 40px 220px 25px;
+                }
+                &-list {
+                    &-content {
+                        &-item {
+                            padding: 30px 40px;
+                            min-height: 400px;
+                            &-img {
+                            }
+                            &-name {
+                                margin: 30px auto 20px;
+                                font-size: 22px;
+                            }
+                            &-des {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            &-item3 {
+                &-border {
+                }
+                &-title {
+                }
+                &-des {
+                }
+            }
+            &-item4 {
+                &-banner {
+                    &-img {
+                    }
+                    &-title {
+                    }
+                }
+                &-des {
+                }
+                &-list {
+                    &-item {
+                        &-img {
+                        }
+                        &-content {
+                            &-name {
+                            }
+                            &-des {
+                            }
+                        }
+                    }
+                }
+            }
+            &-item5 {
+                &-title {
+                }
+                &-list {
+                    &-item {
+                        &-img {
+                        }
+                        &-content {
+                            &-name {
+                            }
+                            &-des {
+                            }
+                            &-more {
+                            }
+                        }
+                    }
+                }
+            }
+            &-item6 {
+                &-border {
+                }
+                &-content {
+                    &-img {
+                    }
+                    &-list {
+                        &-title {
+                        }
+                        &-item {
+                        }
+                    }
+                }
+            }
+            &-item7 {
+                &-img {
+                }
+                &-content {
+                }
+            }
+        }
+    }
 }
