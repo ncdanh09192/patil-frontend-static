@@ -1,0 +1,191 @@
+.dentistry {
+  .section-top {
+    background-image: url('../images/dentistry/dentistry1.png');
+    margin-bottom: 60px;
+    border-bottom: 2px solid $color-limeade;
+
+  }
+  .container{
+    .top-title{
+      font-weight: bold;
+      margin: 0;
+    }
+    .top-desc{
+      max-width: 900px;
+      margin: 40px auto;
+      p{
+        margin: 0;
+      }
+    }
+    .benefits{
+      .benefit{
+        text-align: center;
+        padding: 0;
+        p{
+          margin: 0;
+        }
+        .icon{
+          width: 100px;
+          height: 100px;
+          background-color: $color-gray;
+          border-radius: 100px;
+          margin: 0 auto;
+          position: relative;
+          img{
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+          }
+        }
+        .icon_benefit_1{
+          img{
+            width: 57.5px;
+            height: 57.78px;
+          }
+        }
+        .icon_benefit_2{
+          img{
+            width: 50px;
+            height: 50.1px;
+          }
+        }
+        .icon_benefit_3{
+          img{
+            width: 57.5px;
+            height: 44.02px;
+          }
+        }
+        .title{
+          font-weight: 700;
+          font-size: 25px;
+          margin: 10px 0;
+        }
+        .description {
+          font-size: 15px;
+          max-width: 310px;
+          margin: 0 auto;
+          letter-spacing: 0.03em;
+          line-height: 22px;
+          color: $color-scorpion;
+        }
+      }
+    }
+    .list-cards{
+      margin-top: 70px;
+      .cards{
+        margin-bottom: 50px;
+        .card-image{
+          width: 505px;
+          height: 286.25px;
+          position: relative;
+          .color-blue{
+            width: 256px;
+            height: 170.5px;
+            background-color: $color-lochmara;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+          }
+          img{
+            width: 500px;
+            height: 281.25px;
+          }
+        }
+        .card-title{
+          font-size: 28px;
+          font-weight: bold;
+          margin: 16px 0;
+        }
+        .card-description{
+          font-size: 15px;
+          letter-spacing: 0.03em;
+          max-width: 506px;
+          line-height: 25px;
+        }
+        .card-button{
+          .button{
+            height: 50px;
+            width: 200px;
+            background-color: $color-lochmara;
+            border: 0;
+            color: $color-white;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            text-align: center;
+            line-height: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+  .container {
+    .list-cards{
+      .cards{
+        .card-image{
+          width: 505px - (505px*0.1) !important;
+          height: 286.25px - (286.25px*0.1)!important;
+          .color-blue{
+            width: 256px - (256px*0.1)!important;
+            height: 170.5px - (70.5px*0.1)!important;
+          }
+          img{
+            width: 500px - (500px*0.1)!important;
+            height: 281.25px - (281.25px*0.1)!important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .col-md-6{
+    max-width: 100%!important;
+  }
+  .container {
+    .list-cards{
+      .cards{
+        margin: 0 auto;
+        .card-image{
+          width: 505px + (505px*0.1) !important;
+          height: 286.25px + (286.25px*0.1)!important;
+          .color-blue{
+            width: 256px + (256px*0.1)!important;
+            height: 170.5px + (70.5px*0.1)!important;
+          }
+          img{
+            width: 500px + (500px*0.1)!important;
+            height: 281.25px + (281.25px*0.1)!important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px){
+  .container {
+    .list-cards{
+      .cards{
+        margin: 0 auto;
+        .card-image{
+          width: 505px - (505px*0.3) !important;
+          height: 286.25px - (286.25px*0.3)!important;
+          .color-blue{
+            width: 256px - (256px*0.3)!important;
+            height: 170.5px - (70.5px*0.3)!important;
+          }
+          img{
+            width: 500px - (500px*0.3)!important;
+            height: 281.25px - (281.25px*0.3)!important;
+          }
+        }
+      }
+    }
+  }
+}
