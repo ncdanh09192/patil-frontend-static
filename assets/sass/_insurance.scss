@@ -11,7 +11,8 @@
 			@include lt-spacing(0);
 			line-height: 30px;
 	    	text-align: center;
-	    	font-family: $font-medium;
+	    	font-family: $font-monserrat;
+	    	font-weight: $font-medium;
 	    	margin: 0;
 	    	color: $color-tundora;
 		}
@@ -32,7 +33,8 @@
 		.text-content {
 			margin-bottom: 30px;
 			h1 {
-				font-family: $font-semibold;
+				font-family: $font-monserrat;
+				font-weight: $font-semibold;
 				font-size: 36px;
 				line-height: 44px;
 				@include lt-spacing(0);
@@ -40,7 +42,8 @@
 				margin-bottom: 20px;
 			}
 			p {
-				font-family: $font-normal;
+				font-family: $font-monserrat;
+				font-weight: $font-normal;
 				font-size: 16px;
 				line-height: 28px;
 				@include lt-spacing(20);
@@ -55,7 +58,8 @@
 			background-repeat:no-repeat;
 			p {
 				font-size: 18px;
-				font-family: $font-medium;
+				font-family: $font-monserrat;
+				font-weight: $font-medium;
 				line-height: 26px;
 				color: $color-tundora;
 				margin: 0;
