@@ -115,15 +115,21 @@
 				height: 36px;
 				background-image: url('../images/blog-detal/button-blog-detail-1.png');
 				border: none;
+				border-radius: 36px;
 				padding: 0;
 				color: $color-lochmara;
 				font-size: 14px;
 				font-family: $font-normal;
+				text-align: center;
+				text-decoration: none;
+				cursor: pointer;
 			}
 		}
 		.button-blog-detail-2 {
 			text-align: center;
 			button {
+				cursor: pointer;
+				border-radius: 36px;
 				width: 230px;
 				height: 36px;
 				background-image: url('../images/blog-detal/button-blog-detail-2.png');
@@ -136,6 +142,8 @@
 		}
 		.button-blog-detail-3 {
 			button {
+				cursor: pointer;
+				border-radius: 36px;
 				width: 152px;
 				height: 36px;
 				background-image: url('../images/blog-detal/button-blog-detail-3.png');
