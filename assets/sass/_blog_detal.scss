@@ -69,15 +69,13 @@
 			}
 		}
 	}
-	.text-content {
+	p {
 		width: 100%;
-		p {
-			font-size: 16px;
-			font-family: $font-normal;
-			line-height: 28px;
-		}
+		font-size: 16px;
+		font-family: $font-normal;
+		line-height: 28px;
 	}
-	.text-title {
+	h2 {
 		color: $color-atlantis;
 		font-family: $font-semibold;
 		font-style: italic;
