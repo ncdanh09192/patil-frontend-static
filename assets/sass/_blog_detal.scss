@@ -108,6 +108,9 @@
 		}
 	}
 	.button-blog-detail {
+		display: flex;
+		justify-content: center;
+		text-align: center;
 		.button-blog-detail-1 {
 			text-align: right;
 			button {
@@ -123,10 +126,12 @@
 				text-align: center;
 				text-decoration: none;
 				cursor: pointer;
+				outline:none;
 			}
 		}
 		.button-blog-detail-2 {
 			text-align: center;
+			margin: 0 10px;
 			button {
 				cursor: pointer;
 				border-radius: 36px;
@@ -138,6 +143,7 @@
 				color: $color-lochmara;
 				font-size: 14px;
 				font-family: $font-normal;
+				outline:none;
 			}
 		}
 		.button-blog-detail-3 {
@@ -152,6 +158,7 @@
 				color: $color-lochmara;
 				font-size: 14px;
 				font-family: $font-normal;
+				outline:none;
 			}
 		}
 		.blog-detail-circle-icon {
