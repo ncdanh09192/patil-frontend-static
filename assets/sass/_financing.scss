@@ -17,7 +17,6 @@
 			line-height: 38px;
 	    	text-align: center;
 	    	font-family: $font-dancing;
-	    	font-weight: $font-normal;
 	    	margin: 0;
 	    	color: $color-scorpion;
 	    	margin-bottom: 20px;
@@ -42,8 +41,7 @@
 		.text-content {
 			margin-bottom: 30px;
 			h1 {
-				font-family: $font-monserrat;
-				font-weight: $font-semibold;
+				font-family: $font-semibold;
 				font-size: 36px;
 				line-height: 44px;
 				@include lt-spacing(0);
@@ -51,8 +49,7 @@
 				margin-bottom: 20px;
 			}
 			p {
-				font-family: $font-monserrat;
-				font-weight: $font-normal;
+				font-family: $font-normal;
 				font-size: 16px;
 				line-height: 28px;
 				@include lt-spacing(20);

@@ -3,8 +3,7 @@
 }
 
 body {
-	font-family: $font-monserrat;
-	font-weight: $font-normal;
+	font-family: $font-normal;
 	font-size: 16px;
 	@include lt-spacing(20);
 	line-height: 28px;
@@ -12,8 +11,7 @@ body {
 }
 
 .breadcum {
-	font-family: $font-monserrat;
-	font-weight: $font-normal;
+	font-family: $font-normal;
 	font-size: 16px;
 	line-height: 24px;
 	@include lt-spacing(0);
@@ -53,8 +51,7 @@ body {
 }
 
 .page-title {
-	font-family: $font-monserrat;
-	font-weight: $font-normal;
+	font-family: $font-normal;
 	font-size: 46px;
 	line-height: 24px;
 	color: $color-white;
@@ -71,8 +68,7 @@ body {
 }
 
 .top-title {
-	font-family: $font-monserrat;
-	font-weight: $font-bold;
+	font-family: $font-bold;
 	font-size: 46px;
 	@include lt-spacing(20);
 	line-height: 45px;
@@ -144,8 +140,7 @@ body {
 }
 .cta-btn-request {
 	font-size: 16px;
-	font-family: $font-monserrat;
-	font-weight: $font-semibold;
+	font-family: $font-semibold;
 	line-height: 19px;
 	@include lt-spacing(30);
 	color: $color-white;
@@ -186,8 +181,7 @@ body {
 	border-radius: 54px;
 	background: $color-lochmara;
 	color: $color-white;
-	font-family: $font-monserrat;
-	font-weight: $font-medium;
+	font-family: $font-medium;
 	line-height: 19px;
 	font-size: 16px;
 	@include lt-spacing(16);

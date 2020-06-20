@@ -28,7 +28,9 @@
 			z-index: 1;
 			&-container,
 			&-title {
-				font-family: $font-normal;
+				font-family: $font-monserrat;
+				font-weight: $font-normal;
+				color: white;
 			}
 			&-title {
 				text-transform: uppercase;
@@ -37,7 +39,9 @@
 	}
 	.section-body {
 		&-title {
-			font-family: $font-bold;
+			font-family: $font-monserrat;
+			font-weight: $font-bold;
+			color: #444444;
 		}
 		.section-container {
 			&-left {
@@ -47,14 +51,16 @@
 						}
 						&-title {
 							color: white;
-							font-family: $font-normal;
+							font-family: $font-monserrat;
+							font-weight: $font-normal;
 							background-color: #6cac04;
 							border-top-right-radius: 25px;
 							opacity: 0.7;
 						}
 					}
 					&-name {
-						font-family: $font-semibold;
+						font-family: $font-monserrat;
+						font-weight: $font-semibold;
 						a {
 							color: #444444;
 							&:hover {
@@ -64,7 +70,8 @@
 					}
 					&-des {
 						color: #606060;
-						font-family: $font-normal;
+						font-family: $font-monserrat;
+						font-weight: $font-normal;
 					}
 				}
 				&-pagination {
@@ -74,6 +81,7 @@
 								border-top-right-radius: 0;
 								border-bottom-right-radius: 0;
 								border: 0;
+								color: #999999;
 								&:hover {
 									background-color: transparent;
 									color: #86c127;
@@ -99,10 +107,12 @@
 					}
 					&-input-search {
 						input {
-							font-family: $font-normal;
+							font-family: $font-monserrat;
+							font-weight: $font-normal;
 							border-radius: 25px;
 							border: 1px solid #008cd4;
 							padding: 10px 20px 10px 50px;
+							color: #999999;
 							&:focus {
 								outline: 0;
 							}
@@ -119,11 +129,13 @@
 							font-family: $font-dancingbold;
 						}
 						&:nth-child(3) {
-							font-family: $font-normal;
+							font-family: $font-monserrat;
+							font-weight: $font-normal;
 						}
 						&:nth-child(4),
 						&:nth-child(6) {
-							font-family: $font-medium;
+							font-family: $font-monserrat;
+							font-weight: $font-medium;
 							button {
 								border: 1px solid white;
 								border-radius: 25px;
@@ -146,7 +158,9 @@
 					}
 				}
 				&-video-title {
-					font-family: $font-bold;
+					font-family: $font-monserrat;
+					font-weight: $font-bold;
+					color: #444444;
 				}
 				&-video-item {
 					&-modal {
@@ -161,7 +175,9 @@
 						}
 					}
 					&-title {
-						font-family: $font-semibold;
+						font-family: $font-monserrat;
+						font-weight: $font-semibold;
+						color: #444444;
 					}
 				}
 			}
@@ -280,10 +296,6 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
 	.ourblog {
 		.section-top {
 			.ourblog-breadcrumb {
@@ -387,6 +399,10 @@
 			}
 		}
 	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
 }
 
 // Large devices (desktops, 992px and up)
