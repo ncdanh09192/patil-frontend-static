@@ -1431,129 +1431,101 @@ button {
               font-size: 15px; }
             .dentistry-periodontal-care .section-body-item5-list-item-content-more {
               font-size: 15px; } }
+.dentistry p {
+  margin: 0; }
+.dentistry .color-blue {
+  margin: 0 19px -6px 0;
+  width: 256px;
+  height: 170.5px;
+  background-color: #008CD4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
 .dentistry .section-top {
   background-image: url("../images/dentistry/dentistry1.png");
   margin-bottom: 60px;
   border-bottom: 2px solid #6CAC04; }
 .dentistry .container .top-title {
-  font-weight: bold;
+  font-weight: 700;
   margin: 0; }
 .dentistry .container .top-desc {
   max-width: 900px;
-  margin: 40px auto; }
-  .dentistry .container .top-desc p {
-    margin: 0; }
-.dentistry .container .benefits .benefit {
+  margin: 30px auto 50px auto; }
+.dentistry .container .benefit {
   text-align: center;
   padding: 0; }
-  .dentistry .container .benefits .benefit p {
+  .dentistry .container .benefit p {
     margin: 0; }
-  .dentistry .container .benefits .benefit .icon {
+  .dentistry .container .benefit .icon {
     width: 100px;
     height: 100px;
     background-color: #edf6de;
     border-radius: 100px;
     margin: 0 auto;
     position: relative; }
-    .dentistry .container .benefits .benefit .icon img {
+    .dentistry .container .benefit .icon img {
       position: absolute;
       margin: auto;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0; }
-  .dentistry .container .benefits .benefit .icon_benefit_1 img {
+  .dentistry .container .benefit .icon_benefit_1 img {
     width: 57.5px;
     height: 57.78px; }
-  .dentistry .container .benefits .benefit .icon_benefit_2 img {
+  .dentistry .container .benefit .icon_benefit_2 img {
     width: 50px;
     height: 50.1px; }
-  .dentistry .container .benefits .benefit .icon_benefit_3 img {
-    width: 57.5px;
-    height: 44.02px; }
-  .dentistry .container .benefits .benefit .title {
+  .dentistry .container .benefit .icon_benefit_2 .title {
     font-size: 30px;
     margin: 10px 0;
-    font-family: "DancingScriptRegular"; }
-  .dentistry .container .benefits .benefit .description {
+    font-family: "Dancing Script";
+    font-weight: 400; }
+  .dentistry .container .benefit .icon_benefit_3 img {
+    width: 57.5px;
+    height: 44.02px; }
+  .dentistry .container .benefit .title {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: "DancingScriptBold"; }
+  .dentistry .container .benefit .description {
     font-size: 15px;
     max-width: 310px;
     margin: 0 auto;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     line-height: 22px;
     color: #606060; }
 .dentistry .container .list-cards {
-  margin-top: 70px; }
+  margin: 81px 0 21px 0; }
   .dentistry .container .list-cards .cards {
-    margin-bottom: 50px; }
+    margin-bottom: 80px; }
     .dentistry .container .list-cards .cards .card-image {
-      width: 505px;
-      height: 286.25px;
+      max-width: 100%;
+      height: auto;
       position: relative; }
-      .dentistry .container .list-cards .cards .card-image .color-blue {
-        width: 256px;
-        height: 170.5px;
-        background-color: #008CD4;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: -1; }
       .dentistry .container .list-cards .cards .card-image img {
-        width: 500px;
-        height: 281.25px; }
+        max-width: 100%;
+        height: auto; }
     .dentistry .container .list-cards .cards .card-title {
       font-size: 28px;
-      font-weight: bold;
-      margin: 16px 0; }
+      font-weight: 700;
+      margin: 26px 0 14px 0; }
     .dentistry .container .list-cards .cards .card-description {
       font-size: 15px;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.02em;
       max-width: 506px;
-      line-height: 25px; }
+      line-height: 25px;
+      margin-bottom: 30px; }
     .dentistry .container .list-cards .cards .card-button .button {
       height: 50px;
       width: 200px;
       padding: 0;
       font-size: 15px; }
 
-@media only screen and (max-width: 1199px) and (min-width: 993px) {
-  .container .list-cards .cards .card-image {
-    width: 454.5px !important;
-    height: 257.625px !important; }
-    .container .list-cards .cards .card-image .color-blue {
-      width: 230.4px !important;
-      height: 163.45px !important; }
-    .container .list-cards .cards .card-image img {
-      width: 450px !important;
-      height: 253.125px !important; } }
-@media only screen and (max-width: 992px) and (min-width: 768px) {
-  .col-md-6 {
-    max-width: 100% !important; }
-
-  .container .list-cards .cards {
-    margin: 0 auto; }
-    .container .list-cards .cards .card-image {
-      width: 555.5px !important;
-      height: 314.875px !important; }
-      .container .list-cards .cards .card-image .color-blue {
-        width: 281.6px !important;
-        height: 177.55px !important; }
-      .container .list-cards .cards .card-image img {
-        width: 550px !important;
-        height: 309.375px !important; } }
-@media only screen and (max-width: 545px) {
-  .container .list-cards .cards {
-    margin: 0 auto; }
-    .container .list-cards .cards .card-image {
-      width: 353.5px !important;
-      height: 200.375px !important; }
-      .container .list-cards .cards .card-image .color-blue {
-        width: 179.2px !important;
-        height: 149.35px !important; }
-      .container .list-cards .cards .card-image img {
-        width: 350px !important;
-        height: 196.875px !important; }
-  .container .our-team .our-team-content {
-    padding: 20px 0; }
-    .container .our-team .our-team-content .our-team-desc {
-      padding: 0px 30px 20px; } }
+@media (max-width: 1199px) {
+  .card-image .color-blue {
+    margin: 0 -6px -6px 0; } }
+@media (max-width: 768px) {
+  .benefit {
+    margin-top: 30px; } }
