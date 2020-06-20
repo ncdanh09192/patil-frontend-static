@@ -61,7 +61,8 @@
         .title{
           font-size: 30px;
           margin: 10px 0;
-          font-family: "DancingScriptRegular";
+          font-family: $font-dancing;
+          font-weight:$font-regular;
         }
         .description {
           font-size: 15px;
