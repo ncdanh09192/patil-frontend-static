@@ -104,6 +104,7 @@
           font-size: 28px;
           font-weight: $font-bold;
           margin: 26px 0 14px 0;
+          @include lt-spacing(20);
         }
         .card-description{
           font-size: 15px;
