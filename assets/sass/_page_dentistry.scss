@@ -59,9 +59,9 @@
           }
         }
         .title{
-          font-weight: 700;
-          font-size: 25px;
+          font-size: 30px;
           margin: 10px 0;
+          font-family: "DancingScriptRegular";
         }
         .description {
           font-size: 15px;
@@ -138,7 +138,7 @@
     }
   }
 }
-@media only screen and (max-width: 992px) and (min-width: 769px) {
+@media only screen and (max-width: 992px) and (min-width: 768px) {
   .col-md-6{
     max-width: 100%!important;
   }
@@ -162,7 +162,7 @@
     }
   }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 545px){
   .container {
     .list-cards{
       .cards{
@@ -178,6 +178,14 @@
             width: 500px - (500px*0.3)!important;
             height: 281.25px - (281.25px*0.3)!important;
           }
+        }
+      }
+    }
+    .our-team{
+      .our-team-content{
+        padding: 20px 0;
+        .our-team-desc{
+          padding: 0px 30px 20px;
         }
       }
     }

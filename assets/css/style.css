@@ -1472,9 +1472,9 @@ button {
     width: 57.5px;
     height: 44.02px; }
   .dentistry .container .benefits .benefit .title {
-    font-weight: 700;
-    font-size: 25px;
-    margin: 10px 0; }
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: "DancingScriptRegular"; }
   .dentistry .container .benefits .benefit .description {
     font-size: 15px;
     max-width: 310px;
@@ -1526,7 +1526,7 @@ button {
     .container .list-cards .cards .card-image img {
       width: 450px !important;
       height: 253.125px !important; } }
-@media only screen and (max-width: 992px) and (min-width: 769px) {
+@media only screen and (max-width: 992px) and (min-width: 768px) {
   .col-md-6 {
     max-width: 100% !important; }
 
@@ -1541,7 +1541,7 @@ button {
       .container .list-cards .cards .card-image img {
         width: 550px !important;
         height: 309.375px !important; } }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 545px) {
   .container .list-cards .cards {
     margin: 0 auto; }
     .container .list-cards .cards .card-image {
@@ -1552,4 +1552,8 @@ button {
         height: 149.35px !important; }
       .container .list-cards .cards .card-image img {
         width: 350px !important;
-        height: 196.875px !important; } }
+        height: 196.875px !important; }
+  .container .our-team .our-team-content {
+    padding: 20px 0; }
+    .container .our-team .our-team-content .our-team-desc {
+      padding: 0px 30px 20px; } }
