@@ -339,6 +339,7 @@
                             }
                             &-des {
                                 font-size: 12px;
+                                @include line-clamp(4);
                             }
                         }
                     }
@@ -394,9 +395,11 @@
                                 text-align: center;
                                 &-name {
                                     font-size: 20px;
+                                    @include line-clamp(1);
                                 }
                                 &-des {
                                     font-size: 15px;
+                                    @include line-clamp(2);
                                 }
                             }
                         }
@@ -421,6 +424,7 @@
                             }
                             &-des {
                                 font-size: 12px;
+                                @include line-clamp(2);
                             }
                             &-more {
                                 font-size: 12px;
@@ -481,6 +485,7 @@
                             &:nth-child(1) {
                                 font-size: 20px;
                                 margin-bottom: 70px;
+                                @include line-clamp(4);
                             }
                             &:nth-child(2),
                             &:nth-child(4) {
@@ -562,7 +567,7 @@
                     &-content {
                         margin: auto 40px;
                         &-item {
-                            padding: 10px;
+                            padding: 20px;
                             margin-bottom: 20px;
                             &-img {
                                 img {
@@ -572,6 +577,7 @@
                             &-name {
                                 margin: 10px auto 20px;
                                 font-size: 18px;
+                                @include line-clamp(2);
                             }
                             &-des {
                                 font-size: 15px;
@@ -657,7 +663,7 @@
                         &-img {
                         }
                         &-content {
-                            padding: 22px;
+                            padding: 22px 42px;
                             &-name {
                                 font-size: 18px;
                             }
@@ -755,6 +761,238 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .dentistry-periodontal-care {
+        .section-top {
+            height: 500px;
+            .dentistry-periodontal-care-breadcrumb {
+                margin-left: 141px;
+                bottom: 90px;
+                &-container {
+                    font-size: 16px;
+                }
+                &-title {
+                    font-size: 46px;
+                }
+            }
+        }
+        .section-body {
+            margin: 70px auto 90px;
+            &-item1 {
+                margin: 0 20px;
+                &-title {
+                    font-size: 46px;
+                }
+                &-name {
+                    font-size: 48px;
+                    margin-bottom: 10px;
+                }
+                &-des {
+                    font-size: 16px;
+                }
+            }
+            &-item2 {
+                margin: 85px 20px 70px;
+                &-img {
+                    height: 100%;
+                }
+                &-title {
+                    font-size: 38px;
+                    margin: 40px 20px 25px;
+                    padding-top: 20px;
+                }
+                &-list {
+                    &-content {
+                        margin: auto 40px;
+                        &-item {
+                            padding: 20px;
+                            margin-bottom: 20px;
+                            &-img {
+                                img {
+                                    width: 70px;
+                                }
+                            }
+                            &-name {
+                                margin: 10px auto 20px;
+                                font-size: 18px;
+                            }
+                            &-des {
+                                font-size: 15px;
+                                @include line-clamp(4);
+                            }
+                        }
+                    }
+                }
+            }
+            &-item3 {
+                margin: auto 20px;
+                &-border {
+                }
+                &-title {
+                    font-size: 32px;
+                    margin: 30px auto 60px;
+                }
+                &-des {
+                    font-size: 16px;
+                    margin-bottom: 65px;
+                }
+            }
+            &-item4 {
+                margin: 80px auto 0;
+                padding-bottom: 70px;
+                &-content {
+                    padding: 20px;
+                    &-gradient {
+                        padding-top: 160px;
+                        &-bg {
+                        }
+                    }
+                    &-banner {
+                        &-gradient {
+                        }
+                        &-img {
+                        }
+                        &-title {
+                            bottom: 40px;
+                            left: 90px;
+                            font-size: 36px;
+                        }
+                    }
+                    &-des {
+                        font-size: 16px;
+                        margin: 45px 40px 0;
+                        text-align: left;
+                    }
+                    &-list {
+                        margin: 30px 40px 0;
+                        &-item {
+                            margin-bottom: 27px;
+                            &-img {
+                                text-align: left;
+                                img {
+                                    padding-right: 10px;
+                                }
+                            }
+                            &-content {
+                                text-align: left;
+                                &-name {
+                                    font-size: 20px;
+                                    @include line-clamp(1);
+                                }
+                                &-des {
+                                    font-size: 15px;
+                                    @include line-clamp(2);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &-item5 {
+                margin: 80px 20px auto;
+                &-title {
+                    font-size: 40px;
+                }
+                &-list {
+                    margin-top: 60px;
+                    &-item {
+                        margin-top: 40px;
+                        &-img {
+                        }
+                        &-content {
+                            padding: 22px 42px;
+                            &-name {
+                                font-size: 18px;
+                            }
+                            &-des {
+                                font-size: 12px;
+                                @include line-clamp(3);
+                            }
+                            &-more {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+            &-item6 {
+                margin-top: 100px;
+                &-bg {
+                    margin: auto 20px auto 20px;
+                }
+                &-border {
+                }
+                &-wrapper {
+                    padding: 50px 0;
+                    &-content {
+                        margin: auto 40px;
+                        &-img {
+                            display: block;
+                        }
+                        &-list {
+                            &-title {
+                                margin-bottom: 25px;
+                                font-size: 32px;
+                            }
+                            &-item {
+                                > div {
+                                    .item {
+                                        margin-bottom: 25px;
+                                        font-size: 18px;
+                                        padding-bottom: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &-item7 {
+                margin: 90px 20px auto;
+                &-img {
+                }
+                &-content {
+                    position: absolute;
+                    width: 40%;
+                    &-gradient {
+                    }
+                    &-form-contact {
+                        color: white;
+                        margin: 20px;
+                        > div {
+                            &:nth-child(1) {
+                                font-size: 16px;
+                                margin-bottom: 70px;
+                                @include line-clamp(4);
+                            }
+                            &:nth-child(2),
+                            &:nth-child(4) {
+                                font-size: 13px;
+                                button {
+                                    svg {
+                                        font-size: 30px;
+                                        margin-left: 35px;
+                                    }
+                                }
+                            }
+                            &:nth-child(2) {
+                                button {
+                                    padding: 7px 15px;
+                                }
+                            }
+                            &:nth-child(3) {
+                                margin: 17px;
+                            }
+                            &:nth-child(4) {
+                                button {
+                                    padding: 7px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -791,6 +1029,7 @@
             &-item2 {
                 margin: 85px 83px 70px;
                 &-img {
+                    height: auto;
                 }
                 &-title {
                     font-size: 38px;
@@ -807,9 +1046,11 @@
                             &-name {
                                 margin: 30px auto 20px;
                                 font-size: 22px;
+                                @include line-clamp(2);
                             }
                             &-des {
                                 font-size: 15px;
+                                @include line-clamp(8);
                             }
                         }
                     }
@@ -865,9 +1106,11 @@
                                 text-align: left;
                                 &-name {
                                     font-size: 20px;
+                                    @include line-clamp(2);
                                 }
                                 &-des {
                                     font-size: 15px;
+                                    @include line-clamp(2);
                                 }
                             }
                         }
@@ -886,12 +1129,13 @@
                         &-img {
                         }
                         &-content {
-                            padding: 22px;
+                            padding: 22px 42px;
                             &-name {
                                 font-size: 28px;
                             }
                             &-des {
                                 font-size: 15px;
+                                @include line-clamp(3);
                             }
                             &-more {
                                 font-size: 15px;
@@ -912,6 +1156,7 @@
                     &-content {
                         margin: auto 141px;
                         &-img {
+                            display: block;
                         }
                         &-list {
                             &-title {
@@ -947,6 +1192,7 @@
                             &:nth-child(1) {
                                 font-size: 20px;
                                 margin-bottom: 70px;
+                                @include line-clamp(4);
                             }
                             &:nth-child(2),
                             &:nth-child(4) {
