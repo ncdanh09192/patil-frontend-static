@@ -409,7 +409,7 @@ button { cursor: pointer; }
 .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) { font-family: "Montserrat"; font-weight: 500; }
 .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button { background-color: transparent; }
 
-@media (max-width: 575.98px) { .dentistry-periodontal-care .section-top { height: 500px; }
+@media (max-width: 575.98px) { .dentistry-periodontal-care .section-top { height: 300px; }
   .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 20px; bottom: 90px; }
   .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container { font-size: 14px; }
   .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-size: 36px; line-height: normal; padding-right: 20px; }
