@@ -4,19 +4,12 @@
 		margin-bottom: 60px;
 	}
 	.top-title {
-		font-family: $font-bold;
-	    font-size: 46px;
+		font-family: $font-monserrat;
+	    font-size: 44px;
 	    letter-spacing: 0.02em;
-	    color: #444444;
+	    color: $color-tundora;
 	    text-align: center;
-	}
-	.top-title-2 {
-		font-family: $font-bold;
-	    font-size: 46px;
-	    letter-spacing: 0.02em;
-	    color: #444444;
-	    text-align: center;
-	    margin-bottom: 40px;
+	    font-weight: $font-bold;
 	}
 	.line-blog-detal {
 		background-image: url('../images/line.png');
@@ -25,44 +18,46 @@
 	    height: 7px;
 	}
 	.text-info {
-		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
 		.text-info-name {
-			margin-top: 14px;
-			margin-bottom: 14px;
 			p {
-				height: 22px;
+				text-align: left;
+				line-height: 22px;
 				font-size: 18px;
 				letter-spacing: 0.02em;
 				line-height: 36px;
-				font-family: $font-medium;
+				font-family: $font-monserrat;
+				font-weight: $font-medium;
 				color: $color-atlantis;
 			}
 		}
 		.text-info-share {
-			margin-top: 14px;
-			margin-bottom: 14px;
+			margin-top: 10px;
+			display: flex;
+			justify-content: flex-start;
+			text-align: center;
 			p {
 				font-size: 16px;
-				height: 19px;
-				font-family: $font-normal;
+				line-height: 19px;
+				font-family: $font-monserrat;
+				font-weight: $font-regular;
 				color: $color-scorpion;
+				margin-right: 25.1px;
+				margin-bottom: 0;
 			}
-		}
-		.text-info-img {
-			margin-top: 14px;
-			margin-bottom: 14px;
 			.img-fb {
 				width: 10.69px;
 				height: 20px;
-				margin-right: 28px;
 			}
 			.img-inst {
-				margin-right: 28px;
+				margin: 0 18px;
 				width: 20.01px;
 				height: 20px;
 			}
 			.img-tw {
-				width: 24,62px;
+				width: 24.62px;
 				height: 20px;
 			}
 		}
@@ -70,12 +65,14 @@
 	p {
 		width: 100%;
 		font-size: 16px;
-		font-family: $font-normal;
+		font-family: $font-monserrat;
+		font-weight: $font-regular;
 		line-height: 28px;
 	}
 	h2 {
 		color: $color-atlantis;
-		font-family: $font-semibold;
+		font-family: $font-monserrat;
+		font-weight: $font-semibold;
 		font-style: italic;
 	}
 	.img-example {
@@ -98,7 +95,8 @@
 		margin-top: 30px;
 		p {
 			font-size: 16px;
-			font-family: $font-medium;
+			font-family: $font-monserrat;
+			font-weight: $font-medium;
 			line-height: 38px;
 			color: #888888;
 		}
@@ -108,7 +106,6 @@
 		justify-content: center;
 		text-align: center;
 		.button-blog-detail-1 {
-			text-align: right;
 			button {
 				width: 176px;
 				height: 36px;
@@ -118,7 +115,8 @@
 				padding: 0;
 				color: $color-lochmara;
 				font-size: 14px;
-				font-family: $font-normal;
+				font-family: $font-monserrat;
+				font-weight: $font-regular;
 				text-align: center;
 				text-decoration: none;
 				cursor: pointer;
@@ -126,7 +124,6 @@
 			}
 		}
 		.button-blog-detail-2 {
-			text-align: center;
 			margin: 0 10px;
 			button {
 				cursor: pointer;
@@ -138,7 +135,8 @@
 				padding: 0;
 				color: $color-lochmara;
 				font-size: 14px;
-				font-family: $font-normal;
+				font-family: $font-monserrat;
+				font-weight: $font-regular;
 				outline:none;
 			}
 		}
@@ -153,7 +151,8 @@
 				padding: 0;
 				color: $color-lochmara;
 				font-size: 14px;
-				font-family: $font-normal;
+				font-family: $font-monserrat;
+				font-weight: $font-regular;
 				outline:none;
 			}
 		}
@@ -167,11 +166,47 @@
 			}
 		}
 	}
+	.blog-detail-circle-icon {
+		text-align: center;
+		margin: 20px 0 90px 0;
+		img {
+			width: 50px;
+			height: 50px;
+		}
+		.circle-inst {
+			margin: 0 20px 0 20px;
+		}
+	}
 }
+@media (max-width: 1023px) and (min-width: 768px) {}
 
 @media (max-width: 767px) {
-	.page-title {
-		font-size: 42px;
-		line-height: 42px;
+	.blog_detal {
+		.text-info {
+			display: block;
+			.text-info-name {
+				margin-top: 14px;
+				margin-bottom: 14px;
+				p {
+					height: 22px;
+					font-size: 18px;
+					letter-spacing: 0.02em;
+					line-height: 36px;
+				}
+			}
+			.text-info-share {
+				justify-content: flex-start;
+				margin-bottom: 16px;
+				p {
+					width: 35px;
+				}
+			}
+		}
+		.button-blog-detail {
+			display: block;
+			.button-blog-detail-2 {
+				margin: 10px 0;
+			}
+		}
 	}
 }
