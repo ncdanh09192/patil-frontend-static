@@ -119,7 +119,7 @@
 	.info-gum-disease {
     margin-bottom: -5px;
     font-weight: bold;
-    color: #008CD4;
+    color: $color-lochmara;
     
 	}
 	.title {
@@ -136,10 +136,10 @@
     font-size: 16px;
   }
   .bg-custom-blue {
-    background-color: #0072AD ;
+    background-color: $color-lochmara ;
   }
   .color-text-custom-blue {
-    color: #008CD4 ;
+    color: $color-lochmara ;
   }
   .list-style-custom {
     font-size: 30px;
@@ -210,8 +210,7 @@
     width: 100%;
     height: 100%;
   }
-}
-// css in general
+  // css in general
 
 .font-type-italic {
   font-style: italic;
@@ -279,7 +278,7 @@
   padding-top: 140px;
 }
 .bg-blue {
-  background-color: #008cd4 !important;
+  background-color: $color-lochmara !important;
 }
 .mt-90p {
   margin-top:90px
@@ -329,6 +328,8 @@
 .list-style-none {
   list-style: none ;
 }
+}
+
 body{
   font-family: MontserratRegular;
 }
