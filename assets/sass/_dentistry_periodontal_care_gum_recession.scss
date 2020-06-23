@@ -18,9 +18,9 @@
     left: 0;
 }
 
-.dentistry-periodontal-care {
+.dentistry-periodontal-care-gum-recession {
     .section-top {
-        background-image: url("../images/dentisty_periodontal_care/dentistry-banner1.jpg");
+        background-image: url("../images/dentisty_periodontal_care_gum_recession/gum-recession-banner1.jpg");
         &-gradient {
             background-color: black;
             opacity: 0.4;
@@ -46,10 +46,6 @@
                 font-weight: $font-bold;
                 color: #444444;
             }
-            &-name {
-                font-family: $font-dancing;
-                color: #86c127;
-            }
             &-des {
                 font-family: $font-monserrat;
                 font-weight: $font-regular;
@@ -63,8 +59,12 @@
                 border-bottom-left-radius: 50px;
             }
             &-title {
-                font-family: $font-dancing;
-                color: white;
+                font-family: $font-monserrat;
+                font-weight: $font-bold;
+            }
+            &-des {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
             }
             &-list {
                 &-content {
@@ -91,8 +91,9 @@
             &-border {
             }
             &-title {
-                font-family: $font-dancing;
-                color: #86c127;
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                color: #444444;
             }
             &-des {
                 font-family: $font-monserrat;
@@ -118,6 +119,7 @@
                         font-family: $font-monserrat;
                         font-weight: $font-bold;
                         color: white;
+                        text-align: left;
                     }
                 }
                 &-des {
@@ -146,54 +148,58 @@
             }
         }
         &-item5 {
+            text-align: left;
+            &-title {
+                font-family: $font-monserrat;
+                font-weight: $font-semibold;
+            }
+            &-des {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+            }
+            &-list {
+                ul {
+                    font-family: $font-monserrat;
+                    font-weight: $font-medium;
+                    color: #008cd4;
+                }
+            }
+        }
+        &-item6 {
+            background-color: #0072ad;
+            color: white;
             &-title {
                 font-family: $font-monserrat;
                 font-weight: $font-bold;
             }
-            &-list {
-
-                &-item {
-                    &:hover {
-                        .section-body-item5-list-item-content-more{
-                                opacity: 1;
-                                margin-bottom: 0px;
-                                transition :  500ms
-                        }
-                                 
-                      } 
-                    &-img {
-                        &-gradient {
-                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                            border-radius: 5px;
-                        }
-                    }
-                
-                    &-content {
-                        color: white;
-                        &-name {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                        }
-                        &-des {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                        }
-                        &-more {
-                            text-transform: uppercase;
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                            color: #86c127 !important;
-                            opacity: 0;
-                            margin-bottom: -10px;
-                        }
-                       
-                    }
-                }
-
+            &-des {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
             }
-            
+            &-name {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+            }
         }
-        &-item6 {
+        &-item7 {
+            text-align: left;
+            &-title {
+                font-family: $font-monserrat;
+                font-weight: $font-semibold;
+            }
+            &-des {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+            }
+            &-list {
+                ul {
+                    font-family: $font-monserrat;
+                    font-weight: $font-medium;
+                    color: #008cd4;
+                }
+            }
+        }
+        &-item8 {
             &-bg {
                 background-color: #008cd4;
             }
@@ -232,7 +238,7 @@
                 }
             }
         }
-        &-item7 {
+        &-item9 {
             &-img {
             }
             &-content {
@@ -288,7 +294,7 @@
 
 // Super small devices (landscape phones, 576px and up)
 @media (max-width: 575.98px) {
-    .dentistry-periodontal-care {
+    .dentistry-periodontal-care-gum-recession {
         .section-top {
             height: 300px;
             .dentistry-periodontal-care-breadcrumb {
@@ -308,22 +314,19 @@
             }
         }
         .section-body {
-            margin: 70px auto 90px;
+            margin: 40px auto 90px;
             &-item1 {
                 margin: 0 20px;
                 &-title {
-                    font-size: 36px;
-                }
-                &-name {
-                    font-size: 38px;
-                    margin-bottom: 10px;
+                    font-size: 26px;
                 }
                 &-des {
-                    font-size: 14px;
+                    font-size: 12px;
+                    margin: auto auto 20px;
                 }
             }
             &-item2 {
-                margin: 85px 20px 70px;
+                margin: 45px 20px 40px;
                 &-img {
                     height: 100%;
                     img {
@@ -331,9 +334,13 @@
                     }
                 }
                 &-title {
-                    font-size: 28px;
-                    margin: 40px 20px 25px;
-                    padding-top: 20px;
+                    font-size: 18px;
+                    margin: auto;
+                    padding-top: 0;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 20px auto;
                 }
                 &-list {
                     &-content {
@@ -364,16 +371,16 @@
                 &-border {
                 }
                 &-title {
-                    font-size: 30px;
-                    margin: 15px auto 30px;
+                    font-size: 20px;
+                    margin: 15px auto;
                 }
                 &-des {
-                    font-size: 14px;
-                    margin-bottom: 35px;
+                    font-size: 12px;
+                    margin-top: 15px;
                 }
             }
             &-item4 {
-                margin: 80px auto 0;
+                margin: 40px auto 0;
                 padding-bottom: 70px;
                 &-content {
                     padding: 0 20px;
@@ -421,33 +428,56 @@
                 }
             }
             &-item5 {
-                margin: 80px 20px auto;
+                margin: 40px 20px auto;
                 &-title {
-                    font-size: 30px;
+                    font-size: 26px;
+                    line-height: 38px;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 30px auto 20px;
                 }
                 &-list {
-                    margin-top: 0;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 10px 30px;
-                            &-name {
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(2);
-                            }
-                            &-more {
-                                font-size: 12px;
-                            }
-                        }
+                    ul {
+                        margin-top: 15px;
+                        padding-left: 17px;
                     }
                 }
             }
             &-item6 {
+                margin-top: 40px;
+                padding: 40px 20px;
+                &-title {
+                    font-size: 26px;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 30px auto 70px;
+                }
+                &-name {
+                    font-size: 16px;
+                }
+            }
+            &-item7 {
+                margin: 40px 20px auto;
+                text-align: left;
+                &-title {
+                    font-size: 26px;
+                    line-height: 42px;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 30px auto 20px;
+                }
+                &-list {
+                    ul {
+                        font-size: 13px;
+                        margin-top: 15px;
+                        padding-left: 17px;
+                    }
+                }
+            }
+            &-item8 {
                 margin-top: 100px;
                 &-bg {
                     margin: auto 20px auto 20px;
@@ -479,7 +509,7 @@
                     }
                 }
             }
-            &-item7 {
+            &-item9 {
                 margin: 90px 20px auto;
                 &-img {
                     position: absolute;
@@ -538,63 +568,72 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .dentistry-periodontal-care {
+    .dentistry-periodontal-care-gum-recession {
         .section-top {
-            height: 500px;
+            height: 300px;
             .dentistry-periodontal-care-breadcrumb {
-                margin-left: 141px;
+                margin-left: 20px;
                 bottom: 90px;
                 &-container {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
                 &-title {
-                    font-size: 46px;
+                    font-size: 36px;
+                    line-height: normal;
+                    padding-right: 20px;
+                    &::before {
+                        margin-bottom: 14px;
+                    }
                 }
             }
         }
         .section-body {
-            margin: 70px auto 90px;
+            margin: 40px auto 90px;
             &-item1 {
                 margin: 0 20px;
                 &-title {
-                    font-size: 46px;
-                }
-                &-name {
-                    font-size: 48px;
-                    margin-bottom: 10px;
+                    font-size: 26px;
                 }
                 &-des {
-                    font-size: 16px;
+                    font-size: 12px;
+                    margin: auto auto 20px;
                 }
             }
             &-item2 {
-                margin: 85px 20px 70px;
+                margin: 45px 20px 70px;
                 &-img {
                     height: 100%;
+                    img {
+                        object-fit: cover;
+                    }
                 }
                 &-title {
-                    font-size: 38px;
-                    margin: 40px 20px 25px;
-                    padding-top: 20px;
+                    font-size: 18px;
+                    margin: auto;
+                    padding-top: 0;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 20px auto;
                 }
                 &-list {
                     &-content {
-                        margin: auto 40px;
+                        margin: auto 10px;
                         &-item {
-                            padding: 20px;
+                            padding: 30px 20px;
                             margin-bottom: 20px;
+                            min-height: 300px;
                             &-img {
                                 img {
                                     width: 70px;
                                 }
                             }
                             &-name {
-                                margin: 10px auto 20px;
+                                margin: 15px auto 20px;
                                 font-size: 18px;
-                                @include line-clamp(2);
                             }
                             &-des {
-                                font-size: 15px;
+                                font-size: 12px;
                                 @include line-clamp(4);
                             }
                         }
@@ -606,21 +645,21 @@
                 &-border {
                 }
                 &-title {
-                    font-size: 32px;
-                    margin: 30px auto 60px;
+                    font-size: 20px;
+                    margin: 15px auto;
                 }
                 &-des {
-                    font-size: 16px;
-                    margin-bottom: 65px;
+                    font-size: 12px;
+                    margin-top: 15px;
                 }
             }
             &-item4 {
-                margin: 80px auto 0;
+                margin: 40px auto 0;
                 padding-bottom: 70px;
                 &-content {
-                    padding: 20px;
+                    padding: 0 20px;
                     &-gradient {
-                        padding-top: 160px;
+                        padding-top: 60px;
                         &-bg {
                         }
                     }
@@ -630,28 +669,25 @@
                         &-img {
                         }
                         &-title {
-                            bottom: 40px;
-                            left: 90px;
-                            font-size: 36px;
+                            bottom: 10px;
+                            left: 10px;
+                            font-size: 20px;
                         }
                     }
                     &-des {
-                        font-size: 16px;
-                        margin: 45px 40px 0;
-                        text-align: left;
+                        font-size: 14px;
+                        margin: 45px 20px 0;
+                        text-align: center;
                     }
                     &-list {
-                        margin: 30px 40px 0;
+                        margin: 30px 20px 0;
                         &-item {
                             margin-bottom: 27px;
                             &-img {
-                                text-align: left;
-                                img {
-                                    padding-right: 10px;
-                                }
+                                text-align: center;
                             }
                             &-content {
-                                text-align: left;
+                                text-align: center;
                                 &-name {
                                     font-size: 20px;
                                     @include line-clamp(1);
@@ -666,33 +702,56 @@
                 }
             }
             &-item5 {
-                margin: 80px 20px auto;
+                margin: 40px 20px auto;
                 &-title {
-                    font-size: 40px;
+                    font-size: 26px;
+                    line-height: 38px;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 30px auto 20px;
                 }
                 &-list {
-                    margin-top: 60px;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 22px 42px;
-                            &-name {
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(3);
-                            }
-                            &-more {
-                                font-size: 12px;
-                            }
-                        }
+                    ul {
+                        margin-top: 15px;
+                        padding-left: 17px;
                     }
                 }
             }
             &-item6 {
+                margin-top: 40px;
+                padding: 40px 20px;
+                &-title {
+                    font-size: 26px;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 30px auto 70px;
+                }
+                &-name {
+                    font-size: 16px;
+                }
+            }
+            &-item7 {
+                margin: 40px 20px auto;
+                text-align: left;
+                &-title {
+                    font-size: 26px;
+                    line-height: 42px;
+                }
+                &-des {
+                    font-size: 14px;
+                    margin: 30px auto 20px;
+                }
+                &-list {
+                    ul {
+                        font-size: 13px;
+                        margin-top: 15px;
+                        padding-left: 17px;
+                    }
+                }
+            }
+            &-item8 {
                 margin-top: 100px;
                 &-bg {
                     margin: auto 20px auto 20px;
@@ -704,7 +763,7 @@
                     &-content {
                         margin: auto 40px;
                         &-img {
-                            // display: none;
+                            margin-bottom: 20px;
                         }
                         &-list {
                             &-title {
@@ -724,32 +783,31 @@
                     }
                 }
             }
-            &-item7 {
+            &-item9 {
                 margin: 90px 20px auto;
                 &-img {
-                    min-height: 400px;
+                    position: absolute;
+                    height: 100%;
                     img {
-                        width: auto;
                         object-fit: cover;
                     }
                 }
                 &-content {
-                    position: absolute;
-                    width: 40%;
+                    width: 100%;
                     &-gradient {
                     }
                     &-form-contact {
                         color: white;
-                        margin: 20px;
+                        margin: 45px 15px;
                         > div {
                             &:nth-child(1) {
-                                font-size: 16px;
+                                font-size: 20px;
                                 margin-bottom: 70px;
                                 @include line-clamp(4);
                             }
                             &:nth-child(2),
                             &:nth-child(4) {
-                                font-size: 13px;
+                                font-size: 16px;
                                 button {
                                     svg {
                                         font-size: 30px;
@@ -759,7 +817,7 @@
                             }
                             &:nth-child(2) {
                                 button {
-                                    padding: 7px 15px;
+                                    padding: 7px 20px;
                                 }
                             }
                             &:nth-child(3) {
@@ -767,7 +825,7 @@
                             }
                             &:nth-child(4) {
                                 button {
-                                    padding: 7px 20px;
+                                    padding: 7px 30px;
                                 }
                             }
                         }
@@ -780,243 +838,11 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .dentistry-periodontal-care {
-        .section-top {
-            height: 500px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 141px;
-                bottom: 90px;
-                &-container {
-                    font-size: 16px;
-                }
-                &-title {
-                    font-size: 46px;
-                }
-            }
-        }
-        .section-body {
-            margin: 70px auto 90px;
-            &-item1 {
-                margin: 0 20px;
-                &-title {
-                    font-size: 46px;
-                }
-                &-name {
-                    font-size: 48px;
-                    margin-bottom: 10px;
-                }
-                &-des {
-                    font-size: 16px;
-                }
-            }
-            &-item2 {
-                margin: 85px 20px 70px;
-                &-img {
-                    height: 100%;
-                }
-                &-title {
-                    font-size: 38px;
-                    margin: 40px 20px 25px;
-                    padding-top: 20px;
-                }
-                &-list {
-                    &-content {
-                        margin: auto 40px;
-                        &-item {
-                            padding: 20px;
-                            margin-bottom: 20px;
-                            &-img {
-                                img {
-                                    width: 70px;
-                                }
-                            }
-                            &-name {
-                                margin: 10px auto 20px;
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(4);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 20px;
-                &-border {
-                }
-                &-title {
-                    font-size: 32px;
-                    margin: 30px auto 60px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin-bottom: 65px;
-                }
-            }
-            &-item4 {
-                margin: 80px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 20px;
-                    &-gradient {
-                        padding-top: 160px;
-                        &-bg {
-                        }
-                    }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 40px;
-                            left: 90px;
-                            font-size: 36px;
-                        }
-                    }
-                    &-des {
-                        font-size: 16px;
-                        margin: 45px 40px 0;
-                        text-align: left;
-                    }
-                    &-list {
-                        margin: 30px 40px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: left;
-                                img {
-                                    padding-right: 10px;
-                                }
-                            }
-                            &-content {
-                                text-align: left;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(1);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item5 {
-                margin: 80px 20px auto;
-                &-title {
-                    font-size: 40px;
-                }
-                &-list {
-                    margin-top: 60px;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 22px 42px;
-                            &-name {
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(3);
-                            }
-                            &-more {
-                                font-size: 12px;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 20px auto 20px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 40px;
-                        &-img {
-                            display: block;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item7 {
-                margin: 90px 20px auto;
-                &-img {
-                }
-                &-content {
-                    position: absolute;
-                    width: 40%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 20px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 16px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 13px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
-                                }
-                            }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 15px;
-                                }
-                            }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    .dentistry-periodontal-care {
+    .dentistry-periodontal-care-gum-recession {
         .section-top {
             height: 500px;
             .dentistry-periodontal-care-breadcrumb {
@@ -1033,7 +859,7 @@
         .section-body {
             margin: 70px auto 90px;
             &-item1 {
-                margin: 0 240px;
+                margin: 0 230px;
                 &-title {
                     font-size: 46px;
                 }
@@ -1046,17 +872,20 @@
                 }
             }
             &-item2 {
-                margin: 85px 83px 70px;
+                margin: 85px 141px 70px;
                 &-img {
                     height: auto;
                 }
                 &-title {
                     font-size: 38px;
-                    margin: 40px 220px 25px;
+                    margin: 40px 200px 25px;
+                }
+                &-des {
+                    font-size: 16px;
+                    margin: 20px 90px 40px;
                 }
                 &-list {
                     &-content {
-                        margin: auto 90px;
                         &-item {
                             padding: 30px 20px;
                             min-height: 400px;
@@ -1065,6 +894,7 @@
                             &-name {
                                 margin: 30px auto 20px;
                                 font-size: 22px;
+                                text-transform: uppercase;
                                 @include line-clamp(2);
                             }
                             &-des {
@@ -1077,15 +907,16 @@
             }
             &-item3 {
                 margin: auto 141px;
+                text-align: left;
                 &-border {
                 }
                 &-title {
                     font-size: 32px;
-                    margin: 30px auto 60px;
+                    line-height: 40px;
                 }
                 &-des {
-                    font-size: 16px;
-                    margin-bottom: 65px;
+                    font-size: 15px;
+                    margin-top: 15px;
                 }
             }
             &-item4 {
@@ -1107,6 +938,8 @@
                             bottom: 40px;
                             left: 90px;
                             font-size: 36px;
+                            line-height: 40px;
+                            max-width: 50%;
                         }
                     }
                     &-des {
@@ -1139,31 +972,53 @@
             &-item5 {
                 margin: 80px 141px auto;
                 &-title {
-                    font-size: 40px;
+                    font-size: 36px;
+                    line-height: 44px;
+                }
+                &-des {
+                    font-size: 16px;
+                    margin: 30px auto 20px;
                 }
                 &-list {
-                    margin-top: 60px;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 22px 42px;
-                            &-name {
-                                font-size: 28px;
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(3);
-                            }
-                            &-more {
-                                font-size: 15px;
-                            }
-                        }
+                    ul {
+                        margin-top: 16px;
+                        padding-left: 17px;
                     }
                 }
             }
             &-item6 {
+                margin-top: 70px;
+                padding: 70px 230px;
+                &-title {
+                    font-size: 36px;
+                }
+                &-des {
+                    font-size: 16px;
+                    margin: 30px auto 70px;
+                }
+                &-name {
+                    font-size: 26px;
+                }
+            }
+            &-item7 {
+                margin: 80px 141px auto;
+                text-align: left;
+                &-title {
+                    font-size: 36px;
+                    line-height: 42px;
+                }
+                &-des {
+                    font-size: 16px;
+                    margin: 30px auto 20px;
+                }
+                &-list {
+                    ul {
+                        margin-top: 15px;
+                        padding-left: 17px;
+                    }
+                }
+            }
+            &-item8 {
                 margin-top: 100px;
                 &-bg {
                     margin: auto 141px auto 233px;
@@ -1195,7 +1050,7 @@
                     }
                 }
             }
-            &-item7 {
+            &-item9 {
                 margin: 90px 141px auto;
                 &-img {
                 }
