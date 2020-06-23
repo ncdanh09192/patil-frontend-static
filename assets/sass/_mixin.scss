@@ -1,3 +1,9 @@
 @mixin lt-spacing($space_value) {
     letter-spacing: ($space_value/1000) * 1em;
 }
+@mixin line-clamp($line) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
