@@ -195,7 +195,21 @@
                 ul {
                     font-family: $font-monserrat;
                     font-weight: $font-medium;
-                    color: #008cd4;
+                    li {
+                        margin-bottom: 20px;
+                        position: relative;
+                        list-style-type: none;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            top: -5px;
+                            left: -30px;
+                            width: 30px;
+                            height: 30px;
+                            background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat left
+                                top;
+                        }
+                    }
                 }
             }
         }
@@ -473,7 +487,22 @@
                     ul {
                         font-size: 13px;
                         margin-top: 15px;
-                        padding-left: 17px;
+                        padding-left: 30px;
+                        li {
+                            margin-bottom: 20px;
+                            position: relative;
+                            list-style-type: none;
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                top: -5px;
+                                left: -30px;
+                                width: 30px;
+                                height: 30px;
+                                background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat
+                                    left top;
+                            }
+                        }
                     }
                 }
             }
@@ -747,7 +776,22 @@
                     ul {
                         font-size: 13px;
                         margin-top: 15px;
-                        padding-left: 17px;
+                        padding-left: 30px;
+                        li {
+                            margin-bottom: 20px;
+                            position: relative;
+                            list-style-type: none;
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                top: -5px;
+                                left: -30px;
+                                width: 30px;
+                                height: 30px;
+                                background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat
+                                    left top;
+                            }
+                        }
                     }
                 }
             }
@@ -1014,7 +1058,7 @@
                 &-list {
                     ul {
                         margin-top: 15px;
-                        padding-left: 17px;
+                        padding-left: 30px;
                     }
                 }
             }
