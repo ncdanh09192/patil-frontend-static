@@ -1,32 +1,4 @@
-@import "vars";
-@font-face {
-	font-family: 'MontserratBold';
-	src: url('../fonts/montserrat/Montserrat-Bold.ttf');
-}
-@font-face {
-	font-family: 'MontserratSemiBold';
-	src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
-}
-@font-face {
-	font-family: 'MontserratMedium';
-	src: url('../fonts/montserrat/Montserrat-Medium.ttf');
-}
-@font-face {
-	font-family: 'MontserratRegular';
-	src: url('../fonts/montserrat/Montserrat-Regular.ttf');
-}
-@font-face {
-	font-family: 'MontserratLight';
-	src: url('../fonts/montserrat/Montserrat-Light.ttf');
-}
-@font-face {
-	font-family: 'DancingScriptRegular';
-	src: url('../fonts/dancingScript/DancingScript-Regular.ttf');
-}
-@font-face {
-	font-family: 'DancingScriptBold';
-	src: url('../fonts/dancingScript/DancingScript-Bold.ttf');
-}
+
 .surgery {
 
   /* Extra small devices (phones, 600px and down) */
@@ -266,31 +238,31 @@
   padding-bottom: 50px;
 }
 .font-size-custom-14 {
-  font-size: 14px !important;
+  font-size: 14px ;
 }
 .font-size-custom-15{
-  font-size: 15px !important;
+  font-size: 15px ;
 }
 .font-size-custom-16{
-  font-size: 16px !important;
+  font-size: 16px ;
 }
 .font-size-custom-18 {
-  font-size: 18px !important;
+  font-size: 18px ;
 }
 .font-size-custom-22 {
-  font-size: 22px !important;
+  font-size: 22px ;
 }
 .font-size-custom-26 {
-  font-size: 26px !important;
+  font-size: 26px ;
 }
 .font-size-custom-32 {
-  font-size: 32px !important
+  font-size: 32px 
 }
 .font-size-custom-36 {
-  font-size: 36px !important;
+  font-size: 36px ;
 }
 .font-size-custom-46 {
-  font-size: 46px !important;
+  font-size: 46px ;
 }
 .font-size-large {
   font-size: x-large;
@@ -312,7 +284,7 @@
   padding-top: 140px;
 }
 .bg-blue {
-  background-color: $color-lochmara !important;
+  background-color: $color-lochmara ;
 }
 .mt-90p {
   margin-top:90px
@@ -366,85 +338,92 @@
 // margin element
 
 .pb-63p {
-  padding-bottom: 63px !important;
+  padding-bottom: 63px ;
  } 
   .mb-40p {
-    margin-bottom: 40px !important;
+    margin-bottom: 40px ;
   }
   .mb-30p{ 
-    margin-bottom: 30px !important;
+    margin-bottom: 30px ;
   }
   .mb-80p{
-    margin-bottom: 80px !important;
+    margin-bottom: 80px ;
   }
   .mb-20p{
-    margin-bottom: 20px !important
+    margin-bottom: 20px 
   }
   .mb-56p {
-    margin-bottom: 56px !important;
+    margin-bottom: 56px ;
   }
   .mb-78p {
-    margin-bottom: 78px !important;
+    margin-bottom: 78px ;
   }
   .mb-85p {
-    margin-bottom: 85px !important;
+    margin-bottom: 85px ;
   }
   .mb-84p {
-    margin-bottom: 84px !important;
+    margin-bottom: 84px ;
   }
   .mb-90p {
-    margin-bottom: 90px !important;
+    margin-bottom: 90px ;
   }
   .mb-91p {
-    margin-bottom: 91px !important;
+    margin-bottom: 91px ;
   }
   .mb-94p {
     margin-bottom: 94px;
   }
   .pt-70p {
-    padding-top: 70px !important
+    padding-top: 70px 
   }
   .pb-70p {
-    padding-bottom: 70px !important
+    padding-bottom: 70px 
   }
   .pb-75p {
-    padding-bottom: 75px !important
+    padding-bottom: 75px 
   }
   .mt-65p {
-    margin-top: 65px !important;
+    margin-top: 65px ;
   }
   .mb-65p {
-    margin-bottom:65px !important;
+    margin-bottom:65px ;
   }
   .mb-91p {
-    margin-bottom: 90px !important;
+    margin-bottom: 90px ;
   }
   .pt-99p {
-    padding-top: 99px !important;
+    padding-top: 99px ;
   }
   .font-montserrat {
-    font-family: Montserrat;
+    font-family: $font-monserrat;
   }
   .font-montserrat-bold {
-    font-family: MontserratBold;
+    font-family: $font-monserrat;
+    font-weight: $font-bold
   }
   .font-montserrat-semibold {
-    font-family: MontserratSemiBold;
+    font-family: $font-monserrat;
+    font-weight: $font-semibold
   }
   .font-montserrat-medium {
-    font-family: MontserratMedium;
+      font-family: $font-monserrat;
+    font-weight: $font-medium
   }
   .font-montserrat-regular {
-    font-family: MontserratRegular;
+    font-family: $font-monserrat;
+    font-weight: $font-regular
   }
   .font-montserrat-light {
-    font-family: MontserratLight;
+    font-family: $font-monserrat;
+    font-weight: $font-light
   }
   .font-Dancing-scriptregular {
-    font-family: DancingScriptRegular;
+    font-family: $font-dancing;
+    font-weight: $font-regular
   }
   .font-Dancing-bold {
-    font-family: DancingScriptBold;
+    font-family: $font-dancing;
+    font-weight: $font-bold
   }
 }
 

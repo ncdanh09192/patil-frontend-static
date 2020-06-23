@@ -1,430 +1,2781 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document ========================================================================== */
-/** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
-html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
-
-/* Sections ========================================================================== */
-/** Remove the margin in all browsers. */
-body { margin: 0; }
-
-/** Render the `main` element consistently in IE. */
-main { display: block; }
-
-/** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
-h1 { font-size: 2em; margin: 0.67em 0; }
-
-/* Grouping content ========================================================================== */
-/** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
-hr { -webkit-box-sizing: content-box; box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
-
-/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
-pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
-
-/* Text-level semantics ========================================================================== */
-/** Remove the gray background on active links in IE 10. */
-a { background-color: transparent; }
-
-/** 1. Remove the bottom border in Chrome 57- 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
-abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ -webkit-text-decoration: underline dotted; text-decoration: underline dotted; /* 2 */ }
-
-/** Add the correct font weight in Chrome, Edge, and Safari. */
-b, strong { font-weight: bolder; }
-
-/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
-code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
-
-/** Add the correct font size in all browsers. */
-small { font-size: 80%; }
-
-/** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-
-sub { bottom: -0.25em; }
-
-sup { top: -0.5em; }
-
-/* Embedded content ========================================================================== */
-/** Remove the border on images inside links in IE 10. */
-img { border-style: none; }
-
-/* Forms ========================================================================== */
-/** 1. Change the font styles in all browsers. 2. Remove the margin in Firefox and Safari. */
-button, input, optgroup, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
-
-/** Show the overflow in IE. 1. Show the overflow in Edge. */
-button, input { /* 1 */ overflow: visible; }
-
-/** Remove the inheritance of text transform in Edge, Firefox, and IE. 1. Remove the inheritance of text transform in Firefox. */
-button, select { /* 1 */ text-transform: none; }
-
-/** Correct the inability to style clickable types in iOS and Safari. */
-button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; }
-
-/** Remove the inner border and padding in Firefox. */
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
-
-/** Restore the focus styles unset by the previous rule. */
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
-
-/** Correct the padding in Firefox. */
-fieldset { padding: 0.35em 0.75em 0.625em; }
-
-/** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
-legend { -webkit-box-sizing: border-box; box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
-
-/** Add the correct vertical alignment in Chrome, Firefox, and Opera. */
-progress { vertical-align: baseline; }
-
-/** Remove the default vertical scrollbar in IE 10+. */
-textarea { overflow: auto; }
-
-/** 1. Add the correct box sizing in IE 10. 2. Remove the padding in IE 10. */
-[type="checkbox"], [type="radio"] { -webkit-box-sizing: border-box; box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
-
-/** Correct the cursor style of increment and decrement buttons in Chrome. */
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
-
-/** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
-[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
-
-/** Remove the inner padding in Chrome and Safari on macOS. */
-[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-
-/** 1. Correct the inability to style clickable types in iOS and Safari. 2. Change font properties to `inherit` in Safari. */
-::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
-
-/* Interactive ========================================================================== */
-/* Add the correct display in Edge, IE 10+, and Firefox. */
-details { display: block; }
-
-/* Add the correct display in all browsers. */
-summary { display: list-item; }
-
-/* Misc ========================================================================== */
-/** Add the correct display in IE 10+. */
-template { display: none; }
-
-/** Add the correct display in IE 10. */
-[hidden] { display: none; }
-
-* { -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-body { font-family: 400; font-size: 16px; letter-spacing: 0.02em; line-height: 28px; color: #606060; }
-
-.breadcum { font-family: 400; font-size: 16px; line-height: 24px; letter-spacing: 0em; color: #FFFFFF; padding: 0; margin-bottom: 16px; }
-.breadcum a { color: #FFFFFF; }
-.breadcum li { display: inline-block; padding-right: 14px; }
-.breadcum li::after { content: "/"; padding-left: 20px; }
-.breadcum li:last-child::after { content: ""; }
-
-.section-top { height: 400px; position: relative; background-size: cover; background-position: center center; }
-
-.breadcum-container { position: absolute; bottom: 79px; left: 141px; }
-
-.page-title { font-family: 400; font-size: 46px; line-height: 24px; color: #FFFFFF; letter-spacing: 0em; margin: 0; }
-.page-title:before { content: ""; display: block; width: 100%; height: 1px; background: #FFFFFF; margin-bottom: 26px; }
-
-.top-title { font-family: 700; font-size: 46px; letter-spacing: 0.02em; line-height: 45px; color: #444444; text-align: center; margin-bottom: 20px; }
-
-.top-desc { max-width: 800px; margin: 0 auto 60px; text-align: center; }
-.top-desc p { font-size: 16px; letter-spacing: 0.02em; line-height: 26px; color: #606060; }
-
-.img-responsive { display: block; max-width: 100%; }
-
-.line { background-image: url("../images/line.png"); width: 100%; height: 7px; }
-
-.our-team { background-image: url("../images/insurance/insurance3.png"); height: 418px; margin-bottom: 90px; background-size: cover; background-repeat: no-repeat; border-radius: 10px; }
-
-.our-team-content { float: right; max-width: 440px; background: rgba(0, 35, 65, 0.3); height: 100%; padding: 50px 0 60px; border-radius: 0 10px 10px 0; }
-.our-team-content .our-team-desc { text-align: center; padding: 0px 30px 40px; }
-.our-team-content .our-team-desc p { font-size: 22px; line-height: 33px; letter-spacing: 0em; color: #FFFFFF; }
-
-.cta-wrapper { text-align: center; }
-.cta-wrapper p { font-size: 14px; line-height: 24px; letter-spacing: 0.03em; color: #FFFFFF; margin-bottom: 10px; }
-
-.cta-btn-request { font-size: 16px; font-family: 600; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; background: #86C127; border: 1.3px solid #FFFFFF; border-radius: 54px; max-width: 280px; padding: 15px 40px 15px 20px; text-transform: uppercase; cursor: pointer; margin-bottom: 13px; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 95% 17px; }
-.cta-btn-request:hover { background-position: 97% 17px; }
-
-.cta-btn-contact { font-size: 16px; line-height: 19px; letter-spacing: 0.03em; color: #FFFFFF; border: 1.3px solid #FFFFFF; border-radius: 54px; padding: 15px 58px 15px 28px; background: transparent; cursor: pointer; background-image: url("../images/ico_arrow.svg"); background-repeat: no-repeat; background-position: 82% 18px; }
-.cta-btn-contact:hover { background-position: 85% 18px; }
-
-.cta-btn-apply { border-radius: 54px; background: #008CD4; color: #FFFFFF; font-family: 500; line-height: 19px; font-size: 16px; letter-spacing: 0.016em; padding: 14px 59px; border: none; }
-
-a, button { -webkit-transition: ease 300ms; transition: ease 300ms; }
-a:hover, button:hover { opacity: 0.8; }
-
-button { cursor: pointer; }
-
-@media (max-width: 767px) { .top-desc { margin-bottom: 40px; }
-  .top-title { font-size: 38px; }
-  .breadcum-container { left: 20px; }
-  .page-title { padding-right: 15px; }
-  .our-team { margin-bottom: 60px; }
-  .our-team-content { border-radius: 10px; } }
-.gallery .section-top { background-image: url("../images/gallery_top_bg.jpg"); margin-bottom: 60px; }
-.gallery .smile-gallery { display: grid; grid-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 256px 256px 256px 256px; margin-bottom: 70px; }
-.gallery .smile-gallery .smile-item { position: relative; width: 256px; }
-.gallery .smile-gallery .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: 500; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
-.gallery .smile-gallery .ct-lh { line-height: 24px; padding: 0 40px; }
-.gallery .gallery-heading { font-size: 38px; line-height: 53px; opacity: 0.9; color: #6CAC04; text-align: center; font-family: "Dancing Script"; margin-bottom: 20px; }
-.gallery .before-after-gallery { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
-.gallery .before-after-gallery .before-after-item { width: 300px; position: relative; }
-.gallery .before-after-gallery .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
-.gallery .before-after-gallery .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: 300; }
-.gallery .before-after-gallery .before-after-item:hover .img-responsive { opacity: 0.7; }
-.gallery .before-after-gallery .before-after-desc { font-size: 15px; line-height: 24px; letter-spacing: 0.02em; color: #555555; text-align: center; margin: 0; }
-.gallery .slide-paging { text-align: center; margin: 0 0 30px; padding: 0; }
-.gallery .slide-paging li { display: inline-block; background: #CBCBCB; opacity: 0.7; -webkit-transition: ease 500ms; transition: ease 500ms; width: 10px; height: 10px; border-radius: 50%; cursor: pointer; margin-left: 20px; }
-.gallery .slide-paging li:hover { background: #86C127; opacity: 1; }
-.gallery .slide-paging .active { background: #86C127; opacity: 1; }
-.gallery .line { max-width: 942px; margin: 0 auto 30px; }
-.gallery .before-after-slide-container:last-child { margin-bottom: 90px; }
-
-@media (max-width: 1023px) and (min-width: 768px) { .gallery .smile-gallery { grid-gap: 30px; grid-template-columns: 256px 256px; }
-  .gallery .before-after-gallery { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
-@media (max-width: 767px) { .gallery .section-top { margin-bottom: 40px; }
-  .gallery .smile-gallery { grid-gap: 30px; grid-template-columns: 256px; }
-  .gallery .before-after-gallery { grid-template-columns: 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
-.insurance .section-top { background-image: url("../images/insurance/insurance_top_bg.png"); margin-bottom: 60px; }
-.insurance .text-medium-insurance { margin-top: 30px; margin-bottom: 30px; }
-.insurance .text-medium-insurance p { font-size: 20px; letter-spacing: 0em; line-height: 30px; text-align: center; font-family: 500; margin: 0; color: #444444; }
-.insurance .insurance-about { padding-top: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin-bottom: 100px; }
-.insurance .insurance-about .about-img { width: 49%; margin-right: 20px; }
-.insurance .insurance-about .about-content { width: 51%; margin-left: 20px; }
-.insurance .insurance-about .text-content { margin-bottom: 30px; }
-.insurance .insurance-about .text-content h1 { font-family: 600; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
-.insurance .insurance-about .text-content p { font-family: 400; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0; }
-.insurance .insurance-about .text-small { padding-left: 25px; background-image: url("../images/insurance/insurance2.png"); background-position: left; background-repeat: no-repeat; }
-.insurance .insurance-about .text-small p { font-size: 18px; font-family: 500; line-height: 26px; color: #444444; margin: 0; margin-bottom: 5px; }
-
-@media (max-width: 767px) { .insurance .section-top { margin-bottom: 40px; }
-  .insurance .text-medium-insurance { margin-top: 20px; margin-bottom: 20px; }
-  .insurance .insurance-about { padding-top: 30px; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 40px; }
-  .insurance .insurance-about .about-img { width: 100%; margin-right: 0; margin-bottom: 30px; text-align: center; }
-  .insurance .insurance-about .about-content { width: 100%; margin-left: 0; }
-  .insurance .insurance-about .text-content h1 { font-size: 32px; }
-  .insurance .insurance-about .text-small { background-size: 5px 260px; } }
-.financing .section-top { background-image: url("../images/financing/financing-bg.png"); margin-bottom: 60px; }
-.financing .top-title { margin-bottom: 30px; }
-.financing .text-medium-financing { margin-top: 20px; margin-bottom: 30px; text-align: center; padding: 0 90px; }
-.financing .text-medium-financing p { font-size: 32px; letter-spacing: 0.02em; line-height: 38px; text-align: center; font-family: "Dancing Script"; margin: 0; color: #606060; margin-bottom: 20px; }
-.financing .text-medium-financing img { margin: 0 auto; }
-.financing .financing-about { padding-top: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin-bottom: 100px; }
-.financing .financing-about .about-img { width: 49%; margin-right: 20px; }
-.financing .financing-about .about-content { width: 51%; margin-left: 20px; }
-.financing .financing-about .text-content { margin-bottom: 30px; }
-.financing .financing-about .text-content h1 { font-family: 600; font-size: 36px; line-height: 44px; letter-spacing: 0em; color: #444444; margin-bottom: 20px; }
-.financing .financing-about .text-content p { font-family: 400; font-size: 16px; line-height: 28px; letter-spacing: 0.02em; color: #606060; margin: 0 0 20px; }
-.financing .cta-btn-apply { margin-top: 10px; }
-
-@media (max-width: 767px) { .financing .section-top { margin-bottom: 40px; }
-  .financing .text-medium-financing { margin-top: 20px; margin-bottom: 20px; padding: 0; }
-  .financing .financing-about { padding-top: 30px; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 40px; }
-  .financing .financing-about .about-img { width: 100%; margin-right: 0; margin-bottom: 30px; text-align: center; }
-  .financing .financing-about .about-content { width: 100%; margin-left: 0; }
-  .financing .financing-about .text-content { margin-bottom: 0; }
-  .financing .financing-about .text-content h1 { font-size: 32px; }
-  .financing .financing-about .text-small { background-size: 5px 260px; } }
-.new_patient_form .section-top { background-image: url("../images/new_patient_froms.png"); margin-bottom: 60px; }
-.new_patient_form button { border: #86C127; }
-.new_patient_form .text-line { font-family: "Dancing Script"; font-weight: 700; font-size: 42px; line-height: 45px; background: #FFFFFF; color: #444444; display: inline-block; margin: 0 auto; padding: 0px 28px; }
-.new_patient_form .line { margin-top: -25px; }
-.new_patient_form .mb-5 { text-align: center; }
-.new_patient_form .body-title { font-size: 22px; font-family: "Montserrat"; font-weight: 500; line-height: 28px; color: #444444; }
-.new_patient_form .body-title2 { font-size: 15px; line-height: 24px; color: #606060; margin-bottom: 24px; }
-.new_patient_form .mb-100 { margin-bottom: 100px; }
-.new_patient_form .btn-download { padding: 10px 20px; border-radius: 25px; background: #86C127; color: white; }
-.new_patient_form .montserrat { font-family: "Montserrat"; font-weight: 400; }
-.new_patient_form .img-responsive_insurance { display: block; max-width: 200%; }
-.new_patient_form .text-medium-insurance { font-size: 20px; letter-spacing: 0.02em; line-height: 26px; margin-top: 20px; margin-bottom: 20px; font-style: inherit; text-align: center; }
-.new_patient_form .smile-insurance { margin-left: 15px; margin-top: 35px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 400px 400px; margin-bottom: 70px; }
-.new_patient_form .smile-insurance .smile-item { position: relative; width: 100%; }
-.new_patient_form .smile-insurance .smile-item-desc { position: absolute; bottom: 0; left: 0; right: 0; font-size: 20px; line-height: 53px; font-family: 500; letter-spacing: 0em; color: #FFFFFF; text-align: center; }
-.new_patient_form .smile-insurance .ct-lh { line-height: 24px; padding: 0 40px; }
-.new_patient_form .before-after-insurance { display: grid; grid-column-gap: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; grid-template-columns: 300px 300px 300px; margin-bottom: 20px; }
-.new_patient_form .before-after-insurance .before-after-item { width: 300px; position: relative; }
-.new_patient_form .before-after-insurance .before-after-item .img-responsive { -webkit-transition: ease 500ms; transition: ease 500ms; margin-bottom: 26px; }
-.new_patient_form .before-after-insurance .before-after-item:hover:after { content: "+"; width: 40px; height: 40px; position: absolute; top: 39%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: #008CD4; border-radius: 50%; font-size: 42px; color: #FFFFFF; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: 300; }
-.new_patient_form .before-after-insurance .before-after-item:hover .img-responsive { opacity: 0.7; }
-
-@media (max-width: 1023px) and (min-width: 768px) { .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
-  .new_patient_form .before-after-insurance { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; } }
-@media (max-width: 1199px) and (min-width: 1024px) { .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
-  .new_patient_form .before-after-insurance { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; }
-  .new_patient_form .text-line { font-weight: bold; font-size: 42px; background: white; text-align: center; margin-top: -30px; position: absolute; /* top: -19px; */ margin-left: 100px; } }
-@media (max-width: 1439px) and (min-width: 1360px) { .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px 256px; }
-  .new_patient_form .before-after-insurance { grid-template-columns: 300px 300px; grid-column-gap: 30px; grid-row-gap: 30px; }
-  .new_patient_form .text-line { font-weight: bold; font-size: 42px; background: white; text-align: center; margin-top: -30px; position: absolute; /* top: -19px; */ margin-left: 192px; } }
-@media (max-width: 767px) { .new_patient_form .section-top { margin-bottom: 40px; }
-  .new_patient_form .smile-insurance { grid-gap: 30px; grid-template-columns: 256px; }
-  .new_patient_form .before-after-insurance { grid-template-columns: 300px; grid-column-gap: 30px; grid-row-gap: 30px; }
-  .new_patient_form .text-line { font-weight: bold; font-size: 42px; background: white; text-align: center; margin-top: -30px; position: absolute; /* top: -19px; */ margin-left: 0px; } }
-.top-0 { top: 0; }
-
-.right-0 { right: 0; }
-
-.bottom-0 { bottom: 0; }
-
-.left-0 { left: 0; }
-
-.ourblog .section-top { background-image: url("../images/blog/blog-banner.jpg"); }
-.ourblog .section-top-gradient { background-color: black; opacity: 0.4; }
-.ourblog .section-top .ourblog-breadcrumb { z-index: 1; }
-.ourblog .section-top .ourblog-breadcrumb-container, .ourblog .section-top .ourblog-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; color: white; }
-.ourblog .section-top .ourblog-breadcrumb-title { text-transform: uppercase; }
-.ourblog .section-body-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
-.ourblog .section-body .section-container-left-item-poster-title { color: white; font-family: "Montserrat"; font-weight: 400; background-color: #6cac04; border-top-right-radius: 25px; opacity: 0.7; }
-.ourblog .section-body .section-container-left-item-name { font-family: "Montserrat"; font-weight: 600; }
-.ourblog .section-body .section-container-left-item-name a { color: #444444; }
-.ourblog .section-body .section-container-left-item-name a:hover { text-decoration: none; }
-.ourblog .section-body .section-container-left-item-des { color: #606060; font-family: "Montserrat"; font-weight: 400; }
-.ourblog .section-body .section-container-left-pagination .pagination .page-item .page-link { border-top-right-radius: 0; border-bottom-right-radius: 0; border: 0; color: #999999; }
-.ourblog .section-body .section-container-left-pagination .pagination .page-item .page-link:hover { background-color: transparent; color: #86c127; }
-.ourblog .section-body .section-container-left-pagination .pagination .page-item .page-link:focus { -webkit-box-shadow: none; box-shadow: none; }
-.ourblog .section-body .section-container-left-pagination .pagination .page-item.active .page-link { color: #86c127; background-color: transparent; }
-.ourblog .section-body .section-container-right-form-search-icon-search { padding: 12px 20px; }
-.ourblog .section-body .section-container-right-form-search-input-search input { font-family: "Montserrat"; font-weight: 400; border-radius: 25px; border: 1px solid #008cd4; padding: 10px 20px 10px 50px; color: #999999; }
-.ourblog .section-body .section-container-right-form-search-input-search input:focus { outline: 0; }
-.ourblog .section-body .section-container-right-form-contact { background-color: #0072ad; border-radius: 10px; color: white; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(1) { color: #00e2ff; font-family: "DancingScriptBold"; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(3) { font-family: "Montserrat"; font-weight: 400; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) { font-family: "Montserrat"; font-weight: 500; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button, .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button { border: 1px solid white; border-radius: 25px; color: white; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button:focus, .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button:focus { outline: 0; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button { background-color: #86c127; }
-.ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button { background-color: transparent; }
-.ourblog .section-body .section-container-right-video-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
-.ourblog .section-body .section-container-right-video-item-modal-gradient { background-color: black; opacity: 0.3; }
-.ourblog .section-body .section-container-right-video-item-modal-icon-play-video { cursor: pointer; }
-.ourblog .section-body .section-container-right-video-item-title { font-family: "Montserrat"; font-weight: 600; color: #444444; }
-
-@media (max-width: 575.98px) { .ourblog .section-top .ourblog-breadcrumb { margin-left: 20px; }
-  .ourblog .section-top .ourblog-breadcrumb-container { font-size: 16px; }
-  .ourblog .section-top .ourblog-breadcrumb-title { font-size: 46px; }
-  .ourblog .section-body { margin: 45px 20px 90px; }
-  .ourblog .section-body-title { font-size: 36px; margin-bottom: 40px; text-align: center; }
-  .ourblog .section-body .section-container-left-item-poster-title { padding: 12px; font-size: 14px; }
-  .ourblog .section-body .section-container-left-item-name { margin: 24px 0 18px; max-width: 65%; font-size: 22px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .ourblog .section-body .section-container-left-item-des { font-size: 15px; margin-bottom: 80px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .ourblog .section-body .section-container-right-form-search { display: none; }
-  .ourblog .section-body .section-container-right-form-search-input-search { font-size: 16px; }
-  .ourblog .section-body .section-container-right-form-contact { margin: 40px 0 65px; padding: 30px 15px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) { font-size: 30px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(2) { margin: 18px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3), .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) { font-size: 15px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) { margin-bottom: 55px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button { padding: 15px 22px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(5) { margin: 14px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button { padding: 15px 35px; }
-  .ourblog .section-body .section-container-right-video-title { font-size: 22px; margin-bottom: 35px; text-align: center; }
-  .ourblog .section-body .section-container-right-video-item-title { margin: 18px 0 35px; font-size: 18px; } }
-@media (min-width: 576px) { .ourblog .section-top .ourblog-breadcrumb { margin-left: 141px; }
-  .ourblog .section-top .ourblog-breadcrumb-container { font-size: 16px; }
-  .ourblog .section-top .ourblog-breadcrumb-title { font-size: 46px; }
-  .ourblog .section-body { margin: 45px 40px 90px; }
-  .ourblog .section-body-title { font-size: 36px; margin-bottom: 40px; }
-  .ourblog .section-body .section-container-left-item-poster-title { padding: 12px; font-size: 14px; }
-  .ourblog .section-body .section-container-left-item-name { margin: 24px 0 18px; max-width: 65%; font-size: 22px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .ourblog .section-body .section-container-left-item-des { font-size: 15px; margin-bottom: 80px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .ourblog .section-body .section-container-right-form-search-input-search { font-size: 16px; }
-  .ourblog .section-body .section-container-right-form-contact { margin: 40px 0 65px; padding: 30px 15px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) { font-size: 30px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(2) { margin: 18px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3), .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) { font-size: 15px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) { margin-bottom: 55px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button { padding: 15px 22px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(5) { margin: 14px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button { padding: 15px 35px; }
-  .ourblog .section-body .section-container-right-video-title { font-size: 22px; margin-bottom: 35px; }
-  .ourblog .section-body .section-container-right-video-item-title { margin: 18px 0 35px; font-size: 18px; } }
-@media (min-width: 1200px) { .ourblog .section-top .ourblog-breadcrumb { margin-left: 141px; }
-  .ourblog .section-top .ourblog-breadcrumb-container { font-size: 16px; }
-  .ourblog .section-top .ourblog-breadcrumb-title { font-size: 46px; }
-  .ourblog .section-body { margin: 45px 141px 90px; }
-  .ourblog .section-body-title { font-size: 36px; margin-bottom: 40px; }
-  .ourblog .section-body .section-container-left-item-poster-title { padding: 12px; font-size: 14px; }
-  .ourblog .section-body .section-container-left-item-name { margin: 24px 0 18px; max-width: 65%; font-size: 22px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .ourblog .section-body .section-container-left-item-des { font-size: 15px; margin-bottom: 80px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .ourblog .section-body .section-container-right-form-search-input-search { font-size: 16px; }
-  .ourblog .section-body .section-container-right-form-contact { margin: 40px 0 65px; padding: 30px 15px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) { font-size: 30px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(2) { margin: 18px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3), .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) { font-size: 15px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) { margin-bottom: 55px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button { padding: 15px 22px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(5) { margin: 14px; }
-  .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button { padding: 15px 35px; }
-  .ourblog .section-body .section-container-right-video-title { font-size: 22px; margin-bottom: 35px; }
-  .ourblog .section-body .section-container-right-video-item-title { margin: 18px 0 35px; font-size: 18px; } }
-.top-0 { top: 0; }
-
-.right-0 { right: 0; }
-
-.bottom-0 { bottom: 0; }
-
-.left-0 { left: 0; }
-
-.dentistry-periodontal-care .section-top { background-image: url("../images/dentisty_periodontal_care/dentistry-banner1.jpg"); }
-.dentistry-periodontal-care .section-top-gradient { background-color: black; opacity: 0.4; }
-.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb { z-index: 1; }
-.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container, .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; text-transform: uppercase; }
-.dentistry-periodontal-care .section-body-item1-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
-.dentistry-periodontal-care .section-body-item1-name { font-family: "DancingScriptBold"; color: #86c127; }
-.dentistry-periodontal-care .section-body-item1-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care .section-body-item2-img { background-color: #0072ad; margin-bottom: 220px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; }
-.dentistry-periodontal-care .section-body-item2-title { font-family: "DancingScriptBold"; color: white; }
-.dentistry-periodontal-care .section-body-item2-list-content { margin: auto 90px; }
-.dentistry-periodontal-care .section-body-item2-list-content-item { background-color: #f7f7f7; border-radius: 15px; }
-.dentistry-periodontal-care .section-body-item2-list-content-item-name { font-family: "Montserrat"; font-weight: 600; color: #444444; }
-.dentistry-periodontal-care .section-body-item2-list-content-item-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care .section-body-item3-title { font-family: "Dancing Script"; color: #86c127; }
-.dentistry-periodontal-care .section-body-item3-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care .section-body-item4-content-gradient { z-index: -1; }
-.dentistry-periodontal-care .section-body-item4-content-gradient-bg { background-color: #f7f7f7; }
-.dentistry-periodontal-care .section-body-item4-content-banner-gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
-.dentistry-periodontal-care .section-body-item4-content-banner-title { font-family: "Montserrat"; font-weight: 700; color: white; }
-.dentistry-periodontal-care .section-body-item4-content-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care .section-body-item4-content-list-item-content-name { font-family: "Montserrat"; font-weight: 500; color: #444444; }
-.dentistry-periodontal-care .section-body-item4-content-list-item-content-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care .section-body-item5-title { font-family: "Montserrat"; font-weight: 700; }
-.dentistry-periodontal-care .section-body-item5-list-item-img-gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); border-radius: 5px; }
-.dentistry-periodontal-care .section-body-item5-list-item-content { color: white; }
-.dentistry-periodontal-care .section-body-item5-list-item-content-name { font-family: "Montserrat"; font-weight: 600; }
-.dentistry-periodontal-care .section-body-item5-list-item-content-des { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care .section-body-item5-list-item-content-more { text-transform: uppercase; font-family: "Montserrat"; font-weight: 400; color: #86c127 !important; }
-
-@media (min-width: 1200px) { .dentistry-periodontal-care .section-top { height: 500px; }
-  .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 141px; bottom: 90px; }
-  .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container { font-size: 16px; }
-  .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title { font-size: 46px; }
-  .dentistry-periodontal-care .section-body { margin: 70px auto 90px; }
-  .dentistry-periodontal-care .section-body-item1 { margin: 0 240px; }
-  .dentistry-periodontal-care .section-body-item1-title { font-size: 46px; }
-  .dentistry-periodontal-care .section-body-item1-name { font-size: 48px; margin-bottom: 10px; }
-  .dentistry-periodontal-care .section-body-item1-des { font-size: 16px; }
-  .dentistry-periodontal-care .section-body-item2 { margin: 85px 83px 70px; }
-  .dentistry-periodontal-care .section-body-item2-title { font-size: 38px; margin: 40px 220px 25px; }
-  .dentistry-periodontal-care .section-body-item2-list-content-item { padding: 30px 20px; min-height: 400px; }
-  .dentistry-periodontal-care .section-body-item2-list-content-item-name { margin: 30px auto 20px; font-size: 22px; }
-  .dentistry-periodontal-care .section-body-item2-list-content-item-des { font-size: 15px; }
-  .dentistry-periodontal-care .section-body-item3 { margin: auto 141px; }
-  .dentistry-periodontal-care .section-body-item3-title { font-size: 32px; margin: 30px auto 60px; }
-  .dentistry-periodontal-care .section-body-item3-des { font-size: 16px; margin-bottom: 65px; }
-  .dentistry-periodontal-care .section-body-item4 { margin: 80px auto 0; padding-bottom: 70px; }
-  .dentistry-periodontal-care .section-body-item4-content { padding: 0 141px; }
-  .dentistry-periodontal-care .section-body-item4-content-gradient { padding-top: 160px; }
-  .dentistry-periodontal-care .section-body-item4-content-banner-title { bottom: 40px; left: 90px; font-size: 36px; }
-  .dentistry-periodontal-care .section-body-item4-content-des { font-size: 16px; margin: 45px 90px 0; }
-  .dentistry-periodontal-care .section-body-item4-content-list { margin: 30px 90px 0; }
-  .dentistry-periodontal-care .section-body-item4-content-list-item { margin-bottom: 27px; }
-  .dentistry-periodontal-care .section-body-item4-content-list-item-content-name { font-size: 20px; }
-  .dentistry-periodontal-care .section-body-item4-content-list-item-content-des { font-size: 15px; }
-  .dentistry-periodontal-care .section-body-item5 { margin: 80px 141px auto; }
-  .dentistry-periodontal-care .section-body-item5-title { font-size: 40px; }
-  .dentistry-periodontal-care .section-body-item5-list { margin-top: 60px; }
-  .dentistry-periodontal-care .section-body-item5-list-item { margin-top: 40px; }
-  .dentistry-periodontal-care .section-body-item5-list-item-content { padding: 22px; }
-  .dentistry-periodontal-care .section-body-item5-list-item-content-name { font-size: 28px; }
-  .dentistry-periodontal-care .section-body-item5-list-item-content-des { font-size: 15px; }
-  .dentistry-periodontal-care .section-body-item5-list-item-content-more { font-size: 15px; } }
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  color: #606060; }
+
+.breadcum {
+  font-family: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  padding: 0;
+  margin-bottom: 16px; }
+  .breadcum a {
+    color: #ffffff; }
+  .breadcum li {
+    display: inline-block;
+    padding-right: 14px; }
+    .breadcum li::after {
+      content: "/";
+      padding-left: 20px; }
+  .breadcum li:last-child::after {
+    content: ""; }
+
+.section-top {
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-position: center center; }
+
+.breadcum-container {
+  position: absolute;
+  bottom: 79px;
+  left: 141px; }
+
+.page-title {
+  font-family: 400;
+  font-size: 46px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0em;
+  margin: 0; }
+  .page-title:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    margin-bottom: 26px; }
+
+.top-title {
+  font-family: 700;
+  font-size: 46px;
+  letter-spacing: 0.02em;
+  line-height: 45px;
+  color: #444444;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.top-desc {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center; }
+  .top-desc p {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 26px;
+    color: #606060; }
+
+.img-responsive {
+  display: block;
+  max-width: 100%; }
+
+.line {
+  background-image: url("../images/line.png");
+  width: 100%;
+  height: 7px; }
+
+.our-team {
+  background-image: url("../images/insurance/insurance3.png");
+  height: 418px;
+  margin-bottom: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px; }
+
+.our-team-content {
+  float: right;
+  max-width: 440px;
+  background: rgba(0, 35, 65, 0.3);
+  height: 100%;
+  padding: 50px 0 60px;
+  border-radius: 0 10px 10px 0; }
+  .our-team-content .our-team-desc {
+    text-align: center;
+    padding: 0px 30px 40px; }
+    .our-team-content .our-team-desc p {
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0em;
+      color: #ffffff; }
+
+.cta-wrapper {
+  text-align: center; }
+  .cta-wrapper p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 10px; }
+
+.cta-btn-request {
+  font-size: 16px;
+  font-family: 600;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: #86c127;
+  border: 1.3px solid #ffffff;
+  border-radius: 54px;
+  max-width: 280px;
+  padding: 15px 40px 15px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 13px;
+  background-image: url("../images/ico_arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 17px; }
+  .cta-btn-request:hover {
+    background-position: 97% 17px; }
+
+.cta-btn-contact {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  border: 1.3px solid #ffffff;
+  border-radius: 54px;
+  padding: 15px 58px 15px 28px;
+  background: transparent;
+  cursor: pointer;
+  background-image: url("../images/ico_arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 82% 18px; }
+  .cta-btn-contact:hover {
+    background-position: 85% 18px; }
+
+.cta-btn-apply {
+  border-radius: 54px;
+  background: #008cd4;
+  color: #ffffff;
+  font-family: 500;
+  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: 0.016em;
+  padding: 14px 59px;
+  border: none; }
+
+a, button {
+  transition: ease 300ms; }
+  a:hover, button:hover {
+    opacity: 0.8; }
+
+button {
+  cursor: pointer; }
+
+@media (max-width: 767px) {
+  .top-desc {
+    margin-bottom: 40px; }
+
+  .top-title {
+    font-size: 38px; }
+
+  .breadcum-container {
+    left: 0;
+    padding: 0 20px; }
+
+  .page-title {
+    padding-right: 15px; }
+
+  .our-team {
+    margin-bottom: 60px; }
+
+  .our-team-content {
+    border-radius: 10px; } }
+.gallery .section-top {
+  background-image: url("../images/gallery_top_bg.jpg");
+  margin-bottom: 60px; }
+.gallery .smile-gallery {
+  display: grid;
+  grid-gap: 20px;
+  justify-content: center;
+  grid-template-columns: 256px 256px 256px 256px;
+  margin-bottom: 70px; }
+  .gallery .smile-gallery .smile-item {
+    position: relative;
+    width: 256px; }
+  .gallery .smile-gallery .smile-item-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    line-height: 53px;
+    font-family: 500;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-align: center; }
+  .gallery .smile-gallery .ct-lh {
+    line-height: 24px;
+    padding: 0 40px; }
+.gallery .gallery-heading {
+  font-size: 38px;
+  line-height: 53px;
+  opacity: 0.9;
+  color: #6cac04;
+  text-align: center;
+  font-family: "Dancing Script";
+  margin-bottom: 20px; }
+.gallery .before-after-gallery {
+  display: grid;
+  grid-column-gap: 20px;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  margin-bottom: 20px; }
+  .gallery .before-after-gallery .before-after-item {
+    width: 300px;
+    position: relative; }
+    .gallery .before-after-gallery .before-after-item .img-responsive {
+      transition: ease 500ms;
+      margin-bottom: 26px; }
+    .gallery .before-after-gallery .before-after-item:hover:after {
+      content: "+";
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 39%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #008cd4;
+      border-radius: 50%;
+      font-size: 42px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 300; }
+    .gallery .before-after-gallery .before-after-item:hover .img-responsive {
+      opacity: 0.7; }
+  .gallery .before-after-gallery .before-after-desc {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #555555;
+    text-align: center;
+    margin: 0; }
+.gallery .slide-paging {
+  text-align: center;
+  margin: 0 0 30px;
+  padding: 0; }
+  .gallery .slide-paging li {
+    display: inline-block;
+    background: #cbcbcb;
+    opacity: 0.7;
+    transition: ease 500ms;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px; }
+    .gallery .slide-paging li:hover {
+      background: #86c127;
+      opacity: 1; }
+  .gallery .slide-paging .active {
+    background: #86c127;
+    opacity: 1; }
+.gallery .line {
+  max-width: 942px;
+  margin: 0 auto 30px; }
+.gallery .before-after-slide-container:last-child {
+  margin-bottom: 90px; }
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .gallery .smile-gallery {
+    grid-gap: 30px;
+    grid-template-columns: 256px 256px; }
+  .gallery .before-after-gallery {
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; } }
+@media (max-width: 767px) {
+  .gallery .section-top {
+    margin-bottom: 40px; }
+  .gallery .smile-gallery {
+    grid-gap: 30px;
+    grid-template-columns: 256px; }
+  .gallery .before-after-gallery {
+    grid-template-columns: 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; } }
+.insurance .section-top {
+  background-image: url("../images/insurance/insurance_top_bg.png");
+  margin-bottom: 60px; }
+.insurance .text-medium-insurance {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .insurance .text-medium-insurance p {
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: center;
+    font-family: 500;
+    margin: 0;
+    color: #444444; }
+.insurance .insurance-about {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 100px; }
+  .insurance .insurance-about .about-img {
+    width: 49%;
+    margin-right: 20px; }
+  .insurance .insurance-about .about-content {
+    width: 51%;
+    margin-left: 20px; }
+  .insurance .insurance-about .text-content {
+    margin-bottom: 30px; }
+    .insurance .insurance-about .text-content h1 {
+      font-family: 600;
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: 0em;
+      color: #444444;
+      margin-bottom: 20px; }
+    .insurance .insurance-about .text-content p {
+      font-family: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.02em;
+      color: #606060;
+      margin: 0; }
+  .insurance .insurance-about .text-small {
+    padding-left: 25px;
+    background-image: url("../images/insurance/insurance2.png");
+    background-position: left;
+    background-repeat: no-repeat; }
+    .insurance .insurance-about .text-small p {
+      font-size: 18px;
+      font-family: 500;
+      line-height: 26px;
+      color: #444444;
+      margin: 0;
+      margin-bottom: 5px; }
+
+@media (max-width: 767px) {
+  .insurance .section-top {
+    margin-bottom: 40px; }
+  .insurance .text-medium-insurance {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .insurance .insurance-about {
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px; }
+    .insurance .insurance-about .about-img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+      text-align: center; }
+    .insurance .insurance-about .about-content {
+      width: 100%;
+      margin-left: 0; }
+    .insurance .insurance-about .text-content h1 {
+      font-size: 32px; }
+    .insurance .insurance-about .text-small {
+      background-size: 5px 260px; } }
+.financing .section-top {
+  background-image: url("../images/financing/financing-bg.png");
+  margin-bottom: 60px; }
+.financing .top-title {
+  margin-bottom: 30px; }
+.financing .text-medium-financing {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 90px; }
+  .financing .text-medium-financing p {
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    line-height: 38px;
+    text-align: center;
+    font-family: "Dancing Script";
+    margin: 0;
+    color: #606060;
+    margin-bottom: 20px; }
+  .financing .text-medium-financing img {
+    margin: 0 auto; }
+.financing .financing-about {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 100px; }
+  .financing .financing-about .about-img {
+    width: 49%;
+    margin-right: 20px; }
+  .financing .financing-about .about-content {
+    width: 51%;
+    margin-left: 20px; }
+  .financing .financing-about .text-content {
+    margin-bottom: 30px; }
+    .financing .financing-about .text-content h1 {
+      font-family: 600;
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: 0em;
+      color: #444444;
+      margin-bottom: 20px; }
+    .financing .financing-about .text-content p {
+      font-family: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.02em;
+      color: #606060;
+      margin: 0 0 20px; }
+.financing .cta-btn-apply {
+  margin-top: 10px; }
+
+@media (max-width: 767px) {
+  .financing .section-top {
+    margin-bottom: 40px; }
+  .financing .text-medium-financing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0; }
+  .financing .financing-about {
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px; }
+    .financing .financing-about .about-img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+      text-align: center; }
+    .financing .financing-about .about-content {
+      width: 100%;
+      margin-left: 0; }
+    .financing .financing-about .text-content {
+      margin-bottom: 0; }
+      .financing .financing-about .text-content h1 {
+        font-size: 32px; }
+    .financing .financing-about .text-small {
+      background-size: 5px 260px; } }
+.new_patient_form .section-top {
+  background-image: url("../images/new_patient_froms.png");
+  margin-bottom: 60px; }
+.new_patient_form button {
+  border: #86C127; }
+.new_patient_form .text-line {
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 45px;
+  background: #ffffff;
+  color: #444444;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0px 28px; }
+.new_patient_form .line {
+  margin-top: -25px; }
+.new_patient_form .mb-5 {
+  text-align: center; }
+.new_patient_form .body-title {
+  font-size: 22px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 28px;
+  color: #444444; }
+.new_patient_form .body-title2 {
+  font-size: 15px;
+  line-height: 24px;
+  color: #606060;
+  margin-bottom: 24px; }
+.new_patient_form .mb-100 {
+  margin-bottom: 100px; }
+.new_patient_form .btn-download {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: #86C127;
+  color: white; }
+.new_patient_form .montserrat {
+  font-family: "Montserrat";
+  font-weight: 400; }
+.new_patient_form .img-responsive_insurance {
+  display: block;
+  max-width: 200%; }
+.new_patient_form .text-medium-insurance {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: inherit;
+  text-align: center; }
+.new_patient_form .smile-insurance {
+  margin-left: 15px;
+  margin-top: 35px;
+  justify-content: center;
+  grid-template-columns: 400px 400px;
+  margin-bottom: 70px; }
+  .new_patient_form .smile-insurance .smile-item {
+    position: relative;
+    width: 100%; }
+  .new_patient_form .smile-insurance .smile-item-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    line-height: 53px;
+    font-family: 500;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-align: center; }
+  .new_patient_form .smile-insurance .ct-lh {
+    line-height: 24px;
+    padding: 0 40px; }
+.new_patient_form .before-after-insurance {
+  display: grid;
+  grid-column-gap: 20px;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  margin-bottom: 20px; }
+  .new_patient_form .before-after-insurance .before-after-item {
+    width: 300px;
+    position: relative; }
+    .new_patient_form .before-after-insurance .before-after-item .img-responsive {
+      transition: ease 500ms;
+      margin-bottom: 26px; }
+    .new_patient_form .before-after-insurance .before-after-item:hover:after {
+      content: "+";
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 39%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #008cd4;
+      border-radius: 50%;
+      font-size: 42px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 300; }
+    .new_patient_form .before-after-insurance .before-after-item:hover .img-responsive {
+      opacity: 0.7; }
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .new_patient_form .smile-insurance {
+    grid-gap: 30px;
+    grid-template-columns: 256px 256px; }
+  .new_patient_form .before-after-insurance {
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; } }
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .new_patient_form .smile-insurance {
+    grid-gap: 30px;
+    grid-template-columns: 256px 256px; }
+  .new_patient_form .before-after-insurance {
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; }
+  .new_patient_form .text-line {
+    font-weight: bold;
+    font-size: 42px;
+    background: white;
+    text-align: center;
+    margin-top: -30px;
+    position: absolute;
+    /* top: -19px; */
+    margin-left: 100px; } }
+@media (max-width: 1439px) and (min-width: 1360px) {
+  .new_patient_form .smile-insurance {
+    grid-gap: 30px;
+    grid-template-columns: 256px 256px; }
+  .new_patient_form .before-after-insurance {
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; }
+  .new_patient_form .text-line {
+    font-weight: bold;
+    font-size: 42px;
+    background: white;
+    text-align: center;
+    margin-top: -30px;
+    position: absolute;
+    /* top: -19px; */
+    margin-left: 192px; } }
+@media (max-width: 767px) {
+  .new_patient_form .section-top {
+    margin-bottom: 40px; }
+  .new_patient_form .smile-insurance {
+    grid-gap: 30px;
+    grid-template-columns: 256px; }
+  .new_patient_form .before-after-insurance {
+    grid-template-columns: 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; }
+  .new_patient_form .text-line {
+    font-weight: bold;
+    font-size: 42px;
+    background: white;
+    text-align: center;
+    margin-top: -30px;
+    position: absolute;
+    /* top: -19px; */
+    margin-left: 0px; } }
+.top-0 {
+  top: 0; }
+
+.right-0 {
+  right: 0; }
+
+.bottom-0 {
+  bottom: 0; }
+
+.left-0 {
+  left: 0; }
+
+.ourblog .section-top {
+  background-image: url("../images/blog/blog-banner.jpg"); }
+  .ourblog .section-top-gradient {
+    background-color: black;
+    opacity: 0.4; }
+  .ourblog .section-top .ourblog-breadcrumb {
+    z-index: 1; }
+    .ourblog .section-top .ourblog-breadcrumb-container, .ourblog .section-top .ourblog-breadcrumb-title {
+      font-family: "Montserrat";
+      font-weight: 400; }
+    .ourblog .section-top .ourblog-breadcrumb-title {
+      text-transform: uppercase; }
+.ourblog .section-body-title {
+  font-family: "Montserrat";
+  font-weight: 700; }
+.ourblog .section-body .section-container-left-item-poster-title {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: #6cac04;
+  border-top-right-radius: 25px;
+  opacity: 0.7; }
+.ourblog .section-body .section-container-left-item-name {
+  font-family: "Montserrat";
+  font-weight: 600; }
+  .ourblog .section-body .section-container-left-item-name a {
+    color: #444444; }
+    .ourblog .section-body .section-container-left-item-name a:hover {
+      text-decoration: none; }
+.ourblog .section-body .section-container-left-item-des {
+  color: #606060;
+  font-family: "Montserrat";
+  font-weight: 400; }
+.ourblog .section-body .section-container-left-pagination .pagination .page-item .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 0;
+  color: #999999; }
+  .ourblog .section-body .section-container-left-pagination .pagination .page-item .page-link:hover {
+    background-color: transparent;
+    color: #86c127; }
+  .ourblog .section-body .section-container-left-pagination .pagination .page-item .page-link:focus {
+    box-shadow: none; }
+.ourblog .section-body .section-container-left-pagination .pagination .page-item.active .page-link {
+  color: #86c127;
+  background-color: transparent; }
+.ourblog .section-body .section-container-right-form-search-icon-search {
+  padding: 12px 20px; }
+.ourblog .section-body .section-container-right-form-search-input-search input {
+  font-family: "Montserrat";
+  font-weight: 400;
+  border-radius: 25px;
+  border: 1px solid #008cd4;
+  padding: 10px 20px 10px 50px;
+  color: #999999; }
+  .ourblog .section-body .section-container-right-form-search-input-search input:focus {
+    outline: 0; }
+.ourblog .section-body .section-container-right-form-contact {
+  background-color: #0072ad;
+  border-radius: 10px;
+  color: white; }
+  .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) {
+    color: #00e2ff;
+    font-family: "Dancing Script";
+    font-weight: 700; }
+  .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) {
+    font-family: "Montserrat";
+    font-weight: 400; }
+  .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) {
+    font-family: "Montserrat";
+    font-weight: 500; }
+    .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button, .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button {
+      border: 1px solid white;
+      border-radius: 25px;
+      color: white; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button:focus, .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button:focus {
+        outline: 0; }
+  .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button {
+    background-color: #86c127; }
+  .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button {
+    background-color: transparent; }
+.ourblog .section-body .section-container-right-video-title {
+  font-family: "Montserrat";
+  font-weight: 700; }
+.ourblog .section-body .section-container-right-video-item-modal-gradient {
+  background-color: black;
+  opacity: 0.3; }
+.ourblog .section-body .section-container-right-video-item-modal-icon-play-video {
+  cursor: pointer; }
+.ourblog .section-body .section-container-right-video-item-title {
+  font-family: "Montserrat";
+  font-weight: 600; }
+
+@media (max-width: 575.98px) {
+  .ourblog .section-top .ourblog-breadcrumb {
+    margin-left: 20px; }
+    .ourblog .section-top .ourblog-breadcrumb-container {
+      font-size: 16px; }
+    .ourblog .section-top .ourblog-breadcrumb-title {
+      font-size: 46px; }
+  .ourblog .section-body {
+    margin: 45px 20px 90px; }
+    .ourblog .section-body-title {
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-align: center; }
+    .ourblog .section-body .section-container-left-item-poster-title {
+      padding: 12px;
+      font-size: 14px; }
+    .ourblog .section-body .section-container-left-item-name {
+      margin: 24px 0 18px;
+      max-width: 65%;
+      font-size: 22px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+    .ourblog .section-body .section-container-left-item-des {
+      font-size: 15px;
+      margin-bottom: 80px;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+    .ourblog .section-body .section-container-right-form-search {
+      display: none; }
+      .ourblog .section-body .section-container-right-form-search-input-search {
+        font-size: 16px; }
+    .ourblog .section-body .section-container-right-form-contact {
+      margin: 40px 0 65px;
+      padding: 30px 15px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) {
+        font-size: 30px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(2) {
+        margin: 18px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(3), .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) {
+        font-size: 15px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) {
+        margin-bottom: 55px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button {
+        padding: 15px 22px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(5) {
+        margin: 14px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button {
+        padding: 15px 35px; }
+    .ourblog .section-body .section-container-right-video-title {
+      font-size: 22px;
+      margin-bottom: 35px;
+      text-align: center; }
+    .ourblog .section-body .section-container-right-video-item-title {
+      margin: 18px 0 35px;
+      font-size: 18px; } }
+@media (min-width: 576px) {
+  .ourblog .section-top .ourblog-breadcrumb {
+    margin-left: 141px; }
+    .ourblog .section-top .ourblog-breadcrumb-container {
+      font-size: 16px; }
+    .ourblog .section-top .ourblog-breadcrumb-title {
+      font-size: 46px; }
+  .ourblog .section-body {
+    margin: 45px 40px 90px; }
+    .ourblog .section-body-title {
+      font-size: 36px;
+      margin-bottom: 40px; }
+    .ourblog .section-body .section-container-left-item-poster-title {
+      padding: 12px;
+      font-size: 14px; }
+    .ourblog .section-body .section-container-left-item-name {
+      margin: 24px 0 18px;
+      max-width: 65%;
+      font-size: 22px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+    .ourblog .section-body .section-container-left-item-des {
+      font-size: 15px;
+      margin-bottom: 80px;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+    .ourblog .section-body .section-container-right-form-search-input-search {
+      font-size: 16px; }
+    .ourblog .section-body .section-container-right-form-contact {
+      margin: 40px 0 65px;
+      padding: 30px 15px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) {
+        font-size: 30px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(2) {
+        margin: 18px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(3), .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) {
+        font-size: 15px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) {
+        margin-bottom: 55px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button {
+        padding: 15px 22px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(5) {
+        margin: 14px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button {
+        padding: 15px 35px; }
+    .ourblog .section-body .section-container-right-video-title {
+      font-size: 22px;
+      margin-bottom: 35px; }
+    .ourblog .section-body .section-container-right-video-item-title {
+      margin: 18px 0 35px;
+      font-size: 18px; } }
+@media (min-width: 1200px) {
+  .ourblog .section-top .ourblog-breadcrumb {
+    margin-left: 141px; }
+    .ourblog .section-top .ourblog-breadcrumb-container {
+      font-size: 16px; }
+    .ourblog .section-top .ourblog-breadcrumb-title {
+      font-size: 46px; }
+  .ourblog .section-body {
+    margin: 45px 141px 90px; }
+    .ourblog .section-body-title {
+      font-size: 36px;
+      margin-bottom: 40px; }
+    .ourblog .section-body .section-container-left-item-poster-title {
+      padding: 12px;
+      font-size: 14px; }
+    .ourblog .section-body .section-container-left-item-name {
+      margin: 24px 0 18px;
+      max-width: 65%;
+      font-size: 22px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+    .ourblog .section-body .section-container-left-item-des {
+      font-size: 15px;
+      margin-bottom: 80px;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+    .ourblog .section-body .section-container-right-form-search-input-search {
+      font-size: 16px; }
+    .ourblog .section-body .section-container-right-form-contact {
+      margin: 40px 0 65px;
+      padding: 30px 15px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(1) {
+        font-size: 30px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(2) {
+        margin: 18px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(3), .ourblog .section-body .section-container-right-form-contact > div:nth-child(4), .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) {
+        font-size: 15px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(3) {
+        margin-bottom: 55px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(4) button {
+        padding: 15px 22px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(5) {
+        margin: 14px; }
+      .ourblog .section-body .section-container-right-form-contact > div:nth-child(6) button {
+        padding: 15px 35px; }
+    .ourblog .section-body .section-container-right-video-title {
+      font-size: 22px;
+      margin-bottom: 35px; }
+    .ourblog .section-body .section-container-right-video-item-title {
+      margin: 18px 0 35px;
+      font-size: 18px; } }
+.top-0 {
+  top: 0; }
+
+.right-0 {
+  right: 0; }
+
+.bottom-0 {
+  bottom: 0; }
+
+.left-0 {
+  left: 0; }
+
+.dentistry-periodontal-care .section-top {
+  background-image: url("../images/dentisty_periodontal_care/dentistry-banner1.jpg"); }
+  .dentistry-periodontal-care .section-top-gradient {
+    background-color: black;
+    opacity: 0.4; }
+  .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb {
+    z-index: 1; }
+    .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container, .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title {
+      font-family: "Montserrat";
+      font-weight: 400; }
+    .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title {
+      font-family: "Montserrat";
+      font-weight: 400;
+      text-transform: uppercase; }
+.dentistry-periodontal-care .section-body-item1-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #444444; }
+.dentistry-periodontal-care .section-body-item1-name {
+  font-family: "Dancing Script";
+  color: #86c127; }
+.dentistry-periodontal-care .section-body-item1-des {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #606060; }
+.dentistry-periodontal-care .section-body-item2-img {
+  background-color: #0072ad;
+  margin-bottom: 220px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px; }
+.dentistry-periodontal-care .section-body-item2-title {
+  font-family: "Dancing Script";
+  color: white; }
+.dentistry-periodontal-care .section-body-item2-list-content {
+  margin: auto 90px; }
+  .dentistry-periodontal-care .section-body-item2-list-content-item {
+    background-color: #f7f7f7;
+    border-radius: 15px; }
+    .dentistry-periodontal-care .section-body-item2-list-content-item-name {
+      font-family: "Montserrat";
+      font-weight: 600;
+      color: #444444; }
+    .dentistry-periodontal-care .section-body-item2-list-content-item-des {
+      font-family: "Montserrat";
+      font-weight: 400;
+      color: #606060; }
+.dentistry-periodontal-care .section-body-item3-title {
+  font-family: "Dancing Script";
+  color: #86c127; }
+.dentistry-periodontal-care .section-body-item3-des {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #606060; }
+.dentistry-periodontal-care .section-body-item4-content-gradient {
+  z-index: -1; }
+  .dentistry-periodontal-care .section-body-item4-content-gradient-bg {
+    background-color: #f7f7f7; }
+.dentistry-periodontal-care .section-body-item4-content-banner-gradient {
+  background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
+.dentistry-periodontal-care .section-body-item4-content-banner-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white; }
+.dentistry-periodontal-care .section-body-item4-content-des {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #606060; }
+.dentistry-periodontal-care .section-body-item4-content-list-item-content-name {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #444444; }
+.dentistry-periodontal-care .section-body-item4-content-list-item-content-des {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #606060; }
+.dentistry-periodontal-care .section-body-item5-title {
+  font-family: "Montserrat";
+  font-weight: 700; }
+.dentistry-periodontal-care .section-body-item5-list-item-img-gradient {
+  background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+  border-radius: 5px; }
+.dentistry-periodontal-care .section-body-item5-list-item-content {
+  color: white; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content-name {
+    font-family: "Montserrat";
+    font-weight: 600; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content-des {
+    font-family: "Montserrat";
+    font-weight: 400; }
+  .dentistry-periodontal-care .section-body-item5-list-item-content-more {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #86c127 !important; }
+.dentistry-periodontal-care .section-body-item6-bg {
+  background-color: #008cd4; }
+.dentistry-periodontal-care .section-body-item6-wrapper-content-img img {
+  border-radius: 10px;
+  box-shadow: 8px 8px 0 0 #ffffff50; }
+.dentistry-periodontal-care .section-body-item6-wrapper-content-list {
+  color: white; }
+  .dentistry-periodontal-care .section-body-item6-wrapper-content-list-title {
+    font-family: "Montserrat";
+    font-weight: 800; }
+  .dentistry-periodontal-care .section-body-item6-wrapper-content-list-item > div .item {
+    font-family: "Montserrat";
+    font-weight: 400;
+    border-bottom: 2px solid; }
+    .dentistry-periodontal-care .section-body-item6-wrapper-content-list-item > div .item a {
+      padding-right: 35px; }
+    .dentistry-periodontal-care .section-body-item6-wrapper-content-list-item > div .item svg {
+      width: 20px; }
+.dentistry-periodontal-care .section-body-item7-content-gradient {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(360deg, rgba(0, 35, 65, 0.7007177871) 0%, rgba(0, 35, 65, 0.3029586835) 100%); }
+.dentistry-periodontal-care .section-body-item7-content-form-contact {
+  border-radius: 10px;
+  color: white;
+  z-index: 1; }
+  .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(1) {
+    font-family: "Montserrat";
+    font-weight: 400; }
+  .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button, .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button {
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white; }
+    .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button:focus, .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button:focus {
+      outline: 0; }
+  .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) {
+    font-family: "Montserrat";
+    font-weight: 600; }
+    .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button {
+      background-color: #86c127; }
+  .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) {
+    font-family: "Montserrat";
+    font-weight: 500; }
+    .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button {
+      background-color: transparent; }
+
+@media (max-width: 575.98px) {
+  .dentistry-periodontal-care .section-top {
+    height: 500px; }
+    .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb {
+      margin-left: 20px;
+      bottom: 90px; }
+      .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container {
+        font-size: 14px; }
+      .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title {
+        font-size: 36px;
+        line-height: normal;
+        padding-right: 20px; }
+        .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title::before {
+          margin-bottom: 14px; }
+  .dentistry-periodontal-care .section-body {
+    margin: 70px auto 90px; }
+    .dentistry-periodontal-care .section-body-item1 {
+      margin: 0 20px; }
+      .dentistry-periodontal-care .section-body-item1-title {
+        font-size: 46px; }
+      .dentistry-periodontal-care .section-body-item1-name {
+        font-size: 48px;
+        margin-bottom: 10px; }
+      .dentistry-periodontal-care .section-body-item1-des {
+        font-size: 16px; }
+    .dentistry-periodontal-care .section-body-item2 {
+      margin: 85px 20px 70px; }
+      .dentistry-periodontal-care .section-body-item2-title {
+        font-size: 38px;
+        margin: 40px 220px 25px; }
+      .dentistry-periodontal-care .section-body-item2-list-content-item {
+        padding: 30px 20px;
+        min-height: 400px; }
+        .dentistry-periodontal-care .section-body-item2-list-content-item-name {
+          margin: 30px auto 20px;
+          font-size: 22px; }
+        .dentistry-periodontal-care .section-body-item2-list-content-item-des {
+          font-size: 15px; }
+    .dentistry-periodontal-care .section-body-item3 {
+      margin: auto 20px; }
+      .dentistry-periodontal-care .section-body-item3-title {
+        font-size: 32px;
+        margin: 30px auto 60px; }
+      .dentistry-periodontal-care .section-body-item3-des {
+        font-size: 16px;
+        margin-bottom: 65px; }
+    .dentistry-periodontal-care .section-body-item4 {
+      margin: 80px auto 0;
+      padding-bottom: 70px; }
+      .dentistry-periodontal-care .section-body-item4-content {
+        padding: 0 20px; }
+        .dentistry-periodontal-care .section-body-item4-content-gradient {
+          padding-top: 60px; }
+        .dentistry-periodontal-care .section-body-item4-content-banner-title {
+          bottom: 40px;
+          left: 90px;
+          font-size: 36px; }
+        .dentistry-periodontal-care .section-body-item4-content-des {
+          font-size: 16px;
+          margin: 45px 20px 0;
+          text-align: center; }
+        .dentistry-periodontal-care .section-body-item4-content-list {
+          margin: 30px 20px 0; }
+          .dentistry-periodontal-care .section-body-item4-content-list-item {
+            margin-bottom: 27px; }
+            .dentistry-periodontal-care .section-body-item4-content-list-item-img {
+              text-align: center; }
+            .dentistry-periodontal-care .section-body-item4-content-list-item-content {
+              text-align: center; }
+              .dentistry-periodontal-care .section-body-item4-content-list-item-content-name {
+                font-size: 20px; }
+              .dentistry-periodontal-care .section-body-item4-content-list-item-content-des {
+                font-size: 15px; }
+    .dentistry-periodontal-care .section-body-item5 {
+      margin: 80px 20px auto; }
+      .dentistry-periodontal-care .section-body-item5-title {
+        font-size: 40px; }
+      .dentistry-periodontal-care .section-body-item5-list {
+        margin-top: 60px; }
+        .dentistry-periodontal-care .section-body-item5-list-item {
+          margin-top: 40px; }
+          .dentistry-periodontal-care .section-body-item5-list-item-content {
+            padding: 22px; }
+            .dentistry-periodontal-care .section-body-item5-list-item-content-name {
+              font-size: 28px; }
+            .dentistry-periodontal-care .section-body-item5-list-item-content-des {
+              font-size: 15px; }
+            .dentistry-periodontal-care .section-body-item5-list-item-content-more {
+              font-size: 15px; }
+    .dentistry-periodontal-care .section-body-item6 {
+      margin-top: 100px; }
+      .dentistry-periodontal-care .section-body-item6-bg {
+        margin: auto 20px auto 20px; }
+      .dentistry-periodontal-care .section-body-item6-wrapper {
+        padding: 50px 0; }
+        .dentistry-periodontal-care .section-body-item6-wrapper-content {
+          margin: auto 20px; }
+          .dentistry-periodontal-care .section-body-item6-wrapper-content-list-title {
+            margin-bottom: 25px;
+            font-size: 32px; }
+          .dentistry-periodontal-care .section-body-item6-wrapper-content-list-item > div .item {
+            margin-bottom: 25px;
+            font-size: 18px;
+            padding-bottom: 5px; }
+    .dentistry-periodontal-care .section-body-item7 {
+      margin: 90px 20px auto; }
+      .dentistry-periodontal-care .section-body-item7-content {
+        width: 100%; }
+        .dentistry-periodontal-care .section-body-item7-content-form-contact {
+          color: white;
+          margin: 45px 55px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(1) {
+            font-size: 20px;
+            margin-bottom: 70px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2), .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) {
+            font-size: 16px; }
+            .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button svg, .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button svg {
+              font-size: 30px;
+              margin-left: 35px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button {
+            padding: 7px 20px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(3) {
+            margin: 17px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button {
+            padding: 7px 30px; } }
+@media (min-width: 1200px) {
+  .dentistry-periodontal-care .section-top {
+    height: 500px; }
+    .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb {
+      margin-left: 141px;
+      bottom: 90px; }
+      .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-container {
+        font-size: 16px; }
+      .dentistry-periodontal-care .section-top .dentistry-periodontal-care-breadcrumb-title {
+        font-size: 46px; }
+  .dentistry-periodontal-care .section-body {
+    margin: 70px auto 90px; }
+    .dentistry-periodontal-care .section-body-item1 {
+      margin: 0 240px; }
+      .dentistry-periodontal-care .section-body-item1-title {
+        font-size: 46px; }
+      .dentistry-periodontal-care .section-body-item1-name {
+        font-size: 48px;
+        margin-bottom: 10px; }
+      .dentistry-periodontal-care .section-body-item1-des {
+        font-size: 16px; }
+    .dentistry-periodontal-care .section-body-item2 {
+      margin: 85px 83px 70px; }
+      .dentistry-periodontal-care .section-body-item2-title {
+        font-size: 38px;
+        margin: 40px 220px 25px; }
+      .dentistry-periodontal-care .section-body-item2-list-content-item {
+        padding: 30px 20px;
+        min-height: 400px; }
+        .dentistry-periodontal-care .section-body-item2-list-content-item-name {
+          margin: 30px auto 20px;
+          font-size: 22px; }
+        .dentistry-periodontal-care .section-body-item2-list-content-item-des {
+          font-size: 15px; }
+    .dentistry-periodontal-care .section-body-item3 {
+      margin: auto 141px; }
+      .dentistry-periodontal-care .section-body-item3-title {
+        font-size: 32px;
+        margin: 30px auto 60px; }
+      .dentistry-periodontal-care .section-body-item3-des {
+        font-size: 16px;
+        margin-bottom: 65px; }
+    .dentistry-periodontal-care .section-body-item4 {
+      margin: 80px auto 0;
+      padding-bottom: 70px; }
+      .dentistry-periodontal-care .section-body-item4-content {
+        padding: 0 141px; }
+        .dentistry-periodontal-care .section-body-item4-content-gradient {
+          padding-top: 160px; }
+        .dentistry-periodontal-care .section-body-item4-content-banner-title {
+          bottom: 40px;
+          left: 90px;
+          font-size: 36px; }
+        .dentistry-periodontal-care .section-body-item4-content-des {
+          font-size: 16px;
+          margin: 45px 90px 0;
+          text-align: left; }
+        .dentistry-periodontal-care .section-body-item4-content-list {
+          margin: 30px 90px 0; }
+          .dentistry-periodontal-care .section-body-item4-content-list-item {
+            margin-bottom: 27px; }
+            .dentistry-periodontal-care .section-body-item4-content-list-item-img {
+              text-align: left; }
+            .dentistry-periodontal-care .section-body-item4-content-list-item-content {
+              text-align: left; }
+              .dentistry-periodontal-care .section-body-item4-content-list-item-content-name {
+                font-size: 20px; }
+              .dentistry-periodontal-care .section-body-item4-content-list-item-content-des {
+                font-size: 15px; }
+    .dentistry-periodontal-care .section-body-item5 {
+      margin: 80px 141px auto; }
+      .dentistry-periodontal-care .section-body-item5-title {
+        font-size: 40px; }
+      .dentistry-periodontal-care .section-body-item5-list {
+        margin-top: 60px; }
+        .dentistry-periodontal-care .section-body-item5-list-item {
+          margin-top: 40px; }
+          .dentistry-periodontal-care .section-body-item5-list-item-content {
+            padding: 22px; }
+            .dentistry-periodontal-care .section-body-item5-list-item-content-name {
+              font-size: 28px; }
+            .dentistry-periodontal-care .section-body-item5-list-item-content-des {
+              font-size: 15px; }
+            .dentistry-periodontal-care .section-body-item5-list-item-content-more {
+              font-size: 15px; }
+    .dentistry-periodontal-care .section-body-item6 {
+      margin-top: 100px; }
+      .dentistry-periodontal-care .section-body-item6-bg {
+        margin: auto 141px auto 233px; }
+      .dentistry-periodontal-care .section-body-item6-wrapper {
+        padding: 50px 0; }
+        .dentistry-periodontal-care .section-body-item6-wrapper-content {
+          margin: auto 141px; }
+          .dentistry-periodontal-care .section-body-item6-wrapper-content-list-title {
+            margin-bottom: 25px;
+            font-size: 32px; }
+          .dentistry-periodontal-care .section-body-item6-wrapper-content-list-item > div .item {
+            margin-bottom: 25px;
+            font-size: 18px;
+            padding-bottom: 5px; }
+    .dentistry-periodontal-care .section-body-item7 {
+      margin: 90px 141px auto; }
+      .dentistry-periodontal-care .section-body-item7-content {
+        width: 40%; }
+        .dentistry-periodontal-care .section-body-item7-content-form-contact {
+          color: white;
+          margin: 45px 55px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(1) {
+            font-size: 20px;
+            margin-bottom: 70px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2), .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) {
+            font-size: 16px; }
+            .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button svg, .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button svg {
+              font-size: 30px;
+              margin-left: 35px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(2) button {
+            padding: 7px 20px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(3) {
+            margin: 17px; }
+          .dentistry-periodontal-care .section-body-item7-content-form-contact > div:nth-child(4) button {
+            padding: 7px 30px; } }
+.disease {
+  /* Extra small devices (phones, 600px and down) */
+  /* Medium devices (landscape tablets, 768px and up) */ }
+  @media only screen and (max-width: 767px) {
+    .disease .page-title {
+      line-height: normal; }
+    .disease .container-cus {
+      width: 100%; }
+    .disease .section-top {
+      background-image: url("../images/dentistry_disease/Group_1846.png");
+      margin-bottom: 60px; }
+    .disease .bg-cover {
+      background-color: 0; }
+    .disease .top-title {
+      margin-bottom: 30px; }
+    .disease .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .disease .title {
+      font-size: 19px; }
+    .disease .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .disease .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .disease .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .disease .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .disease .related-page {
+      position: relative; }
+    .disease .btn-request-appointment {
+      background-color: #6cac04;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .disease .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; } }
+  @media only screen and (min-width: 768px) {
+    .disease .section-top {
+      background-image: url("../images/dentistry_disease/Group_1846.png");
+      margin-bottom: 60px; }
+    .disease .bg-cover {
+      background-color: 0; }
+    .disease .top-title {
+      margin-bottom: 30px; }
+    .disease .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .disease .title {
+      font-size: 19px; }
+    .disease .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .disease .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .disease .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .disease .list-style-custom {
+      font-size: 30px; }
+    .disease .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .disease .related-page {
+      position: absolute;
+      top: 27px;
+      padding-left: 362px; }
+    .disease .border-bottom-white {
+      border-bottom: 1px solid white; }
+    .disease .container-cus {
+      width: 900px; }
+    .disease .btn-request-appointment {
+      background-color: #6cac04;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .disease .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; } }
+  .disease .bg-custom-blue {
+    background-color: #008cd4; }
+  .disease .color-text-custom-blue {
+    color: #008cd4; }
+  .disease .list-style-custom {
+    font-size: 30px; }
+  .disease .color-text-unset {
+    color: unset; }
+  .disease .text-underline {
+    text-decoration: underline; }
+  .disease .align-text-center {
+    text-align: center; }
+  .disease .pd-20p {
+    padding: 20px; }
+  .disease .pl-50p {
+    padding-left: 50px; }
+  .disease .mb-50p {
+    margin-bottom: 50px; }
+  .disease .mb-58p {
+    margin-bottom: 58px; }
+  .disease .font-size-custom-14 {
+    font-size: 14px; }
+  .disease .font-size-custom-15 {
+    font-size: 15px; }
+  .disease .font-size-custom-16 {
+    font-size: 16px; }
+  .disease .font-size-custom-18 {
+    font-size: 18px; }
+  .disease .font-size-custom-22 {
+    font-size: 22px; }
+  .disease .font-size-custom-26 {
+    font-size: 26px; }
+  .disease .font-size-custom-32 {
+    font-size: 32px; }
+  .disease .font-size-custom-36 {
+    font-size: 36px; }
+  .disease .font-size-custom-46 {
+    font-size: 46px; }
+  .disease .font-type-italic {
+    font-style: italic; }
+  .disease .list-style-none {
+    list-style: none; }
+  .disease .w-fit-content {
+    width: fit-content; }
+  .disease .h-30p {
+    height: 30px; }
+  .disease .w-40 {
+    width: 40%; }
+  .disease .border-bottom-white {
+    border-bottom: 1px solid white; }
+  .disease .pt-50 {
+    padding-top: 50%; }
+  .disease .pt-50p {
+    padding-top: 50px; }
+  .disease .mb-13p {
+    margin-bottom: 13px; }
+  .disease .mb-79p {
+    margin-bottom: 79px; }
+  .disease .mb-60p {
+    margin-bottom: 60px; }
+  .disease .bg-blue {
+    background-color: #008cd4; }
+  .disease .top-desc {
+    text-align: center; }
+
+body {
+  font-family: MontserratRegular; }
+
+.chronic {
+  /* Extra small devices (phones, 600px and down) */
+  /* Medium devices (landscape tablets, 768px and up) */ }
+  @media only screen and (max-width: 767px) {
+    .chronic .page-title {
+      line-height: normal; }
+    .chronic .container-cus {
+      width: 100%; }
+    .chronic .section-top {
+      background-image: url("../images/dentistry_periodontal_care _chronic_bad_breath/chronic_group_1847.png");
+      margin-bottom: 60px; }
+    .chronic .bg-cover {
+      background-color: 0; }
+    .chronic .top-title {
+      margin-bottom: 30px; }
+    .chronic .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .chronic .title {
+      font-size: 19px; }
+    .chronic .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .chronic .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .chronic .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .chronic .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .chronic .related-page {
+      position: relative; }
+    .chronic .btn-request-appointment {
+      background-color: #86c127;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .chronic .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; }
+    .chronic .pt-50 {
+      padding-top: 50%; }
+    .chronic .pt-50p {
+      padding-top: 50px; }
+    .chronic .mb-13p {
+      margin-bottom: 13px; }
+    .chronic .mb-79p {
+      margin-bottom: 79px; }
+    .chronic .mb-60p {
+      margin-bottom: 60px; }
+    .chronic .top-desc {
+      text-align: center; }
+    .chronic .bg-blue {
+      background-color: #008cd4; } }
+  @media only screen and (min-width: 768px) {
+    .chronic .section-top {
+      background-image: url("../images/dentistry_periodontal_care _chronic_bad_breath/chronic_group_1847.png");
+      margin-bottom: 60px; }
+    .chronic .bg-cover {
+      background-color: 0; }
+    .chronic .top-title {
+      margin-bottom: 30px; }
+    .chronic .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .chronic .title {
+      font-size: 19px; }
+    .chronic .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .chronic .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .chronic .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .chronic .list-style-custom {
+      font-size: 30px; }
+    .chronic .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .chronic .related-page {
+      position: absolute;
+      top: 27px;
+      padding-left: 362px; }
+    .chronic .container-cus {
+      width: 900px; }
+    .chronic .btn-request-appointment {
+      background-color: #86c127;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .chronic .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; }
+    .chronic .top-desc {
+      min-width: 900px;
+      text-align: center; } }
+  .chronic .list-style-none {
+    list-style: none; }
+  .chronic .w-fit-content {
+    width: fit-content; }
+  .chronic .border-bottom-white {
+    border-bottom: 1px solid white; }
+  .chronic .pt-50 {
+    padding-top: 50%; }
+  .chronic .pt-50p {
+    padding-top: 50px; }
+  .chronic .mb-13p {
+    margin-bottom: 13px; }
+  .chronic .mb-79p {
+    margin-bottom: 79px; }
+  .chronic .mb-60p {
+    margin-bottom: 60px; }
+  .chronic .bg-custom-blue {
+    background-color: #008cd4; }
+  .chronic .color-text-custom-blue {
+    color: #008cd4; }
+  .chronic .list-style-custom {
+    font-size: 30px; }
+  .chronic .color-text-unset {
+    color: unset; }
+  .chronic .text-underline {
+    text-decoration: underline; }
+  .chronic .align-text-center {
+    text-align: center; }
+  .chronic .pd-20p {
+    padding: 20px; }
+  .chronic .pl-50p {
+    padding-left: 50px; }
+  .chronic .mb-50p {
+    margin-bottom: 50px; }
+  .chronic .mb-58p {
+    margin-bottom: 58px; }
+  .chronic .font-size-custom-14 {
+    font-size: 14px; }
+  .chronic .font-size-custom-15 {
+    font-size: 15px; }
+  .chronic .font-size-custom-16 {
+    font-size: 16px; }
+  .chronic .font-size-custom-18 {
+    font-size: 18px; }
+  .chronic .font-size-custom-22 {
+    font-size: 22px; }
+  .chronic .font-size-custom-26 {
+    font-size: 26px; }
+  .chronic .font-size-custom-32 {
+    font-size: 32px; }
+  .chronic .font-size-custom-36 {
+    font-size: 36px; }
+  .chronic .font-size-custom-46 {
+    font-size: 46px; }
+  .chronic .font-type-italic {
+    font-style: italic; }
+  .chronic .list-style-none {
+    list-style: none; }
+  .chronic .w-fit-content {
+    width: fit-content; }
+  .chronic .h-30p {
+    height: 30px; }
+  .chronic .w-40 {
+    width: 40%; }
+  .chronic .border-bottom-white {
+    border-bottom: 1px solid white; }
+  .chronic .color-green {
+    color: #86c127; }
+  .chronic .color-lightgray {
+    color: lightgray; }
+
+body {
+  font-family: MontserratRegular; }
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf"); }
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url("../fonts/montserrat/Montserrat-Medium.ttf"); }
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: 'MontserratLight';
+  src: url("../fonts/montserrat/Montserrat-Light.ttf"); }
+@font-face {
+  font-family: 'DancingScriptRegular';
+  src: url("../fonts/dancingScript/DancingScript-Regular.ttf"); }
+@font-face {
+  font-family: 'DancingScriptBold';
+  src: url("../fonts/dancingScript/DancingScript-Bold.ttf"); }
+.amputations {
+  /* Extra small devices (phones, 600px and down) */
+  /* Medium devices (landscape tablets, 768px and up) */ }
+  @media only screen and (max-width: 767px) {
+    .amputations .page-title {
+      line-height: normal; }
+    .amputations .container-cus {
+      width: 100%; }
+    .amputations .section-top {
+      background-image: url("../images/dentistry-periodontal-care-root-amputations/ampulation_group_1848.png");
+      margin-bottom: 60px; }
+    .amputations .bg-cover {
+      background-color: 0; }
+    .amputations .top-title {
+      margin-bottom: 30px; }
+    .amputations .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .amputations .title {
+      font-size: 19px; }
+    .amputations .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .amputations .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .amputations .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .amputations .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .amputations .related-page {
+      position: relative; }
+    .amputations .btn-request-appointment {
+      background-color: #86c127;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .amputations .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; }
+    .amputations .text-healing-and-recovery {
+      position: absolute;
+      bottom: 30px;
+      left: 50px;
+      font-size: 20px; }
+    .amputations .img-healing-and-recovery {
+      position: absolute;
+      top: -60px;
+      left: 0px; }
+    .amputations .treat-process-info {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 15px; }
+    .amputations .treat-process-panel {
+      margin-top: 60px; }
+    .amputations .bg-related-page {
+      background-color: #008cd4; } }
+  @media only screen and (min-width: 768px) {
+    .amputations .section-top {
+      background-image: url("../images/dentistry_periodontal_care _chronic_bad_breath/chronic_group_1847.png");
+      margin-bottom: 60px; }
+    .amputations .bg-cover {
+      background-color: 0; }
+    .amputations .top-title {
+      margin-bottom: 30px; }
+    .amputations .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .amputations .title {
+      font-size: 19px; }
+    .amputations .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .amputations .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .amputations .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .amputations .list-style-custom {
+      font-size: 30px; }
+    .amputations .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .amputations .list-style-none {
+      list-style: none; }
+    .amputations .related-page {
+      position: absolute;
+      top: 27px;
+      padding-left: 362px; }
+    .amputations .border-bottom-white {
+      border-bottom: 1px solid white; }
+    .amputations .container-cus {
+      width: 900px; }
+    .amputations .btn-request-appointment {
+      background-color: #86c127;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .amputations .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; }
+    .amputations .top-desc {
+      min-width: 900px;
+      text-align: center; }
+    .amputations .img-healing-and-recovery {
+      position: absolute;
+      top: -160px; }
+    .amputations .text-healing-and-recovery {
+      position: absolute;
+      bottom: 30px;
+      left: 50px; }
+    .amputations .treat-process-info {
+      padding-left: 110px;
+      padding-right: 110px;
+      padding-top: 200px;
+      padding-bottom: 70px; }
+    .amputations .treat-process-panel {
+      margin-top: 120px; }
+    .amputations .bg-related-page {
+      background-color: transparent; } }
+  .amputations .color-green {
+    color: #86c127; }
+  .amputations .color-lightgray {
+    color: #cbcbcb; }
+  .amputations .font-size-large {
+    font-size: x-large; }
+  .amputations .bg-lightgray {
+    background-color: #cbcbcb; }
+  .amputations .pl-110p {
+    padding-left: 110px; }
+  .amputations .pr-110p {
+    padding-right: 110px; }
+  .amputations .pb-50p {
+    padding-bottom: 50px; }
+  .amputations .mt-110p {
+    margin-top: 110px; }
+  .amputations .mb-250p {
+    margin-bottom: 250px; }
+  .amputations .mt-250p {
+    margin-top: 250px; }
+  .amputations .pt-140p {
+    padding-top: 140px; }
+  .amputations .bg-custom-blue {
+    background-color: #008cd4; }
+  .amputations .color-text-custom-blue {
+    color: #008cd4; }
+  .amputations .list-style-custom {
+    font-size: 30px; }
+  .amputations .color-text-unset {
+    color: unset; }
+  .amputations .text-underline {
+    text-decoration: underline; }
+  .amputations .align-text-center {
+    text-align: center; }
+  .amputations .pd-20p {
+    padding: 20px; }
+  .amputations .pl-50p {
+    padding-left: 50px; }
+  .amputations .mb-50p {
+    margin-bottom: 50px; }
+  .amputations .mb-58p {
+    margin-bottom: 58px; }
+  .amputations .font-size-custom-14 {
+    font-size: 14px; }
+  .amputations .font-size-custom-15 {
+    font-size: 15px; }
+  .amputations .font-size-custom-16 {
+    font-size: 16px; }
+  .amputations .font-size-custom-18 {
+    font-size: 18px; }
+  .amputations .font-size-custom-22 {
+    font-size: 22px; }
+  .amputations .font-size-custom-26 {
+    font-size: 26px; }
+  .amputations .font-size-custom-32 {
+    font-size: 32px; }
+  .amputations .font-size-custom-36 {
+    font-size: 36px; }
+  .amputations .font-size-custom-46 {
+    font-size: 46px; }
+  .amputations .font-type-italic {
+    font-style: italic; }
+  .amputations .w-fit-content {
+    width: fit-content; }
+  .amputations .list-style-none {
+    list-style: none; }
+  .amputations .border-bottom-white {
+    border-bottom: 1px solid white; }
+  .amputations .h-30p {
+    height: 30px; }
+  .amputations .w-40 {
+    width: 40%; }
+  .amputations .pt-50 {
+    padding-top: 50%; }
+  .amputations .pt-50p {
+    padding-top: 50px; }
+  .amputations .mb-13p {
+    margin-bottom: 13px; }
+  .amputations .mb-79p {
+    margin-bottom: 79px; }
+  .amputations .mb-60p {
+    margin-bottom: 60px; }
+  .amputations .top-desc {
+    text-align: center; }
+  .amputations .bg-blue {
+    background-color: #008cd4; }
+  .amputations .pb-63p {
+    padding-bottom: 63px !important; }
+  .amputations .mb-40p {
+    margin-bottom: 40px !important; }
+  .amputations .mb-30p {
+    margin-bottom: 30px !important; }
+  .amputations .mb-80p {
+    margin-bottom: 80px !important; }
+  .amputations .mb-20p {
+    margin-bottom: 20px !important; }
+  .amputations .mb-56p {
+    margin-bottom: 56px !important; }
+  .amputations .mb-78p {
+    margin-bottom: 78px !important; }
+  .amputations .mb-70p {
+    margin-bottom: 70px !important; }
+  .amputations .mb-71p {
+    margin-bottom: 71px !important; }
+  .amputations .mb-85p {
+    margin-bottom: 85px !important; }
+  .amputations .mb-84p {
+    margin-bottom: 84px !important; }
+  .amputations .mb-90p {
+    margin-bottom: 90px !important; }
+  .amputations .mb-91p {
+    margin-bottom: 91px !important; }
+  .amputations .mb-94p {
+    margin-bottom: 94px !important; }
+  .amputations .mb-250p {
+    margin-bottom: 250px; }
+  .amputations .pt-60p {
+    padding-top: 60px !important; }
+  .amputations .pt-70p {
+    padding-top: 70px !important; }
+  .amputations .pb-70p {
+    padding-bottom: 70px !important; }
+  .amputations .pb-75p {
+    padding-bottom: 75px !important; }
+  .amputations .mt-65p {
+    margin-top: 65px !important; }
+  .amputations .mb-65p {
+    margin-bottom: 65px !important; }
+  .amputations .mb-91p {
+    margin-bottom: 90px !important; }
+  .amputations .pt-99p {
+    padding-top: 99px !important; }
+  .amputations .font-montserrat {
+    font-family: Montserrat; }
+  .amputations .font-montserrat-bold {
+    font-family: MontserratBold; }
+  .amputations .font-montserrat-semibold {
+    font-family: MontserratSemiBold; }
+  .amputations .font-montserrat-medium {
+    font-family: MontserratMedium; }
+  .amputations .font-montserrat-regular {
+    font-family: MontserratRegular; }
+  .amputations .font-montserrat-light {
+    font-family: MontserratLight; }
+  .amputations .font-Dancing-scriptregular {
+    font-family: DancingScriptRegular; }
+  .amputations .font-Dancing-bold {
+    font-family: DancingScriptBold; }
+
+.surgery {
+  /* Extra small devices (phones, 600px and down) */
+  /* Medium devices (landscape tablets, 768px and up) */ }
+  @media only screen and (max-width: 767px) {
+    .surgery .page-title {
+      line-height: normal; }
+    .surgery .container-cus {
+      width: 100%; }
+    .surgery .section-top {
+      background-image: url("../images/dentistry_periodontal_care_gum_flap_surgery/group_1852.png");
+      margin-bottom: 60px; }
+    .surgery .bg-cover {
+      background-color: 0; }
+    .surgery .top-title {
+      margin-bottom: 30px; }
+    .surgery .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .surgery .title {
+      font-size: 19px; }
+    .surgery .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .surgery .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .surgery .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .surgery .bg-custom-blue {
+      background-color: #008cd4; }
+    .surgery .color-text-custom-blue {
+      color: #008cd4; }
+    .surgery .list-style-custom {
+      font-size: 30px; }
+    .surgery .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .surgery .related-page {
+      position: relative; }
+    .surgery .border-bottom-white {
+      border-bottom: 1px solid white; }
+    .surgery .btn-request-appointment {
+      background-color: #86c127;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .surgery .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; }
+    .surgery .top-desc {
+      text-align: center; }
+    .surgery .text-healing-and-recovery {
+      position: absolute;
+      bottom: 0px;
+      left: 50px;
+      font-size: 20px; }
+    .surgery .img-healing-and-recovery {
+      position: absolute;
+      top: -60px;
+      left: 0px; }
+    .surgery .treat-process-info {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 15px; }
+    .surgery .treat-process-panel {
+      margin-top: 60px; }
+    .surgery .bg-related-page {
+      background-color: #008cd4; } }
+  @media only screen and (min-width: 768px) {
+    .surgery .section-top {
+      background-image: url("../images/dentistry_periodontal_care_gum_flap_surgery/group_1852.png");
+      margin-bottom: 60px; }
+    .surgery .bg-cover {
+      background-color: 0; }
+    .surgery .top-title {
+      margin-bottom: 30px; }
+    .surgery .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .surgery .title {
+      font-size: 19px; }
+    .surgery .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .surgery .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .surgery .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .surgery .bg-custom-blue {
+      background-color: #008cd4; }
+    .surgery .color-text-custom-blue {
+      color: #008cd4; }
+    .surgery .list-style-custom {
+      font-size: 30px; }
+    .surgery .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .surgery .related-page {
+      position: absolute;
+      top: 27px;
+      padding-left: 362px; }
+    .surgery .w-fit-content {
+      width: fit-content; }
+    .surgery .border-bottom-white {
+      border-bottom: 1px solid white; }
+    .surgery .container-cus {
+      width: 900px; }
+    .surgery .btn-request-appointment {
+      background-color: #86c127;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .surgery .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; }
+    .surgery .top-desc {
+      min-width: 900px;
+      text-align: center; }
+    .surgery .img-healing-and-recovery {
+      position: absolute;
+      top: -160px; }
+    .surgery .text-healing-and-recovery {
+      position: absolute;
+      bottom: 30px;
+      left: 50px; }
+    .surgery .treat-process-info {
+      padding-left: 110px;
+      padding-right: 110px;
+      padding-top: 140px; }
+    .surgery .treat-process-panel {
+      margin-top: 120px; }
+    .surgery .bg-candidate {
+      background-image: url(../images/dentistry_periodontal_care_gum_flap_surgery/367865-PAXS2T-545.png.png);
+      width: 100%;
+      height: 100%; }
+    .surgery .font-type-italic {
+      font-style: italic; }
+    .surgery .color-green {
+      color: #86c127; }
+    .surgery .color-lightgray {
+      color: #cbcbcb; }
+    .surgery .bg-lightgray {
+      background-color: #cbcbcb; }
+    .surgery .pl-110p {
+      padding-left: 110px; }
+    .surgery .pr-110p {
+      padding-right: 110px; }
+    .surgery .pb-50p {
+      padding-bottom: 50px; }
+    .surgery .font-size-custom-14 {
+      font-size: 14px; }
+    .surgery .font-size-custom-15 {
+      font-size: 15px; }
+    .surgery .font-size-custom-16 {
+      font-size: 16px; }
+    .surgery .font-size-custom-18 {
+      font-size: 18px; }
+    .surgery .font-size-custom-22 {
+      font-size: 22px; }
+    .surgery .font-size-custom-26 {
+      font-size: 26px; }
+    .surgery .font-size-custom-32 {
+      font-size: 32px; }
+    .surgery .font-size-custom-36 {
+      font-size: 36px; }
+    .surgery .font-size-custom-46 {
+      font-size: 46px; }
+    .surgery .font-size-large {
+      font-size: x-large; }
+    .surgery .bg-related-page {
+      background-color: transparent; } }
+  .surgery .mt-110p {
+    margin-top: 110px; }
+  .surgery .mb-250p {
+    margin-bottom: 250px; }
+  .surgery .mt-250p {
+    margin-top: 250px; }
+  .surgery .pt-140p {
+    padding-top: 140px; }
+  .surgery .bg-blue {
+    background-color: #008cd4; }
+  .surgery .mt-90p {
+    margin-top: 90px; }
+  .surgery .pd-20p {
+    padding: 20px; }
+  .surgery .pl-50p {
+    padding-left: 50px; }
+  .surgery .mb-50p {
+    margin-bottom: 50px; }
+  .surgery .mb-58p {
+    margin-bottom: 58px; }
+  .surgery .pt-50 {
+    padding-top: 50%; }
+  .surgery .pt-50p {
+    padding-top: 50px; }
+  .surgery .mb-13p {
+    margin-bottom: 13px; }
+  .surgery .mb-79p {
+    margin-bottom: 79px; }
+  .surgery .mb-60p {
+    margin-bottom: 60px; }
+  .surgery .h-30p {
+    height: 30px; }
+  .surgery .w-40 {
+    width: 40%; }
+  .surgery .color-text-unset {
+    color: unset; }
+  .surgery .text-underline {
+    text-decoration: underline; }
+  .surgery .align-text-center {
+    text-align: center; }
+  .surgery .list-style-none {
+    list-style: none; }
+  .surgery .pb-63p {
+    padding-bottom: 63px; }
+  .surgery .mb-40p {
+    margin-bottom: 40px; }
+  .surgery .mb-30p {
+    margin-bottom: 30px; }
+  .surgery .mb-80p {
+    margin-bottom: 80px; }
+  .surgery .mb-20p {
+    margin-bottom: 20px; }
+  .surgery .mb-56p {
+    margin-bottom: 56px; }
+  .surgery .mb-78p {
+    margin-bottom: 78px; }
+  .surgery .mb-85p {
+    margin-bottom: 85px; }
+  .surgery .mb-84p {
+    margin-bottom: 84px; }
+  .surgery .mb-90p {
+    margin-bottom: 90px; }
+  .surgery .mb-91p {
+    margin-bottom: 91px; }
+  .surgery .mb-94p {
+    margin-bottom: 94px; }
+  .surgery .pt-70p {
+    padding-top: 70px; }
+  .surgery .pb-70p {
+    padding-bottom: 70px; }
+  .surgery .pb-75p {
+    padding-bottom: 75px; }
+  .surgery .mt-65p {
+    margin-top: 65px; }
+  .surgery .mb-65p {
+    margin-bottom: 65px; }
+  .surgery .mb-91p {
+    margin-bottom: 90px; }
+  .surgery .pt-99p {
+    padding-top: 99px; }
+  .surgery .font-montserrat {
+    font-family: "Montserrat"; }
+  .surgery .font-montserrat-bold {
+    font-family: "Montserrat";
+    font-weight: 700; }
+  .surgery .font-montserrat-semibold {
+    font-family: "Montserrat";
+    font-weight: 600; }
+  .surgery .font-montserrat-medium {
+    font-family: "Montserrat";
+    font-weight: 500; }
+  .surgery .font-montserrat-regular {
+    font-family: "Montserrat";
+    font-weight: 400; }
+  .surgery .font-montserrat-light {
+    font-family: "Montserrat";
+    font-weight: 300; }
+  .surgery .font-Dancing-scriptregular {
+    font-family: "Dancing Script";
+    font-weight: 400; }
+  .surgery .font-Dancing-bold {
+    font-family: "Dancing Script";
+    font-weight: 700; }
+
+.blog_detal .section-top {
+  background-image: url("../images/blog-detal/blog_detal_top_bg.png");
+  margin-bottom: 60px; }
+.blog_detal .top-title {
+  font-family: 700;
+  font-size: 46px;
+  letter-spacing: 0.02em;
+  color: #444444;
+  text-align: center; }
+.blog_detal .top-title-2 {
+  font-family: 700;
+  font-size: 46px;
+  letter-spacing: 0.02em;
+  color: #444444;
+  text-align: center;
+  margin-bottom: 40px; }
+.blog_detal .line-blog-detal {
+  background-image: url("../images/line.png");
+  max-width: 100%;
+  margin-bottom: 14px;
+  height: 7px; }
+.blog_detal .text-info {
+  width: 100%; }
+  .blog_detal .text-info .text-info-name {
+    margin-top: 14px;
+    margin-bottom: 14px; }
+    .blog_detal .text-info .text-info-name p {
+      height: 22px;
+      font-size: 18px;
+      letter-spacing: 0.02em;
+      line-height: 36px;
+      font-family: 500;
+      color: #86c127; }
+  .blog_detal .text-info .text-info-share {
+    margin-top: 14px;
+    margin-bottom: 14px; }
+    .blog_detal .text-info .text-info-share p {
+      font-size: 16px;
+      height: 19px;
+      font-family: 400;
+      color: #606060; }
+  .blog_detal .text-info .text-info-img {
+    margin-top: 14px;
+    margin-bottom: 14px; }
+    .blog_detal .text-info .text-info-img .img-fb {
+      width: 10.69px;
+      height: 20px;
+      margin-right: 28px; }
+    .blog_detal .text-info .text-info-img .img-inst {
+      margin-right: 28px;
+      width: 20.01px;
+      height: 20px; }
+    .blog_detal .text-info .text-info-img .img-tw {
+      width: 24,62px;
+      height: 20px; }
+.blog_detal p {
+  width: 100%;
+  font-size: 16px;
+  font-family: 400;
+  line-height: 28px; }
+.blog_detal h2 {
+  color: #86c127;
+  font-family: 600;
+  font-style: italic; }
+.blog_detal .img-example {
+  margin-top: 30px;
+  margin-bottom: 49.7px; }
+  .blog_detal .img-example img {
+    width: 100%; }
+.blog_detal .line-blog-detal-n {
+  background-image: url("../images/line.png");
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: 14px;
+  height: 7px; }
+.blog_detal .text-tag-blog {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+  .blog_detal .text-tag-blog p {
+    font-size: 16px;
+    font-family: 500;
+    line-height: 38px;
+    color: #888888; }
+.blog_detal .button-blog-detail {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .blog_detal .button-blog-detail .button-blog-detail-1 {
+    text-align: right; }
+    .blog_detal .button-blog-detail .button-blog-detail-1 button {
+      width: 176px;
+      height: 36px;
+      background-image: url("../images/blog-detal/button-blog-detail-1.png");
+      border: none;
+      border-radius: 36px;
+      padding: 0;
+      color: #008cd4;
+      font-size: 14px;
+      font-family: 400;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none; }
+  .blog_detal .button-blog-detail .button-blog-detail-2 {
+    text-align: center;
+    margin: 0 10px; }
+    .blog_detal .button-blog-detail .button-blog-detail-2 button {
+      cursor: pointer;
+      border-radius: 36px;
+      width: 230px;
+      height: 36px;
+      background-image: url("../images/blog-detal/button-blog-detail-2.png");
+      border: none;
+      padding: 0;
+      color: #008cd4;
+      font-size: 14px;
+      font-family: 400;
+      outline: none; }
+  .blog_detal .button-blog-detail .button-blog-detail-3 button {
+    cursor: pointer;
+    border-radius: 36px;
+    width: 152px;
+    height: 36px;
+    background-image: url("../images/blog-detal/button-blog-detail-3.png");
+    border: none;
+    padding: 0;
+    color: #008cd4;
+    font-size: 14px;
+    font-family: 400;
+    outline: none; }
+  .blog_detal .button-blog-detail .blog-detail-circle-icon {
+    margin-top: 20px;
+    margin-bottom: 103.1px; }
+    .blog_detal .button-blog-detail .blog-detail-circle-icon .circle-icon .circle-fb {
+      padding-right: 20px; }
+
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 42px;
+    line-height: 42px; } }
+.dentistry p {
+  margin: 0; }
+.dentistry .color-blue {
+  margin: 0 19px -6px 0;
+  width: 256px;
+  height: 170.5px;
+  background-color: #008cd4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
+.dentistry .section-top {
+  background-image: url("../images/dentistry/dentistry1.png");
+  margin-bottom: 60px;
+  border-bottom: 2px solid #6cac04; }
+.dentistry .container .top-title {
+  font-weight: 700;
+  margin: 0; }
+.dentistry .container .top-desc {
+  max-width: 900px;
+  margin: 30px auto 50px auto; }
+.dentistry .container .benefit {
+  text-align: center;
+  padding: 0; }
+  .dentistry .container .benefit p {
+    margin: 0; }
+  .dentistry .container .benefit .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative; }
+    .dentistry .container .benefit .icon img {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+  .dentistry .container .benefit .icon_benefit_1 img {
+    width: 57.5px;
+    height: 57.78px; }
+  .dentistry .container .benefit .icon_benefit_2 img {
+    width: 50px;
+    height: 50.1px; }
+  .dentistry .container .benefit .icon_benefit_2 .title {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: "Dancing Script";
+    font-weight: 400; }
+  .dentistry .container .benefit .icon_benefit_3 img {
+    width: 57.5px;
+    height: 44.02px; }
+  .dentistry .container .benefit .title {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: "Dancing Script";
+    font-weight: 700; }
+  .dentistry .container .benefit .description {
+    font-size: 15px;
+    max-width: 310px;
+    margin: 0 auto;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+    color: #606060; }
+.dentistry .container .list-cards {
+  margin: 81px 0 21px 0; }
+  .dentistry .container .list-cards .cards {
+    margin-bottom: 80px; }
+    .dentistry .container .list-cards .cards .card-image {
+      max-width: 100%;
+      height: auto;
+      position: relative; }
+      .dentistry .container .list-cards .cards .card-image img {
+        max-width: 100%;
+        height: auto; }
+    .dentistry .container .list-cards .cards .card-title {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin: 26px 0 14px 0;
+      letter-spacing: 0.02em; }
+    .dentistry .container .list-cards .cards .card-description {
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      max-width: 506px;
+      line-height: 25px;
+      margin-bottom: 30px; }
+    .dentistry .container .list-cards .cards .card-button .button {
+      height: 50px;
+      width: 200px;
+      padding: 0;
+      font-size: 15px; }
+
+@media (max-width: 1199px) {
+  .card-image .color-blue {
+    margin: 0 -6px -6px 0; } }
+@media (max-width: 768px) {
+  .benefit {
+    margin-top: 30px; } }
+
+/*# sourceMappingURL=style.css.map */
