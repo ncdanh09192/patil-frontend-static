@@ -1,4 +1,32 @@
 @import 'vars';
+@font-face {
+	font-family: 'MontserratBold';
+	src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+	font-family: 'MontserratSemiBold';
+	src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'MontserratMedium';
+	src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: 'MontserratRegular';
+	src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: 'MontserratLight';
+	src: url('../fonts/montserrat/Montserrat-Light.ttf');
+}
+@font-face {
+	font-family: 'DancingScriptRegular';
+	src: url('../fonts/dancingScript/DancingScript-Regular.ttf');
+}
+@font-face {
+	font-family: 'DancingScriptBold';
+	src: url('../fonts/dancingScript/DancingScript-Bold.ttf');
+}
 .amputations {
 	/* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 767px) {
@@ -80,7 +108,10 @@
 		}
 		.treat-process-panel {
 			margin-top: 60px;
-		}
+    }
+    .bg-related-page { 
+      background-color: $color-lochmara;
+    }
 	}
 
 	/* Medium devices (landscape tablets, 768px and up) */
@@ -168,13 +199,17 @@
 			left: 50px;
 		}
 		.treat-process-info {
-			padding-left: 110px;
-			padding-right: 110px;
-			padding-top: 140px;
+      padding-left: 110px;
+      padding-right: 110px;
+      padding-top: 200px;
+      padding-bottom: 70px;
 		}
 		.treat-process-panel {
-			margin-top: 250px;
-		}
+			margin-top: 120px;
+    }
+    .bg-related-page { 
+      background-color: transparent;
+    }
 	}
 	.color-green {
 		color: $color-atlantis;
@@ -305,8 +340,102 @@
   .bg-blue {
     background-color: $color-lochmara;
   }
+  	// margin element
+
+	.pb-63p {
+		padding-bottom: 63px !important;
+	}
+	.mb-40p {
+		margin-bottom: 40px !important;
+	}
+	.mb-30p {
+		margin-bottom: 30px !important;
+	}
+	.mb-80p {
+		margin-bottom: 80px !important;
+	}
+	.mb-20p {
+		margin-bottom: 20px !important;
+	}
+	.mb-56p {
+		margin-bottom: 56px !important;
+	}
+	.mb-78p {
+		margin-bottom: 78px !important;
+  }
+  .mb-70p {
+    margin-bottom: 70px !important;
+  }
+  .mb-71p {
+    margin-bottom: 71px !important;
+  }
+	.mb-85p {
+		margin-bottom: 85px !important;
+	}
+	.mb-84p {
+		margin-bottom: 84px !important;
+	}
+	.mb-90p {
+		margin-bottom: 90px !important;
+	}
+	.mb-91p {
+		margin-bottom: 91px !important;
+  }
+  .mb-94p {
+    margin-bottom: 94px !important;
+  }
+  .mb-250p {
+    margin-bottom: 250px;
+  }
+  .pt-60p {
+    padding-top: 60px !important;
+  }
+	.pt-70p {
+		padding-top: 70px !important;
+	}
+	.pb-70p {
+		padding-bottom: 70px !important;
+	}
+	.pb-75p {
+		padding-bottom: 75px !important;
+	}
+	.mt-65p {
+		margin-top: 65px !important;
+	}
+	.mb-65p {
+		margin-bottom: 65px !important;
+	}
+	.mb-91p {
+		margin-bottom: 90px !important;
+	}
+	.pt-99p {
+		padding-top: 99px !important;
+  }
+  
+  .font-montserrat {
+    font-family: Montserrat;
+  }
+  .font-montserrat-bold {
+    font-family: MontserratBold;
+  }
+  .font-montserrat-semibold {
+    font-family: MontserratSemiBold;
+  }
+  .font-montserrat-medium {
+    font-family: MontserratMedium;
+  }
+  .font-montserrat-regular {
+    font-family: MontserratRegular;
+  }
+  .font-montserrat-light {
+    font-family: MontserratLight;
+  }
+  .font-Dancing-scriptregular {
+    font-family: DancingScriptRegular;
+  }
+  .font-Dancing-bold {
+    font-family: DancingScriptBold;
+  }
 }
 
-body {
-	font-family: MontserratRegular;
-}
+
