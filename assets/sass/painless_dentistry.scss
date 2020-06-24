@@ -1,0 +1,238 @@
+.painless-dentistry {
+  p{
+    margin: 0;
+  }
+  .section-top {
+    background-image: url('../images/paintless_dentistry/paintless_dentistry_1.png');
+    margin-bottom: 60px;
+    border-bottom: 2px solid $color-limeade;
+  }
+  .top-content{
+    margin-bottom: 124px;
+  }
+  .container{
+    .our-team{
+      margin: 0 auto 90px auto;
+      max-width: 1084px;
+    }
+    .top-title{
+      font-weight: $font-bold;
+      margin: 0;
+    }
+    .top-title-extra{
+      max-width: 525px;
+      text-align: center;
+      margin: 20px auto;
+      p{
+        font-family: $font-dancing;
+        color: $color-atlantis;
+        font-weight: $font-medium;
+        @include lt-spacing(30);
+        font-size: 48px;
+        margin: 0;
+      }
+    }
+    .top-desc{
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+    }
+    .top-img{
+      max-width: 900px;
+      margin: 0 auto 74px auto;
+      img{
+        max-width: 100%;
+      }
+    }
+    .info-benefits{
+      .title{
+        margin: 0 auto 20px auto;
+        max-width: 794px;
+        font-size: 36px;
+        @include lt-spacing(0);
+        text-align: center;
+      }
+      .desc{
+        max-width: 900px;
+        margin: 0 auto 40px auto;
+        text-align: center;
+        font-size: 16px;
+        @include lt-spacing(20);
+        color: $color-scorpion;
+      }
+      .benefit{
+        padding: 30px 20px 35px 20px;
+        max-width: 320px;
+        margin: 0 auto;
+        background-color: $color-gray;
+        border-radius: 10px ;
+        .icon{
+          background-color: $color-white;
+        }
+        .title{
+          margin: 24px 0 12px 0;
+          @include lt-spacing(0);
+          font-size: 22px;
+          font-family: $font-monserrat;
+          font-weight: $font-medium;
+        }
+        .description{
+          max-width: 280px;
+          font-size: 15px;
+          @include lt-spacing(0);
+        }
+      }
+    }
+  }
+  .information{
+    .detail{
+      img{
+        width: 100%;
+      }
+      .title{
+        font-size: 32px;
+        max-width: 368px;
+        font-weight: $font-regular;
+        @include lt-spacing(0);
+      }
+      .title_2{
+        max-width: 425px;
+      }
+      .desc{
+        max-width: 512px;
+        @include lt-spacing(20);
+        font-size: 16px;
+        color: $color-scorpion;
+      }
+      .desc_2{
+        font-style: unset;
+        color: $color-atlantis;
+        text-decoration: underline $color-atlantis;
+      }
+    }
+    .row_2{
+      width: 100%;
+      background-color: $color-gray;
+      margin: 70px auto;
+
+      .detail-information{
+        padding: 70px 0 60px 0;
+        .title{
+          font-size: 36px;
+          font-weight: $font-bold;
+          margin-bottom: 20px;
+        }
+        .desc{
+          @include lt-spacing(20);
+          max-width: 512px;
+        }
+        .image-detail{
+          .desc{
+            font-style: italic;
+            max-width: 512px;
+            font-size: 15px;
+            @include lt-spacing(0);
+          }
+        }
+      }
+    }
+    .row_3{
+      .title{
+        font-size: 36px;
+        font-weight: $font-bold;
+        @include lt-spacing(20);
+        margin-bottom: 20px;
+      }
+      .desc{
+        max-width: 512px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: $color-scorpion  ;
+        @include lt-spacing(20);
+      }
+    }
+    .row_4{
+      margin: 49px 0 70px 0;
+      width: 100%;
+      background-color: $color-lochmara;
+      .container{
+        padding: 56px 0 43px 0;
+        img{
+          display: block;
+          margin: 0 auto;
+        }
+        .desc{
+          max-width: 900px;
+          @include lt-spacing(20);
+          font-size: 32px;
+          color: $color-white;
+          font-family: $font-dancing;
+          text-align: center;
+          margin: 20px auto 30px auto;
+        }
+      }
+    }
+    .row_5{
+      margin-bottom: 60px;
+      .title{
+        font-size: 36px;
+        font-weight: $font-bold;
+        @include lt-spacing(20);
+        margin-bottom: 20px;
+      }
+      .desc{
+        max-width: 512px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: $color-scorpion  ;
+        @include lt-spacing(20);
+      }
+    }
+
+  }
+  .related-page-content{
+    margin: 0 auto 90px auto;
+    max-width: 1084px;
+    background-image: url('../images/paintless_dentistry/Untitled-1.png');
+    padding: 50px 0 34px 0;
+    color: $color-white;
+    .col-md-4 {
+      position: relative;
+      .img_1{
+        position: relative;
+        top: 8px;
+        left: 8px;
+        max-width: 328px;
+        img{
+          width: 100%;
+        }
+      }
+      .img_2{
+        position: absolute;
+        top: 0;
+        max-width: 328px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .title{
+      font-size: 32px;
+      @include lt-spacing(20);
+      font-weight: $font-extrbold;
+      margin-bottom: 26px;
+    }
+    .row_content{
+      @include lt-spacing(20);
+      font-size: 18px;
+      margin-bottom: 27px;
+      p{
+        border-bottom: 1px solid $color-white;
+        display: inline;
+        cursor: pointer;
+        img{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
