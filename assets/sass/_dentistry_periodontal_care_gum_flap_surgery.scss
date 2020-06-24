@@ -391,6 +391,9 @@
   .mb-91p {
     margin-bottom: 90px ;
   }
+  .mb-24p {
+    margin-bottom: 24px;
+  }
   .pt-99p {
     padding-top: 99px ;
   }
@@ -424,6 +427,12 @@
   .font-Dancing-bold {
     font-family: $font-dancing;
     font-weight: $font-bold
+  }
+  .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px;
   }
 }
 

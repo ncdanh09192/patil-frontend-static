@@ -27,7 +27,7 @@
 			font-size: 19px;
 		}
 		.gum-disease-Symptoms-content {
-			width: 410px;
+			width: 100%;
 			font-size: 16px;
 		}
 		.gum-disease-Symptoms-img-bg {
@@ -60,7 +60,10 @@
 			border-radius: 50px;
 			width: 50%;
 			height: 50px;
-		}
+    }
+    .bg-related-page { 
+      background-color: $color-lochmara;
+    }
 	}
 
 	/* Medium devices (landscape tablets, 768px and up) */
@@ -131,7 +134,9 @@
 			width: 50%;
 			height: 50px;
 		}
-
+    .bg-related-page { 
+      background-color: transparent;
+    }
 	}
   .bg-custom-blue {
     background-color: $color-lochmara;
@@ -162,6 +167,9 @@
   }
   .mb-58p {
     margin-bottom: 58px;
+  }
+  .mb-24p {
+    margin-bottom: 24px;
   }
   .font-size-custom-14 {
     font-size: 14px;
@@ -230,9 +238,89 @@
     text-align: center;
   }
 
+  .font-montserrat {
+    font-family: Montserrat;
+  }
+  .font-montserrat-bold {
+    font-family: $font-monserrat;
+    font-weight: $font-bold
+  }
+  .font-montserrat-semibold {
+    font-family: $font-monserrat;
+    font-weight: $font-semibold
+  }
+  .font-montserrat-medium {
+      font-family: $font-monserrat;
+    font-weight: $font-medium
+  }
+  .font-montserrat-regular {
+    font-family: $font-monserrat;
+    font-weight: $font-regular
+  }
+  .font-montserrat-light {
+    font-family: $font-monserrat;
+    font-weight: $font-light
+  }
+  .font-Dancing-scriptregular {
+    font-family: $font-dancing;
+    font-weight: $font-regular
+  }
+  .font-Dancing-bold {
+    font-family: $font-dancing;
+    font-weight: $font-bold
+  }
+// margin element
+
+ .pb-63p {
+  padding-bottom: 63px ;
+ } 
+  .mb-40p {
+    margin-bottom: 40px ;
+  }
+  .mb-30p{ 
+    margin-bottom: 30px ;
+  }
+  .mb-80p{
+    margin-bottom: 80px ;
+  }
+  .mb-20p{
+    margin-bottom: 20px 
+  }
+  .mb-56p {
+    margin-bottom: 56px ;
+  }
+  .mb-85p {
+    margin-bottom: 85px ;
+  }
+  .mb-90p {
+    margin-bottom: 90px ;
+  }
+  .pt-70p {
+    padding-top: 70px 
+  }
+  .pb-70p {
+    padding-bottom: 70px 
+  }
+  .pb-75p {
+    padding-bottom: 75px 
+  }
+  .mt-65p {
+    margin-top: 65px ;
+  }
+  .mb-65p {
+    margin-bottom:65px ;
+  }
+  .mb-91p {
+    margin-bottom: 90px ;
+  }
+  .pt-99p {
+    padding-top: 99px ;
+  }
+  .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px;
+  }
 }
 
-// css in general
-body {
-	font-family: MontserratRegular;
-}
