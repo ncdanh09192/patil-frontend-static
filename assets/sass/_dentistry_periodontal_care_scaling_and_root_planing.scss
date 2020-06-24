@@ -1,8 +1,8 @@
 @import "vars";
 
-.dentistry-periodontal-care-gum-recession {
+.dentistry-periodontal-care-scaling-and-root-planing {
     .section-top {
-        background-image: url("../images/dentisty_periodontal_care_gum_recession/gum-recession-banner1.jpg");
+        background-image: url("../images/dentisty_periodontal_care_scaling_and_root_planing/scalingAndRootPlaning-banner1.jpg");
         &-gradient {
             background-color: black;
             opacity: 0.4;
@@ -108,6 +108,15 @@
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
                     color: #606060;
+                    &-label {
+                        font-family: $font-monserrat;
+                        font-weight: $font-semibold;
+                        color: #008cd4;
+                    }
+                    &-content {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                    }
                 }
                 &-list {
                     &-item {
@@ -290,7 +299,7 @@
 
 // Super small devices (landscape phones, 576px and up)
 @media (max-width: 575.98px) {
-    .dentistry-periodontal-care-gum-recession {
+    .dentistry-periodontal-care-scaling-and-root-planing {
         .section-top {
             height: 300px;
             .dentistry-periodontal-care-breadcrumb {
@@ -579,7 +588,7 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .dentistry-periodontal-care-gum-recession {
+    .dentistry-periodontal-care-scaling-and-root-planing {
         .section-top {
             height: 300px;
             .dentistry-periodontal-care-breadcrumb {
@@ -670,7 +679,7 @@
                 &-content {
                     padding: 0 20px;
                     &-gradient {
-                        padding-top: 60px;
+                        // padding-top: 60px;
                         &-bg {
                         }
                     }
@@ -868,7 +877,7 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    .dentistry-periodontal-care-gum-recession {
+    .dentistry-periodontal-care-scaling-and-root-planing {
         .section-top {
             height: 500px;
             .dentistry-periodontal-care-breadcrumb {
@@ -949,9 +958,9 @@
                 margin: 80px auto 0;
                 padding-bottom: 70px;
                 &-content {
-                    padding: 0 141px;
+                    padding: 90px 141px;
                     &-gradient {
-                        padding-top: 160px;
+                        // padding-top: 160px;
                         &-bg {
                         }
                     }
@@ -965,13 +974,19 @@
                             left: 90px;
                             font-size: 36px;
                             line-height: 40px;
-                            max-width: 50%;
                         }
                     }
                     &-des {
                         font-size: 16px;
                         margin: 45px 90px 0;
                         text-align: left;
+                        &-label {
+                            font-size: 26px;
+                            margin: 70px auto 15px;
+                        }
+                        &-content {
+                            font-size: 15px;
+                        }
                     }
                     &-list {
                         margin: 30px 90px 0;

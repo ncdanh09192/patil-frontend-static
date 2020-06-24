@@ -1,775 +1,344 @@
 @import "vars";
-@mixin line-clamp($line) {
-    display: -webkit-box;
-    -webkit-line-clamp: $line;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-.top-0 {
-    top: 0;
-}
-.right-0 {
-    right: 0;
-}
-.bottom-0 {
-    bottom: 0;
-}
-.left-0 {
-    left: 0;
-}
+@import "mixin";
 
 .dentistry-periodontal-care {
     .section-top {
         background-image: url("../images/dentisty_periodontal_care/dentistry-banner1.jpg");
+        margin-bottom: 60px;
+        border-bottom: 2px solid $color-limeade;
         &-gradient {
-            background-color: black;
+            background-color: $color-black;
             opacity: 0.4;
         }
-        .dentistry-periodontal-care-breadcrumb {
-            z-index: 1;
-            &-container,
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-            }
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                text-transform: uppercase;
+        .page-title {
+            font-family: $font-monserrat;
+            font-weight: $font-regular;
+            text-transform: uppercase;
+        }
+    }
+    .item1 {
+        margin-bottom: 85px;
+        .top-title {
+            font-family: $font-monserrat;
+            font-weight: $font-bold;
+            line-height: 45px;
+            font-size: 46px;
+            @include lt-spacing(20);
+            margin-bottom: 40px;
+        }
+        .top-desc {
+            font-family: $font-monserrat;
+            font-weight: $font-regular;
+            max-width: 900px;
+            p {
+                line-height: 28px;
+                font-size: 16px;
+                @include lt-spacing(20);
+                &.top-desc-title {
+                    font-family: $font-dancing;
+                    font-weight: $font-bold;
+                    font-size: 48px;
+                    color: $color-atlantis;
+                    margin-bottom: 30px;
+                    line-height: 24px;
+                    @include lt-spacing(0);
+                }
             }
         }
     }
-    .section-body {
-        &-item1 {
-            &-title {
-                font-family: $font-monserrat;
+    .item2 {
+        margin: auto 83px 70px;
+        padding: 0 90px;
+        .background {
+            background-color: $color-deepCerulean;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            max-height: 390px;
+        }
+        .content {
+            padding-top: 45px;
+            .title {
+                font-family: $font-dancing;
                 font-weight: $font-bold;
-                color: #444444;
+                font-size: 38px;
+                color: $color-white;
+                line-height: 44px;
+                max-width: 784px;
+                margin: auto auto 25px;
             }
-            &-name {
-                font-family: $font-dancing;
-                color: #86c127;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                color: #606060;
-            }
-        }
-        &-item2 {
-            &-img {
-                background-color: #0072ad;
-                border-top-right-radius: 50px;
-                border-bottom-left-radius: 50px;
-            }
-            &-title {
-                font-family: $font-dancing;
-                color: white;
-            }
-            &-list {
-                &-content {
-                    &-item {
-                        background-color: #f7f7f7;
-                        border-radius: 15px;
-                        &-img {
-                        }
-                        &-name {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                            color: #444444;
-                        }
-                        &-des {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                            color: #606060;
-                        }
+            .benefit {
+                text-align: center;
+                padding: 30px;
+                background-color: $color-alabaster;
+                border-radius: 15px;
+                max-width: 320px;
+                p {
+                    margin: 0;
+                }
+                .icon {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    background-color: $color-white;
+                    margin: auto auto 20px;
+                    position: relative;
+                    img {
+                        position: absolute;
+                        margin: auto;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
                     }
                 }
-            }
-        }
-        &-item3 {
-            &-border {
-            }
-            &-title {
-                font-family: $font-dancing;
-                color: #86c127;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                color: #606060;
-            }
-        }
-        &-item4 {
-            &-content {
-                &-gradient {
-                    z-index: -1;
-                    &-bg {
-                        background-color: #f7f7f7;
+                .icon_benefit_1 {
+                    img {
+                        width: 57.5px;
+                        height: 57.78px;
                     }
                 }
-                &-banner {
-                    &-gradient {
-                        background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                    }
-                    &-img {
-                    }
-                    &-title {
-                        font-family: $font-monserrat;
-                        font-weight: $font-bold;
-                        color: white;
+                .icon_benefit_2 {
+                    img {
+                        width: 50px;
+                        height: 50.1px;
                     }
                 }
-                &-des {
+                .icon_benefit_3 {
+                    img {
+                        width: 57.5px;
+                        height: 44.02px;
+                        left: 10px;
+                    }
+                }
+                .benefit-title {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                    line-height: 45px;
+                    color: $color-tundora;
+                    font-family: $font-monserrat;
+                    font-weight: $font-semibold;
+                }
+                .benefit-description {
+                    font-size: 15px;
+                    line-height: 26px;
+                    color: $color-scorpion;
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
-                    color: #606060;
-                }
-                &-list {
-                    &-item {
-                        &-img {
-                        }
-                        &-content {
-                            &-name {
-                                font-family: $font-monserrat;
-                                font-weight: $font-medium;
-                                color: #444444;
-                            }
-                            &-des {
-                                font-family: $font-monserrat;
-                                font-weight: $font-regular;
-                                color: #606060;
-                            }
-                        }
-                    }
                 }
             }
         }
-        &-item5 {
-            &-title {
+    }
+    .item3 {
+        margin: auto 233px 65px;
+        .content {
+            padding-top: 32px;
+            .title {
+                font-family: $font-dancing;
+                font-weight: $font-regular;
+                font-size: 32px;
+                line-height: 38px;
+                @include lt-spacing(20);
+                color: $color-atlantis;
+                margin-bottom: 57px;
+                padding: 0 15px;
+            }
+            .des {
                 font-family: $font-monserrat;
-                font-weight: $font-bold;
+                font-weight: $font-regular;
+                font-size: 16px;
+                line-height: 28px;
+                @include lt-spacing(20);
+                color: $color-scorpion;
+                padding: 0 7px;
             }
-            &-list {
-
-                &-item {
-                    &:hover {
-                        .section-body-item5-list-item-content-more{
-                                opacity: 1;
-                                margin-bottom: 0px;
-                                transition :  500ms
-                        }
-                                 
-                      } 
-                    &-img {
-                        &-gradient {
-                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                            border-radius: 5px;
-                        }
-                    }
-                
-                    &-content {
-                        color: white;
-                        &-name {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                        }
-                        &-des {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                        }
-                        &-more {
-                            text-transform: uppercase;
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                            color: #86c127 !important;
-                            opacity: 0;
-                            margin-bottom: -10px;
-                        }
-                       
-                    }
-                }
-
-            }
-            
         }
-        &-item6 {
-            &-bg {
-                background-color: #008cd4;
+    }
+    .item4 {
+        margin-bottom: 80px;
+        .background {
+            padding-top: 106.5px;
+            z-index: -1;
+            > div {
+                background-color: $color-alabaster;
             }
-            &-border {
+        }
+        .content {
+            margin: auto 141px;
+            &-banner {
+                .item-gradient {
+                    background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                }
+                .item-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-bold;
+                    font-size: 36px;
+                    line-height: 42px;
+                    @include lt-spacing(20);
+                    margin-left: 92px;
+                    bottom: 40px;
+                    color: $color-white;
+                }
             }
             &-wrapper {
-                &-content {
-                    &-img {
-                        img {
-                            border-radius: 10px;
-                            box-shadow: 8px 8px 0 0 #ffffff50;
-                        }
-                    }
-                    &-list {
-                        color: white;
-                        &-title {
-                            font-family: $font-monserrat;
-                            font-weight: $font-extrbold;
-                        }
-                        &-item {
-                            > div {
-                                .item {
-                                    font-family: $font-monserrat;
-                                    font-weight: $font-regular;
-                                    border-bottom: 2px solid;
-                                    a {
-                                        padding-right: 35px;
-                                    }
-                                    svg {
-                                        width: 20px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        &-item7 {
-            &-img {
-            }
-            &-content {
-                &-gradient {
-                    border-top-right-radius: 10px;
-                    border-bottom-right-radius: 10px;
-                    background-image: linear-gradient(
-                        360deg,
-                        rgba(0, 35, 65, 0.700717787114846) 0%,
-                        rgba(0, 35, 65, 0.3029586834733894) 100%
-                    );
-                }
-                &-form-contact {
-                    border-radius: 10px;
-                    color: white;
-                    z-index: 1;
-                    > div {
-                        &:nth-child(1) {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                        }
-                        &:nth-child(2),
-                        &:nth-child(4) {
-                            button {
-                                border: 1px solid white;
-                                border-radius: 25px;
-                                color: white;
-                                &:focus {
-                                    outline: 0;
-                                }
-                            }
-                        }
-                        &:nth-child(2) {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                            button {
-                                background-color: #86c127;
-                            }
-                        }
-                        &:nth-child(4) {
-                            font-family: $font-monserrat;
-                            font-weight: $font-medium;
-                            button {
-                                background-color: transparent;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Super small devices (landscape phones, 576px and up)
-@media (max-width: 575.98px) {
-    .dentistry-periodontal-care {
-        .section-top {
-            height: 300px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 20px;
-                bottom: 90px;
-                &-container {
-                    font-size: 14px;
-                }
-                &-title {
-                    font-size: 36px;
-                    line-height: normal;
-                    padding-right: 20px;
-                    &::before {
-                        margin-bottom: 14px;
-                    }
-                }
-            }
-        }
-        .section-body {
-            margin: 70px auto 90px;
-            &-item1 {
-                margin: 0 20px;
-                &-title {
-                    font-size: 36px;
-                }
-                &-name {
-                    font-size: 38px;
-                    margin-bottom: 10px;
-                }
-                &-des {
-                    font-size: 14px;
-                }
-            }
-            &-item2 {
-                margin: 85px 20px 70px;
-                &-img {
-                    height: 100%;
-                    img {
-                        object-fit: cover;
-                    }
-                }
-                &-title {
-                    font-size: 28px;
-                    margin: 40px 20px 25px;
-                    padding-top: 20px;
-                }
-                &-list {
-                    &-content {
-                        margin: auto 10px;
-                        &-item {
-                            padding: 30px 20px;
-                            margin-bottom: 20px;
-                            min-height: 300px;
-                            &-img {
-                                img {
-                                    width: 70px;
-                                }
-                            }
-                            &-name {
-                                margin: 15px auto 20px;
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(4);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 20px;
-                &-border {
-                }
-                &-title {
-                    font-size: 30px;
-                    margin: 15px auto 30px;
-                }
-                &-des {
-                    font-size: 14px;
+                padding: 45px 92px 70px;
+                .des {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    color: $color-scorpion;
+                    font-size: 16px;
+                    line-height: 26px;
+                    @include lt-spacing(20);
                     margin-bottom: 35px;
                 }
-            }
-            &-item4 {
-                margin: 80px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 0 20px;
-                    &-gradient {
-                        padding-top: 60px;
-                        &-bg {
-                        }
+                .item {
+                    .name {
+                        font-family: $font-monserrat;
+                        font-weight: $font-medium;
+                        color: $color-tundora;
+                        font-size: 20px;
+                        @include lt-spacing(20);
+                        margin-bottom: 9px;
+                        max-height: 27px;
                     }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 10px;
-                            left: 10px;
-                            font-size: 20px;
-                        }
+                    .des {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                        color: $color-scorpion;
+                        font-size: 15px;
+                        line-height: 24px;
+                        @include lt-spacing(20);
+                    }
+                }
+            }
+        }
+    }
+    &-item5 {
+        &-title {
+            font-family: $font-monserrat;
+            font-weight: $font-bold;
+        }
+        &-list {
+            &-item {
+                &:hover {
+                    .section-body-item5-list-item-content-more {
+                        opacity: 1;
+                        margin-bottom: 0px;
+                        transition: 500ms;
+                    }
+                }
+                &-img {
+                    &-gradient {
+                        background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                        border-radius: 5px;
+                    }
+                }
+
+                &-content {
+                    color: white;
+                    &-name {
+                        font-family: $font-monserrat;
+                        font-weight: $font-semibold;
                     }
                     &-des {
-                        font-size: 14px;
-                        margin: 45px 20px 0;
-                        text-align: center;
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
                     }
-                    &-list {
-                        margin: 30px 20px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: center;
-                            }
-                            &-content {
-                                text-align: center;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(1);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
+                    &-more {
+                        text-transform: uppercase;
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                        color: #86c127 !important;
+                        opacity: 0;
+                        margin-bottom: -10px;
                     }
                 }
             }
-            &-item5 {
-                margin: 80px 20px auto;
-                &-title {
-                    font-size: 30px;
-                }
-                &-list {
-                    margin-top: 0;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 10px 30px;
-                            &-name {
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(2);
-                            }
-                            &-more {
-                                font-size: 12px;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 20px auto 20px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 40px;
-                        &-img {
-                            margin-bottom: 20px;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item7 {
-                margin: 90px 20px auto;
+        }
+    }
+    &-item6 {
+        &-bg {
+            background-color: #008cd4;
+        }
+        &-border {
+        }
+        &-wrapper {
+            &-content {
                 &-img {
-                    position: absolute;
-                    height: 100%;
                     img {
-                        object-fit: cover;
+                        border-radius: 10px;
+                        box-shadow: 8px 8px 0 0 #ffffff50;
                     }
-                }
-                &-content {
-                    width: 100%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 45px 15px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 20px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 16px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
-                                }
-                            }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 30px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .dentistry-periodontal-care {
-        .section-top {
-            height: 500px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 141px;
-                bottom: 90px;
-                &-container {
-                    font-size: 16px;
-                }
-                &-title {
-                    font-size: 46px;
-                }
-            }
-        }
-        .section-body {
-            margin: 70px auto 90px;
-            &-item1 {
-                margin: 0 20px;
-                &-title {
-                    font-size: 46px;
-                }
-                &-name {
-                    font-size: 48px;
-                    margin-bottom: 10px;
-                }
-                &-des {
-                    font-size: 16px;
-                }
-            }
-            &-item2 {
-                margin: 85px 20px 70px;
-                &-img {
-                    height: 100%;
-                }
-                &-title {
-                    font-size: 38px;
-                    margin: 40px 20px 25px;
-                    padding-top: 20px;
                 }
                 &-list {
-                    &-content {
-                        margin: auto 40px;
-                        &-item {
-                            padding: 20px;
-                            margin-bottom: 20px;
-                            &-img {
-                                img {
-                                    width: 70px;
-                                }
-                            }
-                            &-name {
-                                margin: 10px auto 20px;
-                                font-size: 18px;
-                                @include line-clamp(2);
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(4);
-                            }
-                        }
+                    color: white;
+                    &-title {
+                        font-family: $font-monserrat;
+                        font-weight: $font-extrbold;
                     }
-                }
-            }
-            &-item3 {
-                margin: auto 20px;
-                &-border {
-                }
-                &-title {
-                    font-size: 32px;
-                    margin: 30px auto 60px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin-bottom: 65px;
-                }
-            }
-            &-item4 {
-                margin: 80px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 20px;
-                    &-gradient {
-                        padding-top: 160px;
-                        &-bg {
-                        }
-                    }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 40px;
-                            left: 90px;
-                            font-size: 36px;
-                        }
-                    }
-                    &-des {
-                        font-size: 16px;
-                        margin: 45px 40px 0;
-                        text-align: left;
-                    }
-                    &-list {
-                        margin: 30px 40px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: left;
-                                img {
-                                    padding-right: 10px;
-                                }
-                            }
-                            &-content {
-                                text-align: left;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(1);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item5 {
-                margin: 80px 20px auto;
-                &-title {
-                    font-size: 40px;
-                }
-                &-list {
-                    margin-top: 60px;
                     &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 22px 42px;
-                            &-name {
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(3);
-                            }
-                            &-more {
-                                font-size: 12px;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 20px auto 20px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 40px;
-                        &-img {
-                            // display: none;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item7 {
-                margin: 90px 20px auto;
-                &-img {
-                    min-height: 400px;
-                    img {
-                        width: auto;
-                        object-fit: cover;
-                    }
-                }
-                &-content {
-                    position: absolute;
-                    width: 40%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 20px;
                         > div {
-                            &:nth-child(1) {
-                                font-size: 16px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 13px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
+                            .item {
+                                font-family: $font-monserrat;
+                                font-weight: $font-regular;
+                                border-bottom: 2px solid;
+                                a {
+                                    padding-right: 35px;
+                                }
+                                svg {
+                                    width: 20px;
                                 }
                             }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 15px;
-                                }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-item7 {
+        &-img {
+        }
+        &-content {
+            &-gradient {
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                background-image: linear-gradient(
+                    360deg,
+                    rgba(0, 35, 65, 0.700717787114846) 0%,
+                    rgba(0, 35, 65, 0.3029586834733894) 100%
+                );
+            }
+            &-form-contact {
+                border-radius: 10px;
+                color: white;
+                z-index: 1;
+                > div {
+                    &:nth-child(1) {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                    }
+                    &:nth-child(2),
+                    &:nth-child(4) {
+                        button {
+                            border: 1px solid white;
+                            border-radius: 25px;
+                            color: white;
+                            &:focus {
+                                outline: 0;
                             }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
+                        }
+                    }
+                    &:nth-child(2) {
+                        font-family: $font-monserrat;
+                        font-weight: $font-semibold;
+                        button {
+                            background-color: #86c127;
+                        }
+                    }
+                    &:nth-child(4) {
+                        font-family: $font-monserrat;
+                        font-weight: $font-medium;
+                        button {
+                            background-color: transparent;
                         }
                     }
                 }
@@ -778,468 +347,9 @@
     }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .dentistry-periodontal-care {
-        .section-top {
-            height: 500px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 141px;
-                bottom: 90px;
-                &-container {
-                    font-size: 16px;
-                }
-                &-title {
-                    font-size: 46px;
-                }
-            }
-        }
-        .section-body {
-            margin: 70px auto 90px;
-            &-item1 {
-                margin: 0 20px;
-                &-title {
-                    font-size: 46px;
-                }
-                &-name {
-                    font-size: 48px;
-                    margin-bottom: 10px;
-                }
-                &-des {
-                    font-size: 16px;
-                }
-            }
-            &-item2 {
-                margin: 85px 20px 70px;
-                &-img {
-                    height: 100%;
-                }
-                &-title {
-                    font-size: 38px;
-                    margin: 40px 20px 25px;
-                    padding-top: 20px;
-                }
-                &-list {
-                    &-content {
-                        margin: auto 40px;
-                        &-item {
-                            padding: 20px;
-                            margin-bottom: 20px;
-                            &-img {
-                                img {
-                                    width: 70px;
-                                }
-                            }
-                            &-name {
-                                margin: 10px auto 20px;
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(4);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 20px;
-                &-border {
-                }
-                &-title {
-                    font-size: 32px;
-                    margin: 30px auto 60px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin-bottom: 65px;
-                }
-            }
-            &-item4 {
-                margin: 80px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 20px;
-                    &-gradient {
-                        padding-top: 160px;
-                        &-bg {
-                        }
-                    }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 40px;
-                            left: 90px;
-                            font-size: 36px;
-                        }
-                    }
-                    &-des {
-                        font-size: 16px;
-                        margin: 45px 40px 0;
-                        text-align: left;
-                    }
-                    &-list {
-                        margin: 30px 40px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: left;
-                                img {
-                                    padding-right: 10px;
-                                }
-                            }
-                            &-content {
-                                text-align: left;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(1);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item5 {
-                margin: 80px 20px auto;
-                &-title {
-                    font-size: 40px;
-                }
-                &-list {
-                    margin-top: 60px;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 22px 42px;
-                            &-name {
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(3);
-                            }
-                            &-more {
-                                font-size: 12px;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 20px auto 20px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 40px;
-                        &-img {
-                            display: block;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item7 {
-                margin: 90px 20px auto;
-                &-img {
-                }
-                &-content {
-                    position: absolute;
-                    width: 40%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 20px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 16px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 13px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
-                                }
-                            }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 15px;
-                                }
-                            }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+@media (max-width: 767px) {
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    .dentistry-periodontal-care {
-        .section-top {
-            height: 500px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 141px;
-                bottom: 90px;
-                &-container {
-                    font-size: 16px;
-                }
-                &-title {
-                    font-size: 46px;
-                }
-            }
-        }
-        .section-body {
-            margin: 70px auto 90px;
-            &-item1 {
-                margin: 0 240px;
-                &-title {
-                    font-size: 46px;
-                }
-                &-name {
-                    font-size: 48px;
-                    margin-bottom: 10px;
-                }
-                &-des {
-                    font-size: 16px;
-                }
-            }
-            &-item2 {
-                margin: 85px 83px 70px;
-                &-img {
-                    height: auto;
-                }
-                &-title {
-                    font-size: 38px;
-                    margin: 40px 220px 25px;
-                }
-                &-list {
-                    &-content {
-                        margin: auto 90px;
-                        &-item {
-                            padding: 30px 20px;
-                            min-height: 400px;
-                            &-img {
-                            }
-                            &-name {
-                                margin: 30px auto 20px;
-                                font-size: 22px;
-                                @include line-clamp(2);
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(8);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 141px;
-                &-border {
-                }
-                &-title {
-                    font-size: 32px;
-                    margin: 30px auto 60px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin-bottom: 65px;
-                }
-            }
-            &-item4 {
-                margin: 80px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 0 141px;
-                    &-gradient {
-                        padding-top: 160px;
-                        &-bg {
-                        }
-                    }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 40px;
-                            left: 90px;
-                            font-size: 36px;
-                        }
-                    }
-                    &-des {
-                        font-size: 16px;
-                        margin: 45px 90px 0;
-                        text-align: left;
-                    }
-                    &-list {
-                        margin: 30px 90px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: left;
-                            }
-                            &-content {
-                                text-align: left;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(2);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item5 {
-                margin: 80px 141px auto;
-                &-title {
-                    font-size: 40px;
-                }
-                &-list {
-                    margin-top: 60px;
-                    &-item {
-                        margin-top: 40px;
-                        &-img {
-                        }
-                        &-content {
-                            padding: 22px 42px;
-                            &-name {
-                                font-size: 28px;
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(3);
-                            }
-                            &-more {
-                                font-size: 15px;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 141px auto 233px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 141px;
-                        &-img {
-                            display: block;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item7 {
-                margin: 90px 141px auto;
-                &-img {
-                }
-                &-content {
-                    position: absolute;
-                    width: 40%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 45px 55px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 20px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 16px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
-                                }
-                            }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 30px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+@media (max-width: 1023px) and (min-width: 768px) {
 }
