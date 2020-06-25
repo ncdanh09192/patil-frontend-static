@@ -177,6 +177,51 @@
 			margin: 0 20px 0 20px;
 		}
 	}
+	.other-blog {
+		p {
+			font-size: 36px;
+			font-family: $font-monserrat;
+			font-weight: $font-bold;
+		}
+	}
+	.section-body {
+		margin-bottom: 88px;
+		.section-container {
+			&-left {
+				&-item {
+					&-poster {
+						&-img {
+						}
+						&-title {
+							color: $color-white;
+							font-family: $font-monserrat;
+							font-weight: $font-normal;
+							background-color: $color-limeade;
+							border-top-right-radius: 25px;
+						}
+					}
+					&-name {
+						margin-top: 24px;
+						font-size: 20px;
+						font-family: $font-monserrat;
+						font-weight: $font-semibold;
+						a {
+							color: $color-tundora;
+							&:hover {
+								text-decoration: none;
+							}
+						}
+					}
+					&-des {
+						font-size: 15px;
+						color: $color-scorpion;
+						font-family: $font-monserrat;
+						font-weight: $font-normal;
+					}
+				}
+			}
+		}
+	}
 }
 @media (max-width: 1023px) and (min-width: 768px) {}
 
