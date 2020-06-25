@@ -783,249 +783,148 @@ button { cursor: pointer; }
   .dentistry-periodontal-care-gum-recession .section-body-item9-content-form-contact > div:nth-child(2) button { padding: 7px 20px; }
   .dentistry-periodontal-care-gum-recession .section-body-item9-content-form-contact > div:nth-child(3) { margin: 17px; }
   .dentistry-periodontal-care-gum-recession .section-body-item9-content-form-contact > div:nth-child(4) button { padding: 7px 30px; } }
-.dentistry-periodontal-care-scaling-and-root-planing .section-top { background-image: url("../images/dentisty_periodontal_care_scaling_and_root_planing/scalingAndRootPlaning-banner1.jpg"); }
+.dentistry-periodontal-care-scaling-and-root-planing .section-top { background-image: url("../images/dentisty_periodontal_care_scaling_and_root_planing/scalingAndRootPlaning-banner1.jpg"); margin-bottom: 60px; border-bottom: 2px solid #6cac04; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-top-gradient { background-color: #000000; opacity: 0.4; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-top .page-title { font-family: "Montserrat"; font-weight: 400; text-transform: uppercase; }
 .dentistry-periodontal-care-scaling-and-root-planing .section-top-gradient { background-color: black; opacity: 0.4; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb { z-index: 1; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-container, .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title { font-family: "Montserrat"; font-weight: 400; text-transform: uppercase; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-title { font-family: "Montserrat"; font-weight: 700; color: #444444; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-img { background-color: #0072ad; border-top-right-radius: 50px; border-bottom-left-radius: 50px; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-title { font-family: "Montserrat"; font-weight: 700; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-des { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item { background-color: #f7f7f7; border-radius: 15px; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-name { font-family: "Montserrat"; font-weight: 600; color: #444444; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-title { font-family: "Montserrat"; font-weight: 400; color: #444444; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-gradient { z-index: -1; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-gradient-bg { background-color: #f7f7f7; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-banner-gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-banner-title { font-family: "Montserrat"; font-weight: 700; color: white; text-align: left; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des-label { font-family: "Montserrat"; font-weight: 600; color: #008cd4; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des-content { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-name { font-family: "Montserrat"; font-weight: 500; color: #444444; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-des { font-family: "Montserrat"; font-weight: 400; color: #606060; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item5 { text-align: left; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-title { font-family: "Montserrat"; font-weight: 600; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-des { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-list ul { font-family: "Montserrat"; font-weight: 500; color: #008cd4; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item6 { background-color: #0072ad; color: white; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-title { font-family: "Montserrat"; font-weight: 700; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-des { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-name { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item7 { text-align: left; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-title { font-family: "Montserrat"; font-weight: 600; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-des { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul { font-family: "Montserrat"; font-weight: 500; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul li { margin-bottom: 20px; position: relative; list-style-type: none; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul li:before { content: ""; position: absolute; top: -5px; left: -30px; width: 30px; height: 30px; background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat left top; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-bg { background-color: #008cd4; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-img img { border-radius: 10px; -webkit-box-shadow: 8px 8px 0 0 #ffffff50; box-shadow: 8px 8px 0 0 #ffffff50; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list { color: white; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-title { font-family: "Montserrat"; font-weight: 800; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-item > div .item { font-family: "Montserrat"; font-weight: 400; border-bottom: 2px solid; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-item > div .item a { padding-right: 35px; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-item > div .item svg { width: 20px; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-gradient { border-top-right-radius: 10px; border-bottom-right-radius: 10px; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.7007177871)), to(rgba(0, 35, 65, 0.3029586835))); background-image: linear-gradient(360deg, rgba(0, 35, 65, 0.7007177871) 0%, rgba(0, 35, 65, 0.3029586835) 100%); }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact { border-radius: 10px; color: white; z-index: 1; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(1) { font-family: "Montserrat"; font-weight: 400; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button, .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button { border: 1px solid white; border-radius: 25px; color: white; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button:focus, .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button:focus { outline: 0; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) { font-family: "Montserrat"; font-weight: 600; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button { background-color: #86c127; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) { font-family: "Montserrat"; font-weight: 500; }
-.dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button { background-color: transparent; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 { margin-bottom: 90px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-title { font-family: "Montserrat"; font-weight: 700; line-height: 45px; font-size: 46px; letter-spacing: 0.02em; margin-bottom: 35px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc p { line-height: 28px; font-size: 16px; letter-spacing: 0.02em; margin-bottom: 60px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc p.top-desc-title { font-family: "Dancing Script"; font-weight: 700; font-size: 48px; color: #86c127; margin-bottom: 18px; line-height: 24px; letter-spacing: 0.03em; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 { margin-bottom: 100px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-title { font-family: "Montserrat"; font-weight: 700; line-height: 50px; font-size: 36px; letter-spacing: 0.02em; margin-bottom: 30px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-desc p { line-height: 28px; font-size: 16px; letter-spacing: 0.02em; margin-bottom: 45px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content { margin: auto 169px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit { text-align: center; padding: 30px; background-color: #f7f7f7; border-radius: 15px; max-width: 320px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit p { margin: 0; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .icon { width: 100px; height: 100px; border-radius: 100px; background-color: #ffffff; margin: auto auto 20px; position: relative; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .icon img { position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .icon_benefit_1 img { width: 57.5px; height: 57.78px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .icon_benefit_2 img { width: 50px; height: 50.1px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .icon_benefit_3 img { width: 57.5px; height: 44.02px; left: 10px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .benefit-title { font-size: 22px; margin-bottom: 20px; line-height: 26px; color: #444444; font-family: "Montserrat"; font-weight: 500; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefit .benefit-description { font-size: 15px; line-height: 26px; color: #606060; font-family: "Montserrat"; font-weight: 400; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 { margin: auto 141px 105px; text-align: left; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .item-left { padding-right: 30px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .item-right { padding-left: 30px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-img { margin-bottom: 35px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-title { font-family: "Montserrat"; font-weight: 400; font-size: 32px; line-height: 40px; margin-bottom: 25px; text-align: left; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-desc { font-family: "Montserrat"; font-weight: 400; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-desc p { font-size: 32px; line-height: 40px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 { background-color: #0072ad; color: #ffffff; margin-bottom: 90px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 .content { padding: 50px 233px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 p { font-family: "Dancing Script"; font-weight: 400; font-size: 32px; line-height: 38px; letter-spacing: 0.02em; margin: 32px auto 74px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 { margin-bottom: 90px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .background { z-index: -1; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .background > div { background-color: #f7f7f7; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content { margin: auto 141px; padding: 90px 0 40px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner { margin-bottom: 52px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner .gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner .title { font-family: "Montserrat"; font-weight: 700; font-size: 36px; line-height: 42px; letter-spacing: 0.02em; margin-left: 92px; bottom: 40px; color: #ffffff; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list { margin: auto 92px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-title { font-family: "Montserrat"; font-weight: 600; line-height: 30px; font-size: 26px; letter-spacing: 0.02em; margin-bottom: 18px; color: #008cd4; text-align: left; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; text-align: left; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-desc p { line-height: 28px; font-size: 15px; letter-spacing: 0.02em; margin-bottom: 42px; }
+.dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team { margin: auto 141px 90px; }
 
-@media (max-width: 575.98px) { .dentistry-periodontal-care-scaling-and-root-planing .section-top { height: 300px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 20px; bottom: 90px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-container { font-size: 14px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title { font-size: 36px; line-height: normal; padding-right: 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title::before { margin-bottom: 14px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body { margin: 40px auto 90px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1 { margin: 0 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-title { font-size: 26px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-des { font-size: 12px; margin: auto auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2 { margin: 45px 20px 40px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-img { height: 100%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-img img { -o-object-fit: cover; object-fit: cover; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-title { font-size: 18px; margin: auto; padding-top: 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-des { font-size: 14px; margin: 20px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content { margin: auto 10px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item { padding: 30px 20px; margin-bottom: 20px; min-height: 300px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-img img { width: 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-name { margin: 15px auto 20px; font-size: 18px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-des { font-size: 12px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3 { margin: auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-title { font-size: 20px; margin: 15px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-des { font-size: 12px; margin-top: 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4 { margin: 40px auto 0; padding-bottom: 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content { padding: 0 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-gradient { padding-top: 60px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-banner-title { bottom: 10px; left: 10px; font-size: 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des { font-size: 14px; margin: 45px 20px 0; text-align: center; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list { margin: 30px 20px 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item { margin-bottom: 27px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-img { text-align: center; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content { text-align: center; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-name { font-size: 20px; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-des { font-size: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5 { margin: 40px 20px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-title { font-size: 26px; line-height: 38px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-des { font-size: 14px; margin: 30px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-list ul { margin-top: 15px; padding-left: 17px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6 { margin-top: 40px; padding: 40px 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-title { font-size: 26px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-des { font-size: 14px; margin: 30px auto 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-name { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7 { margin: 40px 20px auto; text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-title { font-size: 26px; line-height: 42px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-des { font-size: 14px; margin: 30px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul { font-size: 13px; margin-top: 15px; padding-left: 30px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul li { margin-bottom: 20px; position: relative; list-style-type: none; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul li:before { content: ""; position: absolute; top: -5px; left: -30px; width: 30px; height: 30px; background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat left top; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8 { margin-top: 100px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-bg { margin: auto 20px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper { padding: 50px 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content { margin: auto 40px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-img { margin-bottom: 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-title { margin-bottom: 25px; font-size: 32px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-item > div .item { margin-bottom: 25px; font-size: 18px; padding-bottom: 5px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9 { margin: 90px 20px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-img { position: absolute; height: 100%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-img img { -o-object-fit: cover; object-fit: cover; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content { width: 100%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact { color: white; margin: 45px 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(1) { font-size: 20px; margin-bottom: 70px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2), .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button svg, .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button svg { font-size: 30px; margin-left: 35px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button { padding: 7px 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(3) { margin: 17px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button { padding: 7px 30px; } }
-@media (min-width: 768px) { .dentistry-periodontal-care-scaling-and-root-planing .section-top { height: 300px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 20px; bottom: 90px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-container { font-size: 14px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title { font-size: 36px; line-height: normal; padding-right: 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title::before { margin-bottom: 14px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body { margin: 40px auto 90px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1 { margin: 0 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-title { font-size: 26px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-des { font-size: 12px; margin: auto auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2 { margin: 45px 20px 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-img { height: 100%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-img img { -o-object-fit: cover; object-fit: cover; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-title { font-size: 18px; margin: auto; padding-top: 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-des { font-size: 14px; margin: 20px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content { margin: auto 10px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item { padding: 30px 20px; margin-bottom: 20px; min-height: 300px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-img img { width: 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-name { margin: 15px auto 20px; font-size: 18px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-des { font-size: 12px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3 { margin: auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-title { font-size: 20px; margin: 15px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-des { font-size: 12px; margin-top: 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4 { margin: 40px auto 0; padding-bottom: 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content { padding: 0 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-banner-title { bottom: 10px; left: 10px; font-size: 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des { font-size: 14px; margin: 45px 20px 0; text-align: center; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list { margin: 30px 20px 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item { margin-bottom: 27px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-img { text-align: center; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content { text-align: center; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-name { font-size: 20px; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-des { font-size: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5 { margin: 40px 20px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-title { font-size: 26px; line-height: 38px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-des { font-size: 14px; margin: 30px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-list ul { margin-top: 15px; padding-left: 17px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6 { margin-top: 40px; padding: 40px 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-title { font-size: 26px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-des { font-size: 14px; margin: 30px auto 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-name { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7 { margin: 40px 20px auto; text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-title { font-size: 26px; line-height: 42px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-des { font-size: 14px; margin: 30px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul { font-size: 13px; margin-top: 15px; padding-left: 30px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul li { margin-bottom: 20px; position: relative; list-style-type: none; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul li:before { content: ""; position: absolute; top: -5px; left: -30px; width: 30px; height: 30px; background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat left top; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8 { margin-top: 100px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-bg { margin: auto 20px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper { padding: 50px 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content { margin: auto 40px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-img { margin-bottom: 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-title { margin-bottom: 25px; font-size: 32px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-item > div .item { margin-bottom: 25px; font-size: 18px; padding-bottom: 5px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9 { margin: 90px 20px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-img { height: 100%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-img img { -o-object-fit: cover; object-fit: cover; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content { width: 100%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact { color: white; margin: 45px 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(1) { font-size: 20px; margin-bottom: 70px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2), .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button svg, .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button svg { font-size: 30px; margin-left: 35px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button { padding: 7px 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(3) { margin: 17px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button { padding: 7px 30px; } }
-@media (min-width: 1200px) { .dentistry-periodontal-care-scaling-and-root-planing .section-top { height: 500px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb { margin-left: 141px; bottom: 90px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-container { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-top .dentistry-periodontal-care-breadcrumb-title { font-size: 46px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body { margin: 70px auto 90px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1 { margin: 0 230px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-title { font-size: 46px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-name { font-size: 48px; margin-bottom: 10px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item1-des { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2 { margin: 85px 141px 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-img { height: auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-title { font-size: 38px; margin: 40px 200px 25px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-des { font-size: 16px; margin: 20px 90px 40px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item { padding: 30px 20px; min-height: 400px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-name { margin: 30px auto 20px; font-size: 22px; text-transform: uppercase; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item2-list-content-item-des { font-size: 15px; display: -webkit-box; -webkit-line-clamp: 8; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3 { margin: auto 141px; text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-title { font-size: 32px; line-height: 40px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item3-des { font-size: 15px; margin-top: 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4 { margin: 80px auto 0; padding-bottom: 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content { padding: 90px 141px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-banner-title { bottom: 40px; left: 90px; font-size: 36px; line-height: 40px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des { font-size: 16px; margin: 45px 90px 0; text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des-label { font-size: 26px; margin: 70px auto 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-des-content { font-size: 15px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list { margin: 30px 90px 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item { margin-bottom: 27px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-img { text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content { text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-name { font-size: 20px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item4-content-list-item-content-des { font-size: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5 { margin: 80px 141px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-title { font-size: 36px; line-height: 44px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-des { font-size: 16px; margin: 30px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item5-list ul { margin-top: 16px; padding-left: 17px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6 { margin-top: 70px; padding: 70px 230px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-title { font-size: 36px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-des { font-size: 16px; margin: 30px auto 70px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item6-name { font-size: 26px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7 { margin: 80px 141px auto; text-align: left; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-title { font-size: 36px; line-height: 42px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-des { font-size: 16px; margin: 30px auto 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item7-list ul { margin-top: 15px; padding-left: 30px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8 { margin-top: 100px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-bg { margin: auto 141px auto 233px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper { padding: 50px 0; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content { margin: auto 141px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-img { display: block; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-title { margin-bottom: 25px; font-size: 32px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item8-wrapper-content-list-item > div .item { margin-bottom: 25px; font-size: 18px; padding-bottom: 5px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9 { margin: 90px 141px auto; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content { position: absolute; width: 40%; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact { color: white; margin: 45px 55px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(1) { font-size: 20px; margin-bottom: 70px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2), .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) { font-size: 16px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button svg, .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button svg { font-size: 30px; margin-left: 35px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(2) button { padding: 7px 20px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(3) { margin: 17px; }
-  .dentistry-periodontal-care-scaling-and-root-planing .section-body-item9-content-form-contact > div:nth-child(4) button { padding: 7px 30px; } }
+@media (max-width: 767px) { .dentistry-periodontal-care-scaling-and-root-planing .section-top { background-image: url("../images/dentisty_periodontal_care_scaling_and_root_planing/scalingAndRootPlaning-banner1.jpg"); margin-bottom: 60px; border-bottom: 2px solid #6cac04; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-top-gradient { background-color: #000000; opacity: 0.4; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-top .page-title { font-family: "Montserrat"; font-weight: 400; text-transform: uppercase; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-top-gradient { background-color: black; opacity: 0.4; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 { margin: auto 20px 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-title { font-family: "Montserrat"; font-weight: 700; line-height: 44px; font-size: 38px; letter-spacing: 0.02em; margin-bottom: 35px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc p { line-height: 26px; font-size: 14px; letter-spacing: 0.02em; margin-bottom: 60px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc p.top-desc-title { font-family: "Dancing Script"; font-weight: 700; font-size: 38px; color: #86c127; margin-bottom: 18px; line-height: 48px; letter-spacing: 0.03em; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 { margin: auto 20px 100px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-title { font-family: "Montserrat"; font-weight: 700; line-height: 40px; font-size: 30px; letter-spacing: 0.02em; margin-bottom: 30px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-desc p { line-height: 28px; font-size: 16px; letter-spacing: 0.02em; margin-bottom: 45px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content { margin: auto; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit { text-align: center; padding: 30px; background-color: #f7f7f7; border-radius: 15px; max-width: 100%; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit p { margin: 0; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon { width: 100px; height: 100px; border-radius: 100px; background-color: #ffffff; margin: auto auto 20px; position: relative; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon img { position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon_benefit_1 img { width: 57.5px; height: 57.78px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon_benefit_2 img { width: 50px; height: 50.1px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon_benefit_3 img { width: 57.5px; height: 44.02px; left: 10px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .benefit-title { font-size: 22px; margin-bottom: 15px; line-height: 45px; color: #444444; font-family: "Montserrat"; font-weight: 600; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .benefit-description { font-size: 15px; line-height: 26px; color: #606060; font-family: "Montserrat"; font-weight: 400; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 { margin: auto 20px 105px; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .item-left { padding-right: 15px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .item-right { padding-left: 15px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-img { margin-bottom: 35px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-title { font-family: "Montserrat"; font-weight: 400; font-size: 32px; line-height: 40px; margin-bottom: 25px; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-desc { font-family: "Montserrat"; font-weight: 400; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-desc p { font-size: 32px; line-height: 40px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 { background-color: #0072ad; color: #ffffff; margin-bottom: 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 .content { padding: 50px 20px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 p { font-family: "Dancing Script"; font-weight: 400; font-size: 32px; line-height: 38px; letter-spacing: 0.02em; margin: 32px auto 74px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 { margin-bottom: 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .background { z-index: -1; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .background > div { background-color: #f7f7f7; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content { margin: auto 20px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner { margin-bottom: 52px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner .gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner .title { font-family: "Montserrat"; font-weight: 700; font-size: 18px; line-height: 26px; letter-spacing: 0.02em; margin-left: 10px; bottom: 10px; color: #ffffff; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list { margin: auto 20px; padding-bottom: 40px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-title { font-family: "Montserrat"; font-weight: 600; line-height: 30px; font-size: 26px; letter-spacing: 0.02em; margin-bottom: 18px; color: #008cd4; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-desc p { line-height: 28px; font-size: 15px; letter-spacing: 0.02em; margin-bottom: 42px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team { margin: auto 20px 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team .our-team-content { padding: 20px 0; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team .our-team-content .our-team-desc p { font-size: 18px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team .our-team-content .cta-wrapper .cta-btn-request { font-size: 14px; padding: 10px 40px 10px 20px; background-position: 95% 13px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team .our-team-content .cta-wrapper .cta-btn-contact { font-size: 14px; padding: 10px 50px 10px 20px; background-position: 90% 13px; } }
+@media (max-width: 1023px) and (min-width: 768px) { .dentistry-periodontal-care-scaling-and-root-planing .section-top { background-image: url("../images/dentisty_periodontal_care_scaling_and_root_planing/scalingAndRootPlaning-banner1.jpg"); margin-bottom: 60px; border-bottom: 2px solid #6cac04; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-top-gradient { background-color: #000000; opacity: 0.4; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-top .page-title { font-family: "Montserrat"; font-weight: 400; text-transform: uppercase; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-top-gradient { background-color: black; opacity: 0.4; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 { margin: auto 39px 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-title { font-family: "Montserrat"; font-weight: 700; line-height: 45px; font-size: 46px; letter-spacing: 0.02em; margin-bottom: 35px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc p { line-height: 28px; font-size: 16px; letter-spacing: 0.02em; margin-bottom: 60px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item1 .top-desc p.top-desc-title { font-family: "Dancing Script"; font-weight: 700; font-size: 48px; color: #86c127; margin-bottom: 18px; line-height: 24px; letter-spacing: 0.03em; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 { margin-bottom: 100px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-title { font-family: "Montserrat"; font-weight: 700; line-height: 50px; font-size: 36px; letter-spacing: 0.02em; margin-bottom: 30px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .top-desc p { line-height: 28px; font-size: 16px; letter-spacing: 0.02em; margin-bottom: 45px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content { margin: auto 39px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit { text-align: center; padding: 30px; background-color: #f7f7f7; border-radius: 15px; max-width: 100%; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit p { margin: 0; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon { width: 100px; height: 100px; border-radius: 100px; background-color: #ffffff; margin: auto auto 20px; position: relative; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon img { position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon_benefit_1 img { width: 57.5px; height: 57.78px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon_benefit_2 img { width: 50px; height: 50.1px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .icon_benefit_3 img { width: 57.5px; height: 44.02px; left: 10px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .benefit-title { font-size: 22px; margin-bottom: 15px; line-height: 45px; color: #444444; font-family: "Montserrat"; font-weight: 600; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item2 .content .benefits .benefit .benefit-description { font-size: 15px; line-height: 26px; color: #606060; font-family: "Montserrat"; font-weight: 400; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 { margin: auto 39px 105px; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .item-left { padding-right: 30px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .item-right { padding-left: 30px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-img { margin-bottom: 35px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-title { font-family: "Montserrat"; font-weight: 400; font-size: 32px; line-height: 40px; margin-bottom: 25px; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-desc { font-family: "Montserrat"; font-weight: 400; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item3 .top-desc p { font-size: 32px; line-height: 40px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 { background-color: #0072ad; color: #ffffff; margin-bottom: 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 .content { padding: 50px 39px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item4 p { font-family: "Dancing Script"; font-weight: 400; font-size: 32px; line-height: 38px; letter-spacing: 0.02em; margin: 32px auto 74px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 { margin-bottom: 90px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .background { z-index: -1; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .background > div { background-color: #f7f7f7; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content { margin: auto 39px; padding: 90px 0 40px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner { margin-bottom: 52px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner .gradient { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 35, 65, 0.8)), to(rgba(0, 128, 128, 0))); background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%); }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .banner .title { font-family: "Montserrat"; font-weight: 700; font-size: 36px; line-height: 42px; letter-spacing: 0.02em; margin-left: 20px; bottom: 40px; color: #ffffff; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list { margin: auto 20px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-title { font-family: "Montserrat"; font-weight: 600; line-height: 30px; font-size: 26px; letter-spacing: 0.02em; margin-bottom: 18px; color: #008cd4; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-desc { font-family: "Montserrat"; font-weight: 400; max-width: 900px; text-align: left; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .item5 .content .list .top-desc p { line-height: 28px; font-size: 15px; letter-spacing: 0.02em; margin-bottom: 42px; }
+  .dentistry-periodontal-care-scaling-and-root-planing .section-body .our-team { margin: auto 39px 90px; } }
 .blog_detal .section-top { background-image: url("../images/blog-detal/blog_detal_top_bg.png"); margin-bottom: 60px; }
 .blog_detal .top-title { font-family: 700; font-size: 46px; letter-spacing: 0.02em; color: #444444; text-align: center; }
 .blog_detal .top-title-2 { font-family: 700; font-size: 46px; letter-spacing: 0.02em; color: #444444; text-align: center; margin-bottom: 40px; }
