@@ -577,8 +577,9 @@ button { cursor: pointer; }
 .dentistry-periodontal-care-gum-recession .section-body .prevent .top-desc { font-family: "Montserrat"; font-weight: 400; margin-bottom: 30px; text-align: left; }
 .dentistry-periodontal-care-gum-recession .section-body .prevent .top-desc p { font-size: 16px; line-height: 28px; letter-spacing: 0.02em; }
 .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list { font-family: "Montserrat"; font-weight: 500; font-size: 16px; }
-.dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul { padding-left: 20px; }
-.dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul li { line-height: 20px; margin-bottom: 20px; }
+.dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul { padding-left: 30px; list-style: none; }
+.dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul li { line-height: 20px; margin-bottom: 20px; position: relative; }
+.dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul li:before { content: ""; position: absolute; left: -30px; top: -5px; background-image: url("../images/dentisty_periodontal_care_gum_recession/icon.png"); width: 20px; height: 30px; }
 .dentistry-periodontal-care-gum-recession .section-body .related-page { margin: auto 141px 90px; }
 .dentistry-periodontal-care-gum-recession .section-body .related-page .background { padding-left: 92px; z-index: -1; }
 .dentistry-periodontal-care-gum-recession .section-body .related-page .background > div { background-color: #008cd4; }
@@ -644,7 +645,7 @@ button { cursor: pointer; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-desc { font-family: "Montserrat"; font-weight: 400; margin-bottom: 30px; text-align: left; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-desc p { font-size: 16px; line-height: 28px; letter-spacing: 0.02em; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list { font-family: "Montserrat"; font-weight: 500; font-size: 16px; }
-  .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul { padding-left: 20px; }
+  .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul { padding-left: 30px; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul li { line-height: 20px; margin-bottom: 20px; }
   .dentistry-periodontal-care-gum-recession .section-body .related-page { margin: auto 15px 90px; }
   .dentistry-periodontal-care-gum-recession .section-body .related-page .background { padding-left: 0; z-index: -1; }
@@ -714,7 +715,7 @@ button { cursor: pointer; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-desc { font-family: "Montserrat"; font-weight: 400; margin-bottom: 30px; text-align: left; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-desc p { font-size: 16px; line-height: 28px; letter-spacing: 0.02em; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list { font-family: "Montserrat"; font-weight: 500; font-size: 16px; }
-  .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul { padding-left: 20px; }
+  .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul { padding-left: 30px; }
   .dentistry-periodontal-care-gum-recession .section-body .prevent .top-list ul li { line-height: 20px; margin-bottom: 20px; }
   .dentistry-periodontal-care-gum-recession .section-body .related-page { margin: auto 39px 90px; }
   .dentistry-periodontal-care-gum-recession .section-body .related-page .background { padding-left: 0; z-index: -1; }
