@@ -16,7 +16,7 @@
             text-transform: uppercase;
         }
     }
-    .item1 {
+    .preamble {
         margin-bottom: 85px;
         .top-title {
             font-family: $font-monserrat;
@@ -46,7 +46,7 @@
             }
         }
     }
-    .item2 {
+    .needs {
         margin: auto 83px 70px;
         padding: 0 90px;
         .background {
@@ -128,7 +128,7 @@
             }
         }
     }
-    .item3 {
+    .continued {
         margin: auto 233px 65px;
         .content {
             padding-top: 32px;
@@ -153,7 +153,7 @@
             }
         }
     }
-    .item4 {
+    .reasons {
         margin-bottom: 80px;
         .background {
             padding-top: 106.5px;
@@ -174,7 +174,7 @@
                     font-size: 36px;
                     line-height: 42px;
                     @include lt-spacing(20);
-                    margin-left: 92px;
+                    margin: auto 92px;
                     bottom: 40px;
                     color: $color-white;
                 }
@@ -210,7 +210,7 @@
             }
         }
     }
-    .item5 {
+    .treatments {
         margin: auto 141px 60px;
         .title {
             font-family: $font-monserrat;
@@ -273,7 +273,7 @@
             }
         }
     }
-    .item6 {
+    .related-page {
         margin: auto 141px 90px;
         .background {
             padding-left: 92px;
@@ -335,7 +335,7 @@
                 text-transform: uppercase;
             }
         }
-        .item1 {
+        .preamble {
             margin: auto 15px 85px;
             .top-title {
                 font-family: $font-monserrat;
@@ -365,7 +365,7 @@
                 }
             }
         }
-        .item2 {
+        .needs {
             margin: auto 15px 70px;
             padding: 0 30px;
             .background {
@@ -450,7 +450,7 @@
                 }
             }
         }
-        .item3 {
+        .continued {
             margin: auto 15px 65px;
             .content {
                 padding-top: 32px;
@@ -476,7 +476,7 @@
                 }
             }
         }
-        .item4 {
+        .reasons {
             margin-bottom: 40px;
             .background {
                 padding-top: 50px;
@@ -497,7 +497,7 @@
                         font-size: 22px;
                         line-height: 26px;
                         @include lt-spacing(20);
-                        margin-left: 10px;
+                        margin: auto 10px;
                         bottom: 10px;
                         color: $color-white;
                         text-align: left;
@@ -537,7 +537,7 @@
                 }
             }
         }
-        .item5 {
+        .treatments {
             margin: auto 15px 60px;
             .title {
                 font-family: $font-monserrat;
@@ -601,7 +601,7 @@
                 }
             }
         }
-        .item6 {
+        .related-page {
             margin: auto 15px 90px;
             .background {
                 padding-left: 0;
@@ -669,7 +669,6 @@
     }
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (max-width: 1023px) and (min-width: 768px) {
     .dentistry-periodontal-care {
         .section-top {
@@ -686,7 +685,7 @@
                 text-transform: uppercase;
             }
         }
-        .item1 {
+        .preamble {
             margin: auto 39px 85px;
             .top-title {
                 font-family: $font-monserrat;
@@ -716,7 +715,7 @@
                 }
             }
         }
-        .item2 {
+        .needs {
             margin: auto 39px 70px;
             padding: 0 50px;
             .background {
@@ -801,7 +800,7 @@
                 }
             }
         }
-        .item3 {
+        .continued {
             margin: auto 39px 65px;
             .content {
                 padding-top: 32px;
@@ -827,7 +826,7 @@
                 }
             }
         }
-        .item4 {
+        .reasons {
             margin-bottom: 80px;
             .background {
                 padding-top: 106.5px;
@@ -848,7 +847,7 @@
                         font-size: 30px;
                         line-height: 42px;
                         @include lt-spacing(20);
-                        margin-left: 20px;
+                        margin: auto 20px;
                         bottom: 40px;
                         color: $color-white;
                     }
@@ -887,7 +886,7 @@
                 }
             }
         }
-        .item5 {
+        .treatments {
             margin: auto 39px 60px;
             .title {
                 font-family: $font-monserrat;
@@ -951,7 +950,7 @@
                 }
             }
         }
-        .item6 {
+        .related-page {
             margin: auto 39px 90px;
             .background {
                 padding-left: 0;

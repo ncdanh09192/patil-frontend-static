@@ -20,7 +20,7 @@
         }
     }
     .section-body {
-        .item1 {
+        .preamble {
             margin-bottom: 90px;
             .top-title {
                 font-family: $font-monserrat;
@@ -51,7 +51,7 @@
                 }
             }
         }
-        .item2 {
+        .needs {
             margin-bottom: 100px;
             .top-title {
                 font-family: $font-monserrat;
@@ -136,7 +136,7 @@
                 }
             }
         }
-        .item3 {
+        .treatments {
             margin: auto 141px 105px;
             text-align: left;
             .item-left {
@@ -159,13 +159,15 @@
             .top-desc {
                 font-family: $font-monserrat;
                 font-weight: $font-regular;
+                text-align: left;
                 p {
-                    font-size: 32px;
-                    line-height: 40px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    @include lt-spacing(20);
                 }
             }
         }
-        .item4 {
+        .continued {
             background-color: $color-deepCerulean;
             color: $color-white;
             margin-bottom: 90px;
@@ -181,7 +183,7 @@
                 margin: 32px auto 74px;
             }
         }
-        .item5 {
+        .reasons {
             margin-bottom: 90px;
             .background {
                 z-index: -1;
@@ -203,9 +205,10 @@
                         font-size: 36px;
                         line-height: 42px;
                         @include lt-spacing(20);
-                        margin-left: 92px;
+                        margin: auto 92px;
                         bottom: 40px;
                         color: $color-white;
+                        text-align: left;
                     }
                 }
                 .list {
@@ -262,7 +265,7 @@
             }
         }
         .section-body {
-            .item1 {
+            .preamble {
                 margin: auto 20px 90px;
                 .top-title {
                     font-family: $font-monserrat;
@@ -293,7 +296,7 @@
                     }
                 }
             }
-            .item2 {
+            .needs {
                 margin: auto 20px 100px;
                 .top-title {
                     font-family: $font-monserrat;
@@ -381,7 +384,7 @@
                     }
                 }
             }
-            .item3 {
+            .treatments {
                 margin: auto 20px 105px;
                 text-align: left;
                 .item-left {
@@ -396,7 +399,7 @@
                 .top-title {
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
-                    font-size: 32px;
+                    font-size: 26px;
                     line-height: 40px;
                     margin-bottom: 25px;
                     text-align: left;
@@ -405,12 +408,12 @@
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
                     p {
-                        font-size: 32px;
-                        line-height: 40px;
+                        font-size: 15px;
+                        line-height: 28px;
                     }
                 }
             }
-            .item4 {
+            .continued {
                 background-color: $color-deepCerulean;
                 color: $color-white;
                 margin-bottom: 90px;
@@ -426,7 +429,7 @@
                     margin: 32px auto 74px;
                 }
             }
-            .item5 {
+            .reasons {
                 margin-bottom: 90px;
                 .background {
                     z-index: -1;
@@ -447,7 +450,7 @@
                             font-size: 18px;
                             line-height: 26px;
                             @include lt-spacing(20);
-                            margin-left: 10px;
+                            margin: auto 10px;
                             bottom: 10px;
                             color: $color-white;
                             text-align: left;
@@ -507,6 +510,7 @@
         }
     }
 }
+
 @media (max-width: 1023px) and (min-width: 768px) {
     .dentistry-periodontal-care-scaling-and-root-planing {
         .section-top {
@@ -517,18 +521,17 @@
                 background-color: $color-black;
                 opacity: 0.4;
             }
-            .page-title {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                text-transform: uppercase;
-            }
-            &-gradient {
-                background-color: black;
-                opacity: 0.4;
+            .breadcum-container {
+                left: 39px;
+                .page-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    text-transform: uppercase;
+                }
             }
         }
         .section-body {
-            .item1 {
+            .preamble {
                 margin: auto 39px 90px;
                 .top-title {
                     font-family: $font-monserrat;
@@ -553,13 +556,13 @@
                             font-size: 48px;
                             color: $color-atlantis;
                             margin-bottom: 18px;
-                            line-height: 24px;
+                            line-height: 54px;
                             @include lt-spacing(30);
                         }
                     }
                 }
             }
-            .item2 {
+            .needs {
                 margin-bottom: 100px;
                 .top-title {
                     font-family: $font-monserrat;
@@ -647,7 +650,7 @@
                     }
                 }
             }
-            .item3 {
+            .treatments {
                 margin: auto 39px 105px;
                 text-align: left;
                 .item-left {
@@ -662,7 +665,7 @@
                 .top-title {
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
-                    font-size: 32px;
+                    font-size: 26px;
                     line-height: 40px;
                     margin-bottom: 25px;
                     text-align: left;
@@ -671,12 +674,12 @@
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
                     p {
-                        font-size: 32px;
-                        line-height: 40px;
+                        font-size: 15px;
+                        line-height: 28px;
                     }
                 }
             }
-            .item4 {
+            .continued {
                 background-color: $color-deepCerulean;
                 color: $color-white;
                 margin-bottom: 90px;
@@ -692,7 +695,7 @@
                     margin: 32px auto 74px;
                 }
             }
-            .item5 {
+            .reasons {
                 margin-bottom: 90px;
                 .background {
                     z-index: -1;
@@ -714,7 +717,7 @@
                             font-size: 36px;
                             line-height: 42px;
                             @include lt-spacing(20);
-                            margin-left: 20px;
+                            margin: auto 20px;
                             bottom: 40px;
                             color: $color-white;
                         }
