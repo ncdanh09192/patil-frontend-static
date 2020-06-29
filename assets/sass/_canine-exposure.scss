@@ -203,10 +203,9 @@
       @include lt-spacing(20);
       font-size: 18px;
       margin-bottom: 27px;
-      p{
+      a{
         border-bottom: 1px solid $color-white;
         display: inline;
-        cursor: pointer;
         img{
           margin-left: 10px;
         }

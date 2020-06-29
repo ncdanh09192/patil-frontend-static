@@ -2892,6 +2892,7 @@ body {
   .painless-dentistry .container .info-benefits .benefit .icon {
     background-color: #ffffff; }
   .painless-dentistry .container .info-benefits .benefit .title {
+    line-height: 26px;
     margin: 24px 0 12px 0;
     letter-spacing: 0em;
     font-size: 22px;
@@ -2900,7 +2901,8 @@ body {
   .painless-dentistry .container .info-benefits .benefit .description {
     max-width: 280px;
     font-size: 15px;
-    letter-spacing: 0em; }
+    letter-spacing: 0em;
+    height: 98px; }
 .painless-dentistry .information .detail img {
   width: 100%; }
 .painless-dentistry .information .detail .title {
@@ -3168,9 +3170,8 @@ body {
     letter-spacing: 0.02em;
     font-size: 18px;
     margin-bottom: 27px; }
-    .canine-exposure .related-page-content .row_content p {
+    .canine-exposure .related-page-content .row_content a {
       border-bottom: 1px solid #ffffff;
-      display: inline;
-      cursor: pointer; }
-      .canine-exposure .related-page-content .row_content p img {
+      display: inline; }
+      .canine-exposure .related-page-content .row_content a img {
         margin-left: 10px; }
