@@ -3432,6 +3432,220 @@ button {
 body {
   font-family: MontserratRegular; }
 
+.what_is_gum_disease {
+  /* Extra small devices (phones, 600px and down) */
+  /* Medium devices (landscape tablets, 768px and up) */ }
+  @media only screen and (max-width: 767px) {
+    .what_is_gum_disease .page-title {
+      line-height: normal; }
+    .what_is_gum_disease .container-cus {
+      width: 100%; }
+    .what_is_gum_disease .section-top {
+      background-image: url("../images/dentistry_disease/Group_1846.png");
+      margin-bottom: 60px; }
+    .what_is_gum_disease .bg-cover {
+      background-color: 0; }
+    .what_is_gum_disease .top-title {
+      margin-bottom: 30px; }
+    .what_is_gum_disease .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .what_is_gum_disease .title {
+      font-size: 19px; }
+    .what_is_gum_disease .gum-disease-Symptoms-content {
+      width: 100%;
+      font-size: 16px; }
+    .what_is_gum_disease .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .what_is_gum_disease .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .what_is_gum_disease .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .what_is_gum_disease .btn-request-appointment {
+      background-color: #6cac04;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .what_is_gum_disease .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; } }
+  @media only screen and (min-width: 768px) {
+    .what_is_gum_disease .section-top {
+      background-image: url("../images/dentistry_disease/Group_1846.png");
+      margin-bottom: 60px; }
+    .what_is_gum_disease .bg-cover {
+      background-color: 0; }
+    .what_is_gum_disease .top-title {
+      margin-bottom: 30px; }
+    .what_is_gum_disease .info-gum-disease {
+      margin-bottom: -5px;
+      font-weight: bold;
+      color: #008cd4; }
+    .what_is_gum_disease .title {
+      font-size: 19px; }
+    .what_is_gum_disease .gum-disease-Symptoms-content {
+      width: 410px;
+      font-size: 16px; }
+    .what_is_gum_disease .gum-disease-Symptoms-img-bg {
+      background-color: white; }
+    .what_is_gum_disease .gum-disease-Symptoms-important-content {
+      font-size: 16px; }
+    .what_is_gum_disease .list-style-custom {
+      font-size: 30px; }
+    .what_is_gum_disease .line-custom {
+      background-image: url(../images/dentistry_disease/line2.png);
+      width: 100%;
+      height: 7px;
+      background-repeat: repeat-x; }
+    .what_is_gum_disease .border-bottom-white {
+      border-bottom: 1px solid white; }
+    .what_is_gum_disease .container-cus {
+      width: 900px; }
+    .what_is_gum_disease .btn-request-appointment {
+      background-color: #6cac04;
+      border-radius: 50px;
+      height: 50px;
+      padding: 0px 20px;
+      border: 1px solid white; }
+    .what_is_gum_disease .btn-contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50%;
+      height: 50px; } }
+  .what_is_gum_disease .bg-custom-blue {
+    background-color: #008cd4; }
+  .what_is_gum_disease .color-text-custom-blue {
+    color: #008cd4; }
+  .what_is_gum_disease .list-style-custom {
+    font-size: 30px; }
+  .what_is_gum_disease .color-text-unset {
+    color: unset; }
+  .what_is_gum_disease .text-underline {
+    text-decoration: underline; }
+  .what_is_gum_disease .align-text-center {
+    text-align: center; }
+  .what_is_gum_disease .pd-20p {
+    padding: 20px; }
+  .what_is_gum_disease .pl-50p {
+    padding-left: 50px; }
+  .what_is_gum_disease .mb-50p {
+    margin-bottom: 50px; }
+  .what_is_gum_disease .mb-58p {
+    margin-bottom: 58px; }
+  .what_is_gum_disease .mb-24p {
+    margin-bottom: 24px; }
+  .what_is_gum_disease .font-size-custom-14 {
+    font-size: 14px; }
+  .what_is_gum_disease .font-size-custom-15 {
+    font-size: 15px; }
+  .what_is_gum_disease .font-size-custom-16 {
+    font-size: 16px; }
+  .what_is_gum_disease .font-size-custom-18 {
+    font-size: 18px; }
+  .what_is_gum_disease .font-size-custom-22 {
+    font-size: 22px; }
+  .what_is_gum_disease .font-size-custom-26 {
+    font-size: 26px; }
+  .what_is_gum_disease .font-size-custom-32 {
+    font-size: 32px; }
+  .what_is_gum_disease .font-size-custom-36 {
+    font-size: 36px; }
+  .what_is_gum_disease .font-size-custom-46 {
+    font-size: 46px; }
+  .what_is_gum_disease .font-type-italic {
+    font-style: italic; }
+  .what_is_gum_disease .list-style-none {
+    list-style: none; }
+  .what_is_gum_disease .w-fit-content {
+    width: fit-content; }
+  .what_is_gum_disease .h-30p {
+    height: 30px; }
+  .what_is_gum_disease .w-40 {
+    width: 40%; }
+  .what_is_gum_disease .border-bottom-white {
+    border-bottom: 1px solid white; }
+  .what_is_gum_disease .pt-50 {
+    padding-top: 50%; }
+  .what_is_gum_disease .pt-50p {
+    padding-top: 50px; }
+  .what_is_gum_disease .mb-13p {
+    margin-bottom: 13px; }
+  .what_is_gum_disease .mb-79p {
+    margin-bottom: 79px; }
+  .what_is_gum_disease .mb-60p {
+    margin-bottom: 60px; }
+  .what_is_gum_disease .bg-blue {
+    background-color: #008cd4; }
+  .what_is_gum_disease .top-desc {
+    text-align: center; }
+  .what_is_gum_disease .font-montserrat {
+    font-family: Montserrat; }
+  .what_is_gum_disease .font-montserrat-bold {
+    font-family: "Montserrat";
+    font-weight: 700; }
+  .what_is_gum_disease .font-montserrat-semibold {
+    font-family: "Montserrat";
+    font-weight: 600; }
+  .what_is_gum_disease .font-montserrat-medium {
+    font-family: "Montserrat";
+    font-weight: 500; }
+  .what_is_gum_disease .font-montserrat-regular {
+    font-family: "Montserrat";
+    font-weight: 400; }
+  .what_is_gum_disease .font-montserrat-light {
+    font-family: "Montserrat";
+    font-weight: 300; }
+  .what_is_gum_disease .font-Dancing-scriptregular {
+    font-family: "Dancing Script";
+    font-weight: 400; }
+  .what_is_gum_disease .font-Dancing-bold {
+    font-family: "Dancing Script";
+    font-weight: 700; }
+  .what_is_gum_disease .pb-63p {
+    padding-bottom: 63px; }
+  .what_is_gum_disease .mb-40p {
+    margin-bottom: 40px; }
+  .what_is_gum_disease .mb-30p {
+    margin-bottom: 30px; }
+  .what_is_gum_disease .mb-80p {
+    margin-bottom: 80px; }
+  .what_is_gum_disease .mb-20p {
+    margin-bottom: 20px; }
+  .what_is_gum_disease .mb-56p {
+    margin-bottom: 56px; }
+  .what_is_gum_disease .mb-85p {
+    margin-bottom: 85px; }
+  .what_is_gum_disease .mb-90p {
+    margin-bottom: 90px; }
+  .what_is_gum_disease .pt-70p {
+    padding-top: 70px; }
+  .what_is_gum_disease .pb-70p {
+    padding-bottom: 70px; }
+  .what_is_gum_disease .pb-75p {
+    padding-bottom: 75px; }
+  .what_is_gum_disease .mt-65p {
+    margin-top: 65px; }
+  .what_is_gum_disease .mb-65p {
+    margin-bottom: 65px; }
+  .what_is_gum_disease .mb-91p {
+    margin-bottom: 90px; }
+  .what_is_gum_disease .pt-99p {
+    padding-top: 99px; }
+  .what_is_gum_disease .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px; }
+
 .chronic {
   /* Extra small devices (phones, 600px and down) */
   /* Medium devices (landscape tablets, 768px and up) */ }
@@ -3465,8 +3679,6 @@ body {
       width: 100%;
       height: 7px;
       background-repeat: repeat-x; }
-    .chronic .related-page {
-      position: relative; }
     .chronic .btn-request-appointment {
       background-color: #86c127;
       border-radius: 50px;
@@ -3521,10 +3733,6 @@ body {
       width: 100%;
       height: 7px;
       background-repeat: repeat-x; }
-    .chronic .related-page {
-      position: absolute;
-      top: 27px;
-      padding-left: 362px; }
     .chronic .container-cus {
       width: 900px; }
     .chronic .btn-request-appointment {
@@ -3612,31 +3820,79 @@ body {
     color: #86c127; }
   .chronic .color-lightgray {
     color: lightgray; }
+  .chronic .font-montserrat {
+    font-family: Montserrat; }
+  .chronic .font-montserrat-bold {
+    font-family: "Montserrat";
+    font-weight: 700; }
+  .chronic .font-montserrat-semibold {
+    font-family: "Montserrat";
+    font-weight: 600; }
+  .chronic .font-montserrat-medium {
+    font-family: "Montserrat";
+    font-weight: 500; }
+  .chronic .font-montserrat-regular {
+    font-family: "Montserrat";
+    font-weight: 400; }
+  .chronic .font-montserrat-light {
+    font-family: "Montserrat";
+    font-weight: 300; }
+  .chronic .font-Dancing-scriptregular {
+    font-family: "Dancing Script";
+    font-weight: 400; }
+  .chronic .font-Dancing-bold {
+    font-family: "Dancing Script";
+    font-weight: 700; }
+  .chronic .pb-63p {
+    padding-bottom: 63px; }
+  .chronic .mb-40p {
+    margin-bottom: 40px; }
+  .chronic .mb-30p {
+    margin-bottom: 30px; }
+  .chronic .mb-80p {
+    margin-bottom: 80px; }
+  .chronic .mb-20p {
+    margin-bottom: 20px; }
+  .chronic .mb-56p {
+    margin-bottom: 56px; }
+  .chronic .mb-78p {
+    margin-bottom: 78px; }
+  .chronic .mb-70p {
+    margin-bottom: 70px; }
+  .chronic .mb-85p {
+    margin-bottom: 85px; }
+  .chronic .mb-84p {
+    margin-bottom: 84px; }
+  .chronic .mb-90p {
+    margin-bottom: 90px; }
+  .chronic .mb-91p {
+    margin-bottom: 91px; }
+  .chronic .pt-60p {
+    padding-top: 60px; }
+  .chronic .pt-70p {
+    padding-top: 70px; }
+  .chronic .pb-70p {
+    padding-bottom: 70px; }
+  .chronic .pb-75p {
+    padding-bottom: 75px; }
+  .chronic .mt-65p {
+    margin-top: 65px; }
+  .chronic .mb-65p {
+    margin-bottom: 65px; }
+  .chronic .mb-91p {
+    margin-bottom: 90px; }
+  .chronic .pt-99p {
+    padding-top: 99px; }
+  .chronic .mb-24p {
+    margin-bottom: 24px; }
+  .chronic .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px; }
+  .chronic .color-blue {
+    color: #008CD4; }
 
-body {
-  font-family: MontserratRegular; }
-
-@font-face {
-  font-family: 'MontserratBold';
-  src: url("../fonts/montserrat/Montserrat-Bold.ttf"); }
-@font-face {
-  font-family: 'MontserratSemiBold';
-  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
-@font-face {
-  font-family: 'MontserratMedium';
-  src: url("../fonts/montserrat/Montserrat-Medium.ttf"); }
-@font-face {
-  font-family: 'MontserratRegular';
-  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
-@font-face {
-  font-family: 'MontserratLight';
-  src: url("../fonts/montserrat/Montserrat-Light.ttf"); }
-@font-face {
-  font-family: 'DancingScriptRegular';
-  src: url("../fonts/dancingScript/DancingScript-Regular.ttf"); }
-@font-face {
-  font-family: 'DancingScriptBold';
-  src: url("../fonts/dancingScript/DancingScript-Bold.ttf"); }
 .amputations {
   /* Extra small devices (phones, 600px and down) */
   /* Medium devices (landscape tablets, 768px and up) */ }
@@ -3670,8 +3926,6 @@ body {
       width: 100%;
       height: 7px;
       background-repeat: repeat-x; }
-    .amputations .related-page {
-      position: relative; }
     .amputations .btn-request-appointment {
       background-color: #86c127;
       border-radius: 50px;
@@ -3698,9 +3952,7 @@ body {
       padding-right: 10px;
       padding-top: 15px; }
     .amputations .treat-process-panel {
-      margin-top: 60px; }
-    .amputations .bg-related-page {
-      background-color: #008cd4; } }
+      margin-top: 60px; } }
   @media only screen and (min-width: 768px) {
     .amputations .section-top {
       background-image: url("../images/dentistry_periodontal_care _chronic_bad_breath/chronic_group_1847.png");
@@ -3731,10 +3983,6 @@ body {
       background-repeat: repeat-x; }
     .amputations .list-style-none {
       list-style: none; }
-    .amputations .related-page {
-      position: absolute;
-      top: 27px;
-      padding-left: 362px; }
     .amputations .border-bottom-white {
       border-bottom: 1px solid white; }
     .amputations .container-cus {
@@ -3767,9 +4015,7 @@ body {
       padding-top: 200px;
       padding-bottom: 70px; }
     .amputations .treat-process-panel {
-      margin-top: 120px; }
-    .amputations .bg-related-page {
-      background-color: transparent; } }
+      margin-top: 120px; } }
   .amputations .color-green {
     color: #86c127; }
   .amputations .color-lightgray {
@@ -3857,67 +4103,81 @@ body {
   .amputations .bg-blue {
     background-color: #008cd4; }
   .amputations .pb-63p {
-    padding-bottom: 63px !important; }
+    padding-bottom: 63px; }
   .amputations .mb-40p {
-    margin-bottom: 40px !important; }
+    margin-bottom: 40px; }
   .amputations .mb-30p {
-    margin-bottom: 30px !important; }
+    margin-bottom: 30px; }
   .amputations .mb-80p {
-    margin-bottom: 80px !important; }
+    margin-bottom: 80px; }
   .amputations .mb-20p {
-    margin-bottom: 20px !important; }
+    margin-bottom: 20px; }
   .amputations .mb-56p {
-    margin-bottom: 56px !important; }
+    margin-bottom: 56px; }
   .amputations .mb-78p {
-    margin-bottom: 78px !important; }
+    margin-bottom: 78px; }
   .amputations .mb-70p {
-    margin-bottom: 70px !important; }
+    margin-bottom: 70px; }
   .amputations .mb-71p {
-    margin-bottom: 71px !important; }
+    margin-bottom: 71px; }
   .amputations .mb-85p {
-    margin-bottom: 85px !important; }
+    margin-bottom: 85px; }
   .amputations .mb-84p {
-    margin-bottom: 84px !important; }
+    margin-bottom: 84px; }
   .amputations .mb-90p {
-    margin-bottom: 90px !important; }
+    margin-bottom: 90px; }
   .amputations .mb-91p {
-    margin-bottom: 91px !important; }
+    margin-bottom: 91px; }
   .amputations .mb-94p {
-    margin-bottom: 94px !important; }
+    margin-bottom: 94px; }
   .amputations .mb-250p {
     margin-bottom: 250px; }
   .amputations .pt-60p {
-    padding-top: 60px !important; }
+    padding-top: 60px; }
   .amputations .pt-70p {
-    padding-top: 70px !important; }
+    padding-top: 70px; }
   .amputations .pb-70p {
-    padding-bottom: 70px !important; }
+    padding-bottom: 70px; }
   .amputations .pb-75p {
-    padding-bottom: 75px !important; }
+    padding-bottom: 75px; }
   .amputations .mt-65p {
-    margin-top: 65px !important; }
+    margin-top: 65px; }
   .amputations .mb-65p {
-    margin-bottom: 65px !important; }
+    margin-bottom: 65px; }
   .amputations .mb-91p {
-    margin-bottom: 90px !important; }
+    margin-bottom: 90px; }
   .amputations .pt-99p {
-    padding-top: 99px !important; }
+    padding-top: 99px; }
+  .amputations .mb-24p {
+    margin-bottom: 24px; }
   .amputations .font-montserrat {
     font-family: Montserrat; }
   .amputations .font-montserrat-bold {
-    font-family: MontserratBold; }
+    font-family: "Montserrat";
+    font-weight: 700; }
   .amputations .font-montserrat-semibold {
-    font-family: MontserratSemiBold; }
+    font-family: "Montserrat";
+    font-weight: 600; }
   .amputations .font-montserrat-medium {
-    font-family: MontserratMedium; }
+    font-family: "Montserrat";
+    font-weight: 500; }
   .amputations .font-montserrat-regular {
-    font-family: MontserratRegular; }
+    font-family: "Montserrat";
+    font-weight: 400; }
   .amputations .font-montserrat-light {
-    font-family: MontserratLight; }
+    font-family: "Montserrat";
+    font-weight: 300; }
   .amputations .font-Dancing-scriptregular {
-    font-family: DancingScriptRegular; }
+    font-family: "Dancing Script";
+    font-weight: 400; }
   .amputations .font-Dancing-bold {
-    font-family: DancingScriptBold; }
+    font-family: "Dancing Script";
+    font-weight: 700; }
+  .amputations .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px; }
 
 .surgery {
   /* Extra small devices (phones, 600px and down) */
@@ -3958,8 +4218,6 @@ body {
       width: 100%;
       height: 7px;
       background-repeat: repeat-x; }
-    .surgery .related-page {
-      position: relative; }
     .surgery .border-bottom-white {
       border-bottom: 1px solid white; }
     .surgery .btn-request-appointment {
@@ -3990,9 +4248,7 @@ body {
       padding-right: 10px;
       padding-top: 15px; }
     .surgery .treat-process-panel {
-      margin-top: 60px; }
-    .surgery .bg-related-page {
-      background-color: #008cd4; } }
+      margin-top: 60px; } }
   @media only screen and (min-width: 768px) {
     .surgery .section-top {
       background-image: url("../images/dentistry_periodontal_care_gum_flap_surgery/group_1852.png");
@@ -4025,10 +4281,6 @@ body {
       width: 100%;
       height: 7px;
       background-repeat: repeat-x; }
-    .surgery .related-page {
-      position: absolute;
-      top: 27px;
-      padding-left: 362px; }
     .surgery .w-fit-content {
       width: fit-content; }
     .surgery .border-bottom-white {
@@ -4100,9 +4352,7 @@ body {
     .surgery .font-size-custom-46 {
       font-size: 46px; }
     .surgery .font-size-large {
-      font-size: x-large; }
-    .surgery .bg-related-page {
-      background-color: transparent; } }
+      font-size: x-large; } }
   .surgery .mt-110p {
     margin-top: 110px; }
   .surgery .mb-250p {
@@ -4181,6 +4431,10 @@ body {
     margin-bottom: 65px; }
   .surgery .mb-91p {
     margin-bottom: 90px; }
+  .surgery .mb-24p {
+    margin-bottom: 24px; }
+  .surgery .mt-20p {
+    margin-top: 20px; }
   .surgery .pt-99p {
     padding-top: 99px; }
   .surgery .font-montserrat {
@@ -4206,6 +4460,11 @@ body {
   .surgery .font-Dancing-bold {
     font-family: "Dancing Script";
     font-weight: 700; }
+  .surgery .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px; }
 
 .blog_detal .section-top {
   background-image: url("../images/blog-detal/blog_detal_top_bg.png");

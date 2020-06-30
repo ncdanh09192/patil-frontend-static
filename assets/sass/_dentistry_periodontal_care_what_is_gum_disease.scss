@@ -1,5 +1,5 @@
-
-.chronic {
+@import 'vars';
+.what_is_gum_disease {
 	/* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 767px) {
 		.page-title {
@@ -9,7 +9,7 @@
 			width: 100%;
 		}
 		.section-top {
-			background-image: url('../images/dentistry_periodontal_care _chronic_bad_breath/chronic_group_1847.png');
+			background-image: url('../images/dentistry_disease/Group_1846.png');
 			margin-bottom: 60px;
 		}
 		.bg-cover {
@@ -27,7 +27,7 @@
 			font-size: 19px;
 		}
 		.gum-disease-Symptoms-content {
-			width: 410px;
+			width: 100%;
 			font-size: 16px;
 		}
 		.gum-disease-Symptoms-img-bg {
@@ -36,7 +36,7 @@
 		.gum-disease-Symptoms-important-content {
 			font-size: 16px;
 		}
-
+		
 		.line-custom {
 			background-image: url(../images/dentistry_disease/line2.png);
 			width: 100%;
@@ -44,9 +44,8 @@
 			background-repeat: repeat-x;
 		}
 
-
 		.btn-request-appointment {
-			background-color: $color-atlantis;
+			background-color: $color-limeade;
 			border-radius: 50px;
 			height: 50px;
 			padding: 0px 20px;
@@ -58,35 +57,13 @@
 			border-radius: 50px;
 			width: 50%;
 			height: 50px;
-		}
-		.pt-50 {
-			padding-top: 50%;
-		}
-		.pt-50p {
-			padding-top: 50px;
-		}
-		.mb-13p {
-			margin-bottom: 13px;
-		}
-		.mb-79p {
-			margin-bottom: 79px;
-		}
-		.mb-60p {
-			margin-bottom: 60px;
-		}
-		.top-desc {
-			text-align: center;
-		}
-		.bg-blue {
-			background-color: $color-lochmara;
     }
-
 	}
 
 	/* Medium devices (landscape tablets, 768px and up) */
 	@media only screen and (min-width: 768px) {
 		.section-top {
-			background-image: url('../images/dentistry_periodontal_care _chronic_bad_breath/chronic_group_1847.png');
+			background-image: url('../images/dentistry_disease/Group_1846.png');
 			margin-bottom: 60px;
 		}
 		.bg-cover {
@@ -113,22 +90,26 @@
 		.gum-disease-Symptoms-important-content {
 			font-size: 16px;
 		}
-
 		.list-style-custom {
 			font-size: 30px;
 		}
+
 		.line-custom {
 			background-image: url(../images/dentistry_disease/line2.png);
 			width: 100%;
 			height: 7px;
 			background-repeat: repeat-x;
+		}
+
+		.border-bottom-white {
+			border-bottom: 1px solid white;
 		}
 
 		.container-cus {
 			width: 900px;
 		}
 		.btn-request-appointment {
-			background-color: $color-atlantis;
+			background-color: $color-limeade;
 			border-radius: 50px;
 			height: 50px;
 			padding: 0px 20px;
@@ -141,119 +122,106 @@
 			width: 50%;
 			height: 50px;
 		}
-
-		.top-desc {
-			min-width: 900px;
-			text-align: center;
-    }
-
 	}
-	.list-style-none {
-		list-style: none;
-	}
-	.w-fit-content {
-		width: fit-content;
-	}
-	.border-bottom-white {
-		border-bottom: 1px solid white;
-	}
-	.pt-50 {
-		padding-top: 50%;
-	}
-	.pt-50p {
-		padding-top: 50px;
-	}
-	.mb-13p {
-		margin-bottom: 13px;
-	}
-	.mb-79p {
-		margin-bottom: 79px;
-	}
-	.mb-60p {
-		margin-bottom: 60px;
-	}
-	.bg-custom-blue {
-		background-color: $color-lochmara;
-	}
-	.color-text-custom-blue {
-		color: $color-lochmara;
-	}
-	.list-style-custom {
-		font-size: 30px;
-	}
-	.color-text-unset {
-		color: unset;
-	}
-	.text-underline {
-		text-decoration: underline;
-	}
-	.align-text-center {
-		text-align: center;
-	}
-	.pd-20p {
-		padding: 20px;
-	}
-	.pl-50p {
-		padding-left: 50px;
-	}
-	.mb-50p {
-		margin-bottom: 50px;
-	}
-	.mb-58p {
-		margin-bottom: 58px;
-	}
-	.font-size-custom-14 {
-		font-size: 14px;
-	}
-	.font-size-custom-15 {
-		font-size: 15px;
-	}
-	.font-size-custom-16 {
-		font-size: 16px;
-	}
-	.font-size-custom-18 {
-		font-size: 18px;
-	}
-	.font-size-custom-22 {
-		font-size: 22px;
-	}
-	.font-size-custom-26 {
-		font-size: 26px;
-	}
-	.font-size-custom-32 {
-		font-size: 32px;
-	}
-	.font-size-custom-36 {
-		font-size: 36px;
-	}
-	.font-size-custom-46 {
-		font-size: 46px;
-	}
-	.font-type-italic {
-		font-style: italic;
-	}
-	.list-style-none {
-		list-style: none;
-	}
-	.w-fit-content {
-		width: fit-content;
-	}
-	.h-30p {
-		height: 30px;
-	}
-	.w-40 {
-		width: 40%;
-	}
-	.border-bottom-white {
-		border-bottom: 1px solid white;
-	}
-	.color-green {
-		color: $color-atlantis;
-	}
-	.color-lightgray {
-		color: lightgray;
+  .bg-custom-blue {
+    background-color: $color-lochmara;
   }
-  
+  .color-text-custom-blue {
+    color: $color-lochmara;
+  }
+  .list-style-custom {
+    font-size: 30px;
+  }
+  .color-text-unset {
+    color: unset;
+  }
+  .text-underline {
+    text-decoration: underline;
+  }
+  .align-text-center {
+    text-align: center;
+  }
+  .pd-20p {
+    padding: 20px;
+  }
+  .pl-50p {
+    padding-left: 50px;
+  }
+  .mb-50p {
+    margin-bottom: 50px;
+  }
+  .mb-58p {
+    margin-bottom: 58px;
+  }
+  .mb-24p {
+    margin-bottom: 24px;
+  }
+  .font-size-custom-14 {
+    font-size: 14px;
+  }
+  .font-size-custom-15 {
+    font-size: 15px;
+  }
+  .font-size-custom-16 {
+    font-size: 16px;
+  }
+  .font-size-custom-18 {
+    font-size: 18px;
+  }
+  .font-size-custom-22 {
+    font-size: 22px;
+  }
+  .font-size-custom-26 {
+    font-size: 26px;
+  }
+  .font-size-custom-32 {
+    font-size: 32px;
+  }
+  .font-size-custom-36 {
+    font-size: 36px;
+  }
+  .font-size-custom-46 {
+    font-size: 46px;
+  }
+  .font-type-italic {
+    font-style: italic;
+  }
+  .list-style-none {
+    list-style: none;
+  }
+  .w-fit-content {
+    width: fit-content;
+  }
+  .h-30p {
+    height: 30px;
+  }
+  .w-40 {
+    width: 40%;
+  }
+  .border-bottom-white {
+    border-bottom: 1px solid white;
+  }
+  .pt-50 {
+    padding-top: 50%;
+  }
+  .pt-50p {
+    padding-top: 50px;
+  }
+  .mb-13p {
+    margin-bottom: 13px;
+  }
+  .mb-79p {
+    margin-bottom: 79px;
+  }
+  .mb-60p {
+    margin-bottom: 60px;
+  }
+  .bg-blue {
+    background-color: $color-lochmara;
+  }
+  .top-desc {
+    text-align: center;
+  }
 
   .font-montserrat {
     font-family: Montserrat;
@@ -286,70 +254,52 @@
     font-family: $font-dancing;
     font-weight: $font-bold
   }
-	// margin element
+// margin element
 
-	.pb-63p {
-		padding-bottom: 63px ;
-	}
-	.mb-40p {
-		margin-bottom: 40px ;
-	}
-	.mb-30p {
-		margin-bottom: 30px ;
-	}
-	.mb-80p {
-		margin-bottom: 80px ;
-	}
-	.mb-20p {
-		margin-bottom: 20px ;
-	}
-	.mb-56p {
-		margin-bottom: 56px ;
-	}
-	.mb-78p {
-		margin-bottom: 78px 
+ .pb-63p {
+  padding-bottom: 63px ;
+ } 
+  .mb-40p {
+    margin-bottom: 40px ;
   }
-  .mb-70p {
-    margin-bottom: 70px ;
+  .mb-30p{ 
+    margin-bottom: 30px ;
   }
-	.mb-85p {
-		margin-bottom: 85px ;
-	}
-	.mb-84p {
-		margin-bottom: 84px ;
-	}
-	.mb-90p {
-		margin-bottom: 90px ;
-	}
-	.mb-91p {
-		margin-bottom: 91px ;
+  .mb-80p{
+    margin-bottom: 80px ;
   }
-  .pt-60p {
-    padding-top: 60px ;
+  .mb-20p{
+    margin-bottom: 20px 
   }
-	.pt-70p {
-		padding-top: 70px;
-	}
-	.pb-70p {
-		padding-bottom: 70px;
-	}
-	.pb-75p {
-		padding-bottom: 75px ;
-	}
-	.mt-65p {
-		margin-top: 65px ;
-	}
-	.mb-65p {
-		margin-bottom: 65px ;
-	}
-	.mb-91p {
-		margin-bottom: 90px ;
-	}
-	.pt-99p {
-		padding-top: 99px ;
+  .mb-56p {
+    margin-bottom: 56px ;
   }
-  .mb-24p {
-    margin-bottom: 24px;
+  .mb-85p {
+    margin-bottom: 85px ;
+  }
+  .mb-90p {
+    margin-bottom: 90px ;
+  }
+  .pt-70p {
+    padding-top: 70px 
+  }
+  .pb-70p {
+    padding-bottom: 70px 
+  }
+  .pb-75p {
+    padding-bottom: 75px 
+  }
+  .mt-65p {
+    margin-top: 65px ;
+  }
+  .mb-65p {
+    margin-bottom:65px ;
+  }
+  .mb-91p {
+    margin-bottom: 90px ;
+  }
+  .pt-99p {
+    padding-top: 99px ;
   }
   .bg-step {
     height: 100%;
@@ -357,7 +307,5 @@
     padding: 30px;
     border-radius: 10px;
   }
-  .color-blue{
-  color:#008CD4
-  }
 }
+

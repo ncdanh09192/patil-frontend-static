@@ -56,9 +56,6 @@
     background-repeat: repeat-x;
   }
 
-  .related-page {
-    position: relative;
-  }
 
   .border-bottom-white {
     border-bottom: 1px solid white;
@@ -101,9 +98,6 @@
   }
   .treat-process-panel {
     margin-top: 60px;
-  }
-  .bg-related-page { 
-    background-color: $color-lochmara;
   }
 }
 
@@ -157,11 +151,6 @@
     background-repeat: repeat-x;
   }
 
-  .related-page {
-    position: absolute;
-    top: 27px;
-    padding-left: 362px;
-  }
   .w-fit-content {
     width: fit-content;
   }
@@ -267,9 +256,7 @@
 .font-size-large {
   font-size: x-large;
 }
-.bg-related-page { 
-  background-color: transparent;
-}
+
 }
 .mt-110p {
   margin-top:110px
@@ -391,6 +378,12 @@
   .mb-91p {
     margin-bottom: 90px ;
   }
+  .mb-24p {
+    margin-bottom: 24px;
+  }
+  .mt-20p{
+    margin-top: 20px;
+  }
   .pt-99p {
     padding-top: 99px ;
   }
@@ -424,6 +417,12 @@
   .font-Dancing-bold {
     font-family: $font-dancing;
     font-weight: $font-bold
+  }
+  .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px;
   }
 }
 

@@ -1,32 +1,4 @@
-@import 'vars';
-@font-face {
-	font-family: 'MontserratBold';
-	src: url('../fonts/montserrat/Montserrat-Bold.ttf');
-}
-@font-face {
-	font-family: 'MontserratSemiBold';
-	src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
-}
-@font-face {
-	font-family: 'MontserratMedium';
-	src: url('../fonts/montserrat/Montserrat-Medium.ttf');
-}
-@font-face {
-	font-family: 'MontserratRegular';
-	src: url('../fonts/montserrat/Montserrat-Regular.ttf');
-}
-@font-face {
-	font-family: 'MontserratLight';
-	src: url('../fonts/montserrat/Montserrat-Light.ttf');
-}
-@font-face {
-	font-family: 'DancingScriptRegular';
-	src: url('../fonts/dancingScript/DancingScript-Regular.ttf');
-}
-@font-face {
-	font-family: 'DancingScriptBold';
-	src: url('../fonts/dancingScript/DancingScript-Bold.ttf');
-}
+
 .amputations {
 	/* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 767px) {
@@ -71,9 +43,6 @@
 			height: 7px;
 			background-repeat: repeat-x;
 		}
-		.related-page {
-			position: relative;
-		}
 
 		.btn-request-appointment {
 			background-color: $color-atlantis;
@@ -108,9 +77,6 @@
 		}
 		.treat-process-panel {
 			margin-top: 60px;
-    }
-    .bg-related-page { 
-      background-color: $color-lochmara;
     }
 	}
 
@@ -157,11 +123,6 @@
 		.list-style-none {
 			list-style: none;
 		}
-		.related-page {
-			position: absolute;
-			top: 27px;
-			padding-left: 362px;
-		}
 
 		.border-bottom-white {
 			border-bottom: 1px solid white;
@@ -206,9 +167,6 @@
 		}
 		.treat-process-panel {
 			margin-top: 120px;
-    }
-    .bg-related-page { 
-      background-color: transparent;
     }
 	}
 	.color-green {
@@ -343,98 +301,113 @@
   	// margin element
 
 	.pb-63p {
-		padding-bottom: 63px !important;
+		padding-bottom: 63px ;
 	}
 	.mb-40p {
-		margin-bottom: 40px !important;
+		margin-bottom: 40px ;
 	}
 	.mb-30p {
-		margin-bottom: 30px !important;
+		margin-bottom: 30px ;
 	}
 	.mb-80p {
-		margin-bottom: 80px !important;
+		margin-bottom: 80px ;
 	}
 	.mb-20p {
-		margin-bottom: 20px !important;
+		margin-bottom: 20px ;
 	}
 	.mb-56p {
-		margin-bottom: 56px !important;
+		margin-bottom: 56px ;
 	}
 	.mb-78p {
-		margin-bottom: 78px !important;
+		margin-bottom: 78px ;
   }
   .mb-70p {
-    margin-bottom: 70px !important;
+    margin-bottom: 70px ;
   }
   .mb-71p {
-    margin-bottom: 71px !important;
+    margin-bottom: 71px ;
   }
 	.mb-85p {
-		margin-bottom: 85px !important;
+		margin-bottom: 85px ;
 	}
 	.mb-84p {
-		margin-bottom: 84px !important;
+		margin-bottom: 84px ;
 	}
 	.mb-90p {
-		margin-bottom: 90px !important;
+		margin-bottom: 90px ;
 	}
 	.mb-91p {
-		margin-bottom: 91px !important;
+		margin-bottom: 91px ;
   }
   .mb-94p {
-    margin-bottom: 94px !important;
+    margin-bottom: 94px ;
   }
   .mb-250p {
     margin-bottom: 250px;
   }
   .pt-60p {
-    padding-top: 60px !important;
+    padding-top: 60px ;
   }
 	.pt-70p {
-		padding-top: 70px !important;
+		padding-top: 70px ;
 	}
 	.pb-70p {
-		padding-bottom: 70px !important;
+		padding-bottom: 70px ;
 	}
 	.pb-75p {
-		padding-bottom: 75px !important;
+		padding-bottom: 75px ;
 	}
 	.mt-65p {
-		margin-top: 65px !important;
+		margin-top: 65px ;
 	}
 	.mb-65p {
-		margin-bottom: 65px !important;
+		margin-bottom: 65px ;
 	}
 	.mb-91p {
-		margin-bottom: 90px !important;
+		margin-bottom: 90px ;
 	}
 	.pt-99p {
-		padding-top: 99px !important;
+		padding-top: 99px ;
   }
-  
+  .mb-24p {
+    margin-bottom: 24px;
+  }
   .font-montserrat {
     font-family: Montserrat;
   }
   .font-montserrat-bold {
-    font-family: MontserratBold;
+    font-family: $font-monserrat;
+    font-weight: $font-bold
   }
   .font-montserrat-semibold {
-    font-family: MontserratSemiBold;
+    font-family: $font-monserrat;
+    font-weight: $font-semibold
   }
   .font-montserrat-medium {
-    font-family: MontserratMedium;
+      font-family: $font-monserrat;
+    font-weight: $font-medium
   }
   .font-montserrat-regular {
-    font-family: MontserratRegular;
+    font-family: $font-monserrat;
+    font-weight: $font-regular
   }
   .font-montserrat-light {
-    font-family: MontserratLight;
+    font-family: $font-monserrat;
+    font-weight: $font-light
   }
   .font-Dancing-scriptregular {
-    font-family: DancingScriptRegular;
+    font-family: $font-dancing;
+    font-weight: $font-regular
   }
   .font-Dancing-bold {
-    font-family: DancingScriptBold;
+    font-family: $font-dancing;
+    font-weight: $font-bold
+  }
+  .bg-step {
+    height: 100%;
+    background-color: #d3d3d321;
+    padding: 30px;
+    border-radius: 10px;
   }
 }
 
