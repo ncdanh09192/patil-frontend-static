@@ -306,45 +306,6 @@
             }
         }
         .related-page {
-            margin: auto 141px 90px;
-            .background {
-                padding-left: 92px;
-                z-index: -1;
-                > div {
-                    background-color: $color-lochmara;
-                }
-            }
-            .content {
-                padding: 50px 0;
-                img {
-                    box-shadow: 10px 10px 0 0px #ffffff30;
-                    border-radius: 13px;
-                    width: 100%;
-                }
-                .title {
-                    font-family: $font-monserrat;
-                    font-weight: $font-extrbold;
-                    font-size: 32px;
-                    line-height: 46px;
-                    @include lt-spacing(20);
-                    color: $color-white;
-                    margin-bottom: 30px;
-                }
-                .item {
-                    font-family: $font-monserrat;
-                    font-weight: $font-regular;
-                    font-size: 18px;
-                    line-height: 28px;
-                    @include lt-spacing(20);
-                    color: $color-white;
-                    margin-bottom: 30px;
-                    border-bottom: 1px solid;
-                    svg {
-                        margin-left: 35px;
-                        width: 20px;
-                    }
-                }
-            }
         }
         .our-team {
             margin: auto 141px 90px;
@@ -658,46 +619,6 @@
                 }
             }
             .related-page {
-                margin: auto 15px 90px;
-                .background {
-                    padding-left: 0;
-                    z-index: -1;
-                    > div {
-                        background-color: $color-lochmara;
-                    }
-                }
-                .content {
-                    padding: 50px 20px;
-                    img {
-                        box-shadow: 10px 10px 0 0px #ffffff30;
-                        border-radius: 13px;
-                        width: auto;
-                        margin-bottom: 20px;
-                    }
-                    .title {
-                        font-family: $font-monserrat;
-                        font-weight: $font-extrbold;
-                        font-size: 32px;
-                        line-height: 46px;
-                        @include lt-spacing(20);
-                        color: $color-white;
-                        margin-bottom: 30px;
-                    }
-                    .item {
-                        font-family: $font-monserrat;
-                        font-weight: $font-regular;
-                        font-size: 18px;
-                        line-height: 28px;
-                        @include lt-spacing(20);
-                        color: $color-white;
-                        margin-bottom: 30px;
-                        border-bottom: 1px solid;
-                        svg {
-                            margin-left: 35px;
-                            width: 20px;
-                        }
-                    }
-                }
             }
             .our-team {
                 margin: auto 15px 90px;
@@ -1033,46 +954,6 @@
                 }
             }
             .related-page {
-                margin: auto 39px 90px;
-                .background {
-                    padding-left: 0;
-                    z-index: -1;
-                    > div {
-                        background-color: $color-lochmara;
-                    }
-                }
-                .content {
-                    padding: 50px 20px;
-                    img {
-                        box-shadow: 10px 10px 0 0px #ffffff30;
-                        border-radius: 13px;
-                        width: auto;
-                        margin-bottom: 20px;
-                    }
-                    .title {
-                        font-family: $font-monserrat;
-                        font-weight: $font-extrbold;
-                        font-size: 32px;
-                        line-height: 46px;
-                        @include lt-spacing(20);
-                        color: $color-white;
-                        margin-bottom: 30px;
-                    }
-                    .item {
-                        font-family: $font-monserrat;
-                        font-weight: $font-regular;
-                        font-size: 18px;
-                        line-height: 28px;
-                        @include lt-spacing(20);
-                        color: $color-white;
-                        margin-bottom: 30px;
-                        border-bottom: 1px solid;
-                        svg {
-                            margin-left: 35px;
-                            width: 20px;
-                        }
-                    }
-                }
             }
             .our-team {
                 margin: auto 39px 90px;
