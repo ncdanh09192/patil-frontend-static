@@ -43,9 +43,7 @@
 			height: 7px;
 			background-repeat: repeat-x;
 		}
-		.related-page {
-			position: relative;
-		}
+
 
 		.btn-request-appointment {
 			background-color: $color-atlantis;
@@ -82,9 +80,7 @@
 		.bg-blue {
 			background-color: $color-lochmara;
     }
-    .bg-related-page { 
-      background-color: $color-lochmara;
-    }
+
 	}
 
 	/* Medium devices (landscape tablets, 768px and up) */
@@ -127,11 +123,7 @@
 			height: 7px;
 			background-repeat: repeat-x;
 		}
-		.related-page {
-			position: absolute;
-			top: 27px;
-			padding-left: 362px;
-		}
+
 		.container-cus {
 			width: 900px;
 		}
@@ -154,9 +146,7 @@
 			min-width: 900px;
 			text-align: center;
     }
-    .bg-related-page { 
-      background-color: transparent;
-    }
+
 	}
 	.list-style-none {
 		list-style: none;

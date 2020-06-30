@@ -56,9 +56,6 @@
     background-repeat: repeat-x;
   }
 
-  .related-page {
-    position: relative;
-  }
 
   .border-bottom-white {
     border-bottom: 1px solid white;
@@ -101,9 +98,6 @@
   }
   .treat-process-panel {
     margin-top: 60px;
-  }
-  .bg-related-page { 
-    background-color: $color-lochmara;
   }
 }
 
@@ -157,11 +151,6 @@
     background-repeat: repeat-x;
   }
 
-  .related-page {
-    position: absolute;
-    top: 27px;
-    padding-left: 362px;
-  }
   .w-fit-content {
     width: fit-content;
   }
@@ -267,9 +256,7 @@
 .font-size-large {
   font-size: x-large;
 }
-.bg-related-page { 
-  background-color: transparent;
-}
+
 }
 .mt-110p {
   margin-top:110px
