@@ -2875,7 +2875,8 @@ body {
   max-width: 794px;
   font-size: 36px;
   letter-spacing: 0em;
-  text-align: center; }
+  text-align: center;
+  font-weight: 600; }
 .painless-dentistry .container .info-benefits .desc {
   max-width: 900px;
   margin: 0 auto 40px auto;

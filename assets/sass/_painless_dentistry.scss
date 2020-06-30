@@ -50,6 +50,7 @@
         font-size: 36px;
         @include lt-spacing(0);
         text-align: center;
+        font-weight: $font-semibold;
       }
       .desc{
         max-width: 900px;
