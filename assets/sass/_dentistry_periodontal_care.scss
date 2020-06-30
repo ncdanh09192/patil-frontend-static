@@ -13,7 +13,7 @@
             text-transform: uppercase;
         }
     }
-    .item1 {
+    .preamble {
         margin-bottom: 85px;
         .top-title {
             font-family: $font-monserrat;
@@ -43,7 +43,7 @@
             }
         }
     }
-    .item2 {
+    .needs {
         margin: auto 83px 70px;
         padding: 0 90px;
         .background {
@@ -125,7 +125,7 @@
             }
         }
     }
-    .item3 {
+    .continued {
         margin: auto 233px 65px;
         .content {
             padding-top: 32px;
@@ -150,7 +150,7 @@
             }
         }
     }
-    .item4 {
+    .reasons {
         margin-bottom: 80px;
         .background {
             padding-top: 106.5px;
@@ -171,7 +171,7 @@
                     font-size: 36px;
                     line-height: 42px;
                     @include lt-spacing(20);
-                    margin-left: 92px;
+                    margin: auto 92px;
                     bottom: 40px;
                     color: $color-white;
                 }
@@ -207,7 +207,7 @@
             }
         }
     }
-    .item5 {
+    .treatments {
         margin: auto 141px 60px;
         .title {
             font-family: $font-monserrat;
@@ -269,84 +269,8 @@
                 }
             }
         }
-        &-list {
-            &-item {
-                &:hover {
-                    .section-body-item5-list-item-content-more {
-                        opacity: 1;
-                        margin-bottom: 0px;
-                        transition: 500ms;
-                    }
-                }
-                &-img {
-                    &-gradient {
-                        background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                        border-radius: 5px;
-                    }
-                }
-
-                &-content {
-                    color: white;
-                    &-name {
-                        font-family: $font-monserrat;
-                        font-weight: $font-semibold;
-                    }
-                    &-des {
-                        font-family: $font-monserrat;
-                        font-weight: $font-regular;
-                    }
-                    &-more {
-                        text-transform: uppercase;
-                        font-family: $font-monserrat;
-                        font-weight: $font-regular;
-                        color: #86c127 !important;
-                        opacity: 0;
-                        margin-bottom: -10px;
-                    }
-                }
-            }
-        }
     }
-    .item6 {
-        margin: auto 141px 90px;
-        .background {
-            padding-left: 92px;
-            z-index: -1;
-            > div {
-                background-color: $color-lochmara;
-            }
-        }
-        .content {
-            padding: 50px 0;
-            img {
-                box-shadow: 10px 10px 0 0px #ffffff30;
-                border-radius: 13px;
-                width: 100%;
-            }
-            .title {
-                font-family: $font-monserrat;
-                font-weight: $font-extrbold;
-                font-size: 32px;
-                line-height: 46px;
-                @include lt-spacing(20);
-                color: $color-white;
-                margin-bottom: 30px;
-            }
-            .item {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                font-size: 18px;
-                line-height: 28px;
-                @include lt-spacing(20);
-                color: $color-white;
-                margin-bottom: 30px;
-                border-bottom: 1px solid;
-                svg {
-                    margin-left: 12.5px;
-                    width: 16px;
-                }
-            }
-        }
+    .related-page {
     }
     .our-team {
         margin: auto 141px 90px;
@@ -369,7 +293,7 @@
                 text-transform: uppercase;
             }
         }
-        .item1 {
+        .preamble {
             margin: auto 15px 85px;
             .top-title {
                 font-family: $font-monserrat;
@@ -399,7 +323,7 @@
                 }
             }
         }
-        .item2 {
+        .needs {
             margin: auto 15px 70px;
             padding: 0 30px;
             .background {
@@ -484,7 +408,7 @@
                 }
             }
         }
-        .item3 {
+        .continued {
             margin: auto 15px 65px;
             .content {
                 padding-top: 32px;
@@ -510,7 +434,7 @@
                 }
             }
         }
-        .item4 {
+        .reasons {
             margin-bottom: 40px;
             .background {
                 padding-top: 50px;
@@ -531,7 +455,7 @@
                         font-size: 22px;
                         line-height: 26px;
                         @include lt-spacing(20);
-                        margin-left: 10px;
+                        margin: auto 10px;
                         bottom: 10px;
                         color: $color-white;
                         text-align: left;
@@ -571,7 +495,7 @@
                 }
             }
         }
-        .item5 {
+        .treatments {
             margin: auto 15px 60px;
             .title {
                 font-family: $font-monserrat;
@@ -634,85 +558,8 @@
                     }
                 }
             }
-            &-list {
-                &-item {
-                    &:hover {
-                        .section-body-item5-list-item-content-more {
-                            opacity: 1;
-                            margin-bottom: 0px;
-                            transition: 500ms;
-                        }
-                    }
-                    &-img {
-                        &-gradient {
-                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                            border-radius: 5px;
-                        }
-                    }
-
-                    &-content {
-                        color: white;
-                        &-name {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                        }
-                        &-des {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                        }
-                        &-more {
-                            text-transform: uppercase;
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                            color: #86c127 !important;
-                            opacity: 0;
-                            margin-bottom: -10px;
-                        }
-                    }
-                }
-            }
         }
-        .item6 {
-            margin: auto 15px 90px;
-            .background {
-                padding-left: 0;
-                z-index: -1;
-                > div {
-                    background-color: $color-lochmara;
-                }
-            }
-            .content {
-                padding: 50px 20px;
-                img {
-                    box-shadow: 10px 10px 0 0px #ffffff30;
-                    border-radius: 13px;
-                    width: auto;
-                    margin-bottom: 20px;
-                }
-                .title {
-                    font-family: $font-monserrat;
-                    font-weight: $font-extrbold;
-                    font-size: 32px;
-                    line-height: 46px;
-                    @include lt-spacing(20);
-                    color: $color-white;
-                    margin-bottom: 30px;
-                }
-                .item {
-                    font-family: $font-monserrat;
-                    font-weight: $font-regular;
-                    font-size: 18px;
-                    line-height: 28px;
-                    @include lt-spacing(20);
-                    color: $color-white;
-                    margin-bottom: 30px;
-                    border-bottom: 1px solid;
-                    svg {
-                        margin-left: 12.5px;
-                        width: 16px;
-                    }
-                }
-            }
+        .related-page {
         }
         .our-team {
             margin: auto 15px 90px;
@@ -740,7 +587,6 @@
     }
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (max-width: 1023px) and (min-width: 768px) {
     .dentistry-periodontal-care {
         .section-top {
@@ -757,7 +603,7 @@
                 text-transform: uppercase;
             }
         }
-        .item1 {
+        .preamble {
             margin: auto 39px 85px;
             .top-title {
                 font-family: $font-monserrat;
@@ -787,7 +633,7 @@
                 }
             }
         }
-        .item2 {
+        .needs {
             margin: auto 39px 70px;
             padding: 0 50px;
             .background {
@@ -872,7 +718,7 @@
                 }
             }
         }
-        .item3 {
+        .continued {
             margin: auto 39px 65px;
             .content {
                 padding-top: 32px;
@@ -898,7 +744,7 @@
                 }
             }
         }
-        .item4 {
+        .reasons {
             margin-bottom: 80px;
             .background {
                 padding-top: 106.5px;
@@ -919,7 +765,7 @@
                         font-size: 30px;
                         line-height: 42px;
                         @include lt-spacing(20);
-                        margin-left: 20px;
+                        margin: auto 20px;
                         bottom: 40px;
                         color: $color-white;
                     }
@@ -958,7 +804,7 @@
                 }
             }
         }
-        .item5 {
+        .treatments {
             margin: auto 39px 60px;
             .title {
                 font-family: $font-monserrat;
@@ -1021,85 +867,8 @@
                     }
                 }
             }
-            &-list {
-                &-item {
-                    &:hover {
-                        .section-body-item5-list-item-content-more {
-                            opacity: 1;
-                            margin-bottom: 0px;
-                            transition: 500ms;
-                        }
-                    }
-                    &-img {
-                        &-gradient {
-                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                            border-radius: 5px;
-                        }
-                    }
-
-                    &-content {
-                        color: white;
-                        &-name {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                        }
-                        &-des {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                        }
-                        &-more {
-                            text-transform: uppercase;
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                            color: #86c127 !important;
-                            opacity: 0;
-                            margin-bottom: -10px;
-                        }
-                    }
-                }
-            }
         }
-        .item6 {
-            margin: auto 39px 90px;
-            .background {
-                padding-left: 0;
-                z-index: -1;
-                > div {
-                    background-color: $color-lochmara;
-                }
-            }
-            .content {
-                padding: 50px 20px;
-                img {
-                    box-shadow: 10px 10px 0 0px #ffffff30;
-                    border-radius: 13px;
-                    width: auto;
-                    margin-bottom: 20px;
-                }
-                .title {
-                    font-family: $font-monserrat;
-                    font-weight: $font-extrbold;
-                    font-size: 32px;
-                    line-height: 46px;
-                    @include lt-spacing(20);
-                    color: $color-white;
-                    margin-bottom: 30px;
-                }
-                .item {
-                    font-family: $font-monserrat;
-                    font-weight: $font-regular;
-                    font-size: 18px;
-                    line-height: 28px;
-                    @include lt-spacing(20);
-                    color: $color-white;
-                    margin-bottom: 30px;
-                    border-bottom: 1px solid;
-                    svg {
-                        margin-left: 12.5px;
-                        width: 16px;
-                    }
-                }
-            }
+        .related-page {
         }
         .our-team {
             margin: auto 39px 90px;

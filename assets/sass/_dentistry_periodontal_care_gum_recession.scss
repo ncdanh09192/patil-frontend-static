@@ -3,1123 +3,960 @@
 .dentistry-periodontal-care-gum-recession {
     .section-top {
         background-image: url("../images/dentisty_periodontal_care_gum_recession/gum-recession-banner1.jpg");
+        margin-bottom: 60px;
+        border-bottom: 2px solid $color-limeade;
         &-gradient {
-            background-color: black;
+            background-color: $color-black;
             opacity: 0.4;
         }
-        .dentistry-periodontal-care-breadcrumb {
-            z-index: 1;
-            &-container,
-            &-title {
+        .page-title {
+            font-family: $font-monserrat;
+            font-weight: $font-regular;
+            text-transform: uppercase;
+        }
+    }
+    .section-body {
+        .preamble {
+            margin-bottom: 92px;
+            .top-title {
+                font-family: $font-monserrat;
+                font-weight: $font-bold;
+                line-height: 45px;
+                font-size: 46px;
+                @include lt-spacing(20);
+                margin-bottom: 32px;
+            }
+            .top-desc {
                 font-family: $font-monserrat;
                 font-weight: $font-regular;
+                max-width: 900px;
+                margin-bottom: 42px;
+                p {
+                    line-height: 28px;
+                    font-size: 16px;
+                    @include lt-spacing(20);
+                }
             }
-            &-title {
+        }
+        .needs {
+            margin-bottom: 82px;
+            .top-title {
+                font-family: $font-monserrat;
+                font-weight: $font-bold;
+                line-height: 50px;
+                font-size: 36px;
+                @include lt-spacing(20);
+                margin: auto auto 32px;
+                max-width: 553px;
+            }
+            .top-desc {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                max-width: 900px;
+                margin-bottom: 42px;
+                p {
+                    line-height: 28px;
+                    font-size: 16px;
+                    @include lt-spacing(20);
+                }
+            }
+            .content {
+                margin: auto 169px;
+                .benefit {
+                    text-align: center;
+                    padding: 30px;
+                    background-color: $color-alabaster;
+                    border-radius: 15px;
+                    max-width: 320px;
+                    p {
+                        margin: 0;
+                    }
+                    .icon {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 100px;
+                        background-color: $color-white;
+                        margin: auto auto 20px;
+                        position: relative;
+                        img {
+                            position: absolute;
+                            margin: auto;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+                    .icon_benefit_1 {
+                        img {
+                            width: 57.5px;
+                            height: 57.78px;
+                        }
+                    }
+                    .icon_benefit_2 {
+                        img {
+                            width: 50px;
+                            height: 50.1px;
+                        }
+                    }
+                    .icon_benefit_3 {
+                        img {
+                            width: 57.5px;
+                            height: 44.02px;
+                            left: 10px;
+                        }
+                    }
+                    .benefit-title {
+                        font-size: 22px;
+                        margin-bottom: 20px;
+                        line-height: 26px;
+                        color: $color-tundora;
+                        font-family: $font-monserrat;
+                        font-weight: $font-medium;
+                    }
+                    .benefit-description {
+                        font-size: 15px;
+                        line-height: 26px;
+                        color: $color-scorpion;
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                    }
+                }
+            }
+        }
+        .treatments {
+            margin: auto 141px 92px;
+            text-align: left;
+            .top-title {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                font-size: 32px;
+                line-height: 40px;
+                margin-bottom: 28px;
+                text-align: left;
+            }
+            .top-desc {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                text-align: left;
+                p {
+                    font-size: 15px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .reasons {
+            margin-bottom: 90px;
+            .background {
+                padding-top: 160px;
+                z-index: -1;
+                > div {
+                    background-color: $color-alabaster;
+                }
+            }
+            .content {
+                margin: auto 141px 80px;
+                padding-bottom: 12px;
+                .banner {
+                    margin-bottom: 68px;
+                    .gradient {
+                        background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                    }
+                    .title {
+                        font-family: $font-monserrat;
+                        font-weight: $font-bold;
+                        font-size: 36px;
+                        line-height: 42px;
+                        @include lt-spacing(20);
+                        margin: auto 92px;
+                        bottom: 40px;
+                        color: $color-white;
+                        max-width: 430px;
+                    }
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    text-align: left;
+                    max-width: 900px;
+                    p {
+                        font-size: 16px;
+                        line-height: 26px;
+                        @include lt-spacing(20);
+                    }
+                }
+            }
+        }
+        .symptoms {
+            margin: auto 141px 72px;
+            text-align: left;
+            .top-title {
+                font-family: $font-monserrat;
+                font-weight: $font-semibold;
+                font-size: 32px;
+                line-height: 44px;
+                margin-bottom: 30px;
+                text-align: left;
+            }
+            .top-desc {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                margin-bottom: 30px;
+                text-align: left;
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    @include lt-spacing(20);
+                }
+            }
+            .top-list {
+                color: $color-lochmara;
+                font-family: $font-monserrat;
+                font-weight: $font-medium;
+                font-size: 16px;
+                ul {
+                    padding-left: 20px;
+                    li {
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        .continued {
+            background-color: $color-deepCerulean;
+            color: $color-white;
+            margin-bottom: 80px;
+            .content {
+                padding: 70px 233px;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-bold;
+                    font-size: 36px;
+                    line-height: 42px;
+                    margin-bottom: 30px;
+                    @include lt-spacing(20);
+                    color: $color-white;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    margin-bottom: 44px;
+                    p {
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: $color-white;
+                    }
+                }
+                .top-name {
+                    font-family: $font-dancing;
+                    font-weight: $font-regular;
+                    margin: 30px auto 55px;
+                    p {
+                        font-size: 26px;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+        .prevent {
+            margin: auto 141px 105px;
+            text-align: left;
+            .top-title {
+                font-family: $font-monserrat;
+                font-weight: $font-semibold;
+                font-size: 32px;
+                line-height: 44px;
+                margin-bottom: 30px;
+                text-align: left;
+            }
+            .top-desc {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                margin-bottom: 30px;
+                text-align: left;
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    @include lt-spacing(20);
+                }
+            }
+            .top-list {
+                font-family: $font-monserrat;
+                font-weight: $font-medium;
+                font-size: 16px;
+                ul {
+                    padding-left: 30px;
+                    list-style: none;
+                    li {
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            left: -30px;
+                            top: -5px;
+                            background-image: url("../images/dentisty_periodontal_care_gum_recession/icon.png");
+                            width: 20px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .related-page {
+        }
+        .our-team {
+            margin: auto 141px 90px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .dentistry-periodontal-care-gum-recession {
+        .section-top {
+            background-image: url("../images/dentisty_periodontal_care_gum_recession/gum-recession-banner1.jpg");
+            margin-bottom: 60px;
+            border-bottom: 2px solid $color-limeade;
+            &-gradient {
+                background-color: $color-black;
+                opacity: 0.4;
+            }
+            .page-title {
                 font-family: $font-monserrat;
                 font-weight: $font-regular;
                 text-transform: uppercase;
             }
         }
-    }
-    .section-body {
-        &-item1 {
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-bold;
-                color: #444444;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                color: #606060;
-            }
-        }
-        &-item2 {
-            &-img {
-                background-color: #0072ad;
-                border-top-right-radius: 50px;
-                border-bottom-left-radius: 50px;
-            }
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-bold;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-            }
-            &-list {
-                &-content {
-                    &-item {
-                        background-color: #f7f7f7;
-                        border-radius: 15px;
-                        &-img {
-                        }
-                        &-name {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                            color: #444444;
-                        }
-                        &-des {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                            color: #606060;
-                        }
-                    }
+        .section-body {
+            .preamble {
+                margin: auto 20px 90px;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-bold;
+                    line-height: 37px;
+                    font-size: 38px;
+                    @include lt-spacing(20);
+                    margin-bottom: 20px;
                 }
-            }
-        }
-        &-item3 {
-            &-border {
-            }
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                color: #444444;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-                color: #606060;
-            }
-        }
-        &-item4 {
-            &-content {
-                &-gradient {
-                    z-index: -1;
-                    &-bg {
-                        background-color: #f7f7f7;
-                    }
-                }
-                &-banner {
-                    &-gradient {
-                        background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
-                    }
-                    &-img {
-                    }
-                    &-title {
-                        font-family: $font-monserrat;
-                        font-weight: $font-bold;
-                        color: white;
-                        text-align: left;
-                    }
-                }
-                &-des {
+                .top-desc {
                     font-family: $font-monserrat;
                     font-weight: $font-regular;
-                    color: #606060;
-                }
-                &-list {
-                    &-item {
-                        &-img {
+                    max-width: 900px;
+                    p {
+                        line-height: 25px;
+                        font-size: 16px;
+                        @include lt-spacing(20);
+                        &.top-desc-title {
+                            font-family: $font-dancing;
+                            font-weight: $font-bold;
+                            font-size: 38px;
+                            color: $color-atlantis;
+                            margin-bottom: 30px;
+                            line-height: 40px;
+                            @include lt-spacing(0);
                         }
-                        &-content {
-                            &-name {
-                                font-family: $font-monserrat;
-                                font-weight: $font-medium;
-                                color: #444444;
+                    }
+                }
+            }
+            .needs {
+                margin: auto 20px 100px;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-bold;
+                    line-height: 40px;
+                    font-size: 30px;
+                    @include lt-spacing(20);
+                    margin-bottom: 30px;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    max-width: 900px;
+                    p {
+                        line-height: 28px;
+                        font-size: 16px;
+                        @include lt-spacing(20);
+                        margin-bottom: 45px;
+                    }
+                }
+                .content {
+                    margin: auto;
+                    .benefits {
+                        flex-wrap: wrap;
+                        .benefit {
+                            text-align: center;
+                            padding: 30px;
+                            background-color: $color-alabaster;
+                            border-radius: 15px;
+                            max-width: 100%;
+                            p {
+                                margin: 0;
                             }
-                            &-des {
+                            .icon {
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 100px;
+                                background-color: $color-white;
+                                margin: auto auto 20px;
+                                position: relative;
+                                img {
+                                    position: absolute;
+                                    margin: auto;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                }
+                            }
+                            .icon_benefit_1 {
+                                img {
+                                    width: 57.5px;
+                                    height: 57.78px;
+                                }
+                            }
+                            .icon_benefit_2 {
+                                img {
+                                    width: 50px;
+                                    height: 50.1px;
+                                }
+                            }
+                            .icon_benefit_3 {
+                                img {
+                                    width: 57.5px;
+                                    height: 44.02px;
+                                    left: 10px;
+                                }
+                            }
+                            .benefit-title {
+                                font-size: 22px;
+                                margin-bottom: 15px;
+                                line-height: 45px;
+                                color: $color-tundora;
+                                font-family: $font-monserrat;
+                                font-weight: $font-semibold;
+                            }
+                            .benefit-description {
+                                font-size: 15px;
+                                line-height: 26px;
+                                color: $color-scorpion;
                                 font-family: $font-monserrat;
                                 font-weight: $font-regular;
-                                color: #606060;
                             }
                         }
                     }
                 }
             }
-        }
-        &-item5 {
-            text-align: left;
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-semibold;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-            }
-            &-list {
-                ul {
+            .treatments {
+                margin: auto 20px 92px;
+                text-align: left;
+                .top-title {
                     font-family: $font-monserrat;
-                    font-weight: $font-medium;
-                    color: #008cd4;
-                }
-            }
-        }
-        &-item6 {
-            background-color: #0072ad;
-            color: white;
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-bold;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-            }
-            &-name {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-            }
-        }
-        &-item7 {
-            text-align: left;
-            &-title {
-                font-family: $font-monserrat;
-                font-weight: $font-semibold;
-            }
-            &-des {
-                font-family: $font-monserrat;
-                font-weight: $font-regular;
-            }
-            &-list {
-                ul {
-                    font-family: $font-monserrat;
-                    font-weight: $font-medium;
-                    li {
-                        margin-bottom: 20px;
-                        position: relative;
-                        list-style-type: none;
-                        &:before {
-                            content: "";
-                            position: absolute;
-                            top: -5px;
-                            left: -30px;
-                            width: 30px;
-                            height: 30px;
-                            background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat left
-                                top;
-                        }
-                    }
-                }
-            }
-        }
-        &-item8 {
-            &-bg {
-                background-color: #008cd4;
-            }
-            &-border {
-            }
-            &-wrapper {
-                &-content {
-                    &-img {
-                        img {
-                            border-radius: 10px;
-                            box-shadow: 8px 8px 0 0 #ffffff50;
-                        }
-                    }
-                    &-list {
-                        color: white;
-                        &-title {
-                            font-family: $font-monserrat;
-                            font-weight: $font-extrbold;
-                        }
-                        &-item {
-                            > div {
-                                .item {
-                                    font-family: $font-monserrat;
-                                    font-weight: $font-regular;
-                                    border-bottom: 2px solid;
-                                    a {
-                                        padding-right: 35px;
-                                    }
-                                    svg {
-                                        width: 20px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        &-item9 {
-            &-img {
-            }
-            &-content {
-                &-gradient {
-                    border-top-right-radius: 10px;
-                    border-bottom-right-radius: 10px;
-                    background-image: linear-gradient(
-                        360deg,
-                        rgba(0, 35, 65, 0.700717787114846) 0%,
-                        rgba(0, 35, 65, 0.3029586834733894) 100%
-                    );
-                }
-                &-form-contact {
-                    border-radius: 10px;
-                    color: white;
-                    z-index: 1;
-                    > div {
-                        &:nth-child(1) {
-                            font-family: $font-monserrat;
-                            font-weight: $font-regular;
-                        }
-                        &:nth-child(2),
-                        &:nth-child(4) {
-                            button {
-                                border: 1px solid white;
-                                border-radius: 25px;
-                                color: white;
-                                &:focus {
-                                    outline: 0;
-                                }
-                            }
-                        }
-                        &:nth-child(2) {
-                            font-family: $font-monserrat;
-                            font-weight: $font-semibold;
-                            button {
-                                background-color: #86c127;
-                            }
-                        }
-                        &:nth-child(4) {
-                            font-family: $font-monserrat;
-                            font-weight: $font-medium;
-                            button {
-                                background-color: transparent;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Super small devices (landscape phones, 576px and up)
-@media (max-width: 575.98px) {
-    .dentistry-periodontal-care-gum-recession {
-        .section-top {
-            height: 300px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 20px;
-                bottom: 90px;
-                &-container {
-                    font-size: 14px;
-                }
-                &-title {
-                    font-size: 36px;
-                    line-height: normal;
-                    padding-right: 20px;
-                    &::before {
-                        margin-bottom: 14px;
-                    }
-                }
-            }
-        }
-        .section-body {
-            margin: 40px auto 90px;
-            &-item1 {
-                margin: 0 20px;
-                &-title {
+                    font-weight: $font-regular;
                     font-size: 26px;
-                }
-                &-des {
-                    font-size: 12px;
-                    margin: auto auto 20px;
-                }
-            }
-            &-item2 {
-                margin: 45px 20px 40px;
-                &-img {
-                    height: 100%;
-                    img {
-                        object-fit: cover;
-                    }
-                }
-                &-title {
-                    font-size: 18px;
-                    margin: auto;
-                    padding-top: 0;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 20px auto;
-                }
-                &-list {
-                    &-content {
-                        margin: auto 10px;
-                        &-item {
-                            padding: 30px 20px;
-                            margin-bottom: 20px;
-                            min-height: 300px;
-                            &-img {
-                                img {
-                                    width: 70px;
-                                }
-                            }
-                            &-name {
-                                margin: 15px auto 20px;
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(4);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 20px;
-                &-border {
-                }
-                &-title {
-                    font-size: 20px;
-                    margin: 15px auto;
-                }
-                &-des {
-                    font-size: 12px;
-                    margin-top: 15px;
-                }
-            }
-            &-item4 {
-                margin: 40px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 0 20px;
-                    &-gradient {
-                        padding-top: 60px;
-                        &-bg {
-                        }
-                    }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 10px;
-                            left: 10px;
-                            font-size: 20px;
-                        }
-                    }
-                    &-des {
-                        font-size: 14px;
-                        margin: 45px 20px 0;
-                        text-align: center;
-                    }
-                    &-list {
-                        margin: 30px 20px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: center;
-                            }
-                            &-content {
-                                text-align: center;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(1);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item5 {
-                margin: 40px 20px auto;
-                &-title {
-                    font-size: 26px;
-                    line-height: 38px;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 30px auto 20px;
-                }
-                &-list {
-                    ul {
-                        margin-top: 15px;
-                        padding-left: 17px;
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 40px;
-                padding: 40px 20px;
-                &-title {
-                    font-size: 26px;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 30px auto 70px;
-                }
-                &-name {
-                    font-size: 16px;
-                }
-            }
-            &-item7 {
-                margin: 40px 20px auto;
-                text-align: left;
-                &-title {
-                    font-size: 26px;
-                    line-height: 42px;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 30px auto 20px;
-                }
-                &-list {
-                    ul {
-                        font-size: 13px;
-                        margin-top: 15px;
-                        padding-left: 30px;
-                        li {
-                            margin-bottom: 20px;
-                            position: relative;
-                            list-style-type: none;
-                            &:before {
-                                content: "";
-                                position: absolute;
-                                top: -5px;
-                                left: -30px;
-                                width: 30px;
-                                height: 30px;
-                                background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat
-                                    left top;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item8 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 20px auto 20px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 40px;
-                        &-img {
-                            margin-bottom: 20px;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item9 {
-                margin: 90px 20px auto;
-                &-img {
-                    position: absolute;
-                    height: 100%;
-                    img {
-                        object-fit: cover;
-                    }
-                }
-                &-content {
-                    width: 100%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 45px 15px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 20px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 16px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
-                                }
-                            }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 30px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .dentistry-periodontal-care-gum-recession {
-        .section-top {
-            height: 300px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 20px;
-                bottom: 90px;
-                &-container {
-                    font-size: 14px;
-                }
-                &-title {
-                    font-size: 36px;
-                    line-height: normal;
-                    padding-right: 20px;
-                    &::before {
-                        margin-bottom: 14px;
-                    }
-                }
-            }
-        }
-        .section-body {
-            margin: 40px auto 90px;
-            &-item1 {
-                margin: 0 20px;
-                &-title {
-                    font-size: 26px;
-                }
-                &-des {
-                    font-size: 12px;
-                    margin: auto auto 20px;
-                }
-            }
-            &-item2 {
-                margin: 45px 20px 70px;
-                &-img {
-                    height: 100%;
-                    img {
-                        object-fit: cover;
-                    }
-                }
-                &-title {
-                    font-size: 18px;
-                    margin: auto;
-                    padding-top: 0;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 20px auto;
-                }
-                &-list {
-                    &-content {
-                        margin: auto 10px;
-                        &-item {
-                            padding: 30px 20px;
-                            margin-bottom: 20px;
-                            min-height: 300px;
-                            &-img {
-                                img {
-                                    width: 70px;
-                                }
-                            }
-                            &-name {
-                                margin: 15px auto 20px;
-                                font-size: 18px;
-                            }
-                            &-des {
-                                font-size: 12px;
-                                @include line-clamp(4);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 20px;
-                &-border {
-                }
-                &-title {
-                    font-size: 20px;
-                    margin: 15px auto;
-                }
-                &-des {
-                    font-size: 12px;
-                    margin-top: 15px;
-                }
-            }
-            &-item4 {
-                margin: 40px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 0 20px;
-                    &-gradient {
-                        padding-top: 60px;
-                        &-bg {
-                        }
-                    }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 10px;
-                            left: 10px;
-                            font-size: 20px;
-                        }
-                    }
-                    &-des {
-                        font-size: 14px;
-                        margin: 45px 20px 0;
-                        text-align: center;
-                    }
-                    &-list {
-                        margin: 30px 20px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: center;
-                            }
-                            &-content {
-                                text-align: center;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(1);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item5 {
-                margin: 40px 20px auto;
-                &-title {
-                    font-size: 26px;
-                    line-height: 38px;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 30px auto 20px;
-                }
-                &-list {
-                    ul {
-                        margin-top: 15px;
-                        padding-left: 17px;
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 40px;
-                padding: 40px 20px;
-                &-title {
-                    font-size: 26px;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 30px auto 70px;
-                }
-                &-name {
-                    font-size: 16px;
-                }
-            }
-            &-item7 {
-                margin: 40px 20px auto;
-                text-align: left;
-                &-title {
-                    font-size: 26px;
-                    line-height: 42px;
-                }
-                &-des {
-                    font-size: 14px;
-                    margin: 30px auto 20px;
-                }
-                &-list {
-                    ul {
-                        font-size: 13px;
-                        margin-top: 15px;
-                        padding-left: 30px;
-                        li {
-                            margin-bottom: 20px;
-                            position: relative;
-                            list-style-type: none;
-                            &:before {
-                                content: "";
-                                position: absolute;
-                                top: -5px;
-                                left: -30px;
-                                width: 30px;
-                                height: 30px;
-                                background: url("../images/dentisty_periodontal_care_gum_recession/icon.png") no-repeat
-                                    left top;
-                            }
-                        }
-                    }
-                }
-            }
-            &-item8 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 20px auto 20px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 40px;
-                        &-img {
-                            margin-bottom: 20px;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &-item9 {
-                margin: 90px 20px auto;
-                &-img {
-                    // position: absolute;
-                    height: 100%;
-                    img {
-                        object-fit: cover;
-                    }
-                }
-                &-content {
-                    width: 100%;
-                    &-gradient {
-                    }
-                    &-form-contact {
-                        color: white;
-                        margin: 45px 15px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 20px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
-                            }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 16px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
-                                }
-                            }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 20px;
-                                }
-                            }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 30px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    .dentistry-periodontal-care-gum-recession {
-        .section-top {
-            height: 500px;
-            .dentistry-periodontal-care-breadcrumb {
-                margin-left: 141px;
-                bottom: 90px;
-                &-container {
-                    font-size: 16px;
-                }
-                &-title {
-                    font-size: 46px;
-                }
-            }
-        }
-        .section-body {
-            margin: 70px auto 90px;
-            &-item1 {
-                margin: 0 230px;
-                &-title {
-                    font-size: 46px;
-                }
-                &-name {
-                    font-size: 48px;
-                    margin-bottom: 10px;
-                }
-                &-des {
-                    font-size: 16px;
-                }
-            }
-            &-item2 {
-                margin: 85px 141px 70px;
-                &-img {
-                    height: auto;
-                }
-                &-title {
-                    font-size: 38px;
-                    margin: 40px 200px 25px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin: 20px 90px 40px;
-                }
-                &-list {
-                    &-content {
-                        &-item {
-                            padding: 30px 20px;
-                            min-height: 400px;
-                            &-img {
-                            }
-                            &-name {
-                                margin: 30px auto 20px;
-                                font-size: 22px;
-                                text-transform: uppercase;
-                                @include line-clamp(2);
-                            }
-                            &-des {
-                                font-size: 15px;
-                                @include line-clamp(8);
-                            }
-                        }
-                    }
-                }
-            }
-            &-item3 {
-                margin: auto 141px;
-                text-align: left;
-                &-border {
-                }
-                &-title {
-                    font-size: 32px;
                     line-height: 40px;
+                    margin-bottom: 28px;
+                    text-align: left;
                 }
-                &-des {
-                    font-size: 15px;
-                    margin-top: 15px;
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    text-align: left;
+                    p {
+                        font-size: 15px;
+                        line-height: 28px;
+                    }
                 }
             }
-            &-item4 {
-                margin: 80px auto 0;
-                padding-bottom: 70px;
-                &-content {
-                    padding: 0 141px;
-                    &-gradient {
-                        padding-top: 160px;
-                        &-bg {
+            .reasons {
+                margin-bottom: 90px;
+                .background {
+                    padding-top: 50px;
+                    z-index: -1;
+                    > div {
+                        background-color: $color-alabaster;
+                    }
+                }
+                .content {
+                    margin: auto 20px 80px;
+                    padding-bottom: 12px;
+                    .banner {
+                        margin-bottom: 68px;
+                        .gradient {
+                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                        }
+                        .title {
+                            font-family: $font-monserrat;
+                            font-weight: $font-bold;
+                            font-size: 18px;
+                            line-height: 26px;
+                            @include lt-spacing(20);
+                            margin: auto 10px;
+                            bottom: 10px;
+                            color: $color-white;
+                            text-align: left;
                         }
                     }
-                    &-banner {
-                        &-gradient {
-                        }
-                        &-img {
-                        }
-                        &-title {
-                            bottom: 40px;
-                            left: 90px;
-                            font-size: 36px;
-                            line-height: 40px;
-                            max-width: 50%;
-                        }
-                    }
-                    &-des {
-                        font-size: 16px;
-                        margin: 45px 90px 0;
+                    .top-desc {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
                         text-align: left;
-                    }
-                    &-list {
-                        margin: 30px 90px 0;
-                        &-item {
-                            margin-bottom: 27px;
-                            &-img {
-                                text-align: left;
-                            }
-                            &-content {
-                                text-align: left;
-                                &-name {
-                                    font-size: 20px;
-                                    @include line-clamp(2);
-                                }
-                                &-des {
-                                    font-size: 15px;
-                                    @include line-clamp(2);
-                                }
-                            }
+                        max-width: 900px;
+                        p {
+                            font-size: 16px;
+                            line-height: 26px;
+                            @include lt-spacing(20);
                         }
                     }
                 }
             }
-            &-item5 {
-                margin: 80px 141px auto;
-                &-title {
-                    font-size: 36px;
-                    line-height: 44px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin: 30px auto 20px;
-                }
-                &-list {
-                    ul {
-                        margin-top: 16px;
-                        padding-left: 17px;
-                    }
-                }
-            }
-            &-item6 {
-                margin-top: 70px;
-                padding: 70px 230px;
-                &-title {
-                    font-size: 36px;
-                }
-                &-des {
-                    font-size: 16px;
-                    margin: 30px auto 70px;
-                }
-                &-name {
-                    font-size: 26px;
-                }
-            }
-            &-item7 {
-                margin: 80px 141px auto;
+            .symptoms {
+                margin: auto 20px 72px;
                 text-align: left;
-                &-title {
-                    font-size: 36px;
-                    line-height: 42px;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-semibold;
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-bottom: 30px;
+                    text-align: left;
                 }
-                &-des {
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    margin-bottom: 30px;
+                    text-align: left;
+                    p {
+                        font-size: 16px;
+                        line-height: 28px;
+                        @include lt-spacing(20);
+                    }
+                }
+                .top-list {
+                    color: $color-lochmara;
+                    font-family: $font-monserrat;
+                    font-weight: $font-medium;
                     font-size: 16px;
-                    margin: 30px auto 20px;
-                }
-                &-list {
                     ul {
-                        margin-top: 15px;
+                        padding-left: 20px;
+                        li {
+                            line-height: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+            .continued {
+                background-color: $color-deepCerulean;
+                color: $color-white;
+                margin-bottom: 80px;
+                .content {
+                    padding: 70px 20px;
+                    .top-title {
+                        font-family: $font-monserrat;
+                        font-weight: $font-bold;
+                        font-size: 36px;
+                        line-height: 42px;
+                        margin-bottom: 30px;
+                        @include lt-spacing(20);
+                        color: $color-white;
+                    }
+                    .top-desc {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                        margin-bottom: 44px;
+                        p {
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: $color-white;
+                        }
+                    }
+                    .top-name {
+                        font-family: $font-dancing;
+                        font-weight: $font-regular;
+                        margin: 30px auto 55px;
+                        p {
+                            font-size: 26px;
+                            line-height: 34px;
+                        }
+                    }
+                }
+            }
+            .prevent {
+                margin: auto 20px 105px;
+                text-align: left;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-semibold;
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-bottom: 30px;
+                    text-align: left;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    margin-bottom: 30px;
+                    text-align: left;
+                    p {
+                        font-size: 16px;
+                        line-height: 28px;
+                        @include lt-spacing(20);
+                    }
+                }
+                .top-list {
+                    font-family: $font-monserrat;
+                    font-weight: $font-medium;
+                    font-size: 16px;
+                    ul {
                         padding-left: 30px;
-                    }
-                }
-            }
-            &-item8 {
-                margin-top: 100px;
-                &-bg {
-                    margin: auto 141px auto 233px;
-                }
-                &-border {
-                }
-                &-wrapper {
-                    padding: 50px 0;
-                    &-content {
-                        margin: auto 141px;
-                        &-img {
-                            display: block;
-                        }
-                        &-list {
-                            &-title {
-                                margin-bottom: 25px;
-                                font-size: 32px;
-                            }
-                            &-item {
-                                > div {
-                                    .item {
-                                        margin-bottom: 25px;
-                                        font-size: 18px;
-                                        padding-bottom: 5px;
-                                    }
-                                }
-                            }
+                        li {
+                            line-height: 20px;
+                            margin-bottom: 20px;
                         }
                     }
                 }
             }
-            &-item9 {
-                margin: 90px 141px auto;
-                &-img {
-                }
-                &-content {
-                    position: absolute;
-                    width: 40%;
-                    &-gradient {
+            .related-page {
+            }
+            .our-team {
+                margin: auto 15px 90px;
+                .our-team-content {
+                    padding: 20px 0;
+                    .our-team-desc {
+                        p {
+                            font-size: 18px;
+                        }
                     }
-                    &-form-contact {
-                        color: white;
-                        margin: 45px 55px;
-                        > div {
-                            &:nth-child(1) {
-                                font-size: 20px;
-                                margin-bottom: 70px;
-                                @include line-clamp(4);
+                    .cta-wrapper {
+                        .cta-btn-request {
+                            font-size: 14px;
+                            padding: 10px 40px 10px 20px;
+                            background-position: 95% 13px;
+                        }
+                        .cta-btn-contact {
+                            font-size: 14px;
+                            padding: 10px 50px 10px 20px;
+                            background-position: 90% 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .dentistry-periodontal-care-gum-recession {
+        .section-top {
+            background-image: url("../images/dentisty_periodontal_care_gum_recession/gum-recession-banner1.jpg");
+            margin-bottom: 60px;
+            border-bottom: 2px solid $color-limeade;
+            &-gradient {
+                background-color: $color-black;
+                opacity: 0.4;
+            }
+            .page-title {
+                font-family: $font-monserrat;
+                font-weight: $font-regular;
+                text-transform: uppercase;
+            }
+        }
+        .section-body {
+            .preamble {
+                margin: auto 39px 90px;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-bold;
+                    line-height: 45px;
+                    font-size: 46px;
+                    @include lt-spacing(20);
+                    margin-bottom: 35px;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    max-width: 900px;
+                    p {
+                        line-height: 28px;
+                        font-size: 16px;
+                        @include lt-spacing(20);
+                        margin-bottom: 60px;
+                        &.top-desc-title {
+                            font-family: $font-dancing;
+                            font-weight: $font-bold;
+                            font-size: 48px;
+                            color: $color-atlantis;
+                            margin-bottom: 18px;
+                            line-height: 54px;
+                            @include lt-spacing(30);
+                        }
+                    }
+                }
+            }
+            .needs {
+                margin: auto 39px 70px;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-bold;
+                    line-height: 50px;
+                    font-size: 36px;
+                    @include lt-spacing(20);
+                    margin-bottom: 30px;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    max-width: 900px;
+                    p {
+                        line-height: 28px;
+                        font-size: 16px;
+                        @include lt-spacing(20);
+                        margin-bottom: 45px;
+                    }
+                }
+                .content {
+                    margin: auto 39px;
+                    .benefits {
+                        flex-wrap: wrap;
+                        .benefit {
+                            text-align: center;
+                            padding: 30px;
+                            background-color: $color-alabaster;
+                            border-radius: 15px;
+                            max-width: 100%;
+                            p {
+                                margin: 0;
                             }
-                            &:nth-child(2),
-                            &:nth-child(4) {
-                                font-size: 16px;
-                                button {
-                                    svg {
-                                        font-size: 30px;
-                                        margin-left: 35px;
-                                    }
+                            .icon {
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 100px;
+                                background-color: $color-white;
+                                margin: auto auto 20px;
+                                position: relative;
+                                img {
+                                    position: absolute;
+                                    margin: auto;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
                                 }
                             }
-                            &:nth-child(2) {
-                                button {
-                                    padding: 7px 20px;
+                            .icon_benefit_1 {
+                                img {
+                                    width: 57.5px;
+                                    height: 57.78px;
                                 }
                             }
-                            &:nth-child(3) {
-                                margin: 17px;
-                            }
-                            &:nth-child(4) {
-                                button {
-                                    padding: 7px 30px;
+                            .icon_benefit_2 {
+                                img {
+                                    width: 50px;
+                                    height: 50.1px;
                                 }
+                            }
+                            .icon_benefit_3 {
+                                img {
+                                    width: 57.5px;
+                                    height: 44.02px;
+                                    left: 10px;
+                                }
+                            }
+                            .benefit-title {
+                                font-size: 22px;
+                                margin-bottom: 15px;
+                                line-height: 45px;
+                                color: $color-tundora;
+                                font-family: $font-monserrat;
+                                font-weight: $font-semibold;
+                            }
+                            .benefit-description {
+                                font-size: 15px;
+                                line-height: 26px;
+                                color: $color-scorpion;
+                                font-family: $font-monserrat;
+                                font-weight: $font-regular;
                             }
                         }
                     }
                 }
+            }
+            .treatments {
+                margin: auto 39px 92px;
+                text-align: left;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-bottom: 28px;
+                    text-align: left;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    text-align: left;
+                    p {
+                        font-size: 15px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .reasons {
+                margin-bottom: 90px;
+                .background {
+                    padding-top: 160px;
+                    z-index: -1;
+                    > div {
+                        background-color: $color-alabaster;
+                    }
+                }
+                .content {
+                    margin: auto 39px 80px;
+                    padding-bottom: 12px;
+                    .banner {
+                        margin-bottom: 68px;
+                        .gradient {
+                            background-image: linear-gradient(0deg, rgba(0, 35, 65, 0.8) 0%, rgba(0, 128, 128, 0) 100%);
+                        }
+                        .title {
+                            font-family: $font-monserrat;
+                            font-weight: $font-bold;
+                            font-size: 36px;
+                            line-height: 42px;
+                            @include lt-spacing(20);
+                            margin: auto 20px;
+                            bottom: 20px;
+                            color: $color-white;
+                            max-width: 430px;
+                        }
+                    }
+                    .top-desc {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                        text-align: left;
+                        max-width: 900px;
+                        p {
+                            font-size: 16px;
+                            line-height: 26px;
+                            @include lt-spacing(20);
+                        }
+                    }
+                }
+            }
+            .symptoms {
+                margin: auto 39px 72px;
+                text-align: left;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-semibold;
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-bottom: 30px;
+                    text-align: left;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    margin-bottom: 30px;
+                    text-align: left;
+                    p {
+                        font-size: 16px;
+                        line-height: 28px;
+                        @include lt-spacing(20);
+                    }
+                }
+                .top-list {
+                    color: $color-lochmara;
+                    font-family: $font-monserrat;
+                    font-weight: $font-medium;
+                    font-size: 16px;
+                    ul {
+                        padding-left: 20px;
+                        li {
+                            line-height: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+            .continued {
+                background-color: $color-deepCerulean;
+                color: $color-white;
+                margin-bottom: 80px;
+                .content {
+                    padding: 70px 20px;
+                    .top-title {
+                        font-family: $font-monserrat;
+                        font-weight: $font-bold;
+                        font-size: 36px;
+                        line-height: 42px;
+                        margin-bottom: 30px;
+                        @include lt-spacing(20);
+                        color: $color-white;
+                    }
+                    .top-desc {
+                        font-family: $font-monserrat;
+                        font-weight: $font-regular;
+                        margin-bottom: 44px;
+                        p {
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: $color-white;
+                        }
+                    }
+                    .top-name {
+                        font-family: $font-dancing;
+                        font-weight: $font-regular;
+                        margin: 30px auto 55px;
+                        p {
+                            font-size: 26px;
+                            line-height: 34px;
+                        }
+                    }
+                }
+            }
+            .prevent {
+                margin: auto 39px 105px;
+                text-align: left;
+                .top-title {
+                    font-family: $font-monserrat;
+                    font-weight: $font-semibold;
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-bottom: 30px;
+                    text-align: left;
+                }
+                .top-desc {
+                    font-family: $font-monserrat;
+                    font-weight: $font-regular;
+                    margin-bottom: 30px;
+                    text-align: left;
+                    p {
+                        font-size: 16px;
+                        line-height: 28px;
+                        @include lt-spacing(20);
+                    }
+                }
+                .top-list {
+                    font-family: $font-monserrat;
+                    font-weight: $font-medium;
+                    font-size: 16px;
+                    ul {
+                        padding-left: 30px;
+                        li {
+                            line-height: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+            .related-page {
+            }
+            .our-team {
+                margin: auto 39px 90px;
             }
         }
     }
