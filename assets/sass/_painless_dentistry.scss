@@ -23,6 +23,8 @@
       max-width: 525px;
       text-align: center;
       margin: 20px auto;
+      font-weight: $font-bold;
+      line-height: 50px;
       p{
         font-family: $font-dancing;
         color: $color-atlantis;
@@ -64,7 +66,7 @@
         padding: 30px 20px 35px 20px;
         max-width: 320px;
         margin: 0 auto;
-        background-color: $color-gray;
+        background-color: $color-whiteGray;
         border-radius: 10px ;
         .icon{
           background-color: $color-white;
@@ -114,7 +116,7 @@
     }
     .row_2{
       width: 100%;
-      background-color: $color-gray;
+      background-color: $color-whiteGray;
       margin: 70px auto;
 
       .detail-information{

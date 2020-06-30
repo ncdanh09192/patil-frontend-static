@@ -4855,7 +4855,9 @@ body {
 .painless-dentistry .container .top-title-extra {
   max-width: 525px;
   text-align: center;
-  margin: 20px auto; }
+  margin: 20px auto;
+  font-weight: 700;
+  line-height: 50px; }
   .painless-dentistry .container .top-title-extra p {
     font-family: "Dancing Script";
     color: #86c127;
@@ -4889,7 +4891,7 @@ body {
   padding: 30px 20px 35px 20px;
   max-width: 320px;
   margin: 0 auto;
-  background-color: #edf6de;
+  background-color: #ededed;
   border-radius: 10px; }
   .painless-dentistry .container .info-benefits .benefit .icon {
     background-color: #ffffff; }
@@ -4926,7 +4928,7 @@ body {
           text-decoration: underline #86c127; }
 .painless-dentistry .information .row_2 {
   width: 100%;
-  background-color: #edf6de;
+  background-color: #ededed;
   margin: 70px auto; }
   .painless-dentistry .information .row_2 .detail-information {
     padding: 70px 0 60px 0; }
